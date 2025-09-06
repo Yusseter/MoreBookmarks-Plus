@@ -4039,12 +4039,15 @@ special_genes = {
 				male = {
 			       ##########################################################
 					####Eastern Turkic/Default Turk
-					1 = male_headgear_secular_steppe_common_01
+					1 = male_Turkic_Fur_Cap_01 # Yusseter
+					1 = male_Turkic_Fur_Cap_03 # Yusseter
+					1 = male_headgear_secular_sogdian_cap_01_common # Yusseter
+					#1 = male_headgear_secular_steppe_common_01 # Yusseter
 					1 = male_Turkic_Fur_Cap_01
 					1 = male_Turkic_Fur_Cap_02
 					1 = male_Turkic_Fur_Cap_03
-					1 = male_Turkic_Fur_Cap_04
-                    1 = male_Turkic_Fur_Cap_05
+					#1 = male_Turkic_Fur_Cap_04	# Yusseter
+                    #1 = male_Turkic_Fur_Cap_05	# Yusseter
 
 			       ##########################################################
 					####Seljuk Turk
@@ -4093,12 +4096,15 @@ special_genes = {
 				male = {
 			       ##########################################################
 					####Eastern Turkic/Default Turk
-					1 = male_headgear_secular_steppe_common_01
+					#1 = male_headgear_secular_steppe_common_01 # Yusseter
+					3 = male_headgear_secular_sogdian_cap_01_low # Yusseter
 					1 = male_Turkic_Fur_Cap_01
 					1 = male_Turkic_Fur_Cap_02
 					1 = male_Turkic_Fur_Cap_03
-					1 = male_Turkic_Fur_Cap_04
-                    1 = male_Turkic_Fur_Cap_05
+					3 = male_Turkic_Fur_Cap_04 # Yusseter
+					#1 = male_Turkic_Fur_Cap_04
+                    3 = male_Turkic_Fur_Cap_05 # Yusseter
+                    #1 = male_Turkic_Fur_Cap_05
 					1 = m_headgear_sec_fp3_turkic_nob_01 #FP3 Turkic V Hat
 
 			       ##########################################################
@@ -4124,10 +4130,14 @@ special_genes = {
 					1 = empty
 					1 = empty
 					1 = female_headgear_secular_steppe_common_01
-					1 = female_headgear_secular_steppe_common_01
-					1 = female_headgear_secular_steppe_common_01
-                    1 = female_headgear_secular_steppe_common_01
-					1 = female_headgear_secular_steppe_common_01
+                    #1 = female_headgear_secular_steppe_common_01
+					#1 = female_headgear_secular_steppe_common_01
+					#1 = female_headgear_secular_steppe_common_01
+					#1 = female_headgear_secular_steppe_common_01
+					1 = empty # Yusseter
+				    1 = f_headgear_sec_mpo_mongol_com_01 # Yusseter
+				    1 = f_headgear_sec_mpo_mongol_com_01 # Yusseter
+					1 = f_headgear_sec_mpo_mongol_nob_01 # Yusseter
 
 			       ##########################################################
 					####Seljuk Turk
@@ -4157,17 +4167,19 @@ special_genes = {
 					####Eastern Turkic/Default Turk
                     1 = male_Turkic_Fur_Cap_04
                     1 = male_Turkic_Fur_Cap_05
-                    1 = male_headgear_secular_steppe_nobility_01
+					1 = male_Turkic_Fur_Cap_03 # Yusseter
+                    #1 = male_headgear_secular_steppe_nobility_01
 
 			       ##########################################################
 					####Seljuk Turk
+					1 = male_Turkic_Fur_Cap_04 # Yusseter
 					5 = m_headgear_sec_fp3_turkic_nob_02 # FP3 Seljuk Sharbush
 					1 = male_Seljuk_Leather_Hat_01
 					1 = male_Seljuk_Leather_Hat_01_02
 					1 = male_Seljuk_Leather_Hat_02
 					1 = male_Seljuk_Leather_Hat_02_02
 					1 = male_headgear_secular_mena_high_nobility_01
-					1 = male_Turkic_Fur_Cap_04
+					#1 = male_Turkic_Fur_Cap_04 # Yusseter
 					1 = male_Turkic_Fur_Cap_05
 				}
 				female = {
@@ -6129,7 +6141,7 @@ special_genes = {
 					####Early Western turk
                     1 = male_Turkic_Fur_Cap_04
                     1 = male_Turkic_Fur_Cap_05
-                    1 = male_headgear_secular_steppe_nobility_01
+                    #1 = male_headgear_secular_steppe_nobility_01 # Yusseter
 
 			       ##########################################################
 					####Late western Turk/Cuman
@@ -6633,7 +6645,32 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+		
+			yb_muslim_turkic_royalty = { # Yusseter
+				index = 208
 
+				male = {
+					1 = male_headgear_secular_iranian_qalansuwwa_04_white
+					1 = male_headgear_secular_iranian_qalansuwwa_05_white
+					1 = male_headgear_secular_iranian_qalansuwwa_06_white
+					1 = male_headgear_epe_white_ep1_mena_royalty_02
+					1 = male_headgear_epe_white_mena_royal_01
+					1 = male_headgear_epe_white_abbasid_royal_01
+					1 = male_headgear_epe_white_mena_imperial_01
+					1 = male_headgear_epe_white_abbasid_imperial_01
+				}
+
+				female = {
+					1 = female_headgear_epe_late_islamic_iranian_01_royal
+					1 = female_headgear_epe_late_islamic_iranian_02_royal
+					1 = female_headgear_epe_late_islamic_iranian_03_royal
+					1 = Female_Khanum_Headress_01_seljuk
+					1 = Female_Khanum_Headress_02_seljuk
+				}
+				
+				boy = male
+				girl = female
+			}
 		}
 
 
@@ -6857,3 +6894,4 @@ special_genes = {
 	}
 }
 
+# Yusseter: From MBP + EPE + CFP 2025.09.03

@@ -2519,22 +2519,22 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
                 add = 50
                 portrait_low_nobles_clothing_trigger = { 
                     CULTURE_INPUT = steppe
-                }					
-				NOT = {
-					portrait_low_nobles_clothing_trigger = { 
-                    CULTURE_INPUT = epe_eastern_turk
-                    }
-				}
+                }
+				#NOT = { # Yusseter
+				#	portrait_low_nobles_clothing_trigger = { 
+                #    CULTURE_INPUT = epe_eastern_turk
+                #    }
+				#}
 				NOT = {
 					portrait_low_nobles_clothing_trigger = { 
                     CULTURE_INPUT = epe_eastern_turk_muslim
                     }
-				}	
+				}
 				NOT = {
 					portrait_low_nobles_clothing_trigger = { 
                     CULTURE_INPUT = epe_western_turk
                     }
-				}				
+				}
 				NOT = {
 					portrait_low_nobles_clothing_trigger = { 
                     CULTURE_INPUT = epe_seljuk
@@ -2549,7 +2549,7 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
 					portrait_low_nobles_clothing_trigger = { 
                     CULTURE_INPUT = epe_han_chinese
                     }
-				}				
+				}
 				
             }
         }
@@ -2571,12 +2571,12 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
                 add = 50
                 portrait_high_nobles_clothing_trigger = { 
                     CULTURE_INPUT = steppe
-                }					
-				NOT = {
-					portrait_high_nobles_clothing_trigger = { 
-                    CULTURE_INPUT = epe_eastern_turk
-                    }
-				}
+                }
+				#NOT = { # Yusseter
+				#	portrait_low_nobles_clothing_trigger = { 
+                #    CULTURE_INPUT = epe_eastern_turk
+                #    }
+				#}
 				NOT = {
 					portrait_high_nobles_clothing_trigger = { 
                     CULTURE_INPUT = epe_eastern_turk_muslim
@@ -2631,31 +2631,31 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
                 }
 				has_mpo_dlc_trigger = yes
 				
-				NOT = {
-					portrait_commoner_clothing_trigger = { 
-                    CULTURE_INPUT = epe_eastern_turk
-                    }
-				}
+				#NOT = { # Yusseter
+				#	portrait_commoner_clothing_trigger = { 
+                #    CULTURE_INPUT = epe_eastern_turk
+                #    }
+				#}
 				NOT = {
 					portrait_commoner_clothing_trigger = { 
                     CULTURE_INPUT = epe_eastern_turk_muslim
                     }
 				}	
-				NOT = {
-					portrait_commoner_clothing_trigger = { 
-                    CULTURE_INPUT = epe_western_turk
-                    }
-				}				
+				#NOT = { # Yusseter
+				#	portrait_commoner_clothing_trigger = { 
+                #    CULTURE_INPUT = epe_western_turk
+                #    }
+				#}				
 				NOT = {
 					portrait_commoner_clothing_trigger = { 
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-				NOT = {
-					portrait_commoner_clothing_trigger = { 
-                    CULTURE_INPUT = epe_uyghur
-                    }
-				}
+				#NOT = { # Yusseter
+				#	portrait_commoner_clothing_trigger = { 
+                #    CULTURE_INPUT = epe_uyghur
+                #    }
+				#}
 				NOT = {
 					portrait_commoner_clothing_trigger = { 
                     CULTURE_INPUT = epe_han_chinese
@@ -2685,36 +2685,36 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
                 }
 				has_mpo_dlc_trigger = yes
 				
-				NOT = {
-					portrait_low_nobles_clothing_trigger = { 
-                    CULTURE_INPUT = epe_eastern_turk
-                    }
-				}
+				#NOT = { # Yusseter
+				#	portrait_low_nobles_clothing_trigger = { 
+                #    CULTURE_INPUT = epe_eastern_turk
+                #    }
+				#}
 				NOT = {
 					portrait_low_nobles_clothing_trigger = { 
                     CULTURE_INPUT = epe_eastern_turk_muslim
                     }
 				}
-				NOT = {
-					portrait_low_nobles_clothing_trigger = { 
-                    CULTURE_INPUT = epe_western_turk
-                    }
-				}				
+				#NOT = { # Yusseter
+				#	portrait_low_nobles_clothing_trigger = { 
+                #    CULTURE_INPUT = epe_western_turk
+                #    }
+				#}
 				NOT = {
 					portrait_low_nobles_clothing_trigger = { 
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-				NOT = {
-					portrait_low_nobles_clothing_trigger = { 
-                    CULTURE_INPUT = epe_uyghur
-                    }
-				}
+				#NOT = { # Yusseter
+				#	portrait_low_nobles_clothing_trigger = { 
+                #    CULTURE_INPUT = epe_uyghur
+                #    }
+				#}
 				NOT = {
 					portrait_low_nobles_clothing_trigger = { 
                     CULTURE_INPUT = epe_han_chinese
                     }
-				}				
+				}
 				
             }
         }
@@ -2739,36 +2739,36 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
                 }
 				has_mpo_dlc_trigger = yes
 				
+				#NOT = { # Yusseter
+				#	portrait_low_nobles_clothing_trigger = { 
+                #    CULTURE_INPUT = epe_eastern_turk
+                #    }
+				#}
 				NOT = {
-					portrait_high_nobles_clothing_trigger = { 
-                    CULTURE_INPUT = epe_eastern_turk
-                    }
-				}
-				NOT = {
-					portrait_high_nobles_clothing_trigger = { 
+					portrait_low_nobles_clothing_trigger = { 
                     CULTURE_INPUT = epe_eastern_turk_muslim
                     }
-				}	
+				}
+				#NOT = { # Yusseter
+				#	portrait_low_nobles_clothing_trigger = { 
+                #    CULTURE_INPUT = epe_western_turk
+                #    }
+				#}
 				NOT = {
-					portrait_high_nobles_clothing_trigger = { 
-                    CULTURE_INPUT = epe_western_turk
-                    }
-				}				
-				NOT = {
-					portrait_high_nobles_clothing_trigger = { 
+					portrait_low_nobles_clothing_trigger = { 
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
+				#NOT = { # Yusseter
+				#	portrait_low_nobles_clothing_trigger = { 
+                #    CULTURE_INPUT = epe_uyghur
+                #    }
+				#}
 				NOT = {
-					portrait_high_nobles_clothing_trigger = { 
-                    CULTURE_INPUT = epe_uyghur
-                    }
-				}
-				NOT = {
-					portrait_high_nobles_clothing_trigger = { 
+					portrait_low_nobles_clothing_trigger = { 
                     CULTURE_INPUT = epe_han_chinese
                     }
-				}				
+				}			
 				
             }
         }
@@ -2825,6 +2825,27 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
 				}				
 				
             }
+            modifier = { # Yusseter
+                add = 20
+                portrait_royalty_clothing_trigger = { 
+                    CULTURE_INPUT = turkic
+                }
+				has_mpo_dlc_trigger = yes
+				
+				OR = {
+					portrait_royalty_clothing_trigger = { 
+                    CULTURE_INPUT = epe_eastern_turk
+                    }
+
+					portrait_royalty_clothing_trigger = { 
+                    CULTURE_INPUT = epe_western_turk
+                    }
+
+					portrait_royalty_clothing_trigger = { 
+                    CULTURE_INPUT = epe_uyghur
+                    }
+				}
+            }
         }
     }
 
@@ -2877,6 +2898,33 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
                     }
 				}				
 				
+            }
+            modifier = { # Yusseter
+                add = 25
+
+				OR = {
+					portrait_imperial_clothing_trigger = { 
+                        CULTURE_INPUT = epe_eastern_turk
+                    }
+
+					portrait_imperial_clothing_trigger = { 
+                        CULTURE_INPUT = epe_western_turk
+                    }
+				}
+
+                NOT = {
+                    portrait_imperial_clothing_trigger = { 
+                        CULTURE_INPUT = epe_uyghur
+                    }
+                }
+				has_mpo_dlc_trigger = yes
+            }
+            modifier = { # Yusseter
+                add = 5
+                portrait_imperial_clothing_trigger = { 
+                    CULTURE_INPUT = epe_uyghur
+                }
+                has_mpo_dlc_trigger = yes
             }
         }
     }	
@@ -5800,8 +5848,21 @@ ccp4_ugro_permian_high_nobles = {
 					portrait_commoner_no_mayors_trigger = { 
                     CULTURE_INPUT = epe_tahirid
                     }
-				}				
+				}
                 portrait_era1_trigger = yes				
+            }
+            modifier = { # Yusseter
+                add = 40
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_commoner_no_mayors_trigger = { 
+                        CULTURE_INPUT = steppe
+                    }
+                    portrait_commoner_no_mayors_trigger = { 
+                        CULTURE_INPUT = turkic
+                    }
+                }
+                portrait_era1_trigger = yes		
             }
         }
     }
@@ -5830,6 +5891,19 @@ ccp4_ugro_permian_high_nobles = {
 				}				
                 portrait_era1_trigger = yes				
             }
+            modifier = { # Yusseter
+                add = 50
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_mayor_trigger = { 
+                        CULTURE_INPUT = steppe
+                    }
+                    portrait_mayor_trigger = { 
+                        CULTURE_INPUT = turkic
+                    }
+                }
+                portrait_era1_trigger = yes		
+            }
         }
     }
 
@@ -5856,7 +5930,7 @@ ccp4_ugro_permian_high_nobles = {
 					portrait_low_nobles_clothing_trigger = { 
                     CULTURE_INPUT = epe_tahirid
                     }
-				}				
+				}
                 portrait_era1_trigger = yes				
             }
             modifier = {
@@ -5869,9 +5943,36 @@ ccp4_ugro_permian_high_nobles = {
 					portrait_low_nobles_clothing_trigger = { 
                     CULTURE_INPUT = epe_tahirid
                     }
-				}				
+				}
                 portrait_era1_trigger = yes
                 is_female = yes				
+            }
+            modifier = { # Yusseter
+                add = 50
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_low_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = steppe
+                    }
+                    portrait_low_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = turkic
+                    }
+                }
+                portrait_era1_trigger = yes		
+            }
+            modifier = { # Yusseter
+                add = 50
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_low_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = steppe
+                    }
+                    portrait_low_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = turkic
+                    }
+                }
+                portrait_era1_trigger = yes		
+                is_female = yes
             }
         }
     }
@@ -5898,7 +5999,7 @@ ccp4_ugro_permian_high_nobles = {
 					portrait_high_nobles_clothing_trigger = { 
                     CULTURE_INPUT = epe_tahirid
                     }
-				}				
+				}
                 portrait_era1_trigger = yes				
             }
             modifier = {
@@ -5911,9 +6012,36 @@ ccp4_ugro_permian_high_nobles = {
 					portrait_high_nobles_clothing_trigger = { 
                     CULTURE_INPUT = epe_tahirid
                     }
-				}				
+				}
                 portrait_era1_trigger = yes
                 is_female = yes				
+            }
+            modifier = { # Yusseter
+                add = 50
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_high_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = steppe
+                    }
+                    portrait_high_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = turkic
+                    }
+                }
+                portrait_era1_trigger = yes		
+            }
+            modifier = { # Yusseter
+                add = 50
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_high_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = steppe
+                    }
+                    portrait_high_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = turkic
+                    }
+                }
+                portrait_era1_trigger = yes
+                is_female = yes
             }
         }
     }		
@@ -5948,7 +6076,23 @@ ccp4_ugro_permian_high_nobles = {
                 OR = {
                     portrait_era2_trigger = yes  				
                     portrait_era3_trigger = yes  
-                }				
+                }
+            }
+            modifier = { # Yusseter
+                add = 40
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_commoner_no_mayors_trigger = { 
+                        CULTURE_INPUT = steppe
+                    }
+                    portrait_commoner_no_mayors_trigger = { 
+                        CULTURE_INPUT = turkic
+                    }
+                }
+                OR = {
+                    portrait_era2_trigger = yes  				
+                    portrait_era3_trigger = yes  
+                }
             }
         }
     }
@@ -5974,6 +6118,22 @@ ccp4_ugro_permian_high_nobles = {
                     portrait_era2_trigger = yes  				
                     portrait_era3_trigger = yes  
                 }				
+            }
+            modifier = { # Yusseter
+                add = 50
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_mayor_trigger = { 
+                        CULTURE_INPUT = steppe
+                    }
+                    portrait_mayor_trigger = { 
+                        CULTURE_INPUT = turkic
+                    }
+                }
+                OR = {
+                    portrait_era2_trigger = yes  				
+                    portrait_era3_trigger = yes  
+                }
             }
         }
     }
@@ -6014,6 +6174,39 @@ ccp4_ugro_permian_high_nobles = {
                 }
                 is_female = yes				
             }
+            modifier = { # Yusseter
+                add = 50
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_low_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = steppe
+                    }
+                    portrait_low_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = turkic
+                    }
+                }
+                OR = {
+                    portrait_era2_trigger = yes  				
+                    portrait_era3_trigger = yes  
+                }
+            }
+            modifier = { # Yusseter
+                add = 50
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_low_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = steppe
+                    }
+                    portrait_low_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = turkic
+                    }
+                }
+                OR = {
+                    portrait_era2_trigger = yes  				
+                    portrait_era3_trigger = yes  
+                }
+                is_female = yes
+            }
         }
     }
 
@@ -6052,6 +6245,39 @@ ccp4_ugro_permian_high_nobles = {
                 }
                 is_female = yes				
             }
+            modifier = { # Yusseter
+                add = 50
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_high_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = steppe
+                    }
+                    portrait_high_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = turkic
+                    }
+                }
+                OR = {
+                    portrait_era2_trigger = yes  				
+                    portrait_era3_trigger = yes  
+                }
+            }
+            modifier = { # Yusseter
+                add = 50
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_high_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = steppe
+                    }
+                    portrait_high_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = turkic
+                    }
+                }
+                OR = {
+                    portrait_era2_trigger = yes  				
+                    portrait_era3_trigger = yes  
+                }
+                is_female = yes
+            }
         }
     }	
 	
@@ -6085,6 +6311,19 @@ ccp4_ugro_permian_high_nobles = {
                     portrait_era4_trigger = yes  
                 }				
             }
+            modifier = { # Yusseter
+                add = 40
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_commoner_no_mayors_trigger = { 
+                        CULTURE_INPUT = steppe
+                    }
+                    portrait_commoner_no_mayors_trigger = { 
+                        CULTURE_INPUT = turkic
+                    }
+                }
+                portrait_era4_trigger = yes
+            }
         }
     }
 
@@ -6108,6 +6347,19 @@ ccp4_ugro_permian_high_nobles = {
                 OR = {
                     portrait_era4_trigger = yes  
                 }				
+            }
+            modifier = { # Yusseter
+                add = 50
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_mayor_trigger = { 
+                        CULTURE_INPUT = steppe
+                    }
+                    portrait_mayor_trigger = { 
+                        CULTURE_INPUT = turkic
+                    }
+                }
+                portrait_era4_trigger = yes
             }
         }
     }
@@ -6146,6 +6398,33 @@ ccp4_ugro_permian_high_nobles = {
                 }
                 is_female = yes				
             }
+            modifier = { # Yusseter
+                add = 50
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_low_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = steppe
+                    }
+                    portrait_low_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = turkic
+                    }
+                }
+                portrait_era4_trigger = yes
+            }
+            modifier = { # Yusseter
+                add = 50
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_low_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = steppe
+                    }
+                    portrait_low_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = turkic
+                    }
+                }
+                portrait_era4_trigger = yes
+                is_female = yes	
+            }
         }
     }
 
@@ -6181,6 +6460,33 @@ ccp4_ugro_permian_high_nobles = {
                     portrait_era4_trigger = yes  
                 }
                 is_female = yes				
+            }
+            modifier = { # Yusseter
+                add = 50
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_high_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = steppe
+                    }
+                    portrait_high_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = turkic
+                    }
+                }
+                portrait_era4_trigger = yes
+            }
+            modifier = { # Yusseter
+                add = 50
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_high_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = steppe
+                    }
+                    portrait_high_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = turkic
+                    }
+                }
+                portrait_era4_trigger = yes
+                is_female = yes	
             }
         }
     }	
@@ -12722,3 +13028,5 @@ ccp4_ugro_permian_high_nobles = {
 	
 	
 }
+
+# Yusseter: From EPE 2025.09.03

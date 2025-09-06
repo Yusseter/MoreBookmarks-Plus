@@ -8,8 +8,8 @@
 	holding = castle_holding
 	
 	# History
-	1030.1.1 = {	religion = maturidi }
-	1050.1.1 = { culture = kashgari }
+	1100.1.1 = {	religion = maturidi } # Yusseter: 1030.1.1
+	1100.1.1 = { culture = kashgari } # Yusseter: 1050.1.1
 	1300.1.1 = {
 		culture = chagatai
 	}
@@ -25,6 +25,10 @@
 	holding = castle_holding
 	
 	# History
+	1000.1.1 = { # Yusseter
+		culture = kashgari
+		religion = maturidi
+	}
 	1020.1.1 = {religion = maturidi } #major Buddhist revolt ca. 970
 	1050.1.1 = { culture = kashgari }
 	1066.1.1 = {
@@ -57,7 +61,8 @@
 	
 	# History
 	1080.1.1 = {	religion = maturidi } #major Buddhist revolt ca. 1050
-	1100.1.1 = {	culture = karluk }
+	1100.1.1 = {	culture = kashgari } # Yusseter
+	#1100.1.1 = {	culture = karluk }
 	1066.1.1 = {
 			buildings = {
 				pastures_01
@@ -81,7 +86,8 @@
 	
 	# History
 1080.1.1 = {	religion = maturidi } #major Buddhist revolt ca. 1050
-1100.1.1 = {	culture = karluk }
+1100.1.1 = {	culture = kashgari } # Yusseter
+#1100.1.1 = {	culture = karluk }
 1300.1.1 = {
 		culture = chagatai
 	}
@@ -133,7 +139,8 @@
 	religion = maturidi
 	
 }
-1250.1.1 = { culture = karluk }
+1250.1.1 = { culture = kashgari } # Yusseter
+#1250.1.1 = { culture = karluk }
 1300.1.1 = {
 		culture = chagatai
 	}
@@ -149,6 +156,7 @@
 	holding = castle_holding
 	
 	# History
+	1050.1.1 = { religion = maturidi } # Yusseter
 	1050.1.1 = { culture = kashgari }
 	1160.1.1 = {
 		religion = maturidi
@@ -177,13 +185,14 @@
 1448 = {	# 1448 - Dunhuang
 	
 	# Misc
-	culture = khitan
+	culture = tocharian # Yusseter
+	#culture = khitan
 	religion = vajrayana
 	
 	holding = castle_holding
 	
 	# History
-	848.1.1 = {		#Gansu Yughur Kingdom
+	870.1.1 = { # Yusseter: 848.1.1
 		culture = uyghur
 	}
 }
@@ -292,8 +301,10 @@
 	holding = castle_holding
 	
 	# History
+	1000.1.1 = { religion = maturidi } # Yusseter
 	1000.1.1 = {
-		culture = karluk
+		culture = kashgari # Yusseter
+		#culture = karluk
 	}
 	1115.1.1 = {	religion = maturidi }
 	1233.1.1 = {
@@ -515,7 +526,8 @@
 	religion = maturidi
 	
 }
-1250.1.1 = { culture = karluk }
+1250.1.1 = { culture = kashgari } # Yusseter
+#1250.1.1 = { culture = karluk }
 1300.1.1 = {
 		culture = chagatai
 	}
@@ -667,8 +679,10 @@
 	
 	# History
 	848.1.1 = {		#Gansu Yughur Kingdom
-		culture = uyghur
+		culture = uigur # Yusseter
+		#culture = uyghur
 	}
+	870.1.1 = { culture = uyghur } # Yusseter
 }
 
 # 7991 - Tikenik
@@ -720,90 +734,106 @@
 7994 = {	# 7994 - Kumtag
 	
 	# Misc
-	culture = khitan
+	culture = tocharian # Yusseter
+	#culture = khitan
 	religion = vajrayana
 	
 	holding = castle_holding
 	
 	# History
-	848.1.1 = {		#Gansu Yughur Kingdom
-		culture = uyghur
-	}
+	#848.1.1 = { # Yusseter
+	#	culture = uyghur
+	#}
+	870.1.1 = { culture = uyghur } # Yusseter
 }
 
 # 7995 - Shule_river
 7995 = {	# 7995 - Shule_river
 	
 	# Misc
-	culture = khitan
+	culture = tocharian # Yusseter
+	#culture = khitan
 	religion = vajrayana
 	
 	holding = none
 	
 	# History
 	848.1.1 = {		#Gansu Yughur Kingdom
-		culture = uyghur
+		culture = uigur # Yusseter
+		#culture = uyghur
 	}
+	870.1.1 = { culture = uyghur } # Yusseter
 }
 
 # 7996 - Dafang
 7996 = {	# 7996 - Dafang
 	
 	# Misc
-	culture = khitan
+	culture = tocharian # Yusseter
+	#culture = khitan
 	religion = vajrayana
 	
 	holding = none
 	
 	# History
 	848.1.1 = {		#Gansu Yughur Kingdom
-		culture = uyghur
+		culture = uigur # Yusseter
+		#culture = uyghur
 	}
+	870.1.1 = { culture = uyghur } # Yusseter
 }
 
 # 7997 - Nanhu_TARIM
 7997 = {	# 7997 - Nanhu_TARIM
 	
 	# Misc
-	culture = khitan
+	culture = tocharian # Yusseter
+	#culture = khitan
 	religion = vajrayana
 	
 	holding = none
 	
 	# History
 	848.1.1 = {		#Gansu Yughur Kingdom
-		culture = uyghur
+		culture = uigur # Yusseter
+		#culture = uyghur
 	}
+	870.1.1 = { culture = uyghur } # Yusseter
 }
 
 # 7998 - Omotrunnaisse
 7998 = {	# 7998 - Omotrunnaisse
 	
 	# Misc
-	culture = khitan
+	culture = tocharian # Yusseter
+	#culture = khitan
 	religion = vajrayana
 	
 	holding = none
 	
 	# History
 	848.1.1 = {		#Gansu Yughur Kingdom
-		culture = uyghur
+		culture = uigur # Yusseter
+		#culture = uyghur
 	}
+	870.1.1 = { culture = uyghur } # Yusseter
 }
 
 # 7999 - Miran
 7999 = {	# 7999 - Miran
 	
 	# Misc
-	culture = khitan
+	culture = tocharian # Yusseter
+	#culture = khitan
 	religion = vajrayana
 	
 	holding = castle_holding
 	
 	# History
-	848.1.1 = {		#Gansu Yughur Kingdom
-		culture = uyghur
-	}
+	#848.1.1 = { # Yusseter
+	#	culture = uyghur
+	#}
+	870.1.1 = { culture = uyghur } # Yusseter
 }
 
 # 9600 - Bashkoyumal
@@ -906,7 +936,8 @@
 	holding = castle_holding
 	
 	# History
-1080.1.1 = {	culture = karluk }
+1080.1.1 = {	culture = kashgari } # Yusseter
+#1080.1.1 = {	culture = karluk }
 1080.1.1 = {	religion = maturidi }
 1300.1.1 = {
 		culture = chagatai
@@ -1029,10 +1060,11 @@
 	
 	# History
 1080.1.1 = {	religion = maturidi } #major Buddhist revolt ca. 1050
-1100.1.1 = {	culture = karluk }
+1100.1.1 = {	culture = kashgari } # Yusseter
+#1100.1.1 = {	culture = karluk }
 1300.1.1 = {
 		culture = chagatai
 	}
 }
 
-
+# Yusseter: From MBP 2025.08.30

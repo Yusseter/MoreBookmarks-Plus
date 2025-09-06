@@ -65,13 +65,15 @@
 
 ###c_sumadija
 3598 = {	#Kru�evac
-	culture = bulgarian
+culture = serbian # Yusseter
+#culture = bulgarian
 	religion = slavic_pagan
 	holding = tribal_holding
 	867.1.1 = {
 		holding = castle_holding
 	}
 	
+	800.1.1 = { culture = bulgarian } # Yusseter
 	880.1.1 = { religion = orthodox }
 
 	1000.1.1 = { culture = serbian }
@@ -158,15 +160,16 @@
 
 ###c_hvosno
 3596 = {	#Pri�tina
-	culture = serbian
+	culture = arberian # Yusseter
+	#culture = serbian
 	religion = orthodox
 	holding = tribal_holding
 	867.1.1 = {
 		holding = castle_holding
 	}
-	1211.1.1 = {
-		religion = serbian_orthodox
-	}
+	#1211.1.1 = { # Yusseter
+	#	religion = serbian_orthodox
+	#}
 }
 3597 = {	#Prizren
 	holding = none
@@ -377,3 +380,5 @@
 	#Very old settlement
 	#Set as church_holding to have all 3 holding types
 }
+
+# Yusseter: From MBP 2025.08.30

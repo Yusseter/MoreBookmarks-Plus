@@ -70,13 +70,13 @@ headgear_base = {
                 }
 				is_female = yes           
             }
-            modifier = {
-                add = 60
-                has_sp4_dlc_trigger = yes    
-                portrait_royalty_trigger = {
-                    CULTURE_INPUT = turkic
-                }           
-            }
+            #modifier = { # Yusseter
+            #    add = 60
+            #    has_sp4_dlc_trigger = yes    
+            #    portrait_royalty_trigger = {
+            #        CULTURE_INPUT = turkic
+            #    }           
+            #}
 			modifier = {
                 add = 60
                 has_sp4_dlc_trigger = yes    
@@ -4257,6 +4257,39 @@ headgear_base = {
 				}				
 				is_female = yes				
 			}
+            modifier = { # Yusseter
+                add = 50
+                OR = {
+                    portrait_royalty_trigger = { 
+                        CULTURE_INPUT = steppe
+                    }
+                    portrait_royalty_trigger = { 
+                        CULTURE_INPUT = turkic
+                    }
+                }
+                scope:faith.religion = religion:islam_religion
+				OR = {
+					portrait_era3_trigger = yes
+                	portrait_era4_trigger = yes
+				}
+            }
+            modifier = { # Yusseter
+                add = 50
+                OR = {
+                    portrait_royalty_trigger = { 
+                        CULTURE_INPUT = steppe
+                    }
+                    portrait_royalty_trigger = { 
+                        CULTURE_INPUT = turkic
+                    }
+                }
+                scope:faith.religion = religion:islam_religion
+				OR = {
+					portrait_era3_trigger = yes
+                	portrait_era4_trigger = yes
+				}
+				is_female = yes	
+            }
 		}
 	}
 
@@ -4375,6 +4408,39 @@ headgear_base = {
 				}				
 				is_female = yes				
 			}
+            modifier = { # Yusseter
+                add = 51
+                OR = {
+                    portrait_imperial_trigger = { 
+                        CULTURE_INPUT = steppe
+                    }
+                    portrait_imperial_trigger = { 
+                        CULTURE_INPUT = turkic
+                    }
+                }
+                scope:faith.religion = religion:islam_religion
+				OR = {
+					portrait_era3_trigger = yes
+                	portrait_era4_trigger = yes
+				}
+            }
+            modifier = { # Yusseter
+                add = 51
+                OR = {
+                    portrait_imperial_trigger = { 
+                        CULTURE_INPUT = steppe
+                    }
+                    portrait_imperial_trigger = { 
+                        CULTURE_INPUT = turkic
+                    }
+                }
+                scope:faith.religion = religion:islam_religion
+				OR = {
+					portrait_era3_trigger = yes
+                	portrait_era4_trigger = yes
+				}
+				is_female = yes	
+            }
 		}
 	}
 
@@ -5640,6 +5706,11 @@ headgear_base = {
                 portrait_commoner_headgear_fallback_trigger = {
                     CULTURE_INPUT = steppe
                 }
+				NOT = { # Yusseter
+					portrait_commoner_headgear_fallback_trigger = {
+						CULTURE_INPUT = turkic
+					}
+				}
 				NOT = {
 					portrait_commoner_headgear_fallback_trigger = { 
                     CULTURE_INPUT = epe_eastern_turk
@@ -5780,11 +5851,22 @@ headgear_base = {
 		}
 		weight = {
 			base = 0
+			modifier = { # Yusseter
+				factor = 0
+				portrait_high_nobles_headgear_trigger = { 
+                    CULTURE_INPUT = turkic
+                }
+			}
 			modifier = {
 				add = 50
                 portrait_high_nobles_headgear_trigger = {
                     CULTURE_INPUT = steppe
                 }
+				NOT = { # Yusseter
+					portrait_high_nobles_headgear_trigger = { 
+                    CULTURE_INPUT = turkic
+                    }
+				}
 				NOT = {
 					portrait_high_nobles_headgear_trigger = { 
                     CULTURE_INPUT = epe_eastern_turk
@@ -6012,6 +6094,11 @@ headgear_base = {
                 }
 				has_mpo_dlc_trigger = yes
 
+				NOT = { # Yusseter
+					portrait_commoner_clothing_trigger = {
+						CULTURE_INPUT = turkic
+					}
+				}
 				NOT = {
 					portrait_commoner_clothing_trigger = { 
                     CULTURE_INPUT = epe_eastern_turk_muslim
@@ -6054,6 +6141,14 @@ headgear_base = {
 		weight = {
 			base = 0
 			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = steppe } 
+			modifier = { # Yusseter
+				add = 100
+				portrait_low_nobles_clothing_trigger = {
+					CULTURE_INPUT = epe_eastern_turk
+				}
+				has_mpo_dlc_trigger = yes
+				is_female = yes
+			}
 			modifier = {
 				add = 50
                 portrait_low_nobles_clothing_trigger = {
@@ -6106,6 +6201,14 @@ headgear_base = {
 		}
 		weight = {
 			base = 0
+			modifier = { # Yusseter
+				add = 100
+				portrait_high_nobles_headgear_trigger = {
+					CULTURE_INPUT = epe_eastern_turk
+				}
+				has_mpo_dlc_trigger = yes
+				is_female = yes
+			}
 			modifier = {
 				add = 50
                 portrait_high_nobles_headgear_trigger = {
@@ -6240,7 +6343,13 @@ headgear_base = {
 						}
 					}
 				}
-			}			
+			}
+			modifier = { # Yusseter
+				factor = 0
+				portrait_imperial_trigger = {
+					CULTURE_INPUT = turkic
+				}
+			}
 		}
 	}
 
@@ -6281,6 +6390,18 @@ headgear_base = {
 					}
 				}
 			}			
+			modifier = { # Yusseter
+				add = -51
+				OR = {
+					portrait_imperial_trigger = {
+						CULTURE_INPUT = turkic
+					}   
+					portrait_royalty_trigger = {
+						CULTURE_INPUT = turkic
+					}   
+				}
+				is_female = no
+			}
 		}
 	}
 	
@@ -6334,6 +6455,24 @@ headgear_base = {
                     CULTURE_INPUT = epe_uyghur
                     }
 				}				
+			}
+			modifier = { # Yusseter
+				add = -51
+				OR = {
+					portrait_imperial_trigger = {
+						CULTURE_INPUT = turkic
+					}   
+					portrait_royalty_trigger = {
+						CULTURE_INPUT = turkic
+					}   
+					portrait_imperial_trigger = {
+						CULTURE_INPUT = epe_eastern_turk
+					}   
+					portrait_royalty_trigger = {
+						CULTURE_INPUT = epe_eastern_turk
+					}   
+				}
+				is_female = no
 			}
 		}
 	}	
@@ -6398,6 +6537,24 @@ headgear_base = {
                     }
 				}				
 			}
+			modifier = { # Yusseter
+				add = -51
+				OR = {
+					portrait_imperial_trigger = {
+						CULTURE_INPUT = turkic
+					}   
+					portrait_royalty_trigger = {
+						CULTURE_INPUT = turkic
+					}   
+					portrait_imperial_trigger = {
+						CULTURE_INPUT = epe_eastern_turk
+					}   
+					portrait_royalty_trigger = {
+						CULTURE_INPUT = epe_eastern_turk
+					}   
+				}
+				is_female = no
+			}
 		}
 	}
 
@@ -6431,6 +6588,24 @@ headgear_base = {
                 portrait_era1_trigger = yes 
 				is_female = no
 				has_mpo_dlc_trigger = yes										
+			}
+			modifier = { # Yusseter
+				add = -51
+				OR = {
+					portrait_imperial_trigger = {
+						CULTURE_INPUT = turkic
+					}   
+					portrait_royalty_trigger = {
+						CULTURE_INPUT = turkic
+					}   
+					portrait_imperial_trigger = {
+						CULTURE_INPUT = epe_seljuk
+					}   
+					portrait_royalty_trigger = {
+						CULTURE_INPUT = epe_seljuk
+					}   
+				}
+				is_female = no
 			}
 		}
 	}		
@@ -15095,6 +15270,283 @@ ccp4_ugro_permian_high_nobles = {
 ##################
 ####################################################################################################
 
+	yb_muslim_turkic_royalty = { # Yusseter
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = yb_muslim_turkic_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				OR = {
+					AND = {
+						OR = {
+							portrait_epe_eastern_turk_muslim_clothing_trigger = yes
+							scope:faith.religion = religion:islam_religion
+						}
+						OR = {
+							portrait_high_nobles_clothing_trigger = {
+								CULTURE_INPUT = turkic
+							}
+							portrait_high_nobles_clothing_trigger = {
+								CULTURE_INPUT = steppe
+							}
+						}
+					}
+					AND = {
+						OR = {
+							portrait_epe_eastern_turk_muslim_clothing_trigger = yes
+							scope:faith.religion = religion:islam_religion
+						}
+						portrait_high_nobles_clothing_trigger = {
+							CULTURE_INPUT = epe_seljuk
+						}
+					}
+					portrait_high_nobles_clothing_trigger = {
+						CULTURE_INPUT = epe_eastern_turk_muslim
+					}
+				}
+				OR = {
+					AND = {
+						OR = {
+							portrait_epe_eastern_turk_muslim_clothing_trigger = yes
+							scope:faith.religion = religion:islam_religion
+						}
+						OR = {
+							portrait_royalty_clothing_trigger = {
+								CULTURE_INPUT = turkic
+							}
+							portrait_royalty_clothing_trigger = {
+								CULTURE_INPUT = steppe
+							}
+						}
+					}
+					AND = {
+						OR = {
+							portrait_epe_eastern_turk_muslim_clothing_trigger = yes
+							scope:faith.religion = religion:islam_religion
+						}
+						portrait_royalty_clothing_trigger = {
+							CULTURE_INPUT = epe_seljuk
+						}
+					}
+					portrait_royalty_clothing_trigger = {
+						CULTURE_INPUT = epe_eastern_turk_muslim
+					}
+				}
+                OR = {
+                    portrait_era3_trigger = yes
+                    portrait_era4_trigger = yes
+                }
+			}
+		}
+	}
+
+	#yb_turkic_fur_hat_1 = { # Yusseter
+	#	dna_modifiers = {
+	#		accessory = {
+	#			mode = add
+	#			gene = headgear
+	#			template = fp3_turkic_low_nobility
+	#			accessory = male_Turkic_Fur_Cap_01
+	#			range = { 0 1 } # For the randomness to work correctly
+	#		}
+	#		accessory = {
+	#			mode = add
+	#			gene = headgear_2
+	#			template = no_headgear
+	#			range = { 0 1 }
+	#		}
+	#	}
+	#	weight = {
+	#		base = 0
+	#		modifier = {
+	#			add = 40
+	#			OR = {
+	#				portrait_low_nobles_clothing_trigger = {
+	#					CULTURE_INPUT = turkic
+	#				}
+	#				portrait_commoner_clothing_trigger = {
+	#					CULTURE_INPUT = turkic
+	#				}
+	#			}
+	#		}
+    #        modifier = {
+    #            add = -200
+    #            scope:faith.religion = religion:islam_religion
+    #            OR = {
+    #                portrait_era3_trigger = yes
+    #                portrait_era4_trigger = yes
+    #            }
+    #        }
+	#	}
+	#}
+
+	#yb_turkic_fur_hat_2 = { # Yusseter
+	#	dna_modifiers = {
+	#		accessory = {
+	#			mode = add
+	#			gene = headgear
+	#			template = fp3_turkic_low_nobility
+	#			accessory = male_Turkic_Fur_Cap_02
+	#			range = { 0 1 } # For the randomness to work correctly
+	#		}
+	#		accessory = {
+	#			mode = add
+	#			gene = headgear_2
+	#			template = no_headgear
+	#			range = { 0 1 }
+	#		}
+	#	}
+	#	weight = {
+	#		base = 0
+	#		modifier = {
+	#			add = 40
+	#			OR = {
+	#				portrait_low_nobles_clothing_trigger = {
+	#					CULTURE_INPUT = turkic
+	#				}
+	#				portrait_commoner_clothing_trigger = {
+	#					CULTURE_INPUT = turkic
+	#				}
+	#			}
+	#		}
+    #        modifier = {
+    #            add = -200
+    #            scope:faith.religion = religion:islam_religion
+    #            OR = {
+    #                portrait_era3_trigger = yes
+    #                portrait_era4_trigger = yes
+    #            }
+    #        }
+	#	}
+	#}
+
+	#yb_turkic_fur_hat_3 = { # Yusseter
+	#	dna_modifiers = {
+	#		accessory = {
+	#			mode = add
+	#			gene = headgear
+	#			template = fp3_turkic_low_nobility
+	#			accessory = male_Turkic_Fur_Cap_03
+	#			range = { 0 1 } # For the randomness to work correctly
+	#		}
+	#		accessory = {
+	#			mode = add
+	#			gene = headgear_2
+	#			template = no_headgear
+	#			range = { 0 1 }
+	#		}
+	#	}
+	#	weight = {
+	#		base = 0
+	#		modifier = {
+	#			add = 40
+	#			OR = {
+	#				portrait_low_nobles_clothing_trigger = {
+	#					CULTURE_INPUT = turkic
+	#				}
+	#				portrait_commoner_clothing_trigger = {
+	#					CULTURE_INPUT = turkic
+	#				}
+	#			}
+	#		}
+    #        modifier = {
+    #            add = -200
+    #            scope:faith.religion = religion:islam_religion
+    #            OR = {
+    #                portrait_era3_trigger = yes
+    #                portrait_era4_trigger = yes
+    #            }
+    #        }
+	#	}
+	#}
+
+	#yb_turkic_fur_hat_4 = { # Yusseter
+	#	dna_modifiers = {
+	#		accessory = {
+	#			mode = add
+	#			gene = headgear
+	#			template = fp3_turkic_low_nobility
+	#			accessory = male_Turkic_Fur_Cap_04
+	#			range = { 0 1 } # For the randomness to work correctly
+	#		}
+	#		accessory = {
+	#			mode = add
+	#			gene = headgear_2
+	#			template = no_headgear
+	#			range = { 0 1 }
+	#		}
+	#	}
+	#	weight = {
+	#		base = 0
+	#		modifier = {
+	#			add = 40
+	#			OR = {
+	#				portrait_low_nobles_clothing_trigger = {
+	#					CULTURE_INPUT = turkic
+	#				}
+	#				portrait_commoner_clothing_trigger = {
+	#					CULTURE_INPUT = turkic
+	#				}
+	#			}
+	#		}
+    #        modifier = {
+    #            add = -200
+    #            scope:faith.religion = religion:islam_religion
+    #            OR = {
+    #                portrait_era3_trigger = yes
+    #                portrait_era4_trigger = yes
+    #            }
+    #        }
+	#	}
+	#}
+
+	#yb_turkic_fur_hat_5 = { # Yusseter
+	#	dna_modifiers = {
+	#		accessory = {
+	#			mode = add
+	#			gene = headgear
+	#			template = fp3_turkic_low_nobility
+	#			accessory = male_Turkic_Fur_Cap_05
+	#			range = { 0 1 } # For the randomness to work correctly
+	#		}
+	#		accessory = {
+	#			mode = add
+	#			gene = headgear_2
+	#			template = no_headgear
+	#			range = { 0 1 }
+	#		}
+	#	}
+	#	weight = {
+	#		base = 0
+	#		modifier = {
+	#			add = 40
+	#			OR = {
+	#				portrait_low_nobles_clothing_trigger = {
+	#					CULTURE_INPUT = turkic
+	#				}
+	#				portrait_commoner_clothing_trigger = {
+	#					CULTURE_INPUT = turkic
+	#				}
+	#			}
+	#		}
+    #        modifier = {
+    #            add = -200
+    #            scope:faith.religion = religion:islam_religion
+    #            OR = {
+    #                portrait_era3_trigger = yes
+    #                portrait_era4_trigger = yes
+    #            }
+    #        }
+	#	}
+	#}
+
 	eastern_turk_commoners_era1 = {
 		dna_modifiers = {
 			accessory = {
@@ -15181,8 +15633,12 @@ ccp4_ugro_permian_high_nobles = {
 					portrait_low_nobles_clothing_trigger = { 
                     CULTURE_INPUT = epe_uyghur
                     }
-				}				
-                portrait_era1_trigger = yes 				
+				}
+				OR = { # Yusseter
+                	portrait_era1_trigger = yes
+                	portrait_era2_trigger = yes
+				}
+                #portrait_era1_trigger = yes
 			}
 			modifier = {
 				add = 50
@@ -15200,7 +15656,11 @@ ccp4_ugro_permian_high_nobles = {
                     }
 				}				
 				is_female = yes
-                portrait_era1_trigger = yes 				
+				OR = { # Yusseter
+                	portrait_era1_trigger = yes
+                	portrait_era2_trigger = yes
+				}
+                #portrait_era1_trigger = yes
 			}
 		}
 	}
@@ -15483,7 +15943,7 @@ ccp4_ugro_permian_high_nobles = {
                     }
 				}				
                 OR = {
-                    portrait_era2_trigger = yes  				
+                    #portrait_era2_trigger = yes # Yusseter
 					portrait_era3_trigger = yes  
 					portrait_era4_trigger = yes  
                 } 			
@@ -15509,7 +15969,7 @@ ccp4_ugro_permian_high_nobles = {
                     }
 				}					
                 OR = {
-                    portrait_era2_trigger = yes  				
+                    #portrait_era2_trigger = yes # Yusseter
 					portrait_era3_trigger = yes  
 					portrait_era4_trigger = yes  
                 }
@@ -15775,7 +16235,7 @@ ccp4_ugro_permian_high_nobles = {
                     }
 				}				
                 OR = {
-                    portrait_era2_trigger = yes  				
+                    #portrait_era2_trigger = yes # Yusseter
 					portrait_era3_trigger = yes  
 					portrait_era4_trigger = yes  
                 }				
@@ -15799,7 +16259,7 @@ ccp4_ugro_permian_high_nobles = {
                     }
 				}				
                 OR = {
-                    portrait_era2_trigger = yes  				
+                    #portrait_era2_trigger = yes # Yusseter
 					portrait_era3_trigger = yes  
 					portrait_era4_trigger = yes  
                 } 				
@@ -15844,7 +16304,7 @@ ccp4_ugro_permian_high_nobles = {
                     }
 				}				
                 OR = {
-                    portrait_era2_trigger = yes  				
+                    #portrait_era2_trigger = yes # Yusseter
 					portrait_era3_trigger = yes  
 					portrait_era4_trigger = yes  
                 } 			
@@ -15868,7 +16328,7 @@ ccp4_ugro_permian_high_nobles = {
                     }
 				}				
                 OR = {
-                    portrait_era2_trigger = yes  				
+                    #portrait_era2_trigger = yes # Yusseter
 					portrait_era3_trigger = yes  
 					portrait_era4_trigger = yes  
                 } 
@@ -16112,14 +16572,22 @@ ccp4_ugro_permian_high_nobles = {
                 portrait_commoner_headgear_fallback_trigger = {
                     CULTURE_INPUT = epe_seljuk
                 }
-                portrait_era1_trigger = yes 				
+				OR = { # Yusseter
+                	portrait_era1_trigger = yes
+                	portrait_era2_trigger = yes
+				}
+                #portrait_era1_trigger = yes
 			}
 			modifier = {
 				add = 20
                 portrait_commoner_clothing_trigger = {
                     CULTURE_INPUT = epe_seljuk
                 }
-                portrait_era1_trigger = yes 				
+				OR = { # Yusseter
+                	portrait_era1_trigger = yes
+                	portrait_era2_trigger = yes
+				}
+                #portrait_era1_trigger = yes
 			}
 		}
 	}
@@ -16147,14 +16615,22 @@ ccp4_ugro_permian_high_nobles = {
                 portrait_low_nobles_clothing_trigger = {  
                     CULTURE_INPUT = epe_seljuk 
                 }
-                portrait_era1_trigger = yes 				
+				OR = { # Yusseter
+                	portrait_era1_trigger = yes
+                	portrait_era2_trigger = yes
+				}
+                #portrait_era1_trigger = yes
 			}
 			modifier = {
 				add = 50
                 portrait_low_nobles_clothing_trigger = {  
                     CULTURE_INPUT = epe_seljuk 
                 }
-                portrait_era1_trigger = yes 
+				OR = { # Yusseter
+                	portrait_era1_trigger = yes
+                	portrait_era2_trigger = yes
+				}
+                #portrait_era1_trigger = yes
 				is_female = yes				
 			}
 		}
@@ -16290,7 +16766,7 @@ ccp4_ugro_permian_high_nobles = {
                     CULTURE_INPUT = epe_seljuk
                 }			
                 OR = {
-                    portrait_era2_trigger = yes  				
+                    #portrait_era2_trigger = yes # Yusseter
 					portrait_era3_trigger = yes  
 					portrait_era4_trigger = yes  
                 }				
@@ -16301,7 +16777,7 @@ ccp4_ugro_permian_high_nobles = {
                     CULTURE_INPUT = epe_seljuk
                 }				
                 OR = {
-                    portrait_era2_trigger = yes  				
+                    #portrait_era2_trigger = yes # Yusseter
 					portrait_era3_trigger = yes  
 					portrait_era4_trigger = yes  
                 } 				
@@ -16333,7 +16809,7 @@ ccp4_ugro_permian_high_nobles = {
                     CULTURE_INPUT = epe_seljuk 
                 }			
                 OR = {
-                    portrait_era2_trigger = yes  				
+                    #portrait_era2_trigger = yes # Yusseter
 					portrait_era3_trigger = yes  
 					portrait_era4_trigger = yes  
                 } 			
@@ -16344,7 +16820,7 @@ ccp4_ugro_permian_high_nobles = {
                     CULTURE_INPUT = epe_seljuk 
                 }			
                 OR = {
-                    portrait_era2_trigger = yes  				
+                    #portrait_era2_trigger = yes # Yusseter
 					portrait_era3_trigger = yes  
 					portrait_era4_trigger = yes  
                 }
@@ -21014,3 +21490,5 @@ ccp4_ugro_permian_high_nobles = {
 	
 	
 }
+
+ # Yusseter: From MBP + EPE + CFP 2025.09.03

@@ -3661,7 +3661,12 @@ d_socotra = {
 }
 
 e_caspian-pontic_steppe = {
-
+	581.1.1 = { # Yusseter
+		holder = ashina_07
+	}
+	585.1.1 = { # Yusseter
+		holder = 0
+	}
 	654.1.1 = {
 		holder = 74004
 		government = tribal_government
@@ -3735,7 +3740,7 @@ e_caspian-pontic_steppe = {
 	#The 'Confderation' is more a historical creation. There was never a unified confederation and Khagan that ruled this region until the Mongols
 	#1050.1.1 = {
 	#	holder = 1233015
-	#	name = "CUMANIACONFED"
+	#	#name = "CUMANIACONFED" # Yusseter
 	#}
 	#1065.1.1 = {
 	#	holder = 1229733 # Sharukan
@@ -3775,9 +3780,9 @@ e_caspian-pontic_steppe = {
 	#}
 	#1239.1.1 = {
 	#	holder = 0 # Bachman slain by the mongols.
-	#	reset_name = yes
+	#	#reset_name = yes # Yusseter
 	#}
-	
+
 }
 
 e_deccan = {
@@ -6167,3 +6172,5 @@ d_romagyris_catholicosate = {
 	860.1.1 = { holder = romagyris.001 }
 	1050.1.1 = { holder = romagyris.002 }
 }
+
+# Yusseter: From MBP 2025.09.02

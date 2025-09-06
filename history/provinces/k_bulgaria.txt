@@ -2,9 +2,15 @@
 471 = {	# 471 - Ochrid
 	
 	# Misc
-	culture = bulgarian
-	religion = tengri_pagan
+	culture = thracio_roman # Yusseter
+	#culture = bulgarian
+	religion = orthodox
+	#religion = tengri_pagan # Yusseter
 	
+	800.1.1 = { # Yusseter
+		culture = bulgarian
+		religion = bulgarian_orthodox
+	}
 	867.1.1 = { religion = bulgarian_orthodox } 
 	
 	# History
@@ -19,10 +25,16 @@
 
 # 493 - Philippopolis
 493 = {	# 493 - Philippopolis
-	culture = bulgarian
+	culture = thracio_roman # Yusseter
+	#culture = bulgarian
 	religion = orthodox
 	
-	867.1.1 = { religion = bulgarian_orthodox } 
+	800.1.1 = { culture = greek } # Yusseter
+	1100.1.1 = { # Yusseter
+		culture = bulgarian
+		religion = bulgarian_orthodox
+	}
+	#867.1.1 = { religion = bulgarian_orthodox } 
 875.1.1 = { religion = paulician }
 970.1.1 = { religion = bogomilist }
 }
@@ -42,10 +54,10 @@
 			military_camps_01
 		}
 	}
-	1382.1.1 = {
-		culture = turkish
-		religion = ashari
-	}
+	#1382.1.1 = { # Yusseter
+	#	culture = turkish
+	#	religion = ashari
+	#}
 }
 # 494 - Adrianopolis
 9829 = {	# 494 - Adrianopolis
@@ -63,15 +75,21 @@
 	
 	#1337.1.1 = { b_kypsela = castle }
 	
-	1382.1.1 = { culture = turkish }
-	1382.1.1 = { religion = ashari }
+	#1382.1.1 = { culture = turkish } # Yusseter
+	#1382.1.1 = { religion = ashari } # Yusseter
 }
 # 498 - Mesembria
 498 = {	# 498 - Mesembria
-	culture = bulgarian
-	religion = tengri_pagan
+	culture = greek # Yusseter
+	#culture = bulgarian
+	religion = orthodox # Yusseter
+	#religion = tengri_pagan
 	
-	867.1.1 = { religion = bulgarian_orthodox } 
+	1000.1.1 = { # Yusseter
+		culture = bulgarian
+		religion = bulgarian_orthodox
+	}
+	#867.1.1 = { religion = bulgarian_orthodox } 
 	
 	holding = castle_holding
 }
@@ -79,12 +97,14 @@
 # 499 - Tyrnovo
 499 = {	# 499 - Tyrnovo
 	# Misc
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
 	
 	# History
 	holding = castle_holding
 	681.1.1 = { religion = tengri_pagan }
+	800.1.1 = { culture = bulgarian } # Yusseter
 	865.1.1 = { religion = bulgarian_orthodox }
 	
 
@@ -107,11 +127,13 @@
 # 501 - Naissus
 501 = {	# 501 - Naissus
 	# Misc
-culture = bulgarian
+culture = serbian # Yusseter
+#culture = bulgarian
 religion = slavic_pagan
 	
 	# History
 	
+800.1.1 = { culture = bulgarian } # Yusseter
 900.1.1 = { religion = bulgarian_orthodox }
 	
 1066.1.1 = {
@@ -127,20 +149,24 @@ religion = slavic_pagan
 
 # 506 - Vidin
 506 = {	# 506 - Vidin
-culture = bulgarian
+culture = vlach # Yusseter
+#culture = bulgarian
 religion = slavic_pagan
 
 	
 	# History
+900.1.1 = { culture = bulgarian } # Yusseter
 900.1.1 = { religion = bulgarian_orthodox } 
 
 }
 
 # 507 - Nikopolis
 507 = {	# 507 - Nikopolis
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = tengri_pagan
 	
+	800.1.1 = { culture = bulgarian } # Yusseter
 	867.1.1 = { religion = bulgarian_orthodox } 
 	1066.1.1 = {
 	holding = castle_holding
@@ -155,11 +181,13 @@ religion = slavic_pagan
 # 508 - Dorostotum
 508 = {	# 508 - Dorostotum
 	# Misc
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
 	
 	# History
 	681.1.1 = { religion = tengri_pagan }
+	800.1.1 = { culture = bulgarian } # Yusseter
 	865.1.1 = { religion = bulgarian_orthodox }
 	
 	#1187.1.1 = { b_slivopole = castle }
@@ -167,9 +195,11 @@ religion = slavic_pagan
 
 # 509 - Karvuna
 509 = {	# 509 - Karvuna
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = tengri_pagan
 	
+	800.1.1 = { culture = bulgarian } # Yusseter
 	867.1.1 = { religion = bulgarian_orthodox } 
 	
 	holding = castle_holding
@@ -178,12 +208,14 @@ religion = slavic_pagan
 # 510 - Constantia
 510 = {	# 510 - Constantia
 	# Misc
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
 	
 	# History
 	681.1.1 = { religion = tengri_pagan }
 	holding = castle_holding
+	800.1.1 = { culture = bulgarian } # Yusseter
 	867.1.1 = {
 		buildings = {
 			curtain_walls_01
@@ -193,6 +225,8 @@ religion = slavic_pagan
 		religion = bulgarian_orthodox
 		#Defeat of Vladimir's pagan uprising
 	}
+	927.1.1 = { culture = pecheneg } # Yusseter
+	927.1.1 = { religion = orthodox } # Yusseter
 	1066.1.1 = {
 		buildings = {
 			curtain_walls_01
@@ -200,76 +234,108 @@ religion = slavic_pagan
 			peat_quarries_01
 		}
 	}
+	1100.1.1 = {  # Yusseter
+		culture = bulgarian
+		religion = bulgarian_orthodox 
+	}
 }
 
 # 3614 - Kalyatta
 3614 = {	# 3614 - Kalyatta
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3615 - Dospat
 3615 = {	# 3615 - Dospat
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3616 - Kavurskoto Kale
 3616 = {	# 3616 - Kavurskoto Kale
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3617 - Nevrokop
 3617 = {	# 3617 - Nevrokop
-	culture = bulgarian
+	culture = thracio_roman # Yusseter
+	#culture = bulgarian
 	religion = orthodox
 	
-	867.1.1 = { religion = bulgarian_orthodox } 
+	800.1.1 = { culture = greek } # Yusseter
+	1000.1.1 = { # Yusseter
+		culture = bulgarian
+		religion = bulgarian_orthodox
+	}
+	#867.1.1 = { religion = bulgarian_orthodox } 
 }
 
 # 3618 - Zherkovo
 3618 = {	# 3618 - Zherkovo
-	culture = bulgarian
+	culture = greek # Yusseter
+	#culture = bulgarian
 	religion = orthodox
 	
-	867.1.1 = { religion = bulgarian_orthodox } 
+	1200.1.1 = { # Yusseter
+		culture = bulgarian
+		religion = bulgarian_orthodox
+	}
+	#867.1.1 = { religion = bulgarian_orthodox } 
 }
 
 # 3619 - Lyutitsa
 3619 = {	# 3619 - Lyutitsa
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3620 - Smolyan
 3620 = {	# 3620 - Smolyan
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3621 - Ustra
 3621 = {	# 3621 - Ustra
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
 }
 
 # 3622 - Byalgrad
 3622 = {	# 3622 - Byalgrad
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3623 - Tsepina
 3623 = {	# 3623 - Tsepina
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3624 - Stanimaka
 3624 = {	# 3624 - Stanimaka
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 	
 	#Asen Fortress
 	1066.1.1 = {
@@ -279,26 +345,34 @@ religion = slavic_pagan
 
 # 3625 - Krichim
 3625 = {	# 3625 - Krichim
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3626 - Mezeshka
 3626 = {	# 3626 - Mezeshka
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3627 - Didymoteichon
 3627 = {	# 3627 - Didymoteichon
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3628 - Burgas
 3628 = {	# 3628 - Burgas
-	culture = bulgarian
-	religion = bulgarian_orthodox
+	culture = greek # Yusseter
+	#culture = bulgarian
+	religion = orthodox # Yusseter
+	#religion = bulgarian_orthodox
 	1066.1.1 = {
 	holding = castle_holding
 		buildings = {
@@ -307,240 +381,336 @@ religion = slavic_pagan
 			barracks_01
 		}
 	}
+	1200.1.1 = { # Yusseter
+		culture = bulgarian
+		religion = bulgarian_orthodox
+	}
 }
 
 # 3629 - Sozopol
 3629 = {	# 3629 - Sozopol
-	culture = bulgarian
-	religion = tengri_pagan
-	
-	867.1.1 = { religion = bulgarian_orthodox } 
+	culture = greek # Yusseter
+	#culture = bulgarian
+	religion = orthodox # Yusseter
+	#religion = tengri_pagan
+
+	#867.1.1 = { religion = bulgarian_orthodox } # Yusseter
+	1200.1.1 = { # Yusseter
+		culture = bulgarian
+		religion = bulgarian_orthodox
+	}
 	
 	holding = castle_holding
 }
 
 # 3630 - Potamukastel
 3630 = {	# 3630 - Potamukastel
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3631 - Dbilin
 3631 = {	# 3631 - Dbilin
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
 	holding = city_holding
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3632 - Beroe
 3632 = {	# 3632 - Beroe
-	culture = bulgarian
+	culture = thracio_roman # Yusseter
+	#culture = bulgarian
 	religion = orthodox
 	
-	867.1.1 = { religion = bulgarian_orthodox } 
+	1000.1.1 = { # Yusseter
+		culture = bulgarian
+		religion = bulgarian_orthodox
+	}
+	#867.1.1 = { religion = bulgarian_orthodox } 
 }
 
 # 3633 - Janitsa
 3633 = {	# 3633 - Janitsa
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3634 - Haskovo
 3634 = {	# 3634 - Haskovo
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3635 - Sliven
 3635 = {	# 3635 - Sliven
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
 	holding = church_holding
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3636 - Kran
 3636 = {	# 3636 - Kran
-	culture = bulgarian
-	religion = tengri_pagan
+	culture = thracio_roman # Yusseter
+	#culture = bulgarian
+	religion = orthodox # Yusseter
+	#religion = tengri_pagan
 	
-	867.1.1 = { religion = bulgarian_orthodox } 
+	800.1.1 = { # Yusseter
+		culture = bulgarian
+		religion = bulgarian_orthodox
+	}
+	#867.1.1 = { religion = bulgarian_orthodox } 
 	
 	holding = castle_holding
 }
 
 # 3637 - Kopsis
 3637 = {	# 3637 - Kopsis
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
 }
 
 # 3638 - Bitola
 3638 = {	# 3638 - Bitola
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3639 - Devol
 3639 = {	# 3639 - Devol
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3640 - Kastoria
 3640 = {	# 3640 - Kastoria
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3641 - Goritsa
 3641 = {	# 3641 - Goritsa
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3642 - Zegligovo
 3642 = {	# 3642 - Zegligovo
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3643 - Skopje
 3643 = {	# 3643 - Skopje
-	culture = bulgarian
-	religion = tengri_pagan
+	culture = arberian # Yusseter
+	#culture = bulgarian
+	religion = orthodox # Yusseter
+	#religion = tengri_pagan
 	
-	867.1.1 = { religion = bulgarian_orthodox } 
+	1000.1.1 = { # Yusseter
+		culture = bulgarian
+		religion = bulgarian_orthodox
+	}
+	#867.1.1 = { religion = bulgarian_orthodox } 
 }
 
 # 3644 - Tetovo
 3644 = {	# 3644 - Tetovo
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3645 - Veles
 3645 = {	# 3645 - Veles
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3646 - Kicevo
 3646 = {	# 3646 - Kicevo
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3647 - Prilep
 3647 = {	# 3647 - Prilep
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3648 - Shtip
 3648 = {	# 3648 - Shtip
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3649 - Maleshevo
 3649 = {	# 3649 - Maleshevo
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3650 - Strumica
 3650 = {	# 3650 - Strumica
-	culture = bulgarian
+	culture = thracio_roman # Yusseter
+	#culture = bulgarian
 	religion = orthodox
 	
+	800.1.1 = { # Yusseter
+		culture = bulgarian
+	}
 	867.1.1 = { religion = bulgarian_orthodox } 
 	1175.1.1 = { religion = bogomilist }
 }
 
 # 3651 - Prosek
 3651 = {	# 3651 - Prosek
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3652 - Scaptopara
 3652 = {	# 3652 - Scaptopara
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3653 - Melnik
 3653 = {	# 3653 - Melnik
-	culture = bulgarian
+	culture = thracio_roman # Yusseter
+	#culture = bulgarian
 	religion = orthodox
 	
-	867.1.1 = { religion = bulgarian_orthodox } 
+	800.1.1 = { # Yusseter
+		culture = bulgarian
+	}
+	867.1.1 = { religion = bulgarian_orthodox }
 }
 
 # 3654 - Bosilegrad
 3654 = {	# 3654 - Bosilegrad
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3655 - Kratovo
 3655 = {	# 3655 - Kratovo
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3656 - Velbazhd
 3656 = {	# 3656 - Velbazhd
-	culture = bulgarian
-	religion = tengri_pagan
+	culture = thracio_roman # Yusseter
+	#culture = bulgarian
+	religion = orthodox # Yusseter
+	#religion = tengri_pagan
 	
-	867.1.1 = { religion = bulgarian_orthodox } 
+	1000.1.1 = { # Yusseter
+		culture = bulgarian
+		religion = bulgarian_orthodox
+	}
+	#867.1.1 = { religion = bulgarian_orthodox } 
 	1175.1.1 = { religion = bogomilist }
 }
 
 # 3657 - Glubocica
 3657 = {	# 3657 - Glubocica
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3658 - Vranje
 3658 = {	# 3658 - Vranje
-	culture = bulgarian
+	culture = arberian # Yusseter
+	#culture = bulgarian
 	religion = tengri_pagan
-	
+
+	800.1.1 = { culture = bulgarian } # Yusseter
 	867.1.1 = { religion = bulgarian_orthodox } 
 }
 
 # 3659 - Novo Brdo
 3659 = {	# 3659 - Novo Brdo
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3660 - Morava
 3660 = {	# 3660 - Morava
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3661 - Svrljig
 3661 = {	# 3661 - Svrljig
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3662 - Pirot
 3662 = {	# 3662 - Pirot
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3663 - Breznik
 3663 = {	# 3663 - Breznik
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3664 - Branicevo
@@ -550,161 +720,213 @@ religion = slavic_pagan
 
 	
 	# History
-900.1.1 = { culture = bulgarian } #Branichians were conquered in the 820's with little resistance so they likely were assimilated by this time
-900.1.1 = { religion = bulgarian_orthodox } 
+900.1.1 = { culture = serbian } # Yusseter
+900.1.1 = { religion = orthodox } # Yusseter
+#900.1.1 = { culture = bulgarian } #Branichians were conquered in the 820's with little resistance so they likely were assimilated by this time
+#900.1.1 = { religion = bulgarian_orthodox } 
 }
 
 # 3665 - Kucevo
 3665 = {	# 3665 - Kucevo
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3666 - Ravno
 3666 = {	# 3666 - Ravno
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3667 - Kladovo
 3667 = {	# 3667 - Kladovo
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3668 - Zajecar
 3668 = {	# 3668 - Zajecar
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3669 - Petrus
 3669 = {	# 3669 - Petrus
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3670 - Belogradchik
 3670 = {	# 3670 - Belogradchik
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3671 - Meldi
 3671 = {	# 3671 - Meldi
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3672 - Pernik
 3672 = {	# 3672 - Pernik
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3673 - Stipon
 3673 = {	# 3673 - Stipon
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3674 - Rila
 3674 = {	# 3674 - Rila
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3675 - Lom
 3675 = {	# 3675 - Lom
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3676 - Orehovo
 3676 = {	# 3676 - Orehovo
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3677 - Kutlovitsa
 3677 = {	# 3677 - Kutlovitsa
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3678 - Vratsa
 3678 = {	# 3678 - Vratsa
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = tengri_pagan
-	
+
+	800.1.1 = { culture = bulgarian } # Yusseter
 	867.1.1 = { religion = bulgarian_orthodox } 
 
 }
 
 # 3679 - Pliven
 3679 = {	# 3679 - Pliven
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3680 - Lovech
 3680 = {	# 3680 - Lovech
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3681 - Samundzhievo
 3681 = {	# 3681 - Samundzhievo
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3682 - Cherven
 3682 = {	# 3682 - Cherven
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3683 - Elena
 3683 = {	# 3683 - Elena
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3684 - Gabrovo
 3684 = {	# 3684 - Gabrovo
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3685 - Tutrakan
 3685 = {	# 3685 - Tutrakan
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3686 - Shumen
 3686 = {	# 3686 - Shumen
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3687 - Hrazgrad
 3687 = {	# 3687 - Hrazgrad
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3688 - Sborishte
 3688 = {	# 3688 - Sborishte
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 	
 # 3689 - Preslav
 3689 = {	# 3689 - Preslav
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 	
 	holding = castle_holding #Possible it wasn't built till the 800's
 	
@@ -719,6 +941,12 @@ religion = slavic_pagan
 	
 	865.1.1 = { religion = bulgarian_orthodox }
 	
+	927.1.1 = { culture = pecheneg } # Yusseter
+	927.1.1 = { religion = manichean } # Yusseter
+	1100.1.1 = {  # Yusseter
+		culture = bulgarian
+		religion = bulgarian_orthodox 
+	}
 	1000.1.1 = {
 		buildings = {
 			castle_02 #It's significance was very fleeting and after the 960's most the cities outskirts were abandoned and the later Bulgarian empires used other cities such as Tarnovo
@@ -729,35 +957,45 @@ religion = slavic_pagan
 
 # 3690 - Provadiya
 3690 = {	# 3690 - Provadiya
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3691 - Aytos
 3691 = {	# 3691 - Aytos
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = tengri_pagan
-	
+
+	800.1.1 = { culture = bulgarian } # Yusseter
 	867.1.1 = { religion = bulgarian_orthodox } 
 }
 
 # 3692 - Ktenia
 3692 = {	# 3692 - Ktenia
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3693 - Varna
 3693 = {	# 3693 - Varna
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 3694 - Tulcha
 3694 = {	# 3694 - Tulcha
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
-	
+
+800.1.1 = { culture = bulgarian } # Yusseter
 900.1.1 = { religion = bulgarian_orthodox }
 1046.1.1 = { culture = pecheneg }
 1046.1.1 = { religion = manichean}
@@ -767,18 +1005,23 @@ religion = slavic_pagan
 
 # 3695 - Mangalia
 3695 = {	# 3695 - Mangalia
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 }
 
 # 5010 - Sulina
 5010 = {	# 5010 - Sulina
 	
-	culture = bulgarian
+	culture = bolghar # Yusseter
+	#culture = bulgarian
 	religion = bulgarian_orthodox
+	800.1.1 = { culture = bulgarian } # Yusseter
 	
 	holding = none
 	
 	#terrain = swamp
 }
 
+# Yusseter: From MBP 2025.08.30

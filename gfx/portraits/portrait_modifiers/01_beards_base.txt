@@ -557,6 +557,13 @@ beards = {
                     has_character_flag = has_scripted_appearance
                 }
             }
+            modifier = { # Yusseter
+                factor = 0
+                OR = {
+				    portrait_turkic_clothing_trigger = yes
+				    portrait_epe_eastern_turk_clothing_trigger = yes
+                }
+            }
         }
     }
 	
@@ -607,6 +614,20 @@ beards = {
                 OR = {
                     is_from_ruler_designer = yes
                     has_character_flag = has_scripted_appearance
+                }
+            }
+            modifier = { # Yusseter
+                add = 51
+                OR = {
+				    portrait_turkic_clothing_trigger = yes
+				    portrait_epe_eastern_turk_clothing_trigger = yes
+                }
+            }
+            modifier = { # Yusseter
+                add = -51
+                OR = {
+                    portrait_tibetan_clothing_trigger = yes
+                    portrait_epe_han_chinese_clothing_trigger = yes
                 }
             }
         }
@@ -1218,15 +1239,42 @@ beards = {
                         }                    
                     }
                 }
-                OR = {
-                    faith = faith:orthodox
-                    faith = faith:armenian_apostolic
-                    faith = faith:coptic
+                OR = { # Yusseter: For MBP
                     faith = faith:messalian
                     faith = faith:bogomilist
                     faith = faith:paulician
                     faith = faith:nestorian
+					faith = faith:orthodox
+					faith = faith:melkite
+					faith = faith:alexandrian_melkite
+					faith = faith:jerusalem_melkite
+					faith = faith:irenopolis_melkite
+					faith = faith:romagyris_melkite
+					faith = faith:armenian_apostolic
+					faith = faith:albanian_apostolic
+					faith = faith:coptic
+					faith = faith:jacobite
+					faith = faith:maphrianate
+					faith = faith:nubian_orthodox
+					faith = faith:ethiopian_orthodox
+					faith = faith:baltic_orthodox
+					faith = faith:bulgarian_orthodox
+					faith = faith:cyprus_orthodox
+					faith = faith:georgian_orthodox
+					faith = faith:finnish_orthodox
+					faith = faith:serbian_orthodox
+					faith = faith:slavic_orthodox
+					faith = faith:vlach_orthodox
                 }
+                #OR = {
+                #    faith = faith:orthodox
+                #    faith = faith:armenian_apostolic
+                #    faith = faith:coptic
+                #    faith = faith:messalian
+                #    faith = faith:bogomilist
+                #    faith = faith:paulician
+                #    faith = faith:nestorian
+                #}
             }
         }
     }
@@ -1576,8 +1624,7 @@ beards = {
     ##########################################################################
     ####Eastern Turkic/Default Turk
     ##########################################################################	 
- 
- 
+
     turkic_thin_beards = {
         dna_modifiers = {
             accessory = {
@@ -1692,10 +1739,10 @@ beards = {
                 add = 70
                 OR = {
                     NOT = { exists = this }
-                     has_gene = {
-                        category = gene_hair_type
-                        template = hair_wavy
-                    }       
+                    #has_gene = { # Yusseter
+                    #    category = gene_hair_type
+                    #    template = hair_wavy
+                    #}
                      has_gene = {
                         category = gene_hair_type
                         template = hair_curly
@@ -2977,9 +3024,13 @@ beards = {
             modifier = {
                 add = 30
                 OR = {
-                    portrait_turkic_clothing_trigger = yes
+                    AND = { # Yusseter
+                        scope:faith.religion = religion:islam_religion
+                        portrait_turkic_clothing_trigger = yes
+                    }
+                    #portrait_turkic_clothing_trigger = yes
                     portrait_epe_seljuk_clothing_trigger = yes
-                }				
+                }
                 has_sp4_dlc_trigger = yes
             }
             modifier = {
@@ -3047,7 +3098,4 @@ beards = {
 
 }
 
-
-
-
-
+# Yusseter: From EPE 2025.09.03

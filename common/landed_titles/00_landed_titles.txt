@@ -2620,7 +2620,7 @@ e_cumania = {
     color = { 131 84 50 }
 
     can_be_named_after_dynasty = no
-	can_use_nomadic_naming = no
+	#can_use_nomadic_naming = no # Yusseter
 
     capital = c_yaitsk
 
@@ -18788,7 +18788,8 @@ e_byzantium = {
 
 		can_be_named_after_dynasty = no
 		capital = c_lycaonia # Ikonion
-		definite_form = yes
+		definite_form = no # Yusseter
+		#definite_form = yes
 		ai_primary_priority = {
 			if = {
 				limit = {
@@ -35181,7 +35182,7 @@ e_caspian-pontic_steppe = {
 	color = { 214 206 193 }
 
 	can_be_named_after_dynasty = no
-	can_use_nomadic_naming = no
+	#can_use_nomadic_naming = no # Yusseter
 	capital = c_sarai # Itil
 
 	can_create = {
@@ -35205,7 +35206,7 @@ e_caspian-pontic_steppe = {
 
 		}
 
-		can_use_nomadic_naming = no
+		#can_use_nomadic_naming = no # Yusseter
 		can_be_named_after_dynasty = no
 
 		can_create_on_partition = { always = no }
@@ -36093,7 +36094,7 @@ e_caspian-pontic_steppe = {
 
 		}
 
-		can_use_nomadic_naming = no
+		#can_use_nomadic_naming = no # Yusseter
 		can_be_named_after_dynasty = no
 
 		can_create_on_partition = { always = no }
@@ -38975,7 +38976,7 @@ e_kirghiz_khanate = {
 	color = { 30 55 90 }
 
 	can_be_named_after_dynasty = no
-	can_use_nomadic_naming = no
+	#can_use_nomadic_naming = no # Yusseter
 
 	capital = c_karabalgasun
 	can_create_on_partition = { always = no }
@@ -40487,9 +40488,10 @@ e_kirghiz_khanate = {
 e_mongolia = {
 	color = { 70 130 180 }
 
-	capital = c_karakorum
+	capital = c_karabalgasun # Yusseter
+	#capital = c_karakorum
 	can_be_named_after_dynasty = no
-	can_use_nomadic_naming = no
+	#can_use_nomadic_naming = no # Yusseter
 
 	can_create = {
 		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
@@ -42305,7 +42307,7 @@ e_tartaria = {
 	color = { 220 220 220 }
 
 	capital = c_turgay
-	can_use_nomadic_naming = no
+	#can_use_nomadic_naming = no # Yusseter
 
 	can_create = {
 		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
@@ -42325,7 +42327,7 @@ e_tartaria = {
 
 		capital = c_qayaliq
 		definite_form = yes
-		can_use_nomadic_naming = no
+		#can_use_nomadic_naming = no # Yusseter
 
 		ai_primary_priority = {
 			if = {
@@ -43136,7 +43138,7 @@ e_tartaria = {
 
 		}
 
-		can_use_nomadic_naming = no
+		#can_use_nomadic_naming = no # Yusseter
 		can_be_named_after_dynasty = no
 
 		can_create_on_partition = { always = no }
@@ -44275,7 +44277,7 @@ e_cathay = {
 
 	destroy_if_invalid_heir = yes
     can_be_named_after_dynasty = no
-	can_use_nomadic_naming = no
+	#can_use_nomadic_naming = no # Yusseter
 
 	can_create = {
 		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
@@ -45033,7 +45035,7 @@ e_turan = {
 		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
 	}
 
-	can_use_nomadic_naming = no
+	#can_use_nomadic_naming = no # Yusseter
 
 	ai_primary_priority = {
 		if = {
@@ -45058,7 +45060,7 @@ e_turan = {
 		capital = c_mangyshlak
 
 		definite_form = yes
-		can_use_nomadic_naming = no
+		#can_use_nomadic_naming = no # Yusseter
 
 		can_be_named_after_dynasty = no #Don't want dynasty names
 
@@ -48272,7 +48274,7 @@ e_persia = {
 
 	capital = c_isfahan #	Esfahan
 
-	can_use_nomadic_naming = no
+	#can_use_nomadic_naming = no # Yusseter
 	definite_form = yes
 
 	ai_primary_priority = {
@@ -117085,3 +117087,5 @@ d_taranto = {
 d_durazzo = {
 	color = { 180 85 120 }
 }
+
+# Yusseter: From MBP 2025.09.05

@@ -85,7 +85,7 @@
 			military_camps_01
 		}
 	}
-	1140.1.1 = { religion = catholic culture = outremer }
+	#1140.1.1 = { religion = catholic culture = outremer } # Yusseter
 	1295.1.1 = { religion = ashari culture = levantine }
 
 }
@@ -120,7 +120,7 @@
 	holding = castle_holding
 	# History
 	867.1.1 = { religion = ashari }
-	1140.1.1 = { religion = catholic culture = outremer }
+	#1140.1.1 = { religion = catholic culture = outremer } # Yusseter
 	1295.1.1 = { religion = ashari culture = levantine }
 
 }
@@ -144,7 +144,7 @@
 	holding = city_holding
 	# History
 	867.1.1 = { religion = ashari }
-	1140.1.1 = { religion = catholic culture = outremer }
+	#1140.1.1 = { religion = catholic culture = outremer } # Yusseter
 	1295.1.1 = { religion = ashari culture = levantine }
 
 }
@@ -159,7 +159,7 @@
 	769.1.1 = { religion = ashari 
 		special_building_slot = port_yaffa_01
 		special_building = port_yaffa_01}
-	1140.1.1 = { religion = catholic culture = outremer }
+	#1140.1.1 = { religion = catholic culture = outremer } # Yusseter
 	1295.1.1 = { religion = ashari culture = levantine }
 
 }
@@ -329,7 +329,7 @@
 	
 	# History
 	867.1.1 = { religion = ashari }
-	1140.1.1 = { religion = catholic culture = outremer }
+	#1140.1.1 = { religion = catholic culture = outremer } # Yusseter
 	1295.1.1 = { religion = ashari culture = levantine }
 
 }
@@ -353,7 +353,7 @@
 	holding = castle_holding
 	# History
 	867.1.1 = { religion = ashari }
-	1140.1.1 = { religion = catholic culture = outremer }
+	#1140.1.1 = { religion = catholic culture = outremer } # Yusseter
 	1295.1.1 = { religion = ashari culture = levantine }
 
 }
@@ -450,3 +450,4 @@
 
 }
 
+# Yusseter: From MBP 2025.08.30

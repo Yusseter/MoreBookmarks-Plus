@@ -604,6 +604,7 @@ religion = armenian_apostolic
 	holding = castle_holding
 	
 	# History
+	1160.1.1 = { culture = alan }  # Yusseter
 
 }
 
@@ -968,3 +969,5 @@ religion = armenian_apostolic
 		holding = church_holding
 	}
 }
+
+# Yusseter: From MBP 2025.08.30

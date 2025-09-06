@@ -34,10 +34,10 @@
 	holding = castle_holding
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = maturidi
-	}
+	#1100.1.1 = { # Yusseter
+	#	culture = turkish
+	#	religion = maturidi
+	#}
 
 }
 # 705 - Cerasus
@@ -73,14 +73,15 @@ religion = paulician
 	culture = armenian
 	religion = armenian_apostolic 
 }
-1095.8.26 = { 
-	culture = turkish
-	religion = maturidi  
-}
+#1095.8.26 = { # Yusseter
+#	culture = turkish
+#	religion = maturidi  
+#}
 1230.1.1 = { 
+	culture = anatolian_turkish # Yusseter
 	religion = alevi 
 }
-1150.1.1 = { culture = anatolian_turkish }
+#1150.1.1 = { culture = anatolian_turkish } # Yusseter
 
 }
 
@@ -178,10 +179,10 @@ religion = paulician
 	holding = city_holding
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = maturidi
-	}
+	#1100.1.1 = { # Yusseter
+	#	culture = turkish
+	#	religion = maturidi
+	#}
 }
 
 # 5581 - Amastris
@@ -199,8 +200,8 @@ religion = paulician
 	1150.1.1 = {
 		culture = pontic
 	}
-	1261.1.1 = { culture = anatolian_turkish }
-	1261.1.1 = { religion = maturidi }
+	#1261.1.1 = { culture = anatolian_turkish } # Yusseter
+	#1261.1.1 = { religion = maturidi } # Yusseter
 
 }
 
@@ -250,8 +251,8 @@ religion = paulician
 	1150.1.1 = {
 		culture = pontic
 	}
-	1205.1.1 = { culture = anatolian_turkish }
-	1205.1.1 = { religion = maturidi }
+	#1205.1.1 = { culture = anatolian_turkish } # Yusseter
+	#1205.1.1 = { religion = maturidi } # Yusseter
 
 }
 
@@ -329,9 +330,9 @@ religion = paulician
 	1150.1.1 = {
 		culture = pontic
 	}
-	1214.1.1 = { culture = turkish }
-	1214.1.1 = { religion = maturidi }
-	1245.1.1 = { culture = anatolian_turkish }
+	#1214.1.1 = { culture = turkish } # Yusseter
+	#1214.1.1 = { religion = maturidi } # Yusseter
+	#1245.1.1 = { culture = anatolian_turkish } # Yusseter
 
 }
 
@@ -347,9 +348,9 @@ religion = paulician
 	# History
 	715.1.1 = { religion = iconoclast }
 	860.1.1 = { religion = orthodox }
-	1099.1.1 = { culture = turkish }
-	1099.1.1 = { religion = maturidi }
-	1150.1.1 = { culture = anatolian_turkish }
+	#1099.1.1 = { culture = turkish } # Yusseter
+	#1099.1.1 = { religion = maturidi } # Yusseter
+	#1150.1.1 = { culture = anatolian_turkish } # Yusseter
 
 }
 
@@ -404,9 +405,9 @@ religion = paulician
 	# History
 	715.1.1 = { religion = iconoclast }
 	860.1.1 = { religion = orthodox }
-	1099.1.1 = { culture = turkish }
-	1099.1.1 = { religion = maturidi }
-	1150.1.1 = { culture = anatolian_turkish }
+	#1099.1.1 = { culture = turkish } # Yusseter
+	#1099.1.1 = { religion = maturidi } # Yusseter
+	#1150.1.1 = { culture = anatolian_turkish } # Yusseter
 
 }
 
@@ -472,10 +473,10 @@ religion = paulician
 	holding = city_holding
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = maturidi
-	}
+	#1100.1.1 = { # Yusseter
+	#	culture = turkish
+	#	religion = maturidi
+	#}
 }
 
 # 5600 - Agranai
@@ -501,10 +502,10 @@ religion = paulician
 	holding = none
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = maturidi
-	}
+	#1100.1.1 = { # Yusseter
+	#	culture = turkish
+	#	religion = maturidi
+	#}
 }
 
 # 5602 - Sebasteia
@@ -567,10 +568,10 @@ religion = paulician
 	holding = city_holding
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = maturidi
-	}
+	#1100.1.1 = { # Yusseter
+	#	culture = turkish
+	#	religion = maturidi
+	#}
 }
 
 # 5605 - Euspena
@@ -590,14 +591,15 @@ religion = paulician
 	culture = armenian
 	religion = armenian_apostolic
 }
-1100.1.1 = { 
-	culture = turkish
-	religion = maturidi
-}
+#1100.1.1 = { # Yusseter
+#	culture = turkish
+#	religion = maturidi
+#}
 1230.1.1 = { 
+	culture = anatolian_turkish # Yusseter
 	religion = alevi 
 }
-1150.1.1 = { culture = anatolian_turkish }
+#1150.1.1 = { culture = anatolian_turkish } # Yusseter
 }
 
 # 5606 - Gauraina
@@ -610,10 +612,10 @@ religion = paulician
 	holding = none
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = maturidi
-	}
+	#1100.1.1 = { # Yusseter
+	#	culture = turkish
+	#	religion = maturidi
+	#}
 }
 
 # 5607 - Dalanda
@@ -626,10 +628,10 @@ religion = paulician
 	holding = none
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = maturidi
-	}
+	#1100.1.1 = { # Yusseter
+	#	culture = turkish
+	#	religion = maturidi
+	#}
 }
 
 # 5608 - Osdara
@@ -642,10 +644,10 @@ religion = paulician
 	holding = none
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = maturidi
-	}
+	#1100.1.1 = { # Yusseter
+	#	culture = turkish
+	#	religion = maturidi
+	#}
 }
 
 # 5609 - Tanadaris
@@ -658,10 +660,10 @@ religion = paulician
 	holding = none
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = maturidi
-	}
+	#1100.1.1 = { # Yusseter
+	#	culture = turkish
+	#	religion = maturidi
+	#}
 }
 
 # 5613 - Ariaratheia
@@ -674,10 +676,10 @@ religion = paulician
 	holding = none
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = maturidi
-	}
+	#1100.1.1 = { # Yusseter
+	#	culture = turkish
+	#	religion = maturidi
+	#}
 }
 
 # 5614 - Armaxa
@@ -690,10 +692,10 @@ religion = paulician
 	holding = none
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = maturidi
-	}
+	#1100.1.1 = { # Yusseter
+	#	culture = turkish
+	#	religion = maturidi
+	#}
 }
 
 # 5615 - Herpha
@@ -706,10 +708,10 @@ religion = paulician
 	holding = none
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = maturidi
-	}
+	#1100.1.1 = { # Yusseter
+	#	culture = turkish
+	#	religion = maturidi
+	#}
 }
 
 # 5616 - Arasaxa
@@ -722,10 +724,10 @@ religion = paulician
 	holding = none
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = maturidi
-	}
+	#1100.1.1 = { # Yusseter
+	#	culture = turkish
+	#	religion = maturidi
+	#}
 }
 
 # 5617 - Charsianon
@@ -744,11 +746,11 @@ religion = paulician
 	1081.1.1 = {
 		culture = cappadocian
 	}
-	1100.1.1 = {
-		culture = turkish
-		religion = maturidi 
-	}
-	1150.1.1 = { culture = anatolian_turkish }
+	#1100.1.1 = { # Yusseter
+	#	culture = turkish
+	#	religion = maturidi 
+	#}
+	#1150.1.1 = { culture = anatolian_turkish } # Yusseter
 }
 
 # 5618 - Therma
@@ -761,10 +763,10 @@ religion = paulician
 	holding = none
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = maturidi
-	}
+	#1100.1.1 = { # Yusseter
+	#	culture = turkish
+	#	religion = maturidi
+	#}
 }
 
 # 5619 - Soanda
@@ -777,10 +779,10 @@ religion = paulician
 	holding = none
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = maturidi
-	}
+	#1100.1.1 = { # Yusseter
+	#	culture = turkish
+	#	religion = maturidi
+	#}
 }
 
 # 5620 - Aspona_CHA
@@ -793,10 +795,10 @@ religion = paulician
 	holding = church_holding
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = maturidi
-	}
+	#1100.1.1 = { # Yusseter
+	#	culture = turkish
+	#	religion = maturidi
+	#}
 }
 
 # 5621 - Euaissa
@@ -809,10 +811,10 @@ religion = paulician
 	holding = none
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = maturidi
-	}
+	#1100.1.1 = { # Yusseter
+	#	culture = turkish
+	#	religion = maturidi
+	#}
 }
 
 # 5622 - Zeila_CHA
@@ -825,10 +827,10 @@ religion = paulician
 	holding = none
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = maturidi
-	}
+	#1100.1.1 = { # Yusseter
+	#	culture = turkish
+	#	religion = maturidi
+	#}
 }
 
 # 5623 - Kyzistra
@@ -859,10 +861,10 @@ religion = paulician
 	holding = city_holding
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = maturidi
-	}
+	#1100.1.1 = { # Yusseter
+	#	culture = turkish
+	#	religion = maturidi
+	#}
 
 }
 
@@ -876,10 +878,10 @@ religion = paulician
 	holding = church_holding
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = maturidi
-	}
+	#1100.1.1 = { # Yusseter
+	#	culture = turkish
+	#	religion = maturidi
+	#}
 
 }
 
@@ -896,10 +898,10 @@ religion = paulician
 	1066.1.1 = {
 		holding = castle_holding
 	}
-	1100.1.1 = {
-		culture = turkish
-		religion = maturidi
-	}
+	#1100.1.1 = { # Yusseter
+	#	culture = turkish
+	#	religion = maturidi
+	#}
 
 }
 
@@ -929,10 +931,10 @@ religion = paulician
 	holding = none
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = maturidi
-	}
+	#1100.1.1 = { # Yusseter
+	#	culture = turkish
+	#	religion = maturidi
+	#}
 
 }
 
@@ -946,10 +948,10 @@ religion = paulician
 	holding = castle_holding
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = maturidi
-	}
+	#1100.1.1 = { # Yusseter
+	#	culture = turkish
+	#	religion = maturidi
+	#}
 
 }
 
@@ -963,10 +965,10 @@ religion = paulician
 	holding = church_holding
 
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = maturidi
-	}
+	#1100.1.1 = { # Yusseter
+	#	culture = turkish
+	#	religion = maturidi
+	#}
 
 }
 
@@ -981,10 +983,10 @@ religion = paulician
 	holding = city_holding
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = maturidi
-	}
+	#1100.1.1 = { # Yusseter
+	#	culture = turkish
+	#	religion = maturidi
+	#}
 
 }
 
@@ -998,11 +1000,11 @@ religion = paulician
 	holding = castle_holding
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = maturidi 
-	}
-	1150.1.1 = { culture = anatolian_turkish }
+	#1100.1.1 = { # Yusseter
+	#	culture = turkish
+	#	religion = maturidi 
+	#}
+	#1150.1.1 = { culture = anatolian_turkish } # Yusseter
 
 }
 
@@ -1016,10 +1018,10 @@ religion = paulician
 	holding = none
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = maturidi
-	}
+	#1100.1.1 = { # Yusseter
+	#	culture = turkish
+	#	religion = maturidi
+	#}
 
 }
 
@@ -1033,10 +1035,10 @@ religion = paulician
 	holding = none
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = maturidi
-	}
+	#1100.1.1 = { # Yusseter
+	#	culture = turkish
+	#	religion = maturidi
+	#}
 
 }
 
@@ -1050,10 +1052,10 @@ religion = paulician
 	holding = city_holding
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = maturidi
-	}
+	#1100.1.1 = { # Yusseter
+	#	culture = turkish
+	#	religion = maturidi
+	#}
 
 }
 
@@ -1067,10 +1069,10 @@ religion = paulician
 	holding = none
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = maturidi
-	}
+	#1100.1.1 = { # Yusseter
+	#	culture = turkish
+	#	religion = maturidi
+	#}
 
 }
 
@@ -1084,10 +1086,10 @@ religion = paulician
 	holding = castle_holding
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = maturidi
-	}
+	#1100.1.1 = { # Yusseter
+	#	culture = turkish
+	#	religion = maturidi
+	#}
 
 }
 
@@ -1101,10 +1103,10 @@ religion = paulician
 	holding = none
 	
 	# History
-	1100.1.1 = {
-		culture = turkish
-		religion = maturidi
-	}
+	#1100.1.1 = { # Yusseter
+	#	culture = turkish
+	#	religion = maturidi
+	#}
 
 }
 
@@ -1121,13 +1123,15 @@ religion = paulician
 890.8.26 = { 
 	religion = armenian_apostolic
 }
-1098.8.26 = { 
-	culture = turkish
-	religion = maturidi 
-}
+#1098.8.26 = { # Yusseter
+#	culture = turkish
+#	religion = maturidi
+#}
 1230.1.1 = { 
+	culture = anatolian_turkish # Yusseter
 	religion = alevi 
 }
-1150.1.1 = { culture = anatolian_turkish }
+#1150.1.1 = { culture = anatolian_turkish } # Yusseter
 }
 
+# Yusseter: From MBP 2025.08.30

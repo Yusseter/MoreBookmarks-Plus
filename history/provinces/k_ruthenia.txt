@@ -141,7 +141,8 @@
 555 = {	# 555 - Pereyaslavl
 	
 	# Misc
-	culture = alan
+	culture = main_alan # Yusseter
+	#culture = alan
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -850,7 +851,8 @@
 5181 = {	# 5181 - Hradyzk
 	
 	# Misc
-	culture = alan
+	culture = main_alan # Yusseter
+	#culture = alan
 	holding = tribal_holding	
 	867.1.1 = { culture = mogyer }
 	936.1.1 = { culture = severian }
@@ -926,7 +928,8 @@
 5185 = {	# 5185 - Romen
 	
 	# Misc
-	culture = alan
+	culture = main_alan # Yusseter
+	#culture = alan
 	867.1.1 = { culture = severian }
 	1030.1.1 = { culture = russian }
 	religion = slavic_pagan
@@ -991,7 +994,8 @@
 5189 = {	# 5189 - Voin'
 	
 	# Misc
-	culture = alan
+	culture = main_alan # Yusseter
+	#culture = alan
 	867.1.1 = { culture = polyan }
 	990.1.1 = { culture = russian }
 	religion = slavic_pagan
@@ -1066,7 +1070,8 @@
 5193 = {	# 5193 - Putyvl
 	
 	# Misc
-	culture = alan
+	culture = main_alan # Yusseter
+	#culture = alan
 	867.1.1 = { culture = severian }
 	1030.1.1 = { culture = russian }
 	religion = slavic_pagan
@@ -1118,7 +1123,8 @@
 5196 = {	# 5196 - Kursk
 	
 	# Misc
-	culture = alan
+	culture = main_alan # Yusseter
+	#culture = alan
 	867.1.1 = { culture = severian }
 	1030.1.1 = { culture = russian }
 	religion = slavic_pagan
@@ -1137,7 +1143,8 @@
 5197 = {	# 5197 - Rylsk
 	
 	# Misc
-	culture = alan
+	culture = main_alan # Yusseter
+	#culture = alan
 	867.1.1 = { culture = severian }
 	1030.1.1 = { culture = russian }
 	religion = slavic_pagan
@@ -1303,7 +1310,8 @@
 5206 = {	# 5206 - Sevsk
 	
 	# Misc
-	culture = alan
+	culture = main_alan # Yusseter
+	#culture = alan
 	867.1.1 = { culture = severian }
 	1030.1.1 = { culture = russian }
 	religion = slavic_pagan
@@ -1352,7 +1360,8 @@
 5209 = {	# 5209 - Karachev
 	
 	# Misc
-	culture = alan
+	culture = main_alan # Yusseter
+	#culture = alan
 	867.1.1 = { culture = severian }
 	1030.1.1 = { culture = russian }
 	religion = slavic_pagan
@@ -1536,3 +1545,4 @@
 	}
 }
 
+# Yusseter: From MBP 2025.08.30

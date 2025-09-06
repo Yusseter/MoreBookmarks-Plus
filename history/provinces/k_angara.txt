@@ -18,7 +18,8 @@
 	religion = eastern_tengri
 	
 	1220.1.1 = {
-		religion = buryat
+		culture = buryat # Yusseter
+		#religion = buryat
 	}
 	
 	# History
@@ -540,7 +541,7 @@
 	
 	# Misc
 	culture = yakut
-	religion = eastern_tengri
+	religion = kuptyng # Yusseter
 	
 	#holding = xx
 	
@@ -550,6 +551,7 @@
 	#}
 	1220.1.1 = {
 		culture = buryat
+		religion = eastern_tengri # Yusseter
 	}
 }
 
@@ -594,7 +596,8 @@
 	
 	# Misc
 	culture = yakut
-	religion = eastern_tengri
+	religion = kuptyng # Yusseter
+	#religion = eastern_tengri
 	
 	#holding = xx
 	
@@ -604,6 +607,7 @@
 	#}
 	1220.1.1 = {
 		culture = buryat
+		religion = eastern_tengri # Yusseter
 	}
 }
 
@@ -781,3 +785,4 @@
 	}
 }
 
+# Yusseter: From MBP 2025.08.30

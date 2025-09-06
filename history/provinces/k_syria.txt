@@ -70,7 +70,7 @@
 	religion = jacobite
 	
 	# History
-1030.1.1 = { 
+1100.1.1 = { # Yusseter: 1030.1.1
 	culture = armenian 
 	religion = armenian_apostolic
 }
@@ -203,6 +203,7 @@ religion = jacobite
 	
 	# History
 	1120.1.1 = { religion = ashari culture = syromesopotamian }
+	1150.1.1 = { culture = syromesopotamian_turkish } # Yusseter
 }
 
 # 5909 - AS-SUWAYDIYA
@@ -879,3 +880,4 @@ religion = jacobite
 
 }
 
+# Yusseter: From MBP 2025.08.30

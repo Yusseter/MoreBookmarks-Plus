@@ -2,10 +2,14 @@
 @holding_illustration_india = "gfx/interface/illustrations/holding_types/city_india.dds"
 @holding_illustration_mediterranean = "gfx/interface/illustrations/holding_types/city_mediterranean.dds"
 @holding_illustration_mena = "gfx/interface/illustrations/holding_types/city_mena.dds"
-@holding_illustration_norse = "gfx/interface/illustrations/holding_types/city_norse.dds"
-@holding_illustration_iberian = "gfx/interface/illustrations/holding_types/city_iberian.dds"
-@holding_illustration_iranian = "gfx/interface/illustrations/holding_types/city_iranian.dds"
-@holding_illustration_byzantine = "gfx/interface/illustrations/holding_types/city_byzantine.dds"
+@holding_illustration_norse = "gfx/interface/illustrations/holding_types/fp1_city_norse.dds" # Yusseter
+#@holding_illustration_norse = "gfx/interface/illustrations/holding_types/city_norse.dds"
+@holding_illustration_iberian = "gfx/interface/illustrations/holding_types/fp2_city_iberian.dds" # Yusseter
+#@holding_illustration_iberian = "gfx/interface/illustrations/holding_types/city_iberian.dds"
+@holding_illustration_iranian = "gfx/interface/illustrations/holding_types/fp3_city_iranian.dds" # Yusseter
+#@holding_illustration_iranian = "gfx/interface/illustrations/holding_types/city_iranian.dds"
+@holding_illustration_byzantine = "gfx/interface/illustrations/holding_types/ep3_city_byzantine.dds" # Yusseter
+#@holding_illustration_byzantine = "gfx/interface/illustrations/holding_types/city_byzantine.dds"
 @holding_illustration_byzantine_islamic = "gfx/interface/illustrations/holding_types/city_byzantine_islamic.dds"
 @holding_illustration_british = "gfx/interface/illustrations/holding_types/city_british.dds"
 @holding_illustration_german = "gfx/interface/illustrations/holding_types/city_german.dds"
@@ -677,7 +681,7 @@ city_01 = {
 		}
 		illustration = @holding_illustration_berber
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_group_building_gfx }
+		graphical_cultures = { berber_building_gfx } # Yusseter
 		graphical_regions = { graphical_western }
 	}
 	asset = {
@@ -687,7 +691,7 @@ city_01 = {
 		}
 		illustration = @holding_illustration_berber
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_group_building_gfx }
+		graphical_cultures = { berber_building_gfx } # Yusseter
 		graphical_regions = { graphical_mena }
 	}
 	asset = {
@@ -697,7 +701,7 @@ city_01 = {
 		}
 		illustration = @holding_illustration_berber
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_group_building_gfx }
+		graphical_cultures = { berber_building_gfx } # Yusseter
 		graphical_regions = { graphical_india }
 	}
 	asset = {
@@ -707,7 +711,7 @@ city_01 = {
 		}
 		illustration = @holding_illustration_berber
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_group_building_gfx }
+		graphical_cultures = { berber_building_gfx } # Yusseter
 		graphical_regions = { graphical_mediterranean }
 	}
 	asset = {
@@ -717,7 +721,7 @@ city_01 = {
 		}
 		illustration = @holding_illustration_berber
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_group_building_gfx }
+		graphical_cultures = { berber_building_gfx } # Yusseter
 		graphical_regions = { graphical_steppe }
 	}
 	
@@ -861,7 +865,8 @@ city_01 = {
 		names = {
 			"ep3_byzantine_city_01_mesh"
 		}
-		illustration = @holding_illustration_byzantine_islamic
+		illustration = @holding_illustration_byzantine # Yusseter
+		#illustration = @holding_illustration_byzantine_islamic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { steppe_building_gfx }
 		graphical_regions = { graphical_mediterranean }
@@ -907,12 +912,24 @@ city_01 = {
 		graphical_cultures = { turkish_building_gfx }
 		graphical_regions = { graphical_india }
 	}
-	asset = {
+	asset = { # Yusseter
 		type = pdxmesh
 		names = {
 			"ep3_byzantine_city_01_mesh"
 		}
 		illustration = @holding_illustration_byzantine_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { byzantine_building_gfx turkish_building_gfx }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"ep3_byzantine_city_01_mesh"
+		}
+		illustration = @holding_illustration_byzantine # Yusseter
+		#illustration = @holding_illustration_byzantine_islamic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { turkish_building_gfx }
 		graphical_regions = { graphical_mediterranean }
@@ -2696,7 +2713,7 @@ city_02 = {
 		}
 		illustration = @holding_illustration_berber
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_group_building_gfx }
+		graphical_cultures = { berber_building_gfx } # Yusseter
 		graphical_regions = { graphical_western }
 	}
 	asset = {
@@ -2706,7 +2723,7 @@ city_02 = {
 		}
 		illustration = @holding_illustration_berber
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_group_building_gfx }
+		graphical_cultures = { berber_building_gfx } # Yusseter
 		graphical_regions = { graphical_mena }
 	}
 	asset = {
@@ -2716,7 +2733,7 @@ city_02 = {
 		}
 		illustration = @holding_illustration_berber
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_group_building_gfx }
+		graphical_cultures = { berber_building_gfx } # Yusseter
 		graphical_regions = { graphical_india }
 	}
 	asset = {
@@ -2726,7 +2743,7 @@ city_02 = {
 		}
 		illustration = @holding_illustration_berber
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_group_building_gfx }
+		graphical_cultures = { berber_building_gfx } # Yusseter
 		graphical_regions = { graphical_mediterranean }
 	}
 	asset = {
@@ -2736,7 +2753,7 @@ city_02 = {
 		}
 		illustration = @holding_illustration_berber
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_group_building_gfx }
+		graphical_cultures = { berber_building_gfx } # Yusseter
 		graphical_regions = { graphical_steppe }
 	}
 	
@@ -2880,7 +2897,8 @@ city_02 = {
 		names = {
 			"ep3_byzantine_city_01_mesh"
 		}
-		illustration = @holding_illustration_byzantine_islamic
+		illustration = @holding_illustration_byzantine # Yusseter
+		#illustration = @holding_illustration_byzantine_islamic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { steppe_building_gfx }
 		graphical_regions = { graphical_mediterranean }
@@ -2927,12 +2945,24 @@ city_02 = {
 		graphical_cultures = { turkish_building_gfx }
 		graphical_regions = { graphical_india }
 	}
-	asset = {
+	asset = { # Yusseter
 		type = pdxmesh
 		names = {
 			"ep3_byzantine_city_01_mesh"
 		}
 		illustration = @holding_illustration_byzantine_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { byzantine_building_gfx turkish_building_gfx }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"ep3_byzantine_city_01_mesh"
+		}
+		illustration = @holding_illustration_byzantine # Yusseter
+		#illustration = @holding_illustration_byzantine_islamic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { turkish_building_gfx }
 		graphical_regions = { graphical_mediterranean }
@@ -4647,7 +4677,7 @@ city_03 = {
 		}
 		illustration = @holding_illustration_berber
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { berber_group_building_gfx }
+		graphical_cultures = { berber_building_gfx } # Yusseter
 		graphical_regions = { graphical_western }
 	}
 	asset = {
@@ -4657,7 +4687,7 @@ city_03 = {
 		}
 		illustration = @holding_illustration_berber
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { berber_group_building_gfx }
+		graphical_cultures = { berber_building_gfx } # Yusseter
 		graphical_regions = { graphical_mena }
 	}
 	asset = {
@@ -4667,7 +4697,7 @@ city_03 = {
 		}
 		illustration = @holding_illustration_berber
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { berber_group_building_gfx }
+		graphical_cultures = { berber_building_gfx } # Yusseter
 		graphical_regions = { graphical_india }
 	}
 	asset = {
@@ -4677,7 +4707,7 @@ city_03 = {
 		}
 		illustration = @holding_illustration_berber
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { berber_group_building_gfx }
+		graphical_cultures = { berber_building_gfx } # Yusseter
 		graphical_regions = { graphical_mediterranean }
 	}
 	asset = {
@@ -4687,7 +4717,7 @@ city_03 = {
 		}
 		illustration = @holding_illustration_berber
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { berber_group_building_gfx }
+		graphical_cultures = { berber_building_gfx } # Yusseter
 		graphical_regions = { graphical_steppe }
 	}
 	
@@ -4831,7 +4861,8 @@ city_03 = {
 		names = {
 			"ep3_byzantine_city_02_mesh"
 		}
-		illustration = @holding_illustration_byzantine_islamic
+		illustration = @holding_illustration_byzantine # Yusseter
+		#illustration = @holding_illustration_byzantine_islamic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { steppe_building_gfx }
 		graphical_regions = { graphical_mediterranean }
@@ -4878,12 +4909,24 @@ city_03 = {
 		graphical_cultures = { turkish_building_gfx }
 		graphical_regions = { graphical_india }
 	}
-	asset = {
+	asset = { # Yusseter
 		type = pdxmesh
 		names = {
 			"ep3_byzantine_city_02_mesh"
 		}
 		illustration = @holding_illustration_byzantine_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { byzantine_building_gfx turkish_building_gfx }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"ep3_byzantine_city_02_mesh"
+		}
+		illustration = @holding_illustration_byzantine # Yusseter
+		#illustration = @holding_illustration_byzantine_islamic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { turkish_building_gfx }
 		graphical_regions = { graphical_mediterranean }
@@ -6591,7 +6634,7 @@ city_04 = {
 		}
 		illustration = @holding_illustration_berber
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { berber_group_building_gfx }
+		graphical_cultures = { berber_building_gfx } # Yusseter
 		graphical_regions = { graphical_western }
 	}
 	asset = {
@@ -6601,7 +6644,7 @@ city_04 = {
 		}
 		illustration = @holding_illustration_berber
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { berber_group_building_gfx }
+		graphical_cultures = { berber_building_gfx } # Yusseter
 		graphical_regions = { graphical_mena }
 	}
 	asset = {
@@ -6611,7 +6654,7 @@ city_04 = {
 		}
 		illustration = @holding_illustration_berber
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { berber_group_building_gfx }
+		graphical_cultures = { berber_building_gfx } # Yusseter
 		graphical_regions = { graphical_india }
 	}
 	asset = {
@@ -6621,7 +6664,7 @@ city_04 = {
 		}
 		illustration = @holding_illustration_berber
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { berber_group_building_gfx }
+		graphical_cultures = { berber_building_gfx } # Yusseter
 		graphical_regions = { graphical_mediterranean }
 	}
 	asset = {
@@ -6631,7 +6674,7 @@ city_04 = {
 		}
 		illustration = @holding_illustration_berber
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { berber_group_building_gfx }
+		graphical_cultures = { berber_building_gfx } # Yusseter
 		graphical_regions = { graphical_steppe }
 	}
 	
@@ -6775,7 +6818,8 @@ city_04 = {
 		names = {
 			"ep3_byzantine_city_02_mesh"
 		}
-		illustration = @holding_illustration_byzantine_islamic
+		illustration = @holding_illustration_byzantine # Yusseter
+		#illustration = @holding_illustration_byzantine_islamic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { steppe_building_gfx }
 		graphical_regions = { graphical_mediterranean }
@@ -6822,12 +6866,24 @@ city_04 = {
 		graphical_cultures = { turkish_building_gfx }
 		graphical_regions = { graphical_india }
 	}
-	asset = {
+	asset = { # Yusseter
 		type = pdxmesh
 		names = {
 			"ep3_byzantine_city_02_mesh"
 		}
 		illustration = @holding_illustration_byzantine_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { byzantine_building_gfx turkish_building_gfx }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"ep3_byzantine_city_02_mesh"
+		}
+		illustration = @holding_illustration_byzantine # Yusseter
+		#illustration = @holding_illustration_byzantine_islamic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { turkish_building_gfx }
 		graphical_regions = { graphical_mediterranean }
@@ -8347,3 +8403,5 @@ guild_halls_08 = {
 		}
 	}
 }
+
+# Yusseter: From SBC 2025.08.30

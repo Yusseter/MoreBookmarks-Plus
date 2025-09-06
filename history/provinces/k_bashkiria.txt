@@ -6,7 +6,8 @@
 	
 	# Misc
 	culture = bashkir
-	religion = tengri_pagan
+	religion = magyar_pagan # Yusseter
+	#religion = tengri_pagan
 	
 	#holding = castle_holding
 	
@@ -19,7 +20,8 @@
 5475 = {	#Birsk
 	# Misc
 	culture = bashkir
-	religion = tengri_pagan
+	religion = magyar_pagan # Yusseter
+	#religion = tengri_pagan
 	
 	#holding = castle_holding
 	
@@ -43,7 +45,8 @@
 	
 	# Misc
 	culture = bashkir
-	religion = tengri_pagan
+	religion = magyar_pagan # Yusseter
+	#religion = tengri_pagan
 	
 	#holding = castle_holding
 	
@@ -63,13 +66,16 @@
 }
 5479 = {	#Prigoro Tabynsk
 	# Misc
-	culture = bashkir
-	religion = tengri_pagan
+	culture = mogyer # Yusseter
+	#culture = bashkir
+	religion = magyar_pagan # Yusseter
+	#religion = tengri_pagan
 	
 	#holding = castle_holding
 	
 	# History
 	915.1.2 = {
+		culture = bashkir # Yusseter
 		religion = ashari
 	}
 }
@@ -80,7 +86,8 @@
 	
 	# Misc
 	culture = bashkir
-	religion = tengri_pagan
+	religion = magyar_pagan # Yusseter
+	#religion = tengri_pagan
 	
 	#holding = castle_holding
 	
@@ -110,7 +117,8 @@
 	
 	# Misc
 	culture = bashkir
-	religion = tengri_pagan
+	religion = magyar_pagan # Yusseter
+	#religion = tengri_pagan
 	
 	#holding = castle_holding
 	
@@ -131,7 +139,8 @@
 5494 = {	#Duvan
 	# Misc
 	culture = bashkir
-	religion = tengri_pagan
+	religion = magyar_pagan # Yusseter
+	#religion = tengri_pagan
 	
 	#holding = castle_holding
 	
@@ -150,7 +159,8 @@
 	
 	# Misc
 	culture = bashkir
-	religion = tengri_pagan
+	religion = magyar_pagan # Yusseter
+	#religion = tengri_pagan
 	
 	#holding = castle_holding
 	
@@ -173,7 +183,8 @@
 	
 	# Misc
 	culture = bashkir
-	religion = tengri_pagan
+	religion = magyar_pagan # Yusseter
+	#religion = tengri_pagan
 	
 	#holding = castle_holding
 	
@@ -201,7 +212,8 @@
 	
 	# Misc
 	culture = bashkir
-	religion = tengri_pagan
+	religion = magyar_pagan # Yusseter
+	#religion = tengri_pagan
 	
 	holding = tribal_holding
 	
@@ -224,7 +236,8 @@
 	
 	# Misc
 	culture = bashkir
-	religion = tengri_pagan
+	religion = magyar_pagan # Yusseter
+	#religion = tengri_pagan
 	
 	holding = tribal_holding
 	
@@ -247,7 +260,8 @@
 	
 	# Misc
 	culture = bashkir
-	religion = tengri_pagan
+	religion = magyar_pagan # Yusseter
+	#religion = tengri_pagan
 	
 	holding = tribal_holding
 	
@@ -261,3 +275,5 @@
 	#Small settlement , mostly placeholder
 	holding = none
 }
+
+# Yusseter: From MBP 2025.08.30

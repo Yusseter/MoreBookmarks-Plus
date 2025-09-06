@@ -24,7 +24,8 @@
 9836 = {	#560 - Chersonesus
 	
 	# Misc
-	culture = gothic
+	culture = crimean_gothic # Yusseter
+	#culture = gothic
 	religion = orthodox
 	
 	holding = city_holding
@@ -44,10 +45,13 @@
 5268 = {	#5268 - Odessa
 	
 # Misc
-culture = mogyer
-religion = magyar_pagan
+culture = bolghar # Yusseter
+#culture = mogyer
+religion = tengri_pagan # Yusseter
+#religion = magyar_pagan
 
 # History
+800.1.1 = { culture = bulgarian } # Yusseter
 895.1.1 = { culture = pecheneg }
 900.1.1 = { religion = tengri_pagan } 
 1046.1.1 = { culture = torkil }
@@ -517,11 +521,14 @@ religion = tengri_pagan
 	holding = castle_holding
 	# History
 	
-	1016.1.1 = {
-		culture = russian
-	}
-	1100.1.1 = { culture = proto_ruthenian }
-	1214.1.1 = { culture = tauro_romaic }
+	# Yusseter 0
+	1016.1.1 = { culture = tauro_romaic }
+	#1016.1.1 = {
+	#	culture = russian
+	#}
+	#1100.1.1 = { culture = proto_ruthenian }
+	#1214.1.1 = { culture = tauro_romaic }
+	# Yusseter 1
 
 
 	867.1.1 = {
@@ -541,7 +548,8 @@ religion = tengri_pagan
 560 = {	#560 - Chersonesus
 	
 	# Misc
-	culture = gothic
+	culture = crimean_gothic # Yusseter
+	#culture = gothic
 	religion = orthodox
 	
 	holding = castle_holding
@@ -624,3 +632,5 @@ religion = tengri_pagan
 5331 = {	#Dzhankoi
 	holding = none
 }
+
+# Yusseter: From MBP 2025.08.30

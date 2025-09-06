@@ -280,31 +280,32 @@ e_blue_horde = { #Subservient to White Horde. Technically existed sooner than th
 #	}
 #}
 
-e_kirghiz_khanate = {
-	#867
-	840.1.2 = {
-		holder = 303238		#fictional Uzur Enisey Kyrgyz
-		name = "KIRGHIZ_KHAN"
-		government = tribal_government
-	}
-	871.8.19 = {
-		holder = 303239		#fictional Zhyrgal Enisey Kyrgyz
-	}
-	889.5.2 = {
-		holder = 303243		#fictional Kozel Enisey Kyrgyz
-	}
+#e_kirghiz_khanate = { # Yusseter
+#	#867
+#	840.1.2 = {
+#		holder = 303238		#fictional Uzur Enisey Kyrgyz
+#		name = "KIRGHIZ_KHAN"
+#		government = tribal_government
+#	}
+#	871.8.19 = {
+#		holder = 303239		#fictional Zhyrgal Enisey Kyrgyz
+#	}
+#	889.5.2 = {
+#		holder = 303243		#fictional Kozel Enisey Kyrgyz
+#	}
+#
+#	#925 dissolution
+#	925.1.2 = {
+#		holder = 0
+#		reset_name = yes
+#	}
+#}
 
-	#925 dissolution
-	925.1.2 = {
-		holder = 0
-		reset_name = yes
-	}
-}
-
-e_mongolia = {
-	#Rouran Khaganate
+e_mongolia = { # Yusseter
+	# Rouran Khaganate
 	405.1.1 = {
 		holder = yujiulu_072
+		government = nomad_government
 	}
 	410.1.1 = {
 		holder = yujiulu_073
@@ -339,171 +340,353 @@ e_mongolia = {
 	520.1.1 = {
 		holder = yujiulu_mb2
 	}
-	#Turkic Khaganate
-	552.1.1 = {
+	# Tujue Khaganate
+	552.2.28 = {
 		holder = ashina_04
 	}
-	553.1.1 = {
-		holder = ashina_05
+	552.5.1 = {
+		holder = ashina_15
 	}
-	576.1.1 = {
+	553.1.1 = {
+		holder = ashina_24
+	}
+	571.1.20 = {
 		holder = ashina_20
 	}
 	581.1.1 = {
+		holder = ashina_202
+	}
+	581.6.1 = {
 		holder = ashina_21
 	}
 	587.1.1 = {
-		holder = ashina_22
+		holder = ashina_16
 	}
-	588.1.1 = {
-		holder = ashina_23
+	589.8.1 = {
+		holder = ashina_211
 	}
-	600.1.1 = {
-		holder = ashina_24
+	599.1.1 = {
+		holder = ashina_212
 	}
-	603.1.1 = {
-		holder = ashina_25
+	609.1.1 = {
+		holder = ashina_2121
 	}
-	611.1.1 = {
-		holder = ashina_27
+	619.4.1 = {
+		holder = ashina_2122
 	}
-	618.1.1 = {
-		holder = ashina_28
+	620.12.1 = {
+		holder = ashina_2123
 	}
-	628.1.1 = {
-		holder = ashina_29
-	}
-	630.1.1 = {
-		holder = ashina_30
-	}
-	632.1.1 = {
-		holder = ashina_31
-	}
-	634.1.1 = {
-		holder = ashina_32
-	}
-	639.1.1 = {
-		holder = ashina_34
-	}
-	650.1.1 = {
-		holder = ashina_36
-	}
-	658.1.1 = {
+	629.1.1 = {
 		holder = 0
 	}
+	# Tujue Khaganate under the Jimi system of Tang dynasty
+	639.1.1 = {
+		holder = ashina_204
+	}
+	644.1.1 = {
+		holder = 0
+	}
+	646.1.1 = {
+		holder = ashina_2051
+	}
+	649.1.1 = {
+		holder = 0
+	}
+	679.1.1 = {
+		holder = ashina_206
+	}
+	680.1.1 = {
+		holder = ashina_19
+	}
+	681.12.5 = {
+		holder = 0
+	}
+	# 2nd Tujue Khaganate
 	682.1.1 = {
 		holder = ashina_38
 	}
-	692.1.1 = {
+	694.1.1 = {
 		holder = ashina_39
 	}
-	716.1.1 = {
+	716.7.22 = {
 		holder = ashina_40
 	}
 	717.1.1 = {
 		holder = ashina_41
 	}
-	734.1.1 = {
+	734.11.25 = {
 		holder = ashina_42
 	}
 	739.1.1 = {
 		holder = ashina_43
 	}
-	741.1.1 = {
-		holder = ashina_44
+	741.7.1 = {
+		holder = kutluk_1
 	}
-
-	#Uyghurs
-	744.1.1={
-		holder=188783
-		name = UYGHUR_KHAGANATE
+	742.1.1 = {
+		holder = ashina_3712
 	}
-	747.1.1={
-		holder=188784
+	# Toquz-Oghuz
+	744.1.1 = {
+		holder = 188783
 	}
-	759.6.1={
-		holder=188785
+	747.1.1 = {
+		holder = 188784
 	}
-	779.1.1={
-		holder=188786
+	759.6.1 = {
+		holder = 188785
 	}
-	789.1.1={
-		holder=188787
+	779.1.1 = {
+		holder = 188786
 	}
-	790.1.1={
-		holder=188788
+	789.1.1 = {
+		holder = 188787
 	}
-	795.1.1={
-		holder = 194191
+	790.1.1 = {
+		holder = 188788
 	}
-	808.1.1={
-		holder = 166758
+	795.1.1 = {
+		holder = 194191 # Huaixin Qaghan
 	}
-	821.1.1={
-		holder = 166759
+	808.1.1 = {
+		holder = 166758 # Baoyi Qaghan
 	}
-	824.1.1={
-		holder = 166760
+	821.1.1 = {
+		holder = 166759 # Chongde Qaghan
 	}
-	832.1.1={
-		holder = 166761
+	824.1.1 = {
+		holder = 166760 # Zhaoli Qaghan
 	}
-	839.1.1={
-		holder = 166763
+	833.1.1 = {
+		holder = 166761 # Zhangxin Qaghan
 	}
+	839.1.1 = {
+		holder = 166763 # Jueluowu (Kurebir) usurped
+	}
+	# Qyrqyz
 	840.1.1 = {
-		holder = 166765
+		holder = yenisei_kirghiz_004
 	}
-	# Kirghiz rule
-	847.1.1 = {
+	847.4.5 = {
+		holder = 769khirgizz
+	}
+	866.8.19 = {
+		holder = 303238
+	}
+	899.5.2 = {
+		holder = 303240
+	}
+	900.1.22 = {
+		holder = 303243
+	}
+	925.4.28 = {
 		holder = 0
-		reset_name = yes
 	}
-	#Now use e_cathay due to their actual homeland being on the map
-	##Liao Empire
-	#916.1.1 = {
-	#	government = feudal_government #They were a mix of nomadic for their Khitan subjects and feudal for their Han subjects. Making them 'tribal' would be odd and it makes them not get innovations.
-	#	name = LIAO_EMPIRE
-	#	holder = 194325
-	#}
-	#926.1.1 = {
-	#	holder = 194326
-	#}
-	#
-	#947.5.15 = {
-	#	holder = 194328
-	#}
-	#
-	#951.10.7 = {
-	#	holder = 194329
-	#}
-	#
-	#969.3.12 = {
-	#	holder = 194330
-	#}
-	#
-	#982.10.13 = {
-	#	holder = 194331
-	#}
-	#
-	#1031.6.25 = {
-	#	holder = 194332
-	#}
-	#
-	#1055.8.28 = {
-	#	holder = 194333
-	#}
-	#
-	#1101.2.12 = {
-	#	holder = 194334
-	#}
-	#
-	#1127.1.1 = {
-	#	holder = 0
-	#	reset_name = yes
-	#}
-
 }
+#e_mongolia = {
+#	#Rouran Khaganate
+#	405.1.1 = {
+#		holder = yujiulu_072
+#	}
+#	410.1.1 = {
+#		holder = yujiulu_073
+#	}
+#	414.1.1 = {
+#		holder = yujiulu_08
+#	}
+#	414.5.1 = {
+#		holder = yujiulu_077
+#	}
+#	429.1.1 = {
+#		holder = yujiulu_084
+#	}
+#	444.1.1 = {
+#		holder = yujiulu_09
+#	}
+#	464.1.1 = {
+#		holder = yujiulu_10
+#	}
+#	485.1.1 = {
+#		holder = yujiulu_11
+#	}
+#	492.1.1 = {
+#		holder = yujiulu_101
+#	}
+#	506.1.1 = {
+#		holder = yujiulu_111
+#	}
+#	508.1.1 = {
+#		holder = yujiulu_mb1
+#	}
+#	520.1.1 = {
+#		holder = yujiulu_mb2
+#	}
+#	#Turkic Khaganate
+#	552.1.1 = {
+#		holder = ashina_04
+#	}
+#	553.1.1 = {
+#		holder = ashina_05
+#	}
+#	576.1.1 = {
+#		holder = ashina_20
+#	}
+#	581.1.1 = {
+#		holder = ashina_21
+#	}
+#	587.1.1 = {
+#		holder = ashina_22
+#	}
+#	588.1.1 = {
+#		holder = ashina_23
+#	}
+#	600.1.1 = {
+#		holder = ashina_24
+#	}
+#	603.1.1 = {
+#		holder = ashina_25
+#	}
+#	611.1.1 = {
+#		holder = ashina_27
+#	}
+#	618.1.1 = {
+#		holder = ashina_28
+#	}
+#	628.1.1 = {
+#		holder = ashina_29
+#	}
+#	630.1.1 = {
+#		holder = ashina_30
+#	}
+#	632.1.1 = {
+#		holder = ashina_31
+#	}
+#	634.1.1 = {
+#		holder = ashina_32
+#	}
+#	639.1.1 = {
+#		holder = ashina_34
+#	}
+#	650.1.1 = {
+#		holder = ashina_36
+#	}
+#	658.1.1 = {
+#		holder = 0
+#	}
+#	682.1.1 = {
+#		holder = ashina_38
+#	}
+#	692.1.1 = {
+#		holder = ashina_39
+#	}
+#	716.1.1 = {
+#		holder = ashina_40
+#	}
+#	717.1.1 = {
+#		holder = ashina_41
+#	}
+#	734.1.1 = {
+#		holder = ashina_42
+#	}
+#	739.1.1 = {
+#		holder = ashina_43
+#	}
+#	741.1.1 = {
+#		holder = ashina_44
+#	}
+#
+#	#Uyghurs
+#	744.1.1={
+#		holder=188783
+#		name = UYGHUR_KHAGANATE
+#	}
+#	747.1.1={
+#		holder=188784
+#	}
+#	759.6.1={
+#		holder=188785
+#	}
+#	779.1.1={
+#		holder=188786
+#	}
+#	789.1.1={
+#		holder=188787
+#	}
+#	790.1.1={
+#		holder=188788
+#	}
+#	795.1.1={
+#		holder = 194191
+#	}
+#	808.1.1={
+#		holder = 166758
+#	}
+#	821.1.1={
+#		holder = 166759
+#	}
+#	824.1.1={
+#		holder = 166760
+#	}
+#	832.1.1={
+#		holder = 166761
+#	}
+#	839.1.1={
+#		holder = 166763
+#	}
+#	840.1.1 = {
+#		holder = 166765
+#	}
+#	# Kirghiz rule
+#	847.1.1 = {
+#		holder = 0
+#		reset_name = yes
+#	}
+#	#Now use e_cathay due to their actual homeland being on the map
+#	##Liao Empire
+#	#916.1.1 = {
+#	#	government = feudal_government #They were a mix of nomadic for their Khitan subjects and feudal for their Han subjects. Making them 'tribal' would be odd and it makes them not get innovations.
+#	#	name = LIAO_EMPIRE
+#	#	holder = 194325
+#	#}
+#	#926.1.1 = {
+#	#	holder = 194326
+#	#}
+#	#
+#	#947.5.15 = {
+#	#	holder = 194328
+#	#}
+#	#
+#	#951.10.7 = {
+#	#	holder = 194329
+#	#}
+#	#
+#	#969.3.12 = {
+#	#	holder = 194330
+#	#}
+#	#
+#	#982.10.13 = {
+#	#	holder = 194331
+#	#}
+#	#
+#	#1031.6.25 = {
+#	#	holder = 194332
+#	#}
+#	#
+#	#1055.8.28 = {
+#	#	holder = 194333
+#	#}
+#	#
+#	#1101.2.12 = {
+#	#	holder = 194334
+#	#}
+#	#
+#	#1127.1.1 = {
+#	#	holder = 0
+#	#	reset_name = yes
+#	#}
+#
+#}
 
 e_mongol_empire = {
 
@@ -1043,7 +1226,8 @@ d_tannu_ola = { #Tuva
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = 0
+		liege = e_mongolia # Yusseter
+		#liege = 0
 	}
 
 
@@ -1236,6 +1420,9 @@ d_selenga_valley = { #Tumed
 d_khovsgol = { #Oirad
 
 	#867
+	840.1.2 = { # Yusseter
+		liege = e_mongolia
+	}
 	843.3.22 = {
 		holder = 303009	#fictional Batula Oirat
 		government = tribal_government
@@ -1562,7 +1749,7 @@ k_kerait = { #Keraites
 
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate #No evidence the Kirghiz extended their control over the Mongolian Plateau
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 
 	#867
@@ -2116,7 +2303,7 @@ c_karabalgasun = {
 c_mumo = {
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 
 	#867 - Khamag Mongols / Borjigin
@@ -2194,7 +2381,7 @@ c_ulaanbaatar = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 
 	#867
@@ -2429,7 +2616,7 @@ c_selenga = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 
 	#867
@@ -2526,12 +2713,18 @@ c_baibalik = {
 		holder = 303140		#fictional Hulegu Bayad
 		liege = d_bayad
 	}
-	1178.5.20 = {
-		holder = 303144		#fictional Uighurtai Bayad
+	1178.5.20 = { # Yusseter
+		holder = 303142		#fictional Tamachi Bayad
 	}
-	1189.8.8 = {
-		holder = 303153		#fictional Ghazan Bayad
+	1187.3.17 = { # Yusseter
+		holder = 303147		#fictional Bartan Bayad
 	}
+	#1178.5.20 = {
+	#	holder = 303144		#fictional Uighurtai Bayad
+	#}
+	#1189.8.8 = {
+	#	holder = 303153		#fictional Ghazan Bayad
+	#}
 	1221.12.3 = {
 		holder = 303154
 
@@ -2592,15 +2785,21 @@ c_khokhoo = {
 		holder = 303140		#fictional Hulegu Bayad
 		liege = d_bayad
 	}
-	1178.5.20 = {
-		holder = 303143		#fictional Taghai Bayad
+	1178.5.20 = { # Yusseter
+		holder = 303142		#fictional Tamachi Bayad
 	}
-	1181.8.24 = {
-		holder = 303151		#fictional Godan Bayad
+	1187.3.17 = { # Yusseter
+		holder = 303147		#fictional Bartan Bayad
 	}
-	1187.1.1 = {
-		holder = 303147
-	}
+	#1178.5.20 = {
+	#	holder = 303143		#fictional Taghai Bayad
+	#}
+	#1181.8.24 = {
+	#	holder = 303151		#fictional Godan Bayad
+	#}
+	#1187.1.1 = {
+	#	holder = 303147
+	#}
 	1204.6.10 = {
 		holder = 303153		#fictional Godan Bayad
 	}
@@ -2693,7 +2892,7 @@ c_tunka = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 
 	#867
@@ -3067,8 +3266,12 @@ c_khasagt_khairkhan = {
 
 d_arkhangai = {
 
+	861.8.27 = { # Yusseter
+		holder = 303288
+		liege = e_mongolia
+	}
 	#End of Kirghiz Khanate
-	900.1.1 = {
+	900.6.14 = { # Yusseter: 900.1.1
 		holder = dukha1
 		government = tribal_government
 		liege = 0
@@ -3135,6 +3338,9 @@ d_arkhangai = {
 c_tarvagatai = {
 
 	#867
+	840.1.2 = { # Yusseter
+		liege = e_mongolia
+	}
 	861.8.27 = {
 		holder = 303288		#Jebe Ganbold
 		government = tribal_government
@@ -3203,7 +3409,7 @@ c_tarvagatai = {
 c_oigon = {
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 
 	#867
@@ -3344,7 +3550,7 @@ d_zavkhan = {
 c_uliastai = {
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 
 	#867
@@ -3752,7 +3958,8 @@ d_ubsunur_hollow = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = 0
+		liege = e_mongolia # Yusseter
+		#liege = 0
 	}
 
 	#867
@@ -3924,7 +4131,7 @@ c_tesiin_gol = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 
 	#867
@@ -3988,7 +4195,7 @@ c_urgamal = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 
 	#867
@@ -4189,7 +4396,7 @@ c_harhiraa = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 
 	#867
@@ -4338,7 +4545,8 @@ d_togina = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = 0
+		liege = e_mongolia # Yusseter
+		#liege = 0
 	}
 
 	#867
@@ -4941,81 +5149,165 @@ c_kantegir = {
 ###START KHAKASSIA###
 
 
-k_khakassia = {
-	#867
+k_khakassia = { # Yusseter
+	710.1.1 = {
+		holder = yenisei_kirghiz_001
+	}
+	711.9.26 = {
+		holder = 0
+	}
+	820.1.1 = {
+		holder = yenisei_kirghiz_004
+		government = nomad_government
+	}
 	840.1.2 = {
-		liege = e_kirghiz_khanate
-		holder = 303238		#fictional Uzur Enisey Kyrgyz
-		government = tribal_government
+		effect = {
+			set_de_jure_liege_title = title:e_mongolia
+			#set_de_jure_liege_title = title:e_kirghiz_khanate # Yusseter
+		}
 	}
-	871.8.19 = {
-		holder = 303239		#fictional Zhyrgal Enisey Kyrgyz
+	847.4.5 = {
+		holder = 769khirgizz
 	}
-	889.5.2 = {
-		holder = 303243		#fictional Kozel Enisey Kyrgyz
+	866.8.19 = {
+		holder = 303238
 	}
-	916.4.28 = {
+	899.5.2 = {
+		holder = 303240
+	}
+	900.1.22 = {
+		holder = 303243
+	}
+	925.4.28 = {
 		holder = 80000021
 	}
 	965.4.28 = {
 		holder = 80000022
 	}
-	1005.4.28 = {
+	1005.11.30 = {
 		holder = 80000023
 	}
-
-
-	#1066
 	1060.4.28 = {
-		holder = 303244		#fictional Kokotoy
+		holder = 303244
 	}
 	1103.10.24 = {
-		holder = 303245		#fictional Sugr
+		holder = 303245
 	}
 	1117.4.30 = {
-		holder = 303246		#fictional Kuntuvdi
+		holder = 303246
 	}
 	1140.3.10 = {
 		holder = 0
 	}
 }
 
-d_khakass_hollow = {
-	#867
-	840.1.2 = {
-		liege = e_kirghiz_khanate
-		holder = 303238		#fictional Uzur Enisey Kyrgyz
-		government = tribal_government
+d_blue_khakassia = { # Yusseter
+	701.1.1 = {
+		holder = yenisei_kirghiz_001
+		government = nomad_government
 	}
-	871.8.19 = {
-		holder = 303239		#fictional Zhyrgal Enisey Kyrgyz
+	711.9.26 = {
+		holder = yenisei_kirghiz_002
 	}
-	889.5.2 = {
-		holder = 303243		#fictional Kozel Enisey Kyrgyz
+	716.5.26 = {
+		holder = yenisei_kirghiz_0021
 	}
-	916.4.28 = {
+	755.9.27 = {
+		holder = yenisei_kirghiz_0041
+	}
+	795.10.7 = {
+		holder = yenisei_kirghiz_004
+	}
+	840.1.1 = {
+		holder = yenisei_kirghiz_00421
+		liege = e_mongolia # Yusseter
+		#liege = e_kirghiz_khanate
+	}
+	857.10.7 = {
+		holder = yenisei_kirghiz_0042
+	}
+	873.11.14 = {
+		holder = yenisei_kirghiz_0043
+	}
+	878.5.19 = {
+		holder = yenisei_kirghiz_0044
+	}
+	901.5.24 = {
+		holder = yenisei_kirghiz_0045
+	}
+	925.4.28 = {
+		liege = k_khakassia
+	}
+	928.4.13 = {
 		holder = 80000021
 	}
 	965.4.28 = {
 		holder = 80000022
 	}
-	1005.4.28 = {
+	1005.11.30 = {
+		holder = fictional_kirghiz_6
+	}
+	1015.1.1 = {
+		liege = d_blue_khakassia
+	}
+	1040.1.1 = {
+		holder = fictional_kirghiz_7
+		liege = k_khakassia
+	}
+	1173.1.1 = {
+		holder = enisey_kyrgyz_2
+	}
+}
+
+d_khakass_hollow = { # Yusseter
+	693.1.1 = {
+		holder = yenisei_kirghiz_001
+		government = nomad_government
+	}
+	711.9.26 = {
+		holder = yenisei_kirghiz_002
+	}
+	716.5.26 = {
+		holder = yenisei_kirghiz_0021
+	}
+	755.9.27 = {
+		holder = yenisei_kirghiz_0041
+	}
+	795.10.7 = {
+		holder = yenisei_kirghiz_004
+	}
+	847.4.5 = {
+		holder = 769khirgizz
+	}
+	866.8.19 = {
+		holder = 303238
+	}
+	899.5.2 = {
+		holder = 303240
+	}
+	900.1.22 = {
+		holder = 303243
+	}
+	925.4.28 = {
+		holder = 80000021
+	}
+	965.4.28 = {
+		holder = 80000022
+	}
+	1005.11.30 = {
 		holder = 80000023
 	}
-
-
-	#1066
 	1060.4.28 = {
-		holder = 303244		#fictional Kokotoy
+		holder = 303244
 	}
 	1103.10.24 = {
-		holder = 303245		#fictional Sugr
+		holder = 303245
 	}
 	1117.4.30 = {
-		holder = 303246		#fictional Kuntuvdi
+		holder = 303246
 	}
 	1155.3.10 = {
-		holder = 303247		#fictional SirC_an
+		holder = 303247
 	}
 	1170.10.26 = {
 		holder = 303248		#fictional Kuntuvdi
@@ -5035,75 +5327,55 @@ d_khakass_hollow = {
 	}
 }
 
-
-c_abakan = {
-	744.1.1={
-		holder=769khirgizz
-		liege=k_mongolia
+c_abakan = { # Yusseter
+	693.1.1 = {
+		holder = yenisei_kirghiz_001
+		government = nomad_government
 	}
-	779.1.1={
-		holder=188786
+	711.9.26 = {
+		holder = yenisei_kirghiz_002
 	}
-	789.1.1={
-		holder=188787
+	716.5.26 = {
+		holder = yenisei_kirghiz_0021
 	}
-	790.1.1={
-		holder=188788
+	755.9.27 = {
+		holder = yenisei_kirghiz_0041
 	}
-	795.1.1={
-		holder = 194191
+	795.10.7 = {
+		holder = yenisei_kirghiz_004
 	}
-	808.1.1={
-		holder = 166758
+	847.4.5 = {
+		holder = 769khirgizz
 	}
-	821.1.1={
-		holder = 166759
+	866.8.19 = {
+		holder = 303238
 	}
-	824.1.1={
-		holder = 166760
+	899.5.2 = {
+		holder = 303240
 	}
-	832.1.1={
-		holder = 166761
+	900.1.22 = {
+		holder = 303243
 	}
-	839.1.1={
-		holder = 166763
-	}
-	#867
-	840.1.2 = {
-		liege = d_khakass_hollow
-		holder = 303238		#fictional Uzur Enisey Kyrgyz
-		government = tribal_government
-	}
-	871.8.19 = {
-		holder = 303239		#fictional Zhyrgal Enisey Kyrgyz
-	}
-	889.5.2 = {
-		holder = 303243		#fictional Kozel Enisey Kyrgyz
-	}
-
-	916.4.28 = {
+	925.4.28 = {
 		holder = 80000021
 	}
 	965.4.28 = {
 		holder = 80000022
 	}
-	1005.4.28 = {
+	1005.11.30 = {
 		holder = 80000023
 	}
-
-
-	#1066
 	1060.4.28 = {
-		holder = 303244		#fictional Kokotoy
+		holder = 303244
 	}
 	1103.10.24 = {
-		holder = 303245		#fictional Sugr
+		holder = 303245
 	}
 	1117.4.30 = {
-		holder = 303246		#fictional Kuntuvdi
+		holder = 303246
 	}
 	1155.3.10 = {
-		holder = 303247		#fictional SirC_an
+		holder = 303247
 	}
 	1170.10.26 = {
 		holder = 303248		#fictional SirC_an
@@ -5119,77 +5391,65 @@ c_abakan = {
 	}
 }
 
-
-c_julym = {
-	744.1.1={
-		holder=769khirgizz
-		liege=k_mongolia
+c_julym = { # Yusseter
+	693.1.1 = {
+		holder = yenisei_kirghiz_001
+		government = nomad_government
 	}
-	779.1.1={
-		holder=188786
+	711.9.26 = {
+		holder = yenisei_kirghiz_002
 	}
-	789.1.1={
-		holder=188787
+	716.5.26 = {
+		holder = yenisei_kirghiz_0021
 	}
-	790.1.1={
-		holder=188788
+	755.9.27 = {
+		holder = yenisei_kirghiz_0041
 	}
-	795.1.1={
-		holder = 194191
+	795.10.7 = {
+		holder = yenisei_kirghiz_004
 	}
-	808.1.1={
-		holder = 166758
+	840.1.1 = {
+		holder = kirghiz_holder_01
+		liege = e_mongolia # Yusseter
+		#liege = e_kirghiz_khanate
 	}
-	821.1.1={
-		holder = 166759
+	905.1.1 = {
+		holder = kirghiz_holder_02
 	}
-	824.1.1={
-		holder = 166760
+	925.4.28 = {
+		liege = k_khakassia
 	}
-	832.1.1={
-		holder = 166761
+	945.1.1 = {
+		holder = kirghiz_holder_03
 	}
-	839.1.1={
-		holder = 166763
+	960.1.1 = {
+		holder = kirghiz_holder_04
 	}
-	#867
-	840.1.2 = {
+	1005.1.1 = {
+		holder = kirghiz_holder_05
+	}
+	1015.1.1 = {
 		liege = d_khakass_hollow
-		holder = 303238		#fictional Uzur Enisey Kyrgyz
-		government = tribal_government
 	}
-	871.8.19 = {
-		holder = 303239		#fictional Zhyrgal Enisey Kyrgyz
+	1050.1.1 = {
+		holder = kirghiz_holder_06
 	}
-	889.5.2 = {
-		holder = 303243		#fictional Kozel Enisey Kyrgyz
+	1065.1.1 = {
+		holder = kirghiz_herder_05
+		government = herder_government
 	}
-
-	916.4.28 = {
-		holder = 80000021
+	1071.1.1 = {
+		holder = fictional_kirghiz_5
 	}
-	965.4.28 = {
-		holder = 80000022
+	1130.1.1 = {
+		holder = kirghiz_herder_03
 	}
-	1005.4.28 = {
-		holder = 80000023
+	1149.1.1 = {
+		holder = enisey_kyrgyz_1
+		liege = d_khakass_hollow
+		government = nomad_government
 	}
-
-
-	#1066
-	1060.4.28 = {
-		holder = 303244		#fictional Kokotoy
-	}
-	1103.10.24 = {
-		holder = 303245		#fictional Sugr
-	}
-	1117.4.30 = {
-		holder = 303246		#fictional Kuntuvdi
-	}
-	1155.3.10 = {
-		holder = 303247		#fictional SirC_an
-	}
-	1170.10.26 = {
+	1180.12.28 = {
 		holder = 303248		#fictional SirC_an
 	}
 	1200.9.13 = {
@@ -5203,77 +5463,72 @@ c_julym = {
 	}
 }
 
-
-c_jerjul = {
-	744.1.1={
-		holder=769khirgizz
-		liege=k_mongolia
+c_jerjul = { # Yusseter
+	693.1.1 = {
+		holder = yenisei_kirghiz_001
+		government = nomad_government
 	}
-	779.1.1={
-		holder=188786
+	711.9.26 = {
+		holder = yenisei_kirghiz_002
 	}
-	789.1.1={
-		holder=188787
+	716.5.26 = {
+		holder = yenisei_kirghiz_0021
 	}
-	790.1.1={
-		holder=188788
+	755.9.27 = {
+		holder = yenisei_kirghiz_0041
 	}
-	795.1.1={
-		holder = 194191
+	795.10.7 = {
+		holder = yenisei_kirghiz_004
 	}
-	808.1.1={
-		holder = 166758
+	840.1.1 = {
+		holder = kirghiz_holder_01
+		liege = e_mongolia # Yusseter
+		#liege = e_kirghiz_khanate
 	}
-	821.1.1={
-		holder = 166759
+	905.1.1 = {
+		holder = kirghiz_holder_02
 	}
-	824.1.1={
-		holder = 166760
+	925.4.28 = {
+		liege = k_khakassia
 	}
-	832.1.1={
-		holder = 166761
+	945.1.1 = {
+		holder = kirghiz_holder_03
 	}
-	839.1.1={
-		holder = 166763
+	960.1.1 = {
+		holder = kirghiz_holder_04
 	}
-	#867
-	840.1.2 = {
+	1005.1.1 = {
+		holder = kirghiz_holder_05
+	}
+	1015.1.1 = {
 		liege = d_khakass_hollow
-		holder = 303238		#fictional Uzur Enisey Kyrgyz
-		government = tribal_government
 	}
-	871.8.19 = {
-		holder = 303239		#fictional Zhyrgal Enisey Kyrgyz
+	1050.1.1 = {
+		holder = kirghiz_holder_06
 	}
-	889.5.2 = {
-		holder = 303243		#fictional Kozel Enisey Kyrgyz
+	1065.1.1 = {
+		holder = kirghiz_herder_05
+		government = herder_government
 	}
-
-	916.4.28 = {
-		holder = 80000021
+	1071.1.1 = {
+		holder = fictional_kirghiz_5
 	}
-	965.4.28 = {
-		holder = 80000022
+	1130.1.1 = {
+		holder = kirghiz_herder_03
 	}
-	1005.4.28 = {
-		holder = 80000023
+	1149.1.1 = {
+		holder = enisey_kyrgyz_1
+		liege = d_khakass_hollow
+		government = nomad_government
 	}
-
-
-	#1066
-	1060.4.28 = {
-		holder = 303244		#fictional Kokotoy
-	}
-	1103.10.24 = {
-		holder = 303245		#fictional Sugr
-	}
-	1117.4.30 = {
-		holder = 303246		#fictional Kuntuvdi
-	}
-	1155.3.10 = {
-		holder = 303247		#fictional SirC_an
+	1052.1.1 = {
+		holder = fictional_kirghiz_8
 	}
 	1170.10.26 = {
+		holder = fictional_kirghiz_28
+		government = herder_government
+	}
+	1199.1.1 = {
 		holder = 303248		#fictional SirC_an
 	}
 	1200.9.13 = {
@@ -5287,243 +5542,172 @@ c_jerjul = {
 	}
 }
 
-
-c_kizir = {
-	744.1.1={
-		holder=769khirgizz
-		liege=k_mongolia
+c_kizir = { # Yusseter
+	693.1.1 = {
+		holder = yenisei_kirghiz_001
+		government = nomad_government
 	}
-	779.1.1={
-		holder=188786
+	711.9.26 = {
+		holder = yenisei_kirghiz_002
 	}
-	789.1.1={
-		holder=188787
+	716.5.26 = {
+		holder = yenisei_kirghiz_0021
 	}
-	790.1.1={
-		holder=188788
+	755.9.27 = {
+		holder = yenisei_kirghiz_0041
 	}
-	795.1.1={
-		holder = 194191
+	795.10.7 = {
+		holder = yenisei_kirghiz_004
 	}
-	808.1.1={
-		holder = 166758
+	840.1.1 = {
+		holder = yenisei_kirghiz_00421
+		liege = e_mongolia # Yusseter
+		#liege = e_kirghiz_khanate
 	}
-	821.1.1={
-		holder = 166759
+	857.10.7 = {
+		holder = yenisei_kirghiz_0042
 	}
-	824.1.1={
-		holder = 166760
+	873.11.14 = {
+		holder = yenisei_kirghiz_0043
 	}
-	832.1.1={
-		holder = 166761
+	878.5.19 = {
+		holder = yenisei_kirghiz_0044
 	}
-	839.1.1={
-		holder = 166763
+	901.5.24 = {
+		holder = yenisei_kirghiz_0045
 	}
-	#867
-	840.1.2 = {
-		liege = d_khakass_hollow
-		holder = 303238		#fictional Uzur Enisey Kyrgyz
-		government = tribal_government
+	925.4.28 = {
+		liege = k_khakassia
 	}
-	871.8.19 = {
-		holder = 303239		#fictional Zhyrgal Enisey Kyrgyz
-	}
-	889.5.2 = {
-		holder = 303243		#fictional Kozel Enisey Kyrgyz
-	}
-
-	916.4.28 = {
+	928.4.13 = {
 		holder = 80000021
 	}
 	965.4.28 = {
 		holder = 80000022
 	}
-	1005.4.28 = {
-		holder = 80000023
+	1005.11.30 = {
+		holder = fictional_kirghiz_6
 	}
-
-
-	#1066
-	1060.4.28 = {
-		holder = 303244		#fictional Kokotoy
+	1015.1.1 = {
+		liege = d_blue_khakassia
 	}
-	1103.10.24 = {
-		holder = 303245		#fictional Sugr
+	1040.1.1 = {
+		holder = fictional_kirghiz_7
+		liege = 0
 	}
-	1117.4.30 = {
-		holder = 303246		#fictional Kuntuvdi
-	}
-	1155.3.10 = {
-		holder = 303247		#fictional SirC_an
-	}
-	1170.10.26 = {
-		holder = 303248		#fictional SirC_an
-	}
-	1200.9.13 = {
-		holder = 303249		#fictional Kuntuvdi
-	}
-	1280.12.25 = {
-		holder = 3032499
-	}
-	1300.12.25 = {
-		holder = 3032500
+	1173.1.1 = {
+		holder = enisey_kyrgyz_2
 	}
 }
 
 
-c_anja = {
-	744.1.1={
-		holder=769khirgizz
-		liege=k_mongolia
+c_anja = { # Yusseter
+	693.1.1 = {
+		holder = yenisei_kirghiz_001
+		government = nomad_government
 	}
-	779.1.1={
-		holder=188786
+	711.9.26 = {
+		holder = yenisei_kirghiz_002
 	}
-	789.1.1={
-		holder=188787
+	716.5.26 = {
+		holder = yenisei_kirghiz_0021
 	}
-	790.1.1={
-		holder=188788
+	755.9.27 = {
+		holder = yenisei_kirghiz_0041
 	}
-	795.1.1={
-		holder = 194191
+	795.10.7 = {
+		holder = yenisei_kirghiz_004
 	}
-	808.1.1={
-		holder = 166758
+	840.1.1 = {
+		holder = yenisei_kirghiz_00421
+		liege = e_mongolia # Yusseter
+		#liege = e_kirghiz_khanate
 	}
-	821.1.1={
-		holder = 166759
+	857.10.7 = {
+		holder = yenisei_kirghiz_0042
 	}
-	824.1.1={
-		holder = 166760
+	873.11.14 = {
+		holder = yenisei_kirghiz_0043
 	}
-	832.1.1={
-		holder = 166761
+	878.5.19 = {
+		holder = yenisei_kirghiz_0044
 	}
-	839.1.1={
-		holder = 166763
+	901.5.24 = {
+		holder = yenisei_kirghiz_0045
 	}
-	#867
-	840.1.2 = {
-		liege = d_khakass_hollow
-		holder = 303238		#fictional Uzur Enisey Kyrgyz
-		government = tribal_government
+	925.4.28 = {
+		liege = k_khakassia
 	}
-	871.8.19 = {
-		holder = 303239		#fictional Zhyrgal Enisey Kyrgyz
-	}
-	889.5.2 = {
-		holder = 303243		#fictional Kozel Enisey Kyrgyz
-	}
-
-	916.4.28 = {
+	928.4.13 = {
 		holder = 80000021
 	}
 	965.4.28 = {
 		holder = 80000022
 	}
-	1005.4.28 = {
-		holder = 80000023
+	1005.11.30 = {
+		holder = fictional_kirghiz_6
 	}
-
-
-	#1066
-	1060.4.28 = {
-		holder = 303244		#fictional Kokotoy
+	1015.1.1 = {
+		liege = d_blue_khakassia
 	}
-	1103.10.24 = {
-		holder = 303245		#fictional Sugr
+	1040.1.1 = {
+		holder = fictional_kirghiz_7
+		liege = 0
 	}
-	1117.4.30 = {
-		holder = 303246		#fictional Kuntuvdi
-	}
-	1155.3.10 = {
-		holder = 303247		#fictional SirC_an
-	}
-	1170.10.26 = {
-		holder = 303248		#fictional SirC_an
-	}
-	1200.9.13 = {
-		holder = 303249		#fictional Kuntuvdi
-	}
-	1280.12.25 = {
-		holder = 3032499
-	}
-	1300.12.25 = {
-		holder = 3032500
+	1173.1.1 = {
+		holder = enisey_kyrgyz_2
 	}
 }
 
-
-c_kyzylkul = {
-	744.1.1={
-		holder=769khirgizz
-		liege=k_mongolia
+c_kyzylkul = { # Yusseter
+	693.1.1 = {
+		holder = yenisei_kirghiz_001
+		government = nomad_government
 	}
-	779.1.1={
-		holder=188786
+	711.9.26 = {
+		holder = yenisei_kirghiz_002
 	}
-	789.1.1={
-		holder=188787
+	716.5.26 = {
+		holder = yenisei_kirghiz_0021
 	}
-	790.1.1={
-		holder=188788
+	755.9.27 = {
+		holder = yenisei_kirghiz_0041
 	}
-	795.1.1={
-		holder = 194191
+	795.10.7 = {
+		holder = yenisei_kirghiz_004
 	}
-	808.1.1={
-		holder = 166758
+	847.4.5 = {
+		holder = 769khirgizz
 	}
-	821.1.1={
-		holder = 166759
+	866.8.19 = {
+		holder = 303238
 	}
-	824.1.1={
-		holder = 166760
+	899.5.2 = {
+		holder = 303240
 	}
-	832.1.1={
-		holder = 166761
+	900.1.22 = {
+		holder = 303243
 	}
-	839.1.1={
-		holder = 166763
-	}
-	#867
-	840.1.2 = {
-		liege = d_khakass_hollow
-		holder = 303238		#fictional Uzur Enisey Kyrgyz
-		government = tribal_government
-	}
-	871.8.19 = {
-		holder = 303239		#fictional Zhyrgal Enisey Kyrgyz
-	}
-	889.5.2 = {
-		holder = 303243		#fictional Kozel Enisey Kyrgyz
-	}
-
-	916.4.28 = {
+	925.4.28 = {
 		holder = 80000021
 	}
 	965.4.28 = {
 		holder = 80000022
 	}
-	1005.4.28 = {
+	1005.11.30 = {
 		holder = 80000023
 	}
-
-
-	#1066
 	1060.4.28 = {
-		holder = 303244		#fictional Kokotoy
+		holder = 303244
 	}
 	1103.10.24 = {
-		holder = 303245		#fictional Sugr
+		holder = 303245
 	}
 	1117.4.30 = {
-		holder = 303246		#fictional Kuntuvdi
+		holder = 303246
 	}
 	1155.3.10 = {
-		holder = 303247		#fictional SirC_an
+		holder = 303247
 	}
 	1170.10.26 = {
 		holder = 303248		#fictional SirC_an
@@ -5548,7 +5732,7 @@ d_shoria = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 	#867
 	860.3.27 = {
@@ -5625,77 +5809,51 @@ d_yenisei_kan = {
 	}
 }
 
-
-c_kuzbas = {
-	744.1.1={
-		holder=769khirgizz
-		liege=k_mongolia
-	}
-	779.1.1={
-		holder=188786
-	}
-	789.1.1={
-		holder=188787
-	}
-	790.1.1={
-		holder=188788
-	}
-	795.1.1={
-		holder = 194191
-	}
-	808.1.1={
-		holder = 166758
-	}
-	821.1.1={
-		holder = 166759
-	}
-	824.1.1={
-		holder = 166760
-	}
-	832.1.1={
-		holder = 166761
-	}
-	839.1.1={
-		holder = 166763
-	}
+c_kuzbas = { # Yusseter
 	#867
-	840.1.2 = {
+	823.1.1 = {
+		liege = e_mongolia # Yusseter
+		#liege = e_kirghiz_khanate
+		holder = yenisei_kirghiz_005 #fictional Uzur Enisey Kyrgyz
+		government = nomad_government
+	}
+	847.4.5 = {
+		holder = 303238
+	}
+	866.8.19 = {
+		holder = 303027
+	}
+	885.4.20 = {
+		holder = 303029		#fictional XUren Shor
+	}
+	925.4.28 = {
+		liege = k_khakassia
+	}
+	1015.1.1 = {
 		liege = d_khakass_hollow
-		holder = 303238		#fictional Uzur Enisey Kyrgyz
-		government = tribal_government
 	}
-	871.8.19 = {
-		holder = 303239		#fictional Zhyrgal Enisey Kyrgyz
-	}
-	889.5.2 = {
-		holder = 303243		#fictional Kozel Enisey Kyrgyz
-	}
-
-	916.4.28 = {
-		holder = 80000021
-	}
-	965.4.28 = {
-		holder = 80000022
-	}
-	1005.4.28 = {
-		holder = 80000023
-	}
-
 
 	#1066
-	1060.4.28 = {
-		holder = 303244		#fictional Kokotoy
+	1053.1.1 = {
+		holder = fictional_kirghiz_10	#fic to have more char and avoid domain overlimit
+		liege = k_khakassia
+		government = herder_government
 	}
-	1103.10.24 = {
-		holder = 303245		#fictional Sugr
+	1082.1.1 = {
+		holder = kirghiz_herder_01
 	}
-	1117.4.30 = {
-		holder = 303246		#fictional Kuntuvdi
+	1090.1.1 = {
+		holder = kirghiz_herder_02
 	}
-	1155.3.10 = {
-		holder = 303247		#fictional SirC_an
+	1130.1.1 = {
+		holder = kirghiz_herder_04
 	}
-	1170.10.26 = {
+	1165.1.1 = {
+		holder = enisey_kyrgyz_1
+		liege = d_khakass_hollow
+		government = nomad_government
+	}
+	1180.12.28 = {
 		holder = 303248		#fictional SirC_an
 	}
 	1200.9.13 = {
@@ -5832,7 +5990,7 @@ d_kargassia = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 
 	#867
@@ -6058,7 +6216,7 @@ c_karauda = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 
 	#867
@@ -6129,7 +6287,7 @@ c_shityy = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 
 	#867
@@ -6199,7 +6357,7 @@ c_kropot = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 
 	#867
@@ -6262,7 +6420,7 @@ c_monkh_saridag = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 
 	#867
@@ -6326,7 +6484,7 @@ c_krasnoyarsk = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 
 	#867
@@ -6387,7 +6545,7 @@ c_mana = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 
 	#867
@@ -6446,7 +6604,7 @@ c_shishina = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 
 	#867
@@ -6500,7 +6658,7 @@ c_shishina = {
 c_kansk = {
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 
 	#867
@@ -6561,7 +6719,7 @@ c_kansk = {
 c_tagul = {
 	#867#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 
 
@@ -6622,7 +6780,7 @@ c_chuna = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 
 	#867
@@ -8134,6 +8292,12 @@ k_kimek = {
 }
 
 k_cuman = {
+	581.1.1 = { # Yusseter
+		holder = ashina_201
+	}
+	586.1.1 = { # Yusseter
+		holder = 0
+	}
 
 	# Qangli - Ören as its leading clan
 	1050.1.1 = {
@@ -10904,7 +11068,7 @@ c_shchuchinsk = {
 c_teke = {
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 
 	#867
@@ -12954,7 +13118,7 @@ c_torema = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 	#New history using the Kirghiz Dynasty Paradox for some reason didn't land
 
@@ -13026,7 +13190,7 @@ c_sorok = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 	#New history using the Kirghiz Dynasty Paradox for some reason didn't land
 
@@ -13096,7 +13260,7 @@ c_kondoma = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 	#New history using the Kirghiz Dynasty Paradox for some reason didn't land
 
@@ -13166,7 +13330,7 @@ c_kyin = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 	#New history using the Kirghiz Dynasty Paradox for some reason didn't land
 
@@ -13238,7 +13402,7 @@ c_aley = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 	#New history using the Kirghiz Dynasty Paradox for some reason didn't land
 
@@ -13309,7 +13473,7 @@ c_korgon = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 	#New history using the Kirghiz Dynasty Paradox for some reason didn't land
 
@@ -13379,7 +13543,7 @@ c_terektai = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 	#New history using the Kirghiz Dynasty Paradox for some reason didn't land
 
@@ -13597,7 +13761,7 @@ c_kiia = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 
 	#867
@@ -13669,7 +13833,7 @@ c_taskyl = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 
 	#867
@@ -13787,7 +13951,7 @@ c_chulym = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 
 	#867
@@ -13889,7 +14053,7 @@ c_sochur = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 
 	#867
@@ -13948,7 +14112,7 @@ c_yenisei = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 
 	#867
@@ -14223,7 +14387,7 @@ c_sartlan = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 
 	#867
@@ -14338,7 +14502,7 @@ c_igaran = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 
 	#867
@@ -14398,7 +14562,7 @@ c_konda_ob = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 	#New history using the Kirghiz Dynasty Paradox for some reason didn't land
 
@@ -14580,7 +14744,7 @@ c_kachu = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 
 	#867
@@ -14641,7 +14805,7 @@ c_kuchuk = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 
 	#867
@@ -14879,7 +15043,7 @@ c_koksemey = {
 	}
 	864.1.16 = {
 		holder = 302720	#fictional Ayasun Koktayklan
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 	936.1.16 = {
 		holder = 194195
@@ -19791,6 +19955,7 @@ c_korchev = {
 	662.1.1 = {
 		liege = k_khazaria
 		holder = 74005
+		government = nomad_government # Yusseter
 	}
 	704.1.1 = {
 		holder = 146195
@@ -21812,9 +21977,9 @@ k_caspian_steppe = { #Uzes in CK2
 	1065.1.1 = {
 		holder = 1229733 # Sharukan
 	}
-	1082.1.1 = {
-		holder = 1229733 # Sharukan
-	}
+	#1082.1.1 = { # Yusseter
+	#	holder = 1229733 # Sharukan
+	#}
 	1107.1.1 = {
 		holder = 1229751 # Bönek I
 	}
@@ -21824,9 +21989,9 @@ k_caspian_steppe = { #Uzes in CK2
 	1116.1.1 = {
 		holder = 1229735 # Ötrök
 	}
-	1117.1.1 = {
-		holder = 1229735 # Äträk
-	}
+	#1117.1.1 = { # Yusseter
+	#	holder = 1229735 # Äträk
+	#}
 	1140.1.1 = {
 		holder = 1229752 # Sevenç
 	}
@@ -21992,9 +22157,9 @@ d_itil = {
 	1065.1.1 = {
 		holder = 1229733 # Sharukan
 	}
-	1082.1.1 = {
-		holder = 1229733 # Sharukan
-	}
+	#1082.1.1 = { # Yusseter
+	#	holder = 1229733 # Sharukan
+	#}
 	1107.1.1 = {
 		holder = 1229751 # Bönek I
 	}
@@ -22004,9 +22169,9 @@ d_itil = {
 	1116.1.1 = {
 		holder = 1229735 # Ötrök
 	}
-	1117.1.1 = {
-		holder = 1229735 # Äträk
-	}
+	#1117.1.1 = { # Yusseter
+	#	holder = 1229735 # Äträk
+	#}
 	1140.1.1 = {
 		holder = 1229752 # Sevenç
 	}
@@ -22160,9 +22325,9 @@ c_sarai = {
 	1065.1.1 = {
 		holder = 1229733 # Sharukan
 	}
-	1082.1.1 = {
-		holder = 1229733 # Sharukan
-	}
+	#1082.1.1 = { # Yusseter
+	#	holder = 1229733 # Sharukan
+	#}
 	1107.1.1 = {
 		holder = 1229751 # Bönek I
 	}
@@ -22172,9 +22337,9 @@ c_sarai = {
 	1116.1.1 = {
 		holder = 1229735 # Ötrök
 	}
-	1117.1.1 = {
-		holder = 1229735 # Äträk
-	}
+	#1117.1.1 = { # Yusseter
+	#	holder = 1229735 # Äträk
+	#}
 	1140.1.1 = {
 		holder = 1229752 # Sevenç
 	}
@@ -22320,9 +22485,9 @@ c_itil = {
 	1065.1.1 = {
 		holder = 1229733 # Sharukan
 	}
-	1082.1.1 = {
-		holder = 1229733 # Sharukan
-	}
+	#1082.1.1 = { # Yusseter
+	#	holder = 1229733 # Sharukan
+	#}
 	1107.1.1 = {
 		holder = 1229751 # Bönek I
 	}
@@ -22332,9 +22497,9 @@ c_itil = {
 	1116.1.1 = {
 		holder = 1229735 # Ötrök
 	}
-	1117.1.1 = {
-		holder = 1229735 # Äträk
-	}
+	#1117.1.1 = { # Yusseter
+	#	holder = 1229735 # Äträk
+	#}
 	1140.1.1 = {
 		holder = 1229752 # Sevenç
 	}
@@ -24003,7 +24168,7 @@ d_jalmat = {
 	831.2.9 = {
 		holder = BulgarJalmatMB5  # Malamir (eldest son of Omurtag)
 	}
-	
+
 	865.1.1 = {
 		liege = k_volga_bulgaria
 	}
@@ -38062,10 +38227,28 @@ c_juliezhou = { #居烈州/菁州/康州
 
 
 e_turan = {
-
-	990.1.1 = {
-		name = TURKESTAN
+	# Yusseter 0
+	552.1.1 = {
+		holder = ashina_05
+		government = nomad_government
 	}
+	575.1.1 = {
+		holder = ashina_06
+	}
+	603.1.1 = {
+		holder = 0
+	}
+	604.1.1 = {
+		holder = ashina_25
+	}
+	611.1.1 = {
+		holder = ashina_25
+	}
+	# Yusseter 1
+
+	#990.1.1 = { # Yusseter
+	#	name = TURKESTAN
+	#}
 
 	#906.12.1 = {
 	#	holder = 194325 #阿保机
@@ -38109,17 +38292,17 @@ e_turan = {
 
 	#A way to make sure the rulers of Kara Khitai have the proper title in history once e_turan getting used by Chagatai
 	1218.6.1 = {
-		insert_title_history = e_turan
+		#insert_title_history = e_turan # Yusseter
 	}
 
 	#Insert e_cathay as Kara Khitai was a continuation of Great Liao
 	1124.1.1 = {
-		insert_title_history = e_cathay
+		#insert_title_history = e_cathay # Yusseter
 		effect = { set_capital_county = title:c_balashagun set_coa = e_kara_khitai set_color_from_title = title:e_kara_khitai }
 	}
 	1125.1.1 = {
 		holder = 188905	#Yelü Dashi = Emperor Dezong
-		name = KHITAI
+		#name = KHITAI # Yusseter
 		government = tribal_government #Ulus in DLC
 	}
 
@@ -38142,7 +38325,7 @@ e_turan = {
 	#Mongols
 	1218.6.1 = {
 		holder = 0
-		name = CHAGATAI
+		#name = CHAGATAI # Yusseter
 	}
 
 	1227.12.2 = {
@@ -46274,7 +46457,7 @@ c_barkul = {
 	}
 	#Kirghiz khanate
 	840.1.1 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 	850.1.1 = {
 		holder = 1413503
@@ -47239,7 +47422,7 @@ c_narym_DZU = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 
 	866.10.1 = {
@@ -47397,7 +47580,7 @@ c_torangy_kul = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 
 	866.10.1 = {
@@ -47737,7 +47920,7 @@ c_balgun = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 	905.12.8  = {
 		holder = 936Uyghur2
@@ -47806,7 +47989,7 @@ c_kara_asirgan = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 	905.12.8  = {
 		holder = 936Uyghur2
@@ -47852,7 +48035,7 @@ c_boro_burgasu = {
 	}
 	#Kirghiz khanate
 	840.1.2 = {
-		liege = e_kirghiz_khanate
+		liege = e_mongolia # Yusseter: e_kirghiz_khanate
 	}
 	850.1.1 = {
 		holder = 1413503
@@ -74382,3 +74565,5 @@ c_tezu = {
 
 }
 
+
+# Yusseter: From MBP 2025.08.30

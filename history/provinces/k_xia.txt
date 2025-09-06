@@ -423,9 +423,17 @@
 	holding = castle_holding
 	
 	# History
-	700.1.1 = {
+	#700.1.1 = { # Yusseter
+	#	religion = maturidi
+	#	culture = salar #Salar
+	#}
+	1050.1.1 = { # Yusseter
+		culture = turkish
+		religion = tengri_pagan
+	}
+	1100.1.1 = { # Yusseter
+		culture = salar
 		religion = maturidi
-		culture = salar #Salar
 	}
 }
 9420 = {	# Yadzi (Xunhu)
@@ -785,12 +793,14 @@
 ###c_shazhou
 9476 = {	# Shazhou (Dunhuang/Dukhan)
 	# Misc
-	culture = sogdian
+	culture = tocharian # Yusseter
+	#culture = sogdian
 	religion = vijna
 	
 	holding = castle_holding
 	
 	# History
+	890.1.1 = {culture = sogdian } # Yusseter
 	1050.1.1 = {
 		culture = tangut
 	}
@@ -805,12 +815,14 @@
 ###c_yumenguan
 9474 = {	# Yumenguan
 	# Misc
-	culture = han
+	culture = tocharian # Yusseter
+	#culture = han
 	religion = mahayana
 	
 	holding = castle_holding
 	
 	# History
+	860.1.1 = { culture = sogdian } # Yusseter
 	1066.1.1 = {
 		buildings = {
 			outposts_02
@@ -818,6 +830,7 @@
 		}
 	}
 	1140.1.1 = {
+		culture = han # Yusseter
 		religion = sakya 
 	}
 }
@@ -874,3 +887,5 @@
 9470 = {	# Takoerpasitao, Jianshe
 	holding = none #nomad
 }
+
+# Yusseter: From MBP 2025.08.30

@@ -18,12 +18,12 @@
 	religion = irenopolis_melkite
 	
 	# History
-867.1.1 = { religion = sufri } #to cover the rebellion
-900.1.1 = { religion = irenopolis_melkite }
-1375.1.1 = {
-	culture = kurdish
-	religion = yazidi
-}
+	867.1.1 = { religion = sufri } #to cover the rebellion
+	900.1.1 = { religion = irenopolis_melkite }
+	1375.1.1 = {
+		culture = kurdish
+		religion = yazidi
+	}
 }
 
 # 4812 - FISHABUR
@@ -217,7 +217,8 @@
 
 # 4845 - NASIBIN
 4845 = {	# Misc
-	culture = kurdish
+	culture = syromesopotamian # Yusseter
+	#culture = kurdish
 	religion = jacobite
 	
 	# History
@@ -245,10 +246,10 @@
 	religion = nestorian
 	
 	# History
-1250.1.1 = { 
-	culture = kurdish
-	religion = ashari
-}
+	1250.1.1 = { 
+		culture = kurdish
+		religion = ashari
+	}
 
 }
 
@@ -328,9 +329,9 @@
 	
 	# History
 1110.1.1 = { 
-	culture = kurdish
-	religion = ashari
-}
+		culture = kurdish
+		religion = ashari
+	}
 
 }
 
@@ -353,7 +354,7 @@
 	religion = nestorian
 	
 	# History
-	1086.1.1 = {
+	1300.1.1 = { # Yusseter: 1086.1.1
 		culture = kurdish
 		religion = ashari
 	}
@@ -370,7 +371,7 @@
 	# History
 	873.1.1 = { religion = paulician }
 	970.1.1 = { religion = armenian_apostolic }
-	1097.8.26 = {
+	1300.1.1 = { # Yusseter: 1097.8.26
 		religion = ashari 
 		culture = kurdish
 	}
@@ -405,7 +406,11 @@ religion = jacobite
 	special_building_slot = fortress_amida_01
 	special_building = fortress_amida_01
 	}
-	1164.1.1 = {
+	1150.1.1 = { # Yusseter
+		culture = syromesopotamian_turkish 
+		religion = ashari 
+	}
+	1300.1.1 = { # Yusseter: 1164.1.1
 		culture = kurdish
 		religion = ashari 
 	}
@@ -431,15 +436,16 @@ religion = jacobite
 4869 = {	# 4869 - Edessa
 	
 	# Misc
-culture = syriac
+culture = assyrian # Yusseter
+#culture = syriac
 religion = jacobite
 	
 	# History
 	1030.1.1 = { 
-	culture = armenian 
-	religion = armenian_apostolic
-}
-	1170.1.1 = {
+		culture = armenian 
+		religion = armenian_apostolic
+	}
+	1400.1.1 = { # Yusseter: 1170.1.1
 		culture = kurdish
 		religion = ashari
 	}
@@ -680,3 +686,4 @@ religion = jacobite
 
 }
 
+# Yusseter: From MBP 2025.08.30

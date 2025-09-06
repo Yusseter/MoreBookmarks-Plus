@@ -205,7 +205,8 @@
 ##d_azerbaijan ###################################
 ###c_tabriz
 4537 = {	#Tabriz
-	culture = kurdish
+	culture = azeri # Yusseter
+	#culture = kurdish
 	religion = khurramism
 	holding = castle_holding
 	
@@ -228,6 +229,9 @@
 			hunting_grounds_01
 			military_camps_01
 		}
+	}
+	1150.1.1 = { # Yusseter
+		culture = azerbaijan_turkish
 	}
 }
 4536 = {	#Marand
@@ -294,9 +298,12 @@
 	870.1.1 = {
 		religion = ashari
 	}
-	1160.1.1 = {	
-		culture = persian_turkish 
+	1150.1.1 = { # Yusseter
+		culture = azerbaijan_turkish
 	}
+	#1160.1.1 = { # Yusseter
+	#	culture = persian_turkish 
+	#}
 	
 }
 4003 = {	#Kursara
@@ -335,7 +342,8 @@
 
 ###c_urmiya
 4771 = {	#Urmiya
-	culture = kurdish
+	culture = azeri # Yusseter
+	#culture = kurdish
 	religion = khurramism
 	holding = castle_holding
 	900.1.1 = { religion = ashari }
@@ -494,3 +502,5 @@
 5793 = {	#Barzand
 	holding = city_holding
 }
+
+# Yusseter: From MBP 2025.08.30

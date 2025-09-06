@@ -167,6 +167,10 @@
 	religion = gayomarthianism
 	holding = castle_holding
 	special_building_slot = shah_i_zinda_01
+	820.1.1 = { # Yusseter
+		culture = tajik
+		religion = maturidi
+	}
 	867.1.1 = {
 		buildings = {
 			castle_03
@@ -174,10 +178,10 @@
 			plantations_01
 		}
 	}
-	900.1.1 = {
-		religion = maturidi
-		culture = tajik
-	}	
+	#900.1.1 = { # Yusseter
+	#	religion = maturidi
+	#	culture = tajik
+	#}	
 	1066.1.1 = {		
 		buildings = {
 			cereal_fields_01
@@ -327,15 +331,19 @@
 ##d_khuttal ###################################
 ###c_khuttal
 4378 = {	#Pargar
-	culture = sogdian
+	culture = pamiri # Yusseter
+	#culture = sogdian
 	religion = mahayana
 	holding = castle_holding
-	900.1.1 = {
-		culture = tajik
-	}
+	#900.1.1 = { # Yusseter
+	#	culture = tajik
+	#}
 	1000.1.1 = {
 		religion = maturidi
 	}	
+	1100.1.1 = { # Yusseter
+		culture = tajik
+	}
 }
 4379 = {	#Hulbuk
 	holding = city_holding
@@ -408,7 +416,8 @@
 	religion = mahayana
 	holding = castle_holding
 	900.1.1 = {
-		culture = tajik
+		culture = pamiri # Yusseter
+		#culture = tajik
 	}
 	1000.1.1 = {
 		religion = maturidi
@@ -839,3 +848,5 @@
 4533 = {	#Nebit dag
 	holding = none
 }
+
+# Yusseter: From MBP 2025.08.30

@@ -18,6 +18,7 @@
 	934.1.1 = {
 		religion = maturidi
 	}
+	1066.1.1 = { religion = manichean } # Yusseter
 	1134.1.1 = {
 		culture = qitai
 		religion = kegon
@@ -42,11 +43,13 @@
 7164 = {	# 7164 - Almaty
 	
 	# Misc
-	culture = turgesh
+	culture = saka # Yusseter
+	#culture = turgesh
     religion = tengri_pagan
 
+	700.1.1 = { culture = chigil } # Yusseter
     900.1.1 = {
-        culture = chigil
+        #culture = chigil # Yusseter
         religion = nestorian
     }
 	
@@ -220,7 +223,8 @@
 7181 = {	# 7181 - Chuguchak
 	
 	# Misc
-	culture = kimek
+	culture = karluk # Yusseter
+	#culture = kimek
 	religion = tengri_pagan
 	
 	#holding = castle_holding
@@ -253,15 +257,18 @@
 7178 = {	# 7178 - Kokpekty
 	
 	# Misc
-	culture = kimek
+	culture = karluk # Yusseter
+	#culture = kimek
 	religion = tengri_pagan
 	
 	#holding = castle_holding
 	
 	# History
+	796.1.1 = { religion = manichean } # Yusseter
 	1066.1.1 = {
 		culture = kirghiz
 	}
+	1100.1.1 = { religion = tengri_pagan } # Yusseter
 	1250.1.1 = { 
 		culture = oirat
 	}
@@ -319,6 +326,7 @@
 	}
 	1066.1.1 = {
 		culture = kirghiz
+		religion = manichean # Yusseter
 	}
 	1220.1.1 = {
 		culture = oirat
@@ -544,3 +552,5 @@
 	#Based on river Kunges, found on map AAA, east of "Kuldza"
 	holding = none
 }
+
+# Yusseter: From MBP 2025.08.30

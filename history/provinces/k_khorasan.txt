@@ -360,10 +360,12 @@
 
 ###c_zamm
 4247 = {	#Zamm
-	culture = tajik
+	culture = sogdian # Yusseter
+	#culture = tajik
 	religion = mazdayasna
 	holding = castle_holding
 	960.1.1 = {
+		culture = tajik # Yusseter
 		religion = karrami
 	}
 	1250.1.1 = {
@@ -766,3 +768,5 @@
 4070 = {	#Khur
 	holding = none
 }
+
+# Yusseter: From MBP 2025.08.30

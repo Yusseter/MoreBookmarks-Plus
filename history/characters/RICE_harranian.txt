@@ -757,7 +757,8 @@ RICE_nabati_001 = {
 	name = "abu_bakr_ahmad"
 	dynasty = dynasty_RICE_ibn_wahshiyya_nabataean
 	religion = "ashari"
-	culture = "nabati"
+	culture = mandaic # Yusseter
+	#culture = "nabati"
 	trait = RICE_the_nabataean
 	trait = education_learning_4
 	trait = intellect_good_1
@@ -784,3 +785,5 @@ RICE_nabati_001 = {
 		death = yes
 	}
 }
+
+# Yusseter: From RICE 2025.09.05

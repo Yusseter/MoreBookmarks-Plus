@@ -164,6 +164,8 @@ lakes = LIST { 7513 }	#Dzungar lakes
 # Can be colored by whoever owns the most of the province's neighbours.
 # Blocks unit movement.
 
+impassable_mountains = LIST { 14199 14200 14201 14202 14203 14204 14205 14206 14207 } # Yusseter
+
 #Africa
 impassable_mountains = LIST { 1049 1050 1051 1068 1080 1088 1089 3294 }
 impassable_mountains = RANGE { 790 807 }
@@ -356,4 +358,4 @@ impassable_mountains = RANGE { 13422 13426 }
 #Various seas that get marked as impassable. Mainly for large expanses of ocean (ships going from Ireland to Iberia, for example, would generally stick to the French coast rather than go directly south into the open ocean) that shouldn't be traversable in this time period or other dangerous areas that were impassable till later advancements.
 impassable_seas = LIST { 13506 10808 10822 10827 10817 10554 13919 13920 13514 13513 8625 8624 8623 991 13496 14103 8688 8689}
 
-
+# Yusseter: From MBP 2025.08.30

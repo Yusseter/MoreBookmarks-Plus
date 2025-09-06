@@ -14,6 +14,7 @@ setup_tributaries_effect = {
 	#DLC enabled tribs - these are nomadic/herder tribs
 
 	if = {
+        limit = { has_mpo_dlc_trigger = yes } # Yusseter
 		#limit = { has_mpo_dlc_trigger = yes	} # Honestly I'm fine with nomads getting regular tribs even without the DLC but I'm still going to keep them separate from the other trigger for organization
 
 		if = {
@@ -135,6 +136,7 @@ setup_tributaries_effect = {
 	#All other tribs. Everyone outside the steppe
 
 	if = {
+        limit = { game_start_date > 2.2.2 } # Yusseter
 		if = {
     		limit = { game_start_date >= 769.1.1 game_start_date <= 769.12.31 }		# 769
     		base_769_tributary_setup_effect = yes
@@ -338,6 +340,9 @@ mpo_769_tributary_setup_effect = {
 
     title:e_mongolia.holder = {
         save_scope_as = suzerain
+		title:d_khakass_hollow.holder = { # Yusseter
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
         title:d_kentarlau.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
@@ -362,9 +367,9 @@ mpo_769_tributary_setup_effect = {
 		title:d_gobi_altai.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_krasnoyarsk.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
+		#title:c_krasnoyarsk.holder = { # Yusseter
+        #    break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        #}
 		title:d_yenisei_kan.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
@@ -529,8 +534,32 @@ mpo_867_tributary_setup_effect = {
 	#}
 
     # E_KIRGHIZ_KHANATE
-    title:e_kirghiz_khanate.holder = {
+    title:e_mongolia.holder = { # Yusseter: e_kirghiz_khanate
         save_scope_as = suzerain
+		title:c_mumo.holder = { # Yusseter: d_otuken
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+        title:d_uroghu_china.holder = { # Yusseter
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+        title:k_dzungaria.holder = { # Yusseter
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+        title:d_tarbagatai.holder = { # Yusseter
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+        title:d_alakol.holder = { # Yusseter
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+        title:d_jinghiz.holder = { # Yusseter
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+        title:c_sasyk_kul.holder = { # Yusseter
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+        title:d_kentarlau.holder = { # Yusseter
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
         title:k_altai.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
@@ -600,27 +629,27 @@ mpo_867_tributary_setup_effect = {
 		title:c_altay.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_tarvagatai.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-		title:c_uvs_nuur.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-		title:c_ulaangom.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-		title:d_tannu_ola.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
+		#title:c_tarvagatai.holder = { # Yusseter
+        #    break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        #}
+		#title:c_uvs_nuur.holder = { # Yusseter
+        #    break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        #}
+		#title:c_ulaangom.holder = { # Yusseter
+        #    break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        #}
+		#title:d_tannu_ola.holder = { # Yusseter
+        #    break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        #}
 		title:d_yijinai.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:d_togina.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-		title:d_khovsgol.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
+		#title:d_togina.holder = { # Yusseter
+        #    break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        #}
+		#title:d_khovsgol.holder = { # Yusseter
+        #    break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        #}
 		title:c_agairik.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
@@ -1601,6 +1630,18 @@ mpo_1066_tributary_setup_effect = {
         }
     }
 
+	character:303013 = { # Yusseter
+		create_confederation = {
+			name = SAYAN_CONFED
+		}
+	}
+	character:303013.confederation = { # Yusseter
+		add_confederation_member = character:303083
+		add_confederation_member = character:303090
+		add_confederation_member = character:303062
+		add_confederation_member = character:303033
+	}
+
 	#title:e_caspian-pontic_steppe.holder = { #
     #    save_scope_as = suzerain
     #    title:k_cuman.holder = {
@@ -2542,12 +2583,12 @@ mpo_1124_tributary_setup_effect = {
 		title:c_golden_hills.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_astrakhan.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-		title:d_badach.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
+		#title:c_astrakhan.holder = { # Yusseter
+        #    break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        #}
+		#title:d_badach.holder = { # Yusseter
+        #    break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        #}
 		title:d_bugeac.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
@@ -2610,6 +2651,12 @@ mpo_1124_tributary_setup_effect = {
 
 	title:k_caspian_steppe.holder = {
         save_scope_as = suzerain
+		title:c_astrakhan.holder = { # Yusseter
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+		title:d_badach.holder = { # Yusseter
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
         title:d_jemba.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
@@ -2815,12 +2862,12 @@ mpo_1144_tributary_setup_effect = {
 		title:c_golden_hills.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_astrakhan.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-		title:d_badach.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
+		#title:c_astrakhan.holder = { # Yusseter
+        #    break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        #}
+		#title:d_badach.holder = { # Yusseter
+        #    break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        #}
 		title:d_bugeac.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
@@ -2883,6 +2930,12 @@ mpo_1144_tributary_setup_effect = {
 
 	title:k_caspian_steppe.holder = {
         save_scope_as = suzerain
+		title:c_astrakhan.holder = { # Yusseter
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+		title:d_badach.holder = { # Yusseter
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
         title:d_jemba.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
@@ -3078,12 +3131,12 @@ mpo_1166_tributary_setup_effect = {
 		title:c_golden_hills.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_astrakhan.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-		title:d_badach.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
+		#title:c_astrakhan.holder = { # Yusseter
+        #    break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        #}
+		#title:d_badach.holder = { # Yusseter
+        #    break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        #}
 		title:d_bugeac.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
@@ -3146,6 +3199,12 @@ mpo_1166_tributary_setup_effect = {
 
 	title:k_caspian_steppe.holder = {
         save_scope_as = suzerain
+		title:c_astrakhan.holder = { # Yusseter
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+		title:d_badach.holder = { # Yusseter
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
         title:d_jemba.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
@@ -3331,12 +3390,12 @@ mpo_1171_tributary_setup_effect = {
 		title:c_golden_hills.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_astrakhan.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-		title:d_badach.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
+		#title:c_astrakhan.holder = { # Yusseter
+        #    break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        #}
+		#title:d_badach.holder = { # Yusseter
+        #    break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        #}
 		title:d_bugeac.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
@@ -3399,6 +3458,12 @@ mpo_1171_tributary_setup_effect = {
 
 	title:k_caspian_steppe.holder = {
         save_scope_as = suzerain
+		title:c_astrakhan.holder = { # Yusseter
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+		title:d_badach.holder = { # Yusseter
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
         title:d_jemba.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
@@ -3432,6 +3497,13 @@ mpo_1171_tributary_setup_effect = {
 
 mpo_1178_tributary_setup_effect = {
 
+    # D_KHAKASS_HOLLOW
+    title:d_khakass_hollow.holder = { # Yusseter
+        save_scope_as = suzerain
+		title:d_blue_khakassia.holder = {
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+    }
 
     # E_TURAN
     title:e_turan.holder = {
@@ -3566,12 +3638,12 @@ mpo_1178_tributary_setup_effect = {
 		title:c_golden_hills.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_astrakhan.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-		title:d_badach.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
+		#title:c_astrakhan.holder = { # Yusseter
+        #    break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        #}
+		#title:d_badach.holder = { # Yusseter
+        #    break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        #}
 		title:d_bugeac.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
@@ -3634,6 +3706,12 @@ mpo_1178_tributary_setup_effect = {
 
 	title:k_caspian_steppe.holder = {
         save_scope_as = suzerain
+		title:c_astrakhan.holder = { # Yusseter
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+		title:d_badach.holder = { # Yusseter
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
         title:d_jemba.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
@@ -3801,12 +3879,12 @@ mpo_1187_tributary_setup_effect = {
 		title:c_golden_hills.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_astrakhan.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-		title:d_badach.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
+		#title:c_astrakhan.holder = { # Yusseter
+        #    break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        #}
+		#title:d_badach.holder = { # Yusseter
+        #    break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        #}
 		title:d_bugeac.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
@@ -3863,6 +3941,12 @@ mpo_1187_tributary_setup_effect = {
 
 	title:k_caspian_steppe.holder = {
         save_scope_as = suzerain
+		title:c_astrakhan.holder = { # Yusseter
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+		title:d_badach.holder = { # Yusseter
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
         title:d_jemba.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
@@ -4005,12 +4089,12 @@ mpo_1194_tributary_setup_effect = {
 		title:c_golden_hills.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_astrakhan.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-		title:d_badach.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
+		#title:c_astrakhan.holder = { # Yusseter
+        #    break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        #}
+		#title:d_badach.holder = { # Yusseter
+        #    break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        #}
 		title:d_bugeac.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
@@ -4073,6 +4157,12 @@ mpo_1194_tributary_setup_effect = {
 
 	title:k_caspian_steppe.holder = {
         save_scope_as = suzerain
+		title:c_astrakhan.holder = { # Yusseter
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+		title:d_badach.holder = { # Yusseter
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
         title:d_jemba.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
@@ -4239,12 +4329,12 @@ mpo_1204_tributary_setup_effect = {
 		title:c_golden_hills.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_astrakhan.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-		title:d_badach.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
+		#title:c_astrakhan.holder = { # Yusseter
+        #    break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        #}
+		#title:d_badach.holder = { # Yusseter
+        #    break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        #}
 		title:d_bugeac.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
@@ -4307,6 +4397,12 @@ mpo_1204_tributary_setup_effect = {
 
 	title:k_caspian_steppe.holder = {
         save_scope_as = suzerain
+		title:c_astrakhan.holder = { # Yusseter
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+		title:d_badach.holder = { # Yusseter
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
         title:d_jemba.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
@@ -4482,12 +4578,12 @@ mpo_1211_tributary_setup_effect = {
 		title:c_golden_hills.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_astrakhan.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-		title:d_badach.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
+		#title:c_astrakhan.holder = { # Yusseter
+        #    break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        #}
+		#title:d_badach.holder = { # Yusseter
+        #    break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        #}
 		title:d_bugeac.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
@@ -4541,6 +4637,12 @@ mpo_1211_tributary_setup_effect = {
 
 	title:k_caspian_steppe.holder = {
         save_scope_as = suzerain
+		title:c_astrakhan.holder = { # Yusseter
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+		title:d_badach.holder = { # Yusseter
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
         title:d_jemba.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
@@ -4769,12 +4871,12 @@ mpo_1220_tributary_setup_effect = {
 		title:c_golden_hills.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_astrakhan.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-		title:d_badach.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
+		#title:c_astrakhan.holder = { # Yusseter
+        #    break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        #}
+		#title:d_badach.holder = { # Yusseter
+        #    break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        #}
 		title:d_bugeac.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
@@ -4813,6 +4915,12 @@ mpo_1220_tributary_setup_effect = {
 
 	title:k_caspian_steppe.holder = {
         save_scope_as = suzerain
+		title:c_astrakhan.holder = { # Yusseter
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+		title:d_badach.holder = { # Yusseter
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
         title:d_jemba.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
@@ -12434,7 +12542,7 @@ base_1124_tributary_setup_effect = {
 		title:d_aleppo.holder = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
-		title:d_damasscus.holder = {
+		title:d_damascus.holder = { # Yusseter: title:d_damasscus.holder
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
     }
@@ -14677,6 +14785,9 @@ base_1178_tributary_setup_effect = {
     # K_EGYPT
     title:k_egypt.holder = {
         save_scope_as = suzerain
+        title:c_barqa.holder = { # Yusseter
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
         title:d_amman.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
@@ -22020,3 +22131,5 @@ base_1337_tributary_setup_effect = {
 #	}
 #}
 #
+
+# Yusseter: From MBP 2025.09.05

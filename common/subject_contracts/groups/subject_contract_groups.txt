@@ -68,7 +68,8 @@ tributary_settled = {
 	is_tributary = yes
 	suzerain_line_type = line_suzerain
 	tributary_line_type = line_tributary
-	should_show_as_suzerain_realm_name = yes
+	should_show_as_suzerain_realm_name = no # Yusseter
+	#should_show_as_suzerain_realm_name = yes
 	should_show_as_suzerain_realm_color = yes
 	
 	contracts = {
@@ -101,7 +102,8 @@ tributary_subjugated = {
 	suzerain_heir_succession = no
 	suzerain_line_type = line_suzerain
 	tributary_line_type = line_tributary
-	should_show_as_suzerain_realm_name = yes # Was no. This makes the suzerains name go over their tributaries like in CK2 which is a bit better to notice at a glance than only seeing the colors are somewhat similar (especially when so many titles in a region may have similar colors anyway)
+	should_show_as_suzerain_realm_name = no # Yusseter
+	#should_show_as_suzerain_realm_name = yes # Was no. This makes the suzerains name go over their tributaries like in CK2 which is a bit better to notice at a glance than only seeing the colors are somewhat similar (especially when so many titles in a region may have similar colors anyway)
 	should_show_as_suzerain_realm_color = yes
 
 	contracts = {
@@ -117,3 +119,5 @@ herder_vassal = {
 		herder_government_obligations
 	}
 }
+
+# Yusseter: From MBP 2025.08.30

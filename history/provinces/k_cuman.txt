@@ -212,12 +212,14 @@
 7035 = {	# 7035 - Petropavl
 	
 	# Misc
-	culture = kimek
+	culture = kangly # Yusseter
+	#culture = kimek
 	religion = tengri_pagan
 	
 	#holding = castle_holding
 	
 	# History
+	1050.1.1 = { culture = kimek } # Yusseter
 	 
 }
 7019 = {	#Uktuz
@@ -249,12 +251,14 @@
 }
 7356 = {	#Abugan
 	# Misc
-	culture = kimek
+	culture = kangly # Yusseter
+	#culture = kimek
 	religion = tengri_pagan
 	
 	#holding = castle_holding
 	
 	# History
+	1050.1.1 = { culture = kimek } # Yusseter
 }
 7253 = {	#Kamichly Kul
 	#Lake "Kamychly Koul" on map BBB, south-west of "Koustana�"
@@ -287,12 +291,14 @@
 7026 = {	# 7026 - Karasu
 	
 	# Misc
-	culture = kimek
+	culture = kangly # Yusseter
+	#culture = kimek
 	religion = tengri_pagan
 	
 	#holding = castle_holding
 	
 	# History
+	1050.1.1 = { culture = kimek } # Yusseter
 	 
 
 }
@@ -462,21 +468,23 @@
 }
 7040 = {	#Astrakhanka
 	# Misc
-	culture = kipchak
+	culture = kangly # Yusseter
+	#culture = kipchak
 	religion = tengri_pagan
 	
 	#holding = castle_holding
 	
 	# History
-	867.1.1 = {
-		culture = kimek
-	}
+	#867.1.1 = { # Yusseter
+	#	culture = kimek
+	#}
 	1000.1.2 = {
 		culture = cuman
 	}
-	1066.1.2 = {
-		culture = kimek
-	}
+	1050.1.1 = { culture = kimek } # Yusseter
+	#1066.1.2 = { # Yusseter
+	#	culture = kimek
+	#}
 }
 #7041
 7288 = {	#Bulandy
@@ -502,12 +510,14 @@
 7036 = {	#Kafa
 	#Mostly placeholder
 	# Misc
-	culture = kimek
+	culture = kangly # Yusseter
+	#culture = kimek
 	religion = tengri_pagan
 	
 	#holding = castle_holding
 	
 	# History
+	1050.1.1 = { culture = kimek } # Yusseter
 }
 7037 = {	#Kokchetav	AKA Kokshetau
 	holding = none
@@ -519,12 +529,14 @@
 7357 = {	#Jangyztau
 	#As "Djangyz Taou" on map BBB, north of Atbasar, latitude 49�
 	# Misc
-	culture = kimek
+	culture = kangly # Yusseter
+	#culture = kimek
 	religion = tengri_pagan
 	
 	#holding = castle_holding
 	
 	# History
+	1050.1.1 = { culture = kimek } # Yusseter
 }
 7358 = {	#Burluk
 	#Mostly placeholder
@@ -536,21 +548,23 @@
 7059 = {	# 7059 - Shchuchinsk
 	
 	# Misc
-	culture = kipchak
+	culture = kangly # Yusseter
+	#culture = kipchak
 	religion = tengri_pagan
 	
 	#holding = castle_holding
 	
 	# History
-	867.1.1 = {
-		culture = kimek
-	}
+	#867.1.1 = { # Yusseter
+	#	culture = kimek
+	#}
 	1000.1.2 = {
 		culture = cuman
 	}
-	1066.1.2 = {
-		culture = kimek
-	}
+	1050.1.1 = { culture = kimek } # Yusseter
+	#1066.1.2 = { # Yusseter
+	#	culture = kimek
+	#}
 }
 
 7060 = {	#Koksengrisor
@@ -584,3 +598,5 @@
 	#Mostly placeholder
 	holding = none
 }
+
+# Yusseter: From MBP 2025.08.30

@@ -1249,12 +1249,19 @@ special_genes = {
 				index = 49
 				male = {
 					2 = m_hair_fp3_iranian_01 #Long split strands
-					2 = m_hair_fp3_iranian_02 #Seljuk Braids
-					2 = m_hair_fp3_iranian_03 #Medium wavy ends
-
+					# Yusseter 0
+					2 = male_hair_fp2_iberian_muslim_03
+					2 = male_hair_turkic_05
+					1 = m_hair_mpo_mongol_02
+					1 = cfp_male_hair_steppe_04
+					1 = cfp_male_hair_turkic_01
+					#2 = m_hair_fp3_iranian_02 #Seljuk Braids
+					#2 = m_hair_fp3_iranian_03 #Medium wavy ends
+					# Yusseter 1
 				}
 
 				female = {
+					4 = f_hair_sp4_mena_01 # Yusseter
 					2 = f_hair_fp3_iranian_02 #Long split strands with earring
 					2 = f_hair_fp3_iranian_03_common #Medium buns with earrings
 
@@ -1266,12 +1273,18 @@ special_genes = {
 			fp3_hairstyles_turkic_wavy = {
 				index = 50
 				male = {
-					2 = m_hair_fp3_iranian_02 #Seljuk Braids
+					# Yusseter 0
+					1 = m_hair_mpo_mongol_02
+					1 = cfp_male_hair_steppe_04
+					1 = cfp_male_hair_turkic_01
+					#2 = m_hair_fp3_iranian_02 #Seljuk Braids
+					# Yusseter 1
 					1 = m_hair_fp3_iranian_03 #Medium wavy ends
 
 				}
 
 				female = {
+					4 = f_hair_sp4_mena_01 # Yusseter
 					2 = f_hair_fp3_iranian_01_common #Medium wavy with earrings
 					2 = f_hair_fp3_iranian_03_common #Medium buns with earrings
 
@@ -2142,7 +2155,7 @@ special_genes = {
 			##########################################################################
 			####Eastern Turkic/Default Turk 
 			##########################################################################	
-				
+
 			turkic_hairstyles_straight = {
 				index = 84
 				male = {
@@ -2152,8 +2165,8 @@ special_genes = {
 					4 = male_hair_turkic_04	
 					4 = male_hair_turkic_05				
 					1 = male_hair_turkic_06
-					4 = m_hair_fp3_iranian_02 #Seljuk Braids
-					4 = m_hair_fp3_iranian_01 #Long split strands				
+					#4 = m_hair_fp3_iranian_02 #Seljuk Braids # Yusseter
+					#4 = m_hair_fp3_iranian_01 #Long split strands # Yusseter
 					#1 = male_hair_steppe_02
 				}
 
@@ -2161,13 +2174,13 @@ special_genes = {
 					2 = female_hair_steppe_01
 					2 = female_hair_steppe_02
 					2 = female_hair_turkic_01
-					2 = female_hair_sogdian_03	
+					2 = female_hair_sogdian_03
 					2 = female_hair_sogdian_04
-					1 = female_hair_custom_03		
+					1 = female_hair_custom_03
 					1 = female_hair_custom_07
 					1 = female_hair_custom_08
-					2 = f_hair_fp3_iranian_02_common #Long split strands with earring
-					2 = f_hair_fp3_iranian_02_common #Long split strands with earrings	
+					#2 = f_hair_fp3_iranian_02_common #Long split strands with earring # Yusseter
+					#2 = f_hair_fp3_iranian_02_common #Long split strands with earrings	# Yusseter
 				}
 				boy = male
 				girl = female
@@ -2176,8 +2189,8 @@ special_genes = {
 			turkic_hairstyles_wavy = {
 				index = 85
 				male = {
-					4 = m_hair_fp3_iranian_01 #Long split strands
-					4 = m_hair_fp3_iranian_02 #Seljuk Braids
+					#4 = m_hair_fp3_iranian_01 #Long split strands # Yusseter
+					#4 = m_hair_fp3_iranian_02 #Seljuk Braids # Yusseter
 					4 = male_hair_turkic_01
 					4 = male_hair_turkic_02	
 					4 = male_hair_turkic_03		
@@ -2209,12 +2222,18 @@ special_genes = {
 				index = 86
 				male = {
 					#weight = <object in gfx/portrait/accessories/>
-					#4 = male_hair_turkic_02	
-					2 = male_hair_mena_02 # Behind head long curly		
-					2 = male_hair_mena_01 # Short curly
-					2 = male_hair_mena_03 # Curly ball
-					2 = male_hair_mena_04 # Medium curly
-					2 = m_hair_fp3_iranian_02 #Seljuk Braids
+					# Yusseter 0
+					1 = male_hair_turkic_01
+					2 = male_hair_turkic_02	
+					1 = m_hair_mpo_mongol_03
+					1 = cfp_male_hair_steppe_04
+					1 = cfp_male_hair_turkic_01
+					#2 = male_hair_mena_02 # Behind head long curly		
+					#2 = male_hair_mena_01 # Short curly
+					#2 = male_hair_mena_03 # Curly ball
+					#2 = male_hair_mena_04 # Medium curly
+					#2 = m_hair_fp3_iranian_02 #Seljuk Braids
+					# Yusseter 1
 				}
 
 				female = {
@@ -2850,9 +2869,37 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-			
-			
-			
+
+			yb_muslim_turkic_hairstyles = { # Yusseter
+				index = 156
+				male = {
+					1 = male_hair_turkic_01
+					1 = male_hair_turkic_02	
+					1 = male_hair_turkic_03
+					2 = m_hair_sp4_mena_01
+					2 = m_hair_fp3_iranian_01 #Long split strands	
+					2 = m_hair_fp3_iranian_02 #Seljuk Braids
+				}
+
+				female = {
+					1 = female_hair_turkic_01
+					2 = female_hair_sogdian_01
+					2 = female_hair_sogdian_02
+					1 = female_hair_sogdian_03	
+					1 = female_hair_sogdian_04
+					1 = female_hair_custom_03		
+					1 = female_hair_custom_07
+					1 = female_hair_custom_08
+					2 = f_hair_sp4_mena_01
+					2 = f_hair_fp3_iranian_01_common #Medium Curls
+					2 = f_hair_fp3_iranian_02_common #Long split strands with earring
+				}
+				boy = male
+				girl = female
+			}
 		}
+
 	}
 }
+
+# Yusseter: From MBP + EPE + CFP 2025.09.03

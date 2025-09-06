@@ -62,7 +62,10 @@
 	# History
 	867.1.1 = { religion = sufri } #to cover the rebellion
 	900.1.1 = { religion = ashari }
-	1200.1.1 = { religion = yazidi }
+	1150.1.1 = { # Yusseter
+		culture = syromesopotamian_turkish
+	}
+	#1200.1.1 = { religion = yazidi }
 
 }
 
@@ -927,3 +930,4 @@
 
 }
 
+# Yusseter: From MBP 2025.08.30

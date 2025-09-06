@@ -1613,7 +1613,8 @@ JadranHerder19 = {
 1410966 = { #placeholder for Chubugu
 	dynasty = 1000049405 #Chubugu
 	name = "Togli_name"
-	culture = kerait
+	culture = uigur # Yusseter
+	#culture = kerait
 	religion = eastern_tengri
 	843.1.1={
 		birth=yes
@@ -1626,11 +1627,15 @@ JadranHerder19 = {
 1410967 = { #placeholder for Chubugu
 	dynasty = 1000049405 #Chubugu
 	name = "Atrak"
-	culture = kerait
+	culture = uigur # Yusseter
+	#culture = kerait
 	religion = eastern_tengri
 	father = 1410966
 	878.1.1={
 		birth=yes
+	}
+	920.1.1 = { # Yusseter
+		culture = kerait
 	}
 	963.1.1={
 		death=yes
@@ -1640,11 +1645,15 @@ JadranHerder19 = {
 1410968 = { #placeholder for Chubugu
 	dynasty = 1000049405 #Chubugu
 	name = "Kopti"
-	culture = kerait
+	culture = uigur # Yusseter
+	#culture = kerait
 	religion = eastern_tengri
 	father = 1410967
 	901.1.1={
 		birth=yes
+	}
+	920.1.1 = { # Yusseter
+		culture = kerait
 	}
 	982.1.1={
 		death=yes
@@ -1784,7 +1793,8 @@ JadranHerder19 = {
 fictional_keraits_5 = { #Herder 867
 	name = "Javanqad"
 	religion = tengri_pagan
-	culture = kerait
+	culture = uigur # Yusseter
+	#culture = kerait
 	818.2.4 = {
 		birth = yes
 	}
@@ -3541,6 +3551,9 @@ Khitan53 = {
 	1130.1.1 = {
 		birth= yes
 	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
 	1195.1.1 = {
 		death = yes
 	}
@@ -3549,7 +3562,8 @@ Khitan53 = {
 1413809 = { #阿古鄰 Agulin. Wife of Wuluzhi Yimoli of Yaonian clan and most likely the same person as the daughter of Ma'an.
 	dynasty = 1000049101 #Yaonian
 	name = "Agulin"
-	culture = khitan
+	culture = qitai # Yusseter
+	#culture = khitan
 	religion = kegon
 	father = 1413808
 	female = yes
@@ -5796,6 +5810,9 @@ jurchen1352 = { #蕭仲恭  朮里者，漢名蕭仲恭，特末之子，母耶�
 	1092.1.1={
 		birth = yes
 	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
 	1139.1.1={
 		death = yes
 	}
@@ -5809,6 +5826,9 @@ XiaoKhitai4 = {
 	father = XiaoKhitai3
 	1097.12.5 = {
 		birth = yes
+	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
 	}
 	1166.5.23 = {
 		death = yes
@@ -5872,6 +5892,9 @@ jin_xiao_005 = { #蕭赜
 	1127.1.1 = {
 		add_spouse=188905
 	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
 	1144.1.1 = {
 	}
 	1151.5.5 = {
@@ -5902,6 +5925,9 @@ jin_xiao_005 = { #蕭赜
 	1110.5.5 = {
 		birth = yes
 	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
 	1177.1.1 = {
 		effect = {
 			add_trait = kinslayer_2
@@ -5927,6 +5953,9 @@ jurchen1353 = { #蕭拱  迪輦阿不，漢名蕭拱，蕭仲恭之子，皇統�
 	father = jurchen1352
 	1113.1.1 = {
 		birth = yes
+	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
 	}
 	1153.1.1 = {
 		death = yes
@@ -6000,6 +6029,9 @@ XiaoKhitai5 = {
 	1130.7.19 = {
 		birth = yes
 	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
 	1193.2.8 = {
 		death = yes
 	}
@@ -6009,7 +6041,8 @@ XiaoKhitai5 = {
 	name = "Duolubu"
 	dynasty = 1000049119
 	religion = kegon
-	culture = khitan
+	culture = qitai # Yusseter
+	#culture = khitan
 	father = 188909
 	trait = trusting
 	trait = diligent
@@ -6039,7 +6072,8 @@ XiaoKhitai5 = {
 	dynasty = 1000049119
 	name = "Puguji"
 	religion = kegon
-	culture = khitan
+	culture = qitai # Yusseter
+	#culture = khitan
 	trait = lustful
 	father = 188909
 	1136.5.5 = {
@@ -6057,7 +6091,8 @@ XiaoKhitai5 = {
 siaumb1 = { #
 	name = "teme_jurchen_name"
 	dynasty = 1000049119 #蕭2
-	culture = "khitan"
+	culture = qitai # Yusseter
+	#culture = khitan
 	religion = "kegon"
 	father = jurchen1353
 	1139.1.1 = {
@@ -6072,7 +6107,8 @@ XiaoKhitai6 = {
 	name = "Xianming"
 	dynasty = 1000049119 #Xiao
 	religion = kegon
-	culture = khitan
+	culture = qitai # Yusseter
+	#culture = khitan
 	father = XiaoKhitai5
 	1160.4.11 = {
 		birth = yes
@@ -6085,7 +6121,8 @@ XiaoKhitai6 = {
 siaumb2 = { #
 	name = "Abulang"
 	dynasty = 1000049119 #蕭2
-	culture = "khitan"
+	culture = qitai # Yusseter
+	#culture = khitan
 	religion = "kegon"
 	father = siaumb1
 	1161.1.1 = {
@@ -6099,7 +6136,8 @@ siaumb2 = { #
 siaumb3 = { #
 	name = "Juerbiesu"
 	dynasty = 1000049119 #蕭2
-	culture = "khitan"
+	culture = qitai # Yusseter
+	#culture = khitan
 	religion = "kegon"
 	female = yes
 	father = siaumb1
@@ -6114,7 +6152,8 @@ siaumb3 = { #
 siaumb4 = { #
 	name = "Susa_name"
 	dynasty = 1000049119 #蕭2
-	culture = "khitan"
+	culture = qitai # Yusseter
+	#culture = khitan
 	religion = "kegon"
 	father = siaumb1
 	1172.1.1 = {
@@ -6844,6 +6883,9 @@ XiaoMBKhitan25 = {
 		birth = yes
 	}
 	1116.1.1 = { employer = 194334 }
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
 	1177.11.11 = {
 		death = yes
 	}
@@ -6858,6 +6900,9 @@ churudmb1 = { #
 	1131.1.1 = {
 		birth = yes
 	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
 	1200.1.1 = {
 		death = yes
 	}
@@ -6867,7 +6912,8 @@ churudmb2 = { #
 	dynasty = 1000049120 #Chulude 初魯德部/楮特部
 	name = "Yenliu"
 	religion = eastern_tengri
-	culture = khitan
+	culture = qitai # Yusseter
+	#culture = khitan
 	father = churudmb1
 	1157.1.1 = {
 		birth = yes
@@ -16888,6 +16934,9 @@ khitan0010 = { #耶律速撒 Yelu Susa
 	1132.1.1 = {
 		effect = { set_realm_capital = title:c_emil }
 	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
 	1144.6.6 = {
 		death = yes
 	}
@@ -17195,7 +17244,8 @@ khitan0010 = { #耶律速撒 Yelu Susa
 	name = "Iriye"
 	dynasty = 1000102400
 	religion = kegon
-	culture = khitan
+	culture = qitai # Yusseter
+	#culture = khitan
 	father = 188905
 	mother = 188906
 	1135.5.5 = {
@@ -17214,7 +17264,8 @@ khitan0010 = { #耶律速撒 Yelu Susa
 	female = yes
 	dynasty = 1000102400
 	religion = kegon
-	culture = khitan
+	culture = qitai # Yusseter
+	#culture = khitan
 	trait = deceitful
 	trait = lustful
 	father = 188905
@@ -17299,7 +17350,8 @@ Kulduz1 = {
 	dynasty = 1000102400
 	name = "Jirug"
 	religion = kegon
-	culture = khitan
+	culture = qitai # Yusseter
+	#culture = khitan
 	trait = education_intrigue_3
 	trait = callous
 	trait = stubborn
@@ -19900,6 +19952,9 @@ Chucai7 = {
 	1077.1.1 = {
 		birth= yes
 	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
 	1139.1.1 = {
 		death = yes
 	}
@@ -20101,6 +20156,9 @@ Chucai7 = {
 	1099.1.1 = {
 		birth= yes
 	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
 	1141.1.1 = {
 		death = yes
 	}
@@ -20114,6 +20172,9 @@ Chucai7 = {
 	father = 1413669
 	1099.1.1 = {
 		birth= yes
+	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
 	}
 	1162.1.1 = {
 		death = yes
@@ -20129,6 +20190,9 @@ Chucai7 = {
 	mother = 1413859
 	1100.1.1 = {
 		birth= yes
+	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
 	}
 	1180.1.1 = {
 		death = yes
@@ -20146,6 +20210,9 @@ Chucai7 = {
 	1100.1.1 = {
 		birth= yes
 	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
 	1141.1.1 = {
 		death = yes
 	}
@@ -20161,6 +20228,9 @@ Chucai7 = {
 	1100.1.1 = {
 		birth= yes
 	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
 	1137.1.1 = {
 		death = yes
 	}
@@ -20174,6 +20244,9 @@ Chucai7 = {
 	father = 1413670
 	1100.1.1 = {
 		birth= yes
+	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
 	}
 	1153.1.1 = {
 		death = yes
@@ -20191,6 +20264,9 @@ Chucai7 = {
 	1101.1.1 = {
 		birth= yes
 	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
 	1155.1.1 = {
 		death = yes
 	}
@@ -20204,6 +20280,9 @@ Chucai7 = {
 	father = 1413669
 	1102.1.1 = {
 		birth= yes
+	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
 	}
 	1153.1.1 = {
 		death = yes
@@ -20220,6 +20299,9 @@ Chucai7 = {
 	1103.1.1 = {
 		birth= yes
 	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
 	1144.1.1 = {
 		death = yes
 	}
@@ -20235,6 +20317,9 @@ Chucai7 = {
 	1104.1.1 = {
 		birth= yes
 	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
 	1153.1.1 = {
 		death = yes
 	}
@@ -20248,6 +20333,9 @@ Chucai7 = {
 	father = 1413668
 	1107.1.1 = {
 		birth= yes
+	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
 	}
 	1152.1.1 = {
 		death = yes
@@ -20264,6 +20352,9 @@ Chucai7 = {
 	1108.1.1 = {
 		birth= yes
 	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
 	1162.1.1 = {
 		death = yes
 	}
@@ -20277,6 +20368,9 @@ Chucai7 = {
 	father = 1413668
 	1110.1.1 = {
 		birth= yes
+	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
 	}
 	1165.1.1 = {
 		death = yes
@@ -20292,6 +20386,9 @@ Chucai7 = {
 	1118.1.1 = {
 		birth= yes
 	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
 	1181.1.1 = {
 		death = yes
 	}
@@ -20306,6 +20403,9 @@ Chucai7 = {
 	1130.1.1 = {
 		birth= yes
 	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
 	1175.1.1 = {
 		death = yes
 	}
@@ -20314,7 +20414,8 @@ Chucai7 = {
 1413863 = { #蕭壽陽 Xiao Shouyang. Third daughter of Huwuli according to 拔里公墓誌. In 1175 she wasn't married yet.
 	dynasty = 1000102403 #Bali
 	name = "Shouyang"
-	culture = khitan
+	culture = qitai # Yusseter
+	#culture = khitan
 	religion = kegon
 	father = 1413678
 	female= yes
@@ -20329,7 +20430,8 @@ Chucai7 = {
 1413861 = { #蕭阿古 Xiao Agu, courtesy name 敖魯宛 Aoluwan. Eldest daughter of Huwuli according to 拔里公墓誌. Married 单州刺史完顏内剌里輔國.
 	dynasty = 1000102403 #Bali
 	name = "Agu"
-	culture = khitan
+	culture = qitai # Yusseter
+	#culture = khitan
 	religion = kegon
 	father = 1413680
 	female= yes
@@ -20344,7 +20446,8 @@ Chucai7 = {
 1413681 = { #蕭夷末里 Xiao Yimoli (Imër in Khitan), courtesy name 烏里只 Wulizhi (Ulji in Khitan). First son of Huwuli according to 拔里公墓誌. Married 阿古鄰 of 遙輦鮮質可汗帳.
 	dynasty = 1000102403 #Bali
 	name = "Imer"
-	culture = khitan
+	culture = qitai # Yusseter
+	#culture = khitan
 	religion = kegon
 	father = 1413680
 	1161.1.1 = {
@@ -20358,7 +20461,8 @@ Chucai7 = {
 1413682 = { #蕭夷末里 Xiao Yimoli (Imër in Khitan), courtesy name 毛家 Maojia. Second son of Huwuli according to 拔里公墓誌. Married 于越 of 惕隠司仲父房.
 	dynasty = 1000102403 #Bali
 	name = "Imer"
-	culture = khitan
+	culture = qitai # Yusseter
+	#culture = khitan
 	religion = kegon
 	father = 1413680
 	1163.1.1 = {
@@ -20372,7 +20476,8 @@ Chucai7 = {
 1413862 = { #蕭迷己 Xiao Miji, courtesy name 吼魯宛 Houruwan. Second daughter of Huwuli according to 拔里公墓誌. Married her mother's younger brother 石丑.
 	dynasty = 1000102403 #Bali
 	name = "Miji"
-	culture = khitan
+	culture = qitai # Yusseter
+	#culture = khitan
 	religion = kegon
 	father = 1413680
 	female= yes
@@ -20387,7 +20492,8 @@ Chucai7 = {
 1413683 = { #蕭瑰里 Xiao Guili. Third son of Huwuli according to 拔里公墓誌. In 1175 was yet to marry.
 	dynasty = 1000102403 #Bali
 	name = "Guir"
-	culture = khitan
+	culture = qitai # Yusseter
+	#culture = khitan
 	religion = kegon
 	father = 1413680
 	1165.1.1 = {
@@ -54782,10 +54888,14 @@ Khereid = {
 	name = "Tooril"
 	dynasty = 1041002 #Khereid
 	religion = ulganism
-	culture = uyghur
+	culture = uigur # Yusseter
+	#culture = uyghur
 	father = 303223
 	887.1.1 = {
 		birth = yes
+	}
+	920.1.1 = { # Yusseter
+		culture = kerait
 	}
 	944.1.1 = {
 		death = yes
@@ -54796,10 +54906,14 @@ Khereid2 = {
 	name = "Qatarqa"
 	dynasty = 1041002 #Khereid
 	religion = ulganism
-	culture = uyghur
+	culture = uigur # Yusseter
+	#culture = uyghur
 	father = Khereid
 	913.1.1 = {
 		birth = yes
+	}
+	920.1.1 = { # Yusseter
+		culture = kerait
 	}
 	996.1.1 = {
 		death = yes
@@ -54810,7 +54924,8 @@ Khereid3 = {
 	name = "Taibuka"
 	dynasty = 1041002 #Khereid
 	religion = ulganism
-	culture = uyghur
+	culture = kerait # Yusseter
+	#culture = uyghur
 	father = Khereid2
 	945.1.1 = {
 		birth = yes
@@ -54824,7 +54939,8 @@ Khereid4 = {
 	name = "Elkutur"
 	dynasty = 1041002 #Khereid
 	religion = ulganism
-	culture = uyghur
+	culture = kerait # Yusseter
+	#culture = uyghur
 	father = Khereid3
 	980.1.1 = {
 		birth = yes
@@ -55634,7 +55750,8 @@ Khereid5 = {
 	name = "Kereyidei"
 	dynasty = 2001154 #Jirkin
 	religion = ulganism
-	culture = uyghur
+	culture = uigur # Yusseter
+	#culture = uyghur
 	834.3.18 = {
 		birth = yes
 	}
@@ -55647,7 +55764,8 @@ Khereid5 = {
 	name = "Quchar"
 	dynasty = 2001154 #Jirkin
 	religion = ulganism
-	culture = uyghur
+	culture = uigur # Yusseter
+	#culture = uyghur
 	father = 303227
 	857.10.21 = {
 		birth = yes
@@ -55661,10 +55779,14 @@ Jirkin1 = {
 	name = "Kereyidei"
 	dynasty = 2001154 #Jirkin
 	religion = ulganism
-	culture = uyghur
+	culture = uigur # Yusseter
+	#culture = uyghur
 	father = 303228
 	891.1.1 = {
 		birth = yes
+	}
+	920.1.1 = { # Yusseter
+		culture = kerait
 	}
 	951.1.1 = {
 		death = yes
@@ -55675,10 +55797,14 @@ Jirkin2 = {
 	name = "Yula_Mangus"
 	dynasty = 2001154 #Jirkin
 	religion = ulganism
-	culture = uyghur
+	culture = uigur # Yusseter
+	#culture = uyghur
 	father = Jirkin1
 	919.1.1 = {
 		birth = yes
+	}
+	920.1.1 = { # Yusseter
+		culture = kerait
 	}
 	995.1.1 = {
 		death = yes
@@ -55689,7 +55815,8 @@ Jirkin3 = {
 	name = "Taibuka"
 	dynasty = 2001154 #Jirkin
 	religion = ulganism
-	culture = uyghur
+	culture = kerait # Yusseter
+	#culture = uyghur
 	father = Jirkin2
 	947.1.1 = {
 		birth = yes
@@ -55858,7 +55985,8 @@ Jirkin4 = {
 	name = "Holuikhan"
 	female = yes
 	religion = ulganism
-	culture = uyghur
+	culture = uigur # Yusseter
+	#culture = uyghur
 	826.4.1 = {
 		birth = yes
 	}
@@ -78523,3 +78651,4 @@ Yukaghir19 = {
 	father = Yukaghir18
 }
 
+# Yusseter: From MBP 2025.09.05

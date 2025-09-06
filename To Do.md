@@ -113,6 +113,7 @@
  * naiman cultures dates
  * quilted armor innovation
  - merkit = buqut `toquz-oghuz`
+ - Yezagash
 
 # Later
  * titles

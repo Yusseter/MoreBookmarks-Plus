@@ -1,10 +1,12 @@
 ﻿### Nomad Camp (Base Building)
 @holding_illustration_mena = "gfx/interface/illustrations/holding_types/nomad_mena.dds"
-@holding_illustration_nomad = "gfx/interface/illustrations/holding_types/nomad_steppe.dds"
+@holding_illustration_nomad = "gfx/interface/illustrations/holding_types/mpo_nomad_holding.dds" # Yusseter
+#@holding_illustration_nomad = "gfx/interface/illustrations/holding_types/nomad_steppe.dds"
 @holding_illustration_herder = "gfx/interface/illustrations/holding_types/mpo_herder_camp.dds"
 @holding_illustration_herder_african = "gfx/interface/illustrations/holding_types/mpo_herder_camp_african.dds"
 @holding_illustration_somali = "gfx/interface/illustrations/holding_types/tribe_somali.dds"
 @holding_illustration_tundra = "gfx/interface/illustrations/holding_types/nomad_tundra.dds"
+@holding_illustration_nomad_capital = "gfx/interface/illustrations/holding_types/nomad_capital.dds" # Yusseter
 
 nomadic_camp_01 = {
 	construction_time = standard_construction_time
@@ -43,12 +45,22 @@ nomadic_camp_01 = {
 		illustration = @holding_illustration_nomad
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mongolian_city" soundparameter = { "Tier" = 0 } }
 	}
+	asset = { # Yusseter
+		type = pdxmesh
+		name = "mpo_mongol_04_mesh"
+		domicile_building = yurt_main_04
+		graphical_cultures = { steppe_building_gfx }
+		illustration = @holding_illustration_nomad_capital
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mongolian_city" soundparameter = { "Tier" = 0 } }
+		provinces = { 7525 1457 5345 }
+	}
 	asset = {
 		type = pdxmesh
 		name = "mpo_mongol_05_mesh"
 		domicile_building = yurt_main_05
 		graphical_cultures = { steppe_building_gfx }
-		illustration = @holding_illustration_nomad
+		illustration = @holding_illustration_nomad_capital # Yusseter
+		#illustration = @holding_illustration_nomad
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mongolian_city" soundparameter = { "Tier" = 0 } }
 	}
 	asset = {
@@ -56,7 +68,8 @@ nomadic_camp_01 = {
 		name = "mpo_mongol_05_mesh"
 		domicile_building = yurt_main_06
 		graphical_cultures = { steppe_building_gfx }
-		illustration = @holding_illustration_nomad
+		illustration = @holding_illustration_nomad_capital # Yusseter
+		#illustration = @holding_illustration_nomad
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mongolian_city" soundparameter = { "Tier" = 0 } }
 	}
 	asset = {
@@ -189,7 +202,7 @@ nomadic_camp_01 = {
 		type = pdxmesh
 		name = "building_mena_tribal_01_a_mesh"
 		domicile_building = yurt_main_01
-		graphical_cultures = { berber_group_building_gfx }
+		graphical_cultures = { berber_building_gfx } # Yusseter
 		illustration = @holding_illustration_mena
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}
@@ -197,7 +210,7 @@ nomadic_camp_01 = {
 		type = pdxmesh
 		name = "building_mena_tribal_01_a_mesh"
 		domicile_building = yurt_main_02
-		graphical_cultures = { berber_group_building_gfx }
+		graphical_cultures = { berber_building_gfx } # Yusseter
 		illustration = @holding_illustration_mena
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}
@@ -205,7 +218,7 @@ nomadic_camp_01 = {
 		type = pdxmesh
 		name = "building_mena_tribal_01_a_mesh"
 		domicile_building = yurt_main_03
-		graphical_cultures = { berber_group_building_gfx }
+		graphical_cultures = { berber_building_gfx } # Yusseter
 		illustration = @holding_illustration_mena
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}
@@ -213,7 +226,7 @@ nomadic_camp_01 = {
 		type = pdxmesh
 		name = "building_mena_tribal_01_a_mesh"
 		domicile_building = yurt_main_04
-		graphical_cultures = { berber_group_building_gfx }
+		graphical_cultures = { berber_building_gfx } # Yusseter
 		illustration = @holding_illustration_mena
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}
@@ -221,7 +234,7 @@ nomadic_camp_01 = {
 		type = pdxmesh
 		name = "building_mena_tribal_01_a_mesh"
 		domicile_building = yurt_main_05
-		graphical_cultures = { berber_group_building_gfx }
+		graphical_cultures = { berber_building_gfx } # Yusseter
 		illustration = @holding_illustration_mena
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}
@@ -229,14 +242,14 @@ nomadic_camp_01 = {
 		type = pdxmesh
 		name = "building_mena_tribal_01_a_mesh"
 		domicile_building = yurt_main_06
-		graphical_cultures = { berber_group_building_gfx }
+		graphical_cultures = { berber_building_gfx } # Yusseter
 		illustration = @holding_illustration_mena
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}
 	asset = {
 		type = pdxmesh
 		name = "building_mena_tribal_01_a_mesh"
-		graphical_cultures = { berber_group_building_gfx }
+		graphical_cultures = { berber_building_gfx } # Yusseter
 		illustration = @holding_illustration_mena
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}
@@ -552,7 +565,7 @@ herder_camp_01 = {
 	asset = {
 		type = pdxmesh
 		name = "mpo_herder_camp_mesh"
-		graphical_cultures = { berber_group_building_gfx }
+		graphical_cultures = { berber_building_gfx } # Yusseter
 		illustration = @holding_illustration_herder_african
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}
@@ -636,3 +649,5 @@ herder_camp_01 = {
 		base = 100
 	}
 }
+
+# Yusseter: From SBC 2025.08.30

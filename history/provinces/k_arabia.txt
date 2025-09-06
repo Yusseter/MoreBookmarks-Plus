@@ -102,7 +102,8 @@
 
 ###c_al_aqabah
 5974 = {	#AQABA
-	culture = bedouin
+	culture = badawi # Yusseter
+	#culture = bedouin
 	religion = ashari
 	holding = castle_holding
 }
@@ -126,7 +127,8 @@
 
 ###c_maan
 5976 = {	#MAAN
-	culture = bedouin
+	culture = badawi # Yusseter
+	#culture = bedouin
 	religion = ashari
 	holding = castle_holding
 }
@@ -748,3 +750,5 @@
 6268 = {	#WAHIBA
 	holding = none
 }
+
+# Yusseter: From MBP 2025.08.30
