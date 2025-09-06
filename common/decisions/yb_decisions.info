@@ -1,0 +1,115 @@
+﻿found_cuman_kipchak_confederation_decision = {
+
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/fp3/fp3_decision_concession.dds"
+	}
+	decision_group_type = major
+	desc = found_cuman_kipchak_confederation_decision_desc
+
+	is_shown = {
+		game_start_date < 1066.1.1
+		OR = {
+			has_culture = culture:cuman
+			has_culture = culture:kipchak
+		}
+		NOT = { exists = title:e_cuman_kipchak.holder }
+	}
+	
+	is_valid = {
+		prestige_level >= 4
+		has_trait = viking
+			OR = {
+				has_title = title:k_cuman
+				has_title = title:k_kipchak
+			}
+		any_ally = { culture = culture:cuman }
+		any_ally = { culture = culture:kipchak }
+		OR = {
+			has_realm_law = nomadic_authority_3
+			has_realm_law = nomadic_authority_4
+			has_realm_law = nomadic_authority_5
+		}
+	}
+
+	effect = {
+	
+		save_scope_as = founder
+	
+		trigger_event = { id = yb_steppe_events.1 }
+		
+		create_title_and_vassal_change = {
+			type = created
+			save_scope_as = title_change
+			add_claim_on_loss = no
+		}
+		title:e_cuman_kipchak = {
+			change_title_holder = {
+				holder = root
+				change = scope:title_change
+			}
+		}
+		resolve_title_and_vassal_change = scope:title_change
+		
+		destroy_title = title:e_caspian-pontic_steppe
+		destroy_title = title:e_tartaria
+		
+		custom_tooltip = {
+			text = ckc_become_de_jure_liege_cuman_kipchak
+			#title:k_pechenegs = { set_de_jure_liege_title = title:e_cuman_kipchak }
+			#title:k_magyar = { set_de_jure_liege_title = title:e_cuman_kipchak }
+			title:k_pontic_steppe = { set_de_jure_liege_title = title:e_cuman_kipchak }
+			title:k_khazaria = { set_de_jure_liege_title = title:e_cuman_kipchak }
+			title:k_caspian_steppe = { set_de_jure_liege_title = title:e_cuman_kipchak }
+			title:k_kimek = { set_de_jure_liege_title = title:e_cuman_kipchak }
+			title:k_qara_dala = { set_de_jure_liege_title = title:e_cuman_kipchak }
+			title:k_cuman = { set_de_jure_liege_title = title:e_cuman_kipchak }
+			title:k_saryarka = { set_de_jure_liege_title = title:e_cuman_kipchak }
+			title:k_kipchak = { set_de_jure_liege_title = title:e_cuman_kipchak }
+			title:k_oghuz_il = { set_de_jure_liege_title = title:e_turan }
+			title:k_zhetysu = { set_de_jure_liege_title = title:e_turan }
+			#title:k_dzungaria = { set_de_jure_liege_title = title:e_turan }
+		}
+		
+		dynasty = {
+			add_dynasty_modifier = {
+				modifier = ckc_interfaith_marriage
+			}
+		}
+		culture = {
+			add_innovation = innovation_ledger
+			}
+		}
+
+	cost = {
+		gold = 500
+		prestige = {
+			value = {
+				add = 0
+				if = {
+					limit = {
+						government_has_flag = government_is_tribal
+					}
+					add = medium_prestige_value
+				}
+			}
+		}
+		herd = {
+			value = {
+				add = 0
+				if = {
+					limit = {
+						government_has_flag = government_is_nomadic
+					}
+					add = medium_herd_value_static
+				}
+			}
+		}
+	}
+	
+	ai_will_do = {
+		base = 0
+	}
+	ai_potential = {
+        always = no
+	}
+}

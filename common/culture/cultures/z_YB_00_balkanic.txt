@@ -1,0 +1,564 @@
+﻿dacian = {
+	color = { 143 40 60 }
+
+	ethos = ethos_stoic
+	heritage = heritage_albanian
+	language = language_dacian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_stalwart_defenders
+		tradition_formation_fighting
+		tradition_ancient_miners # Cybr: Apparently Dacia's mines were in demand
+		tradition_castle_keepers # Cybr: Fortified settlements surrounded by villages
+		tradition_metal_craftsmanship # Cybr: High degree of sophistication with goldsmithing and metalsmithing
+	}
+
+	name_list = name_list_dacian
+	
+	coa_gfx = { latin_group_coa_gfx }
+	building_gfx = { vlach_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx epe_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	ethnicities = {
+		2 = european_vlach_01
+		2 = european_vlach_02
+		2 = european_vlach_03
+		2 = european_vlach_04
+		2 = european_vlach_05
+		2 = european_vlach_06
+		2 = european_vlach_07
+		2 = european_vlach_08
+		2 = european_vlach_09
+		2 = european_vlach_10
+		2 = european_vlach_11
+		2 = european_vlach_12
+		2 = european_vlach_13
+		2 = european_vlach_14
+		2 = european_vlach_15
+		2 = european_vlach_16
+		2 = european_vlach_17
+		2 = european_vlach_18
+		2 = european_vlach_19
+		2 = european_vlach_20
+		2 = european_vlach_21
+		2 = european_vlach_22
+		2 = european_vlach_23
+		2 = european_vlach_24
+		2 = european_vlach_25
+		2 = european_vlach_26
+		2 = european_vlach_27
+		2 = european_vlach_28
+		2 = european_vlach_29
+		2 = european_vlach_30
+		2 = european_vlach_31
+		2 = european_vlach_32
+		2 = european_vlach_33
+		2 = european_vlach_34
+		2 = european_vlach_35
+		2 = european_vlach_36
+		2 = european_vlach_37
+		2 = european_vlach_38
+		2 = european_vlach_39
+		2 = european_vlach_40
+		2 = european_vlach_41
+	}
+}
+
+thracian = {
+	color = { 108 20 50 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_albanian
+	language = language_thracian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_adaptive_skirmishing # Cybr: Well known for skirmishing
+		tradition_hit_and_run # Cybr: Known for being excellent cavalrymen
+		tradition_swords_for_hire # Cybr: Sought after mercenaries for Greeks and Romans, many served in Roman armies
+		#tradition_pastoralists # Cybr: It's there in the region I guess
+		tradition_mystical_ancestors # Cybr: Thracian kings were believed to have divine origins
+		#tradition_orpheus # Cybr: Orpheus was an important figure in Thracian culture and religion
+	}
+
+	dlc_tradition = { # Cybr: Persian and Greek influences
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_thracio_roman # Should have their own namelist type in the future
+	
+	coa_gfx = { latin_group_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx } # Yusseter: Its look like too huge.
+
+	ethnicities = {
+		2 = european_vlach_01
+		2 = european_vlach_02
+		2 = european_vlach_03
+		2 = european_vlach_04
+		2 = european_vlach_05
+		2 = european_vlach_06
+		2 = european_vlach_07
+		2 = european_vlach_08
+		2 = european_vlach_09
+		2 = european_vlach_10
+		2 = european_vlach_11
+		2 = european_vlach_12
+		2 = european_vlach_13
+		2 = european_vlach_14
+		2 = european_vlach_15
+		2 = european_vlach_16
+		2 = european_vlach_17
+		2 = european_vlach_18
+		2 = european_vlach_19
+		2 = european_vlach_20
+		2 = european_vlach_21
+		2 = european_vlach_22
+		2 = european_vlach_23
+		2 = european_vlach_24
+		2 = european_vlach_25
+		2 = european_vlach_26
+		2 = european_vlach_27
+		2 = european_vlach_28
+		2 = european_vlach_29
+		2 = european_vlach_30
+		2 = european_vlach_31
+		2 = european_vlach_32
+		2 = european_vlach_33
+		2 = european_vlach_34
+		2 = european_vlach_35
+		2 = european_vlach_36
+		2 = european_vlach_37
+		2 = european_vlach_38
+		2 = european_vlach_39
+		2 = european_vlach_40
+		2 = european_vlach_41
+		2 = european_med_south_slavic_01
+		2 = european_med_south_slavic_02
+		2 = european_med_south_slavic_03
+		2 = european_med_south_slavic_04
+		2 = european_med_south_slavic_05
+		2 = european_med_south_slavic_06
+		2 = european_med_south_slavic_07
+		2 = european_med_south_slavic_08
+		2 = european_med_south_slavic_09
+		2 = european_med_south_slavic_10
+		2 = european_med_south_slavic_11
+		2 = european_med_south_slavic_12
+		2 = european_med_south_slavic_13
+		2 = european_med_south_slavic_14
+		2 = european_med_south_slavic_15
+		2 = european_med_south_slavic_16
+		2 = european_med_south_slavic_17
+		2 = european_med_south_slavic_18
+		2 = european_med_south_slavic_19
+		2 = european_med_south_slavic_20
+		2 = european_med_south_slavic_21
+		2 = european_med_south_slavic_22
+		2 = european_med_south_slavic_23
+		2 = european_med_south_slavic_24
+		2 = european_med_south_slavic_25
+		2 = european_med_south_slavic_26
+		2 = european_med_south_slavic_27
+		2 = european_med_south_slavic_28
+		2 = european_med_south_slavic_29
+		2 = european_med_south_slavic_30
+		2 = european_med_south_slavic_31
+		2 = european_med_south_slavic_32
+		2 = european_med_south_slavic_33
+		2 = european_med_south_slavic_34
+		2 = european_med_south_slavic_35
+		2 = european_med_south_slavic_36
+		2 = european_med_south_slavic_37
+		2 = european_med_south_slavic_38
+		2 = european_med_south_slavic_39
+		2 = european_med_south_slavic_40
+		2 = european_med_south_slavic_41
+		2 = european_med_south_slavic_42
+		2 = european_med_south_slavic_43
+		2 = european_med_south_slavic_44
+		2 = european_med_south_slavic_45
+		2 = european_med_south_slavic_46
+		2 = european_med_south_slavic_47
+		2 = european_med_south_slavic_48
+		2 = european_med_south_slavic_49
+		2 = european_med_south_slavic_50
+	}
+}
+
+illyrian = {
+	color = { 0.4 0.2 0.2 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_albanian
+	language = language_albanian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_practiced_pirates # Cybr: Illyrian pirates
+		tradition_seafaring # Cybr: Famous seafarers
+		tradition_stand_and_fight # Cybr: Resistance to Romans, I dunno
+		tradition_hill_dwellers # Juli: Illyria is a hilly area
+	}
+	
+	name_list = name_list_albanian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	ethnicities = {
+		3 = european_caucasian_blond_1
+		3 = european_caucasian_blond_2
+		3 = european_caucasian_blond_3
+		3 = european_caucasian_blond_4
+		3 = european_caucasian_blond_5
+		3 = european_caucasian_blond_6
+		3 = european_caucasian_ginger_1
+		3 = european_caucasian_ginger_2
+		3 = european_caucasian_brown_1
+		3 = european_caucasian_brown_2
+		3 = european_caucasian_brown_3
+		3 = european_caucasian_brown_4
+		3 = european_caucasian_brown_5
+		3 = european_caucasian_dark_1
+		3 = european_caucasian_dark_2
+		3 = european_caucasian_dark_3
+		3 = european_caucasian_dark_4
+		3 = european_caucasian_dark_5
+		2 = european_med_greek_1
+		2 = european_med_greek_2
+		2 = european_med_greek_3
+		2 = european_med_greek_4
+		2 = european_med_greek_5
+		2 = european_med_greek_6
+		2 = european_med_greek_7
+		2 = european_med_greek_8
+		2 = european_med_greek_9
+		2 = european_med_greek_10
+		2 = european_med_greek_11
+		2 = european_med_greek_12
+		2 = european_med_greek_13
+		2 = european_med_greek_14
+		2 = european_med_greek_15
+		2 = european_med_greek_16
+		2 = european_med_greek_17
+		2 = european_med_greek_18
+		2 = european_med_greek_19
+		2 = european_med_greek_20
+		2 = european_med_greek_21
+		2 = european_med_greek_22
+		2 = european_med_greek_23
+		2 = european_med_greek_24
+		2 = european_med_greek_25
+		2 = european_med_greek_26
+		2 = european_med_greek_27
+		2 = european_med_greek_28
+		2 = european_med_greek_29
+		2 = european_med_greek_30
+		2 = european_med_greek_31
+		2 = european_med_greek_32
+		2 = european_med_greek_33
+		2 = european_med_greek_34
+		2 = european_med_greek_35
+		2 = european_med_greek_36
+		2 = european_med_greek_37
+		2 = european_med_greek_38
+		2 = european_med_greek_39
+		2 = european_med_greek_40
+		2 = european_med_greek_41
+		2 = european_med_greek_42
+		2 = european_med_greek_43
+		2 = european_med_greek_44
+		2 = european_med_greek_45
+		2 = european_med_greek_46
+		2 = european_med_greek_47	
+		2 = european_med_greek_48
+		2 = european_med_greek_49
+		2 = european_med_greek_50
+		2 = european_med_greek_51
+		2 = european_med_greek_52
+		2 = european_med_greek_53
+		2 = european_med_greek_54
+		2 = european_med_greek_55
+		2 = european_med_greek_56
+		2 = european_med_greek_57
+		2 = european_med_greek_58
+		2 = european_med_greek_59
+		2 = european_med_greek_60
+		2 = european_med_greek_61
+		2 = european_med_greek_62
+		2 = european_med_greek_63
+		2 = european_med_greek_64
+		2 = european_med_greek_65
+		2 = european_med_greek_66
+		2 = european_med_greek_67
+		2 = european_med_south_slavic_01
+		2 = european_med_south_slavic_02
+		2 = european_med_south_slavic_03
+		2 = european_med_south_slavic_04
+		2 = european_med_south_slavic_05
+		2 = european_med_south_slavic_06
+		2 = european_med_south_slavic_07
+		2 = european_med_south_slavic_08
+		2 = european_med_south_slavic_09
+		2 = european_med_south_slavic_10
+		2 = european_med_south_slavic_11
+		2 = european_med_south_slavic_12
+		2 = european_med_south_slavic_13
+		2 = european_med_south_slavic_14
+		2 = european_med_south_slavic_15
+		2 = european_med_south_slavic_16
+		2 = european_med_south_slavic_17
+		2 = european_med_south_slavic_18
+		2 = european_med_south_slavic_19
+		2 = european_med_south_slavic_20
+		2 = european_med_south_slavic_21
+		2 = european_med_south_slavic_22
+		2 = european_med_south_slavic_23
+		2 = european_med_south_slavic_24
+		2 = european_med_south_slavic_25
+		2 = european_med_south_slavic_26
+		2 = european_med_south_slavic_27
+		2 = european_med_south_slavic_28
+		2 = european_med_south_slavic_29
+		2 = european_med_south_slavic_30
+		2 = european_med_south_slavic_31
+		2 = european_med_south_slavic_32
+		2 = european_med_south_slavic_33
+		2 = european_med_south_slavic_34
+		2 = european_med_south_slavic_35
+		2 = european_med_south_slavic_36
+	}
+}
+
+vlach = {
+	color = vlach
+	parents = { dacio_roman blatno_slavic }
+	created = 600.1.1
+	history_loc_override = vlach_history_loc
+	
+	ethos = ethos_communal
+	heritage = heritage_vlach
+	language = language_wallachian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_pastoralists
+		tradition_zealous_people
+		tradition_hussar
+		tradition_xenophilic
+	}
+	
+	dlc_tradition = {
+		trait = tradition_staunch_traditionalists
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_vlach
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { vlach_building_gfx }
+	clothing_gfx = { epe_south_slav_clothing_gfx byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		2 = european_vlach_01
+		2 = european_vlach_02
+		2 = european_vlach_03
+		2 = european_vlach_04
+		2 = european_vlach_05
+		2 = european_vlach_06
+		2 = european_vlach_07
+		2 = european_vlach_08
+		2 = european_vlach_09
+		2 = european_vlach_10
+		2 = european_vlach_11
+		2 = european_vlach_12
+		2 = european_vlach_13
+		2 = european_vlach_14
+		2 = european_vlach_15
+		2 = european_vlach_16
+		2 = european_vlach_17
+		2 = european_vlach_18
+		2 = european_vlach_19
+		2 = european_vlach_20
+		2 = european_vlach_21
+		2 = european_vlach_22
+		2 = european_vlach_23
+		2 = european_vlach_24
+		2 = european_vlach_25
+		2 = european_vlach_26
+		2 = european_vlach_27
+		2 = european_vlach_28
+		2 = european_vlach_29
+		2 = european_vlach_30
+		2 = european_vlach_31
+		2 = european_vlach_32
+		2 = european_vlach_33
+		2 = european_vlach_34
+		2 = european_vlach_35
+		2 = european_vlach_36
+		2 = european_vlach_37
+		2 = european_vlach_38
+		2 = european_vlach_39
+		2 = european_vlach_40
+		2 = european_vlach_41
+	}
+}
+
+szasz = {
+	color = { 0.60 0.48 0.51 }
+	created = 1150.1.1
+	parents = { franconian }
+
+	#history_loc_override = szasz_history_loc
+
+	ethos = ethos_communal
+	heritage = heritage_vlach
+	language = language_high_german
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_agrarian
+        tradition_storytellers
+		tradition_parochialism
+		tradition_loyal_soldiers
+	}
+
+	dlc_tradition = {
+		trait = tradition_staunch_traditionalists
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_franconian
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 		
+
+	ethnicities = {
+		3 = european_vlach_01
+		3 = european_vlach_02
+		3 = european_vlach_03
+		3 = european_vlach_04
+		3 = european_vlach_05
+		3 = european_vlach_06
+		3 = european_vlach_07
+		3 = european_vlach_08
+		3 = european_vlach_09
+		3 = european_vlach_10
+		3 = european_vlach_11
+		3 = european_vlach_12
+		3 = european_vlach_13
+		3 = european_vlach_14
+		3 = european_vlach_15
+		3 = european_vlach_16
+		3 = european_vlach_17
+		3 = european_vlach_18
+		3 = european_vlach_19
+		3 = european_vlach_20
+		3 = european_vlach_21
+		3 = european_vlach_22
+		3 = european_vlach_23
+		3 = european_vlach_24
+		3 = european_vlach_25
+		3 = european_vlach_26
+		3 = european_vlach_27
+		3 = european_vlach_28
+		3 = european_vlach_29
+		3 = european_vlach_30
+		3 = european_vlach_31
+		3 = european_vlach_32
+		3 = european_vlach_33
+		3 = european_vlach_34
+		3 = european_vlach_35
+		3 = european_vlach_36
+		3 = european_vlach_37
+		3 = european_vlach_38
+		3 = european_vlach_39
+		3 = european_vlach_40
+		3 = european_vlach_41
+		2 = european_caucasian_german_1
+		2 = european_caucasian_german_2
+		2 = european_caucasian_german_3
+		2 = european_caucasian_german_4
+		2 = european_caucasian_german_5
+		2 = european_caucasian_german_6
+		2 = european_caucasian_german_7
+		2 = european_caucasian_german_8
+		2 = european_caucasian_german_9
+		2 = european_caucasian_german_10
+		2 = european_caucasian_german_11
+		2 = european_caucasian_german_12
+		2 = european_caucasian_german_14_Vol
+		2 = european_caucasian_german_15_Em
+		2 = european_caucasian_german_17
+		2 = european_caucasian_german_18
+		2 = european_caucasian_german_19
+		2 = european_caucasian_german_20
+		2 = european_caucasian_german_21
+		2 = european_caucasian_german_22
+		2 = european_caucasian_german_23
+		2 = european_caucasian_german_24
+		2 = european_caucasian_german_25
+		2 = european_caucasian_german_26
+		2 = european_caucasian_german_27
+		2 = european_caucasian_german_28
+		2 = european_caucasian_german_29
+		2 = european_caucasian_german_30
+		2 = european_caucasian_german_31
+		2 = european_caucasian_german_32
+		2 = european_caucasian_german_33
+		2 = european_caucasian_german_34
+		2 = european_caucasian_german_35
+		2 = european_caucasian_german_36
+		2 = european_caucasian_german_37
+		2 = european_caucasian_german_38
+		2 = european_caucasian_german_39
+		2 = european_caucasian_german_40
+		2 = european_caucasian_german_41
+		2 = european_caucasian_german_42
+		2 = european_caucasian_german_43
+		2 = european_caucasian_german_44
+		2 = european_caucasian_german_45
+		2 = european_caucasian_german_46
+		2 = european_caucasian_german_47
+		2 = european_caucasian_german_48
+		2 = european_caucasian_german_49
+		2 = european_caucasian_german_50
+		2 = european_caucasian_german_51
+		2 = european_caucasian_german_52
+		2 = european_caucasian_german_53
+		2 = european_caucasian_german_54
+		2 = european_caucasian_german_55
+		2 = european_caucasian_german_56
+		2 = european_caucasian_german_57
+		2 = european_caucasian_german_58
+		2 = european_caucasian_german_59
+		2 = european_caucasian_german_60
+		2 = european_caucasian_german_61
+		2 = european_caucasian_german_62
+		2 = european_caucasian_german_63
+		2 = european_caucasian_german_64
+		2 = european_caucasian_german_65
+		2 = european_caucasian_german_66
+		2 = european_caucasian_german_67
+		2 = european_caucasian_german_68
+		2 = european_caucasian_german_69
+		2 = european_caucasian_german_70
+		2 = european_caucasian_german_71
+		2 = european_caucasian_german_72
+		2 = european_caucasian_german_73
+		2 = european_caucasian_german_74
+		2 = european_caucasian_german_75
+		2 = european_caucasian_german_76
+		2 = european_caucasian_german_77
+	}
+}

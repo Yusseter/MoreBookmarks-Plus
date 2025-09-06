@@ -1,0 +1,37 @@
+﻿namespace = yb_steppe_events
+
+yb_steppe_events.1 = {
+	type = character_event
+	title = ckc_events.1.t
+	desc = ckc_events.1.desc
+	theme = realm
+	left_portrait = {
+		character = scope:founder
+		animation = sword_coup_degrace
+	}
+	override_background = { reference = wilderness_steppe }
+
+	immediate = {
+		play_music_cue = mx_cue_conquest_of_the_golden_horde
+	}
+
+	option = {
+		name = ckc_events.1.a
+		add_prestige = 1000
+		root.dynasty = {
+			add_dynasty_prestige = 1000
+		}
+		#set_nickname_effect = { NICKNAME = nick_the_great_and_terrible_nomad }
+		add_character_modifier = {
+			modifier = confederate_king_modifier
+			years = 15
+		}
+		every_sub_realm_county = {
+			custom = custom.every_realm_county
+			add_county_modifier = {
+				modifier = confederate_lands_modifier
+				years = 30
+			}
+		}
+	}
+}

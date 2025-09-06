@@ -1,0 +1,32 @@
+﻿e_mongolia = {
+	item = {
+		trigger = {
+			yb_coa_rouran_trigger = yes
+		}
+		coat_of_arms = e_rouran_khaganate
+	}
+	item = {
+		trigger = {
+			yb_coa_gokturk_trigger = yes
+		}
+		coat_of_arms = e_gokturk_khaganate
+	}
+	item = {
+		trigger = {
+			yb_coa_toquz_oghuz_trigger = yes
+		}
+		coat_of_arms = e_uyghur_khanate
+	}
+	item = {
+		trigger = {
+			yb_coa_kirghiz_trigger = yes
+		}
+		coat_of_arms = e_kirghiz_khanate
+	}
+	item = {
+		trigger = {
+			yb_coa_khitan_trigger = yes
+		}
+		coat_of_arms = e_great_liao
+	}
+}

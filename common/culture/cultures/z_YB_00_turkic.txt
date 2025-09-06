@@ -1,0 +1,6954 @@
+﻿hunnic = {
+	color = hunnic
+	created = 350.1.1
+	parents = { xiongnu sabir }
+	history_loc_override = hunnic_history_loc
+
+	ethos = ethos_bellicose
+	heritage = heritage_oghur
+	language = language_hunnic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_hunters
+		#tradition_steppe_tolerance
+		tradition_ruling_caste
+		#tradition_horse_lords
+		tradition_quarrelsome # Cybr: Scary
+		tradition_warrior_culture # Cybr: Very very scary!
+	}
+
+	dlc_tradition = {
+		trait = tradition_mpo_wolves_of_the_deep_steppe
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	
+	name_list = name_list_hunnic
+
+	coa_gfx = { turkic_group_coa_gfx mongol_coa_gfx steppe_coa_gfx } 
+	building_gfx = { steppe_building_gfx } 
+	clothing_gfx = { yb_western_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx } 
+	unit_gfx = { mongol_unit_gfx } 	
+
+	ethnicities = {
+		#25 = turkic_west
+		3 = asian_turkic_1_western
+		3 = asian_turkic_2_western
+		3 = asian_turkic_3_western
+		3 = asian_turkic_4_western
+		3 = asian_turkic_5_western
+		3 = asian_turkic_6_western
+		3 = asian_turkic_7_western
+		3 = asian_turkic_8_western 
+		3 = asian_turkic_9_western
+		3 = asian_turkic_15_western 
+		3 = asian_turkic_16_western
+		3 = asian_turkic_17_western
+		3 = asian_turkic_19_western
+		3 = asian_turkic_20_western
+		3 = asian_turkic_23_western
+		1 = asian_turkic_1_cuman
+		1 = asian_turkic_2_cuman
+		1 = asian_turkic_3_cuman
+		1 = asian_turkic_4_cuman
+		1 = asian_turkic_5_cuman
+		1 = asian_turkic_8_cuman 
+		1 = asian_turkic_9_cuman
+		1 = asian_turkic_15_cuman
+		1 = asian_turkic_26_cuman
+		1 = asian_turkic_27_cuman
+		1 = asian_turkic_28_cuman
+		1 = asian_turkic_29_cuman
+		1 = asian_turkic_30_cuman
+		1 = asian_turkic_31_cuman
+		1 = asian_turkic_32_cuman
+		1 = asian_turkic_33_cuman
+		1 = asian_turkic_34_cuman
+		1 = asian_turkic_35_cuman
+		1 = asian_turkic_13_cuman
+		1 = asian_turkic_14_cuman
+		1 = asian_turkic_1
+		1 = asian_turkic_2
+		1 = asian_turkic_3
+		1 = asian_turkic_4
+		1 = asian_turkic_5
+		1 = asian_turkic_6
+		1 = asian_turkic_7
+		1 = asian_turkic_8
+		1 = asian_turkic_9
+		1 = asian_turkic_10
+		1 = asian_turkic_11
+		1 = asian_turkic_12
+		1 = asian_turkic_13
+		1 = asian_turkic_14
+		1 = asian_turkic_15 
+		1 = asian_turkic_16
+		1 = asian_turkic_16_eastern
+		1 = asian_turkic_17_eastern
+		1 = asian_turkic_18
+		1 = asian_turkic_19
+		1 = asian_turkic_20
+		1 = asian_turkic_21
+		1 = asian_turkic_22
+		1 = asian_turkic_26
+		1 = asian_turkic_27
+		1 = asian_turkic_28
+		1 = asian_turkic_29
+		1 = asian_turkic_30
+		1 = asian_turkic_41
+		1 = asian_turkic_42
+		1 = asian_turkic_43
+		1 = asian_turkic_44
+		1 = asian_turkic_45
+		1 = asian_turkic_46
+		1 = asian_turkic_47
+		1 = asian_turkic_48
+		1 = asian_turkic_49
+		1 = asian_turkic_50
+		3 = asian_turkic_36
+		3 = asian_turkic_37
+		3 = asian_turkic_38
+		3 = asian_turkic_39
+		3 = asian_turkic_40
+		3 = asian_turkic_26
+		3 = asian_turkic_27
+		3 = asian_turkic_28
+		3 = asian_turkic_29
+		3 = asian_turkic_30
+	}
+}
+
+xiongnu = { # Yusseter: Xiongnu, AKA Asian Huns
+	color = { 0.65 0.89 0.99 }
+	#created = 2.1.1
+	#history_loc_override = xiongnu_history_loc
+	
+	ethos = ethos_bellicose
+	heritage = heritage_hunnic
+	language = language_hunnic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		#tradition_pastoralists
+		tradition_artisans
+		#tradition_horse_lords
+		#tradition_astute_diplomats
+		#tradition_tribe_unity
+		#tradition_swords_for_hire
+		tradition_steppe_tolerance
+	}
+	
+	#dlc_tradition = {
+	#	trait = tradition_malleable_invaders
+	#	requires_dlc_flag = hybridize_culture
+	#}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	name_list = name_list_xiongnu
+	
+	coa_gfx = { turkic_group_coa_gfx mongol_coa_gfx steppe_coa_gfx } 
+	building_gfx = { steppe_building_gfx } 
+	clothing_gfx = { yb_eastern_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx } 	
+
+	ethnicities = {
+		#25 = turkic
+		4 = asian_turkic_enisey_kirghiz_01
+		4 = asian_turkic_enisey_kirghiz_02
+		4 = asian_turkic_enisey_kirghiz_03
+		4 = asian_turkic_enisey_kirghiz_04
+		4 = asian_turkic_enisey_kirghiz_05
+		4 = asian_turkic_enisey_kirghiz_06
+		4 = asian_turkic_enisey_kirghiz_07
+		4 = asian_turkic_enisey_kirghiz_08
+		4 = asian_turkic_enisey_kirghiz_09
+		4 = asian_turkic_enisey_kirghiz_10
+		5 = asian_turkic_16_eastern
+		5 = asian_turkic_17_eastern
+		1 = asian_turkic_36
+		1 = asian_turkic_37
+		1 = asian_turkic_38
+		1 = asian_turkic_39
+		1 = asian_turkic_40
+		1 = asian_turkic_26
+		1 = asian_turkic_27
+		1 = asian_turkic_28
+		1 = asian_turkic_29
+		1 = asian_turkic_30
+		2 = asian_mongol_1
+		2 = asian_mongol_2
+		2 = asian_mongol_3
+		2 = asian_mongol_4
+		2 = asian_mongol_5
+		2 = asian_mongol_6
+		2 = asian_mongol_7
+		2 = asian_mongol_8
+		2 = asian_mongol_9
+		2 = asian_mongol_10
+		2 = asian_mongol_11
+		2 = asian_mongol_12
+		2 = asian_mongol_13
+		2 = asian_mongol_14
+		2 = asian_mongol_15
+		2 = asian_mongol_16
+		2 = asian_mongol_17
+		2 = asian_mongol_18
+		2 = asian_mongol_19
+		2 = asian_mongol_20
+		2 = asian_mongol_21
+		2 = asian_mongol_22
+		2 = asian_mongol_23
+		2 = asian_mongol_24
+		2 = asian_mongol_25
+		2 = asian_mongol_26
+		2 = asian_mongol_27
+		2 = asian_mongol_28
+		2 = asian_mongol_29
+		2 = asian_mongol_30
+		2 = asian_mongol_31
+	}
+}
+
+tujue = { # Yusseter: Göktürk
+	color = { 0.55 0.7 0.7 }
+	created = 450.1.1
+	parents = { dingling }
+	history_loc_override = tujue_history_loc
+	
+	ethos = ethos_bellicose
+	heritage = heritage_hunnic
+	language = language_tiele
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_swords_for_hire
+		#tradition_horse_lords
+		#tradition_warrior_culture
+		#tradition_ruling_caste
+		#tradition_xenophilic
+	}
+
+	dlc_tradition = {
+		trait = tradition_sorcerous_metallurgy
+		requires_dlc_flag = royal_court
+	}
+
+	dlc_tradition = {
+		trait = tradition_mpo_wolves_of_the_deep_steppe
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp1_northern_stories
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_runestones
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	name_list = name_list_tiele
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		#30 = turkic
+ 		4 = asian_turkic_1
+ 		4 = asian_turkic_2
+ 		4 = asian_turkic_3
+ 		4 = asian_turkic_4
+ 		4 = asian_turkic_5
+ 		4 = asian_turkic_6
+ 		4 = asian_turkic_7
+ 		4 = asian_turkic_8 
+ 		4 = asian_turkic_9
+ 		4 = asian_turkic_10
+ 		4 = asian_turkic_11
+ 		4 = asian_turkic_12
+ 		4 = asian_turkic_13
+ 		4 = asian_turkic_14
+ 		4 = asian_turkic_15 
+ 		2 = asian_turkic_16
+ 		2 = asian_turkic_16_eastern
+ 		2 = asian_turkic_17
+ 		2 = asian_turkic_17_eastern
+ 		4 = asian_turkic_18
+ 		4 = asian_turkic_19
+ 		4 = asian_turkic_20
+ 		4 = asian_turkic_21
+ 		4 = asian_turkic_22
+ 		4 = asian_turkic_22
+ 		4 = asian_turkic_23
+ 		4 = asian_turkic_24
+ 		4 = asian_turkic_25
+ 		4 = asian_turkic_26
+ 		4 = asian_turkic_27
+ 		4 = asian_turkic_28
+ 		4 = asian_turkic_29
+ 		4 = asian_turkic_30
+ 		4 = asian_turkic_36
+ 		4 = asian_turkic_37
+ 		4 = asian_turkic_38
+ 		4 = asian_turkic_39
+ 		4 = asian_turkic_40
+ 		4 = asian_turkic_41
+ 		4 = asian_turkic_42
+ 		4 = asian_turkic_43
+ 		4 = asian_turkic_44
+ 		4 = asian_turkic_45
+ 		3 = asian_turkic_46
+ 		3 = asian_turkic_47
+ 		3 = asian_turkic_48
+ 		3 = asian_turkic_49
+ 		3 = asian_turkic_50
+	}
+}
+
+uigur = {
+	color = uigur
+	created = 600.1.1
+	parents = { tiele }
+
+	ethos = ethos_bureaucratic
+	heritage = heritage_toquz_oghuz
+	language = language_siberian_turkic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_steppe_tolerance
+		#tradition_horse_lords
+		tradition_ruling_caste
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	dlc_tradition = {
+		trait = tradition_fp3_fierce_independence
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_futuwaa
+	 }
+
+	name_list = name_list_uyghur
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { epe_uyghur_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		#30 = turkic
+		4 = asian_turkic_1
+		4 = asian_turkic_2
+		4 = asian_turkic_3
+		4 = asian_turkic_4
+		4 = asian_turkic_5
+		4 = asian_turkic_6
+		4 = asian_turkic_7
+		4 = asian_turkic_8 
+		4 = asian_turkic_9
+		1 = asian_turkic_10_uyghur
+		1 = asian_turkic_11_uyghur
+		1 = asian_turkic_12_uyghur
+		1 = asian_turkic_13_uyghur
+		4 = asian_turkic_14
+		2 = asian_turkic_15
+		2 = asian_turkic_15_western
+		2 = asian_turkic_16
+		2 = asian_turkic_16_eastern
+		2 = asian_turkic_17
+		2 = asian_turkic_17_eastern
+		4 = asian_turkic_18
+		4 = asian_turkic_19
+		1 = asian_turkic_20_uyghur
+		1 = asian_turkic_21_uyghur
+		4 = asian_turkic_22
+		4 = asian_turkic_22
+		4 = asian_turkic_23
+		4 = asian_turkic_24
+		4 = asian_turkic_25
+		4 = asian_turkic_26
+		4 = asian_turkic_27
+		4 = asian_turkic_28
+		4 = asian_turkic_29
+		4 = asian_turkic_30
+		4 = asian_turkic_36
+		4 = asian_turkic_37
+		4 = asian_turkic_38
+		4 = asian_turkic_39
+		4 = asian_turkic_40
+		1 = asian_turkic_41_uyghur
+		1 = asian_turkic_42_uyghur
+		1 = asian_turkic_43_uyghur
+		1 = asian_turkic_44_uyghur
+		1 = asian_turkic_45_uyghur
+		2 = asian_turkic_46
+		2 = asian_turkic_47
+		2 = asian_turkic_48
+		2 = asian_turkic_49
+	}
+}
+
+naiman = {
+	color = naiman #{ 0.45 0.55 0.9 }
+
+	created = 890.1.1
+	parents = { bayirku basmyl }
+	history_loc_override = naiman_history_loc
+
+	ethos = ethos_stoic
+	heritage = heritage_mongolic
+	language = language_karluk
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		#tradition_horse_lords
+		tradition_welcoming
+		tradition_pastoralists
+		#tradition_steppe_tolerance
+		tradition_mountain_homes
+		tradition_stalwart_defenders
+	}
+	
+	name_list = name_list_naiman
+
+	coa_gfx = { mongol_coa_gfx steppe_coa_gfx } 
+	building_gfx = { steppe_building_gfx } 
+	clothing_gfx = { yb_eastern_steppe_clothing_gfx mongol_clothing_gfx } 
+	unit_gfx = { mongol_unit_gfx } 		
+
+	ethnicities = {
+		#15 = turkic
+		#15 = asian_mongol
+		3 = asian_mongol_1
+		3 = asian_mongol_2
+		3 = asian_mongol_3
+		3 = asian_mongol_4
+		3 = asian_mongol_5
+		3 = asian_mongol_6
+		3 = asian_mongol_7
+		3 = asian_mongol_8
+		3 = asian_mongol_9
+		3 = asian_mongol_10
+		3 = asian_mongol_11
+		3 = asian_mongol_12
+		3 = asian_mongol_13
+		3 = asian_mongol_14
+		3 = asian_mongol_15
+		3 = asian_mongol_16
+		3 = asian_mongol_17
+		3 = asian_mongol_18
+		3 = asian_mongol_19
+		3 = asian_mongol_20
+		3 = asian_mongol_21
+		3 = asian_mongol_22
+		3 = asian_mongol_23
+		3 = asian_mongol_24
+		3 = asian_mongol_25
+		3 = asian_mongol_26
+		3 = asian_mongol_27
+		3 = asian_mongol_28
+		3 = asian_mongol_29
+		3 = asian_mongol_30
+		3 = asian_mongol_31
+		2 = asian_turkic_1
+		2 = asian_turkic_2
+		2 = asian_turkic_3
+		2 = asian_turkic_4
+		2 = asian_turkic_5
+		2 = asian_turkic_6
+		2 = asian_turkic_7
+		2 = asian_turkic_8 
+		2 = asian_turkic_9
+		2 = asian_turkic_10_uyghur
+		2 = asian_turkic_11_uyghur
+		2 = asian_turkic_12_uyghur
+		2 = asian_turkic_13_uyghur
+		2 = asian_turkic_14
+		1 = asian_turkic_15
+		1 = asian_turkic_15_western
+		1 = asian_turkic_16
+		1 = asian_turkic_16_eastern
+		1 = asian_turkic_17
+		1 = asian_turkic_17_eastern
+		2 = asian_turkic_18
+		2 = asian_turkic_19
+		2 = asian_turkic_20_uyghur
+		2 = asian_turkic_21_uyghur
+		2 = asian_turkic_22
+		2 = asian_turkic_22
+		2 = asian_turkic_23
+		2 = asian_turkic_24
+		2 = asian_turkic_25
+		2 = asian_turkic_26
+		2 = asian_turkic_27
+		2 = asian_turkic_28
+		2 = asian_turkic_29
+		2 = asian_turkic_30
+		2 = asian_turkic_36
+		2 = asian_turkic_37
+		2 = asian_turkic_38
+		2 = asian_turkic_39
+		2 = asian_turkic_40
+		2 = asian_turkic_41_uyghur
+		2 = asian_turkic_42_uyghur
+		2 = asian_turkic_43_uyghur
+		2 = asian_turkic_44_uyghur
+		2 = asian_turkic_45_uyghur
+		1 = asian_turkic_46
+		1 = asian_turkic_47
+		1 = asian_turkic_48
+		1 = asian_turkic_49
+	}
+}
+
+ueban = { # Yusseter: Yuehban, Yueban
+	color = ueban
+	created = 600.1.1
+	parents = { tujue }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_turkic # Yusseter: heritage_on_oq (On-Oq)
+	language = language_karluk
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		#tradition_malleable_invaders
+		tradition_ruling_caste
+		#tradition_horse_lords
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	dlc_tradition = {
+		trait = tradition_mpo_iron_cavalry
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	name_list = name_list_kimek
+
+	coa_gfx = { turkic_group_coa_gfx mongol_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		#15 = turkic
+		#15 = turkic_west
+		3 = asian_turkic_1_kipchak
+		3 = asian_turkic_2_kipchak
+		3 = asian_turkic_3_kipchak
+		3 = asian_turkic_4_kipchak
+		3 = asian_turkic_5_kipchak
+		3 = asian_turkic_6_kipchak
+		3 = asian_turkic_7_kipchak
+		3 = asian_turkic_10_kipchak
+		3 = asian_turkic_11_kipchak
+		3 = asian_turkic_12_kipchak
+		3 = asian_turkic_13_kipchak
+		3 = asian_turkic_14_kipchak
+		3 = asian_turkic_20_kipchak
+		1 = asian_turkic_1_cuman
+		1 = asian_turkic_2_cuman
+		1 = asian_turkic_3_cuman
+		1 = asian_turkic_4_cuman
+		1 = asian_turkic_5_cuman
+		1 = asian_turkic_8_cuman 
+		1 = asian_turkic_9_cuman
+		1 = asian_turkic_15_cuman
+		1 = asian_turkic_26_cuman
+		1 = asian_turkic_27_cuman
+		1 = asian_turkic_28_cuman
+		1 = asian_turkic_29_cuman
+		1 = asian_turkic_30_cuman
+		1 = asian_turkic_31_cuman
+		1 = asian_turkic_32_cuman
+		1 = asian_turkic_33_cuman
+		1 = asian_turkic_34_cuman
+		1 = asian_turkic_35_cuman
+		1 = asian_turkic_13_cuman
+		1 = asian_turkic_14_cuman
+		1 = asian_turkic_36
+		1 = asian_turkic_37
+		1 = asian_turkic_38
+		1 = asian_turkic_39
+		1 = asian_turkic_40
+		1 = asian_turkic_26
+		1 = asian_turkic_27
+		1 = asian_turkic_28
+		1 = asian_turkic_29
+		1 = asian_turkic_30 
+	}
+}
+
+sabir = {
+	color = { 0.17 0.65 0.44 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_oghur
+	language = language_khazar
+	martial_custom = martial_custom_equal # Cybr: Apparently had women fighting in their armies
+	head_determination = head_determination_herd
+	traditions = {
+		#tradition_horse_lords
+		tradition_swords_for_hire # Cybr: Served as mercenries for Byzantines and Sassanids in their wars
+		tradition_battlefield_looters # Cybr: Looting and stuff
+		tradition_warrior_culture # Cybr: Said to be good fighters
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	#dlc_tradition = {
+	#	trait = tradition_malleable_invaders
+	#	requires_dlc_flag = hybridize_culture
+	#}
+
+	name_list = name_list_khazar
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_western_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		#30 = turkic_west
+		4 = asian_turkic_26_khazar
+		4 = asian_turkic_27_khazar
+		4 = asian_turkic_28_khazar
+		4 = asian_turkic_29_khazar
+		4 = asian_turkic_30_khazar
+		4 = asian_turkic_1_western
+		4 = asian_turkic_2_western
+		4 = asian_turkic_3_western
+		4 = asian_turkic_4_western
+		4 = asian_turkic_5_western
+		4 = asian_turkic_6_western
+		4 = asian_turkic_7_western
+		4 = asian_turkic_8_western
+		4 = asian_turkic_9_western
+		4 = asian_turkic_15_western
+		4 = asian_turkic_16_western
+		4 = asian_turkic_17_western
+		4 = asian_turkic_19_western
+		4 = asian_turkic_20_western
+		4 = asian_turkic_23_western
+		4 = asian_turkic_36
+		4 = asian_turkic_37
+		4 = asian_turkic_38
+		4 = asian_turkic_39
+		4 = asian_turkic_40
+		4 = asian_turkic_26
+		4 = asian_turkic_27
+		4 = asian_turkic_28
+		4 = asian_turkic_29
+		4 = asian_turkic_30
+	}
+}
+
+kangly = { # Yusseter: Qangli, Possible Pecheneg ancestors.
+	color = { 180 125 69 }
+	created = 450.1.1
+	parents = { dingling yancai }
+
+	ethos = ethos_bellicose
+	heritage = heritage_kipchak
+	language = language_turkic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		#tradition_swords_for_hire
+		tradition_quarrelsome
+		tradition_horse_breeder
+		#tradition_horse_lords
+		tradition_warrior_culture
+		tradition_caravaneers # Cybr: Although far from certain, I'm going with the theory that they were involved in oasis trade along the Syr Darya before they moved westward
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp1_northern_stories
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_runestones
+	}
+
+	#dlc_tradition = {
+	#	trait = tradition_mpo_iron_cavalry
+	#	requires_dlc_flag = khans_of_the_steppe
+	#	requires_dlc_flag = hybridize_culture
+	#}
+	
+	name_list = name_list_pecheneg
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		#15 = turkic
+		#15 = turkic_west
+		2 = asian_turkic_1_cuman
+		2 = asian_turkic_2_cuman
+		2 = asian_turkic_3_cuman
+		2 = asian_turkic_4_cuman
+		2 = asian_turkic_5_cuman
+		2 = asian_turkic_8_cuman 
+		2 = asian_turkic_9_cuman
+		2 = asian_turkic_15_cuman
+		2 = asian_turkic_26_cuman
+		2 = asian_turkic_27_cuman
+		2 = asian_turkic_28_cuman
+		2 = asian_turkic_29_cuman
+		2 = asian_turkic_30_cuman
+		2 = asian_turkic_31_cuman
+		2 = asian_turkic_32_cuman
+		2 = asian_turkic_33_cuman
+		2 = asian_turkic_34_cuman
+		2 = asian_turkic_35_cuman
+		2 = asian_turkic_13_cuman
+		2 = asian_turkic_14_cuman
+		1 = asian_turkic_1_kipchak
+		1 = asian_turkic_2_kipchak
+		1 = asian_turkic_3_kipchak
+		1 = asian_turkic_4_kipchak
+		1 = asian_turkic_5_kipchak
+		1 = asian_turkic_6_kipchak
+		1 = asian_turkic_7_kipchak
+		1 = asian_turkic_10_kipchak
+		1 = asian_turkic_11_kipchak
+		1 = asian_turkic_12_kipchak
+		1 = asian_turkic_13_kipchak
+		1 = asian_turkic_14_kipchak
+		1 = asian_turkic_20_kipchak
+		1 = asian_turkic_16_eastern
+		1 = asian_turkic_36
+		1 = asian_turkic_37
+		1 = asian_turkic_38
+		1 = asian_turkic_39
+		1 = asian_turkic_40
+		1 = asian_turkic_26
+		1 = asian_turkic_27
+		1 = asian_turkic_28
+		1 = asian_turkic_29
+		1 = asian_turkic_30 
+	}
+}
+
+torkil = { # Uze
+	color = { 0.75 0.71 0.21 }
+	created = 800.1.1
+	parents = { turkish khazar } #sabir
+
+	ethos = ethos_bellicose
+	heritage = heritage_oghur
+	language = language_oghuz
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_warrior_culture
+		#tradition_horse_lords
+		tradition_swords_for_hire
+		tradition_loyal_soldiers
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	name_list = name_list_pecheneg
+
+	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_western_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { cuman_unit_gfx mongol_unit_gfx }
+
+	ethnicities = {
+		#15 = turkic_west
+		2 = asian_turkic_1_western
+		2 = asian_turkic_2_western
+		2 = asian_turkic_3_western
+		2 = asian_turkic_4_western
+		2 = asian_turkic_5_western
+		2 = asian_turkic_6_western
+		2 = asian_turkic_7_western
+		2 = asian_turkic_8_western 
+		2 = asian_turkic_9_western
+		2 = asian_turkic_15_western 
+		2 = asian_turkic_16_western
+		2 = asian_turkic_17_western
+		2 = asian_turkic_19_western
+		2 = asian_turkic_20_western
+		2 = asian_turkic_23_western
+		1 = asian_turkic_1_cuman
+		1 = asian_turkic_2_cuman
+		1 = asian_turkic_3_cuman
+		1 = asian_turkic_4_cuman
+		1 = asian_turkic_5_cuman
+		1 = asian_turkic_8_cuman 
+		1 = asian_turkic_9_cuman
+		1 = asian_turkic_15_cuman
+		1 = asian_turkic_26_cuman
+		1 = asian_turkic_27_cuman
+		1 = asian_turkic_28_cuman
+		1 = asian_turkic_29_cuman
+		1 = asian_turkic_30_cuman
+		1 = asian_turkic_31_cuman
+		1 = asian_turkic_32_cuman
+		1 = asian_turkic_33_cuman
+		1 = asian_turkic_34_cuman
+		1 = asian_turkic_35_cuman
+		1 = asian_turkic_13_cuman
+		1 = asian_turkic_14_cuman
+		1 = asian_turkic_36
+		1 = asian_turkic_37
+		1 = asian_turkic_38
+		1 = asian_turkic_39
+		1 = asian_turkic_40
+		1 = asian_turkic_26
+		1 = asian_turkic_27
+		1 = asian_turkic_28
+		1 = asian_turkic_29
+		1 = asian_turkic_30
+	}
+}
+
+yakut = { # Kurykan
+	color = { 0.729 0.615 0.368 }
+	created = 450.1.1
+	parents = { bayirku evenk } # Yusseter: Formed from bayirku (toquz_oghuz) acording to TFE.
+	history_loc_override = yakut_history_loc
+
+	ethos = ethos_communal
+	heritage = heritage_siberian
+	language = language_siberian_turkic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_horse_breeder
+		tradition_pastoralists
+		tradition_forest_folk
+	}
+
+	dlc_tradition = {
+		trait = tradition_mpo_northern_tribes
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	name_list = name_list_yughur
+	
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { ugro_permian_clothing_gfx yb_siberian_steppe_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+		#31 = asian_mongol
+		2 = asian_mongol_1
+		2 = asian_mongol_2
+		2 = asian_mongol_3
+		2 = asian_mongol_4
+		2 = asian_mongol_5
+		2 = asian_mongol_6
+		2 = asian_mongol_7
+		2 = asian_mongol_8
+		2 = asian_mongol_9
+		2 = asian_mongol_10
+		2 = asian_mongol_11
+		2 = asian_mongol_12
+		2 = asian_mongol_13
+		2 = asian_mongol_14
+		2 = asian_mongol_15
+		2 = asian_mongol_16
+		2 = asian_mongol_17
+		2 = asian_mongol_18
+		2 = asian_mongol_19
+		2 = asian_mongol_20
+		2 = asian_mongol_21
+		2 = asian_mongol_22
+		2 = asian_mongol_23
+		2 = asian_mongol_24
+		2 = asian_mongol_25
+		2 = asian_mongol_26
+		2 = asian_mongol_27
+		2 = asian_mongol_28
+		2 = asian_mongol_29
+		2 = asian_mongol_30
+		2 = asian_mongol_31
+		3 = siberian_siberian_01
+		3 = siberian_siberian_02
+		3 = siberian_siberian_03
+		3 = siberian_siberian_04
+		3 = siberian_siberian_05
+		3 = siberian_siberian_06
+		3 = siberian_siberian_07
+		3 = siberian_siberian_08
+		3 = siberian_siberian_09
+		3 = siberian_siberian_10
+		3 = siberian_siberian_11
+		3 = siberian_siberian_12
+		3 = siberian_siberian_13
+		3 = siberian_siberian_14
+		3 = siberian_siberian_15
+		3 = siberian_siberian_16
+		3 = siberian_siberian_17
+		3 = siberian_siberian_18
+		3 = siberian_siberian_19
+		3 = siberian_siberian_20
+		3 = siberian_siberian_21
+		3 = siberian_siberian_22
+		3 = siberian_siberian_23
+		3 = siberian_siberian_24
+		3 = siberian_siberian_25
+	}
+}
+
+basmyl = { # May be related to the Argyn
+	color = { 0.96 0.87 0.76 }
+	created = 700.1.1
+	parents = { tujue }
+
+	ethos = ethos_bellicose
+	heritage = heritage_turkic # Yusseter: heritage_on_oq (On-Oq)
+	language = language_basmyl
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_sacred_mountains
+		#tradition_horse_lords
+		tradition_forest_folk
+		tradition_steppe_tolerance
+	}
+	
+	dlc_tradition = {
+		trait = tradition_mpo_wolves_of_the_deep_steppe
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	name_list = name_list_karluk
+	
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_eastern_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+		#15 = turkic
+		#15 = turkic_west
+		4 = asian_turkic_1
+		4 = asian_turkic_2
+		4 = asian_turkic_3
+		4 = asian_turkic_4
+		4 = asian_turkic_5
+		4 = asian_turkic_6
+		4 = asian_turkic_7
+		4 = asian_turkic_8 
+		4 = asian_turkic_9
+		4 = asian_turkic_10
+		4 = asian_turkic_11
+		4 = asian_turkic_12
+		4 = asian_turkic_13
+		4 = asian_turkic_14
+		4 = asian_turkic_15 
+		2 = asian_turkic_16
+		2 = asian_turkic_16_eastern
+		2 = asian_turkic_17
+		2 = asian_turkic_17_eastern
+		4 = asian_turkic_18
+		4 = asian_turkic_19
+		4 = asian_turkic_20
+		4 = asian_turkic_21
+		4 = asian_turkic_22
+		4 = asian_turkic_22
+		4 = asian_turkic_23
+		4 = asian_turkic_24
+		4 = asian_turkic_25
+		4 = asian_turkic_26
+		4 = asian_turkic_27
+		4 = asian_turkic_28
+		4 = asian_turkic_29
+		4 = asian_turkic_30
+		4 = asian_turkic_36
+		4 = asian_turkic_37
+		4 = asian_turkic_38
+		4 = asian_turkic_39
+		4 = asian_turkic_40
+		4 = asian_turkic_41
+		4 = asian_turkic_42
+		4 = asian_turkic_43
+		4 = asian_turkic_44
+		4 = asian_turkic_45
+		2 = asian_turkic_46
+		2 = asian_turkic_47
+		2 = asian_turkic_48
+		2 = asian_turkic_49
+		2 = asian_turkic_50
+	}
+}
+
+pecheneg = {
+	color = { 0.85 0.79 0.25 }
+	created = 750.1.1
+	parents = { turkish kangly }
+
+	ethos = ethos_bellicose
+	heritage = heritage_kipchak
+	language = language_pecheneg # Kipchak
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		#tradition_horse_lords
+		tradition_swords_for_hire
+		tradition_quarrelsome
+		tradition_warrior_culture
+	}
+
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	name_list = name_list_pecheneg
+
+	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_western_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		#20 = turkic_west
+		2 = asian_turkic_1_western
+		2 = asian_turkic_2_western
+		2 = asian_turkic_3_western
+		2 = asian_turkic_4_western
+		2 = asian_turkic_5_western
+		2 = asian_turkic_6_western
+		2 = asian_turkic_7_western
+		2 = asian_turkic_8_western 
+		2 = asian_turkic_9_western
+		2 = asian_turkic_15_western 
+		2 = asian_turkic_16_western
+		2 = asian_turkic_17_western
+		2 = asian_turkic_19_western
+		2 = asian_turkic_20_western
+		2 = asian_turkic_23_western
+		1 = asian_turkic_1_cuman
+		1 = asian_turkic_2_cuman
+		1 = asian_turkic_3_cuman
+		1 = asian_turkic_4_cuman
+		1 = asian_turkic_5_cuman
+		1 = asian_turkic_8_cuman 
+		1 = asian_turkic_9_cuman
+		1 = asian_turkic_15_cuman
+		1 = asian_turkic_26_cuman
+		1 = asian_turkic_27_cuman
+		1 = asian_turkic_28_cuman
+		1 = asian_turkic_29_cuman
+		1 = asian_turkic_30_cuman
+		1 = asian_turkic_31_cuman
+		1 = asian_turkic_32_cuman
+		1 = asian_turkic_33_cuman
+		1 = asian_turkic_34_cuman
+		1 = asian_turkic_35_cuman
+		1 = asian_turkic_13_cuman
+		1 = asian_turkic_14_cuman
+		1 = asian_turkic_36
+		1 = asian_turkic_37
+		1 = asian_turkic_38
+		1 = asian_turkic_39
+		1 = asian_turkic_40
+		1 = asian_turkic_26
+		1 = asian_turkic_27
+		1 = asian_turkic_28
+		1 = asian_turkic_29
+		1 = asian_turkic_30
+	}
+}
+
+salar = { #Turkish people marked as Oghuz in vanilla
+	color = { 235 180 40 }
+	created = 1100.1.1
+	parents = { turkish amdo }
+
+	ethos = ethos_communal
+	heritage = heritage_mongolic #heritage_tatar
+	language = language_oghuz
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		#tradition_warrior_culture
+		tradition_religion_blending
+		tradition_swords_for_hire
+		tradition_ruling_caste
+	}
+
+	name_list = name_list_tuyuhun
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_eastern_steppe_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		#15 = turkic
+		#15 = asian_mongol
+		5 = asian_turkic_16_eastern
+		5 = asian_turkic_17_eastern
+		1 = asian_turkic_36
+		1 = asian_turkic_37
+		1 = asian_turkic_38
+		1 = asian_turkic_39
+		1 = asian_turkic_40
+		1 = asian_turkic_26
+		1 = asian_turkic_27
+		1 = asian_turkic_28
+		1 = asian_turkic_29
+		1 = asian_turkic_30
+		2 = asian_mongol_1
+		2 = asian_mongol_2
+		2 = asian_mongol_3
+		2 = asian_mongol_4
+		2 = asian_mongol_5
+		2 = asian_mongol_6
+		2 = asian_mongol_7
+		2 = asian_mongol_8
+		2 = asian_mongol_9
+		2 = asian_mongol_10
+		2 = asian_mongol_11
+		2 = asian_mongol_12
+		2 = asian_mongol_13
+		2 = asian_mongol_14
+		2 = asian_mongol_15
+		2 = asian_mongol_16
+		2 = asian_mongol_17
+		2 = asian_mongol_18
+		2 = asian_mongol_19
+		2 = asian_mongol_20
+		2 = asian_mongol_21
+		2 = asian_mongol_22
+		2 = asian_mongol_23
+		2 = asian_mongol_24
+		2 = asian_mongol_25
+		2 = asian_mongol_26
+		2 = asian_mongol_27
+		2 = asian_mongol_28
+		2 = asian_mongol_29
+		2 = asian_mongol_30
+		2 = asian_mongol_31
+		1 = asian_tuyuhun_1
+		1 = asian_tuyuhun_2
+		1 = asian_tuyuhun_3
+		1 = asian_tuyuhun_4
+		1 = asian_tuyuhun_5
+		1 = asian_tuyuhun_6
+		1 = asian_tuyuhun_7
+		1 = asian_tuyuhun_8
+		1 = asian_tuyuhun_9
+		1 = asian_tuyuhun_10
+		1 = asian_tuyuhun_11
+		1 = asian_tuyuhun_12
+		1 = asian_tuyuhun_13
+		1 = asian_tuyuhun_14
+		1 = asian_tuyuhun_15
+		1 = asian_tuyuhun_16
+		1 = asian_tuyuhun_17
+		1 = asian_tuyuhun_18
+		1 = asian_tuyuhun_19
+		1 = asian_tuyuhun_20
+		1 = asian_tuyuhun_21
+		1 = asian_tuyuhun_22
+		1 = asian_tuyuhun_23
+		1 = asian_tuyuhun_24
+		1 = asian_tuyuhun_25
+		1 = asian_tuyuhun_26
+		1 = asian_tuyuhun_27
+		1 = asian_tuyuhun_28
+		1 = asian_tuyuhun_29
+		1 = asian_tuyuhun_30
+	}
+}
+
+cuman = {
+	color = { 0.75 0.60 0.20 }
+	
+	created = 744.1.1 # Turkic Khaganate collapses and migrations start. Related to the Pecheneg.
+	parents = { qun kangly }
+
+	ethos = ethos_bellicose
+	heritage = heritage_kipchak
+	language = language_kipchak
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		#tradition_warrior_culture
+		#tradition_horse_lords
+		tradition_swords_for_hire
+		tradition_pastoralists
+		tradition_eye_for_an_eye
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp1_northern_stories
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_runestones
+	}
+	
+	#dlc_tradition = {
+	#	trait = tradition_malleable_invaders
+	#	requires_dlc_flag = hybridize_culture
+	#}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	name_list = name_list_cuman
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_western_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { cuman_unit_gfx mongol_unit_gfx }
+
+	ethnicities = {
+		#15 = turkic
+		#15 = turkic_west
+		2 = asian_turkic_1_cuman
+		2 = asian_turkic_2_cuman
+		2 = asian_turkic_3_cuman
+		2 = asian_turkic_4_cuman
+		2 = asian_turkic_5_cuman
+		2 = asian_turkic_8_cuman 
+		2 = asian_turkic_9_cuman
+		2 = asian_turkic_15_cuman
+		2 = asian_turkic_26_cuman
+		2 = asian_turkic_27_cuman
+		2 = asian_turkic_28_cuman
+		2 = asian_turkic_29_cuman
+		2 = asian_turkic_30_cuman
+		2 = asian_turkic_31_cuman
+		2 = asian_turkic_32_cuman
+		2 = asian_turkic_33_cuman
+		2 = asian_turkic_34_cuman
+		2 = asian_turkic_35_cuman
+		2 = asian_turkic_13_cuman
+		2 = asian_turkic_14_cuman
+		2 = asian_turkic_6_western
+		2 = asian_turkic_7_western
+		2 = asian_turkic_16_western
+		2 = asian_turkic_17_western
+		2 = asian_turkic_19_western
+		2 = asian_turkic_20_western
+		2 = asian_turkic_23_western
+		1 = asian_turkic_1_kipchak
+		1 = asian_turkic_2_kipchak
+		1 = asian_turkic_3_kipchak
+		1 = asian_turkic_4_kipchak
+		1 = asian_turkic_5_kipchak
+		1 = asian_turkic_6_kipchak
+		1 = asian_turkic_7_kipchak
+		1 = asian_turkic_10_kipchak
+		1 = asian_turkic_11_kipchak
+		1 = asian_turkic_12_kipchak
+		1 = asian_turkic_13_kipchak
+		1 = asian_turkic_14_kipchak
+		1 = asian_turkic_20_kipchak
+		1 = asian_turkic_16_eastern
+		1 = asian_turkic_36
+		1 = asian_turkic_37
+		1 = asian_turkic_38
+		1 = asian_turkic_39
+		1 = asian_turkic_40
+		1 = asian_turkic_26
+		1 = asian_turkic_27
+		1 = asian_turkic_28
+		1 = asian_turkic_29
+		1 = asian_turkic_30 
+	}
+}
+
+khazar = {
+	color = khazar
+	created = 620.1.1
+	parents = { tujue sabir }
+	history_loc_override = khazar_history_loc
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_oghur
+	language = language_khazar
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_concubines
+		#tradition_steppe_tolerance
+		tradition_stand_and_fight
+		tradition_only_the_strong
+		#tradition_horse_lords
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	name_list = name_list_khazar
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_western_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		#10 = turkic
+		#20 = turkic_west
+		4 = asian_turkic_26_khazar
+		4 = asian_turkic_27_khazar
+		4 = asian_turkic_28_khazar
+		4 = asian_turkic_29_khazar
+		4 = asian_turkic_30_khazar
+		4 = asian_turkic_1_western
+		4 = asian_turkic_2_western
+		4 = asian_turkic_3_western
+		4 = asian_turkic_4_western
+		4 = asian_turkic_5_western
+		4 = asian_turkic_6_western
+		4 = asian_turkic_7_western
+		4 = asian_turkic_8_western
+		4 = asian_turkic_9_western
+		4 = asian_turkic_15_western
+		4 = asian_turkic_16_western
+		4 = asian_turkic_17_western
+		4 = asian_turkic_19_western
+		4 = asian_turkic_20_western
+		4 = asian_turkic_23_western
+		4 = asian_turkic_36
+		4 = asian_turkic_37
+		4 = asian_turkic_38
+		4 = asian_turkic_39
+		4 = asian_turkic_40
+		4 = asian_turkic_26
+		4 = asian_turkic_27
+		4 = asian_turkic_28
+		4 = asian_turkic_29
+		4 = asian_turkic_30
+	}
+}
+
+
+kabars = {
+	color = { 0.60 0.45 0.25 }
+
+	created = 830.1.1
+	parents = { khazar }
+
+	ethos = ethos_egalitarian
+	heritage = heritage_oghur
+	language = language_khazar
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_warrior_culture
+		tradition_horse_breeder
+		tradition_swords_for_hire
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	name_list = name_list_khazar
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_western_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		4 = asian_turkic_26_khazar
+		4 = asian_turkic_27_khazar
+		4 = asian_turkic_28_khazar
+		4 = asian_turkic_29_khazar
+		4 = asian_turkic_30_khazar
+		4 = asian_turkic_1_western
+		4 = asian_turkic_2_western
+		4 = asian_turkic_3_western
+		4 = asian_turkic_4_western
+		4 = asian_turkic_5_western
+		4 = asian_turkic_6_western
+		4 = asian_turkic_7_western
+		4 = asian_turkic_8_western
+		4 = asian_turkic_9_western
+		4 = asian_turkic_15_western
+		4 = asian_turkic_16_western
+		4 = asian_turkic_17_western
+		4 = asian_turkic_19_western
+		4 = asian_turkic_20_western
+		4 = asian_turkic_23_western
+		4 = asian_turkic_36
+		4 = asian_turkic_37
+		4 = asian_turkic_38
+		4 = asian_turkic_39
+		4 = asian_turkic_40
+		4 = asian_turkic_26
+		4 = asian_turkic_27
+		4 = asian_turkic_28
+		4 = asian_turkic_29
+		4 = asian_turkic_30
+	}
+}
+
+bolghar = {
+	color = { 147 124 93 }
+	
+	ethos = ethos_communal
+	heritage = heritage_oghur
+	language = language_bolghar
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_ruling_caste
+		tradition_astute_diplomats
+		#tradition_horse_lords
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	#dlc_tradition = {
+	#	trait = tradition_malleable_invaders
+	#	requires_dlc_flag = hybridize_culture
+	#}
+	
+	name_list = name_list_bolghar
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_western_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { magyar_unit_gfx }
+
+	ethnicities = {
+		#20 = turkic_west
+		4 = asian_turkic_1_western
+		4 = asian_turkic_2_western
+		4 = asian_turkic_3_western
+		4 = asian_turkic_4_western
+		4 = asian_turkic_5_western
+		4 = asian_turkic_6_western
+		4 = asian_turkic_7_western
+		4 = asian_turkic_8_western 
+		4 = asian_turkic_9_western
+		4 = asian_turkic_15_western 
+		4 = asian_turkic_16_western
+		4 = asian_turkic_17_western
+		4 = asian_turkic_19_western
+		4 = asian_turkic_20_western
+		4 = asian_turkic_23_western
+		2 = asian_turkic_36
+		2 = asian_turkic_37
+		2 = asian_turkic_38
+		2 = asian_turkic_39
+		2 = asian_turkic_40
+		2 = asian_turkic_26
+		2 = asian_turkic_27
+		2 = asian_turkic_28
+		2 = asian_turkic_29
+		2 = asian_turkic_30
+		1 = european_magyar_magyar_01
+		1 = european_magyar_magyar_02
+		1 = european_magyar_magyar_03
+		1 = european_magyar_magyar_04
+		1 = european_magyar_magyar_05
+		1 = european_magyar_magyar_06
+		1 = european_magyar_magyar_07
+		1 = european_magyar_magyar_08
+		1 = european_magyar_magyar_09
+		1 = european_magyar_magyar_10
+		1 = european_magyar_magyar_11
+		1 = european_magyar_magyar_12
+		1 = european_magyar_magyar_13
+		1 = european_magyar_magyar_14
+		1 = european_magyar_magyar_15
+		1 = european_magyar_magyar_16
+		1 = european_magyar_magyar_17
+		1 = european_magyar_magyar_18
+		1 = european_magyar_magyar_19
+		1 = european_magyar_magyar_20
+		1 = european_magyar_magyar_21
+		1 = european_magyar_magyar_22
+		1 = european_magyar_magyar_23
+		1 = european_magyar_magyar_24
+		1 = european_magyar_magyar_25
+	}
+}
+
+bashkir = {
+	color = { 118 89 51 }
+	created = 700.1.1
+	parents = { kangly mogyer }
+	history_loc_override = bashkir_history_loc
+
+	ethos = ethos_stoic
+	heritage = heritage_ugro_permian
+	language = language_kipchak
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		#tradition_sacred_mountains
+		#tradition_horse_lords
+		tradition_forest_folk
+		tradition_hill_dwellers
+		tradition_storytellers
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	#dlc_tradition = {
+	#	trait = tradition_malleable_invaders
+	#	requires_dlc_flag = hybridize_culture
+	#}
+	
+	name_list = name_list_bashkir
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_western_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { magyar_unit_gfx }
+
+	ethnicities = {
+		#15 = turkic
+		#15 = turkic_west
+		#100 = asian_magyar_1
+		6 = asian_turkic_1_kipchak
+		6 = asian_turkic_2_kipchak
+		6 = asian_turkic_3_kipchak
+		6 = asian_turkic_4_kipchak
+		6 = asian_turkic_5_kipchak
+		6 = asian_turkic_6_kipchak
+		6 = asian_turkic_7_kipchak
+		6 = asian_turkic_10_kipchak
+		6 = asian_turkic_11_kipchak
+		6 = asian_turkic_12_kipchak
+		6 = asian_turkic_13_kipchak
+		6 = asian_turkic_14_kipchak
+		6 = asian_turkic_20_kipchak
+		15 = asian_turkic_7_western
+		15 = asian_turkic_8_western 
+		15 = asian_turkic_9_western
+		15 = asian_turkic_15_western 
+		15 = asian_turkic_16_western
+		15 = asian_turkic_17_western
+		15 = asian_turkic_19_western
+		5 = asian_turkic_1_cuman
+		5 = asian_turkic_2_cuman
+		5 = asian_turkic_3_cuman
+		5 = asian_turkic_4_cuman
+		5 = asian_turkic_5_cuman
+		5 = asian_turkic_8_cuman 
+		5 = asian_turkic_9_cuman
+		5 = asian_turkic_15_cuman
+		5 = asian_turkic_26_cuman
+		5 = asian_turkic_27_cuman
+		5 = asian_turkic_28_cuman
+		5 = asian_turkic_29_cuman
+		5 = asian_turkic_30_cuman
+		5 = asian_turkic_31_cuman
+		5 = asian_turkic_32_cuman
+		5 = asian_turkic_33_cuman
+		5 = asian_turkic_34_cuman
+		5 = asian_turkic_35_cuman
+		5 = asian_turkic_13_cuman
+		5 = asian_turkic_14_cuman
+		5 = asian_turkic_36
+		5 = asian_turkic_37
+		5 = asian_turkic_38
+		5 = asian_turkic_39
+		5 = asian_turkic_40
+		5 = asian_turkic_26
+		5 = asian_turkic_27
+		5 = asian_turkic_28
+		5 = asian_turkic_29
+		5 = asian_turkic_30
+		4 = european_magyar_magyar_01
+		4 = european_magyar_magyar_02
+		4 = european_magyar_magyar_03
+		4 = european_magyar_magyar_04
+		4 = european_magyar_magyar_05
+		4 = european_magyar_magyar_06
+		4 = european_magyar_magyar_07
+		4 = european_magyar_magyar_08
+		4 = european_magyar_magyar_09
+		4 = european_magyar_magyar_10
+		4 = european_magyar_magyar_11
+		4 = european_magyar_magyar_12
+		4 = european_magyar_magyar_13
+		4 = european_magyar_magyar_14
+		4 = european_magyar_magyar_15
+		4 = european_magyar_magyar_16
+		4 = european_magyar_magyar_17
+		4 = european_magyar_magyar_18
+		4 = european_magyar_magyar_19
+		4 = european_magyar_magyar_20
+		4 = european_magyar_magyar_21
+		4 = european_magyar_magyar_22
+		4 = european_magyar_magyar_23
+		4 = european_magyar_magyar_24
+		4 = european_magyar_magyar_25
+		4 = european_magyar_magyar_26
+		4 = european_magyar_magyar_27
+		4 = european_magyar_magyar_28
+		4 = european_magyar_magyar_29
+		4 = european_magyar_magyar_30
+		4 = european_magyar_magyar_31
+		4 = european_magyar_magyar_32
+		4 = european_magyar_magyar_33
+		4 = european_magyar_magyar_34
+		4 = european_magyar_magyar_35
+		4 = european_magyar_magyar_36
+		4 = european_magyar_magyar_37
+		4 = european_magyar_magyar_38
+		4 = european_magyar_magyar_39
+		4 = european_magyar_magyar_40
+		4 = european_magyar_magyar_41
+		4 = european_magyar_magyar_42
+		4 = european_magyar_magyar_43
+		4 = european_magyar_magyar_44
+		4 = european_magyar_magyar_45
+		4 = european_magyar_magyar_46
+		4 = european_magyar_magyar_47
+		4 = european_magyar_magyar_48
+		4 = european_magyar_magyar_49
+		4 = european_magyar_magyar_50
+	}
+}
+
+avar = {
+	color = { 0.7 0.7 0.3 }
+	created = 500.1.1 
+	parents = { xionite sabir }
+	history_loc_override = avar_history_loc
+	
+	ethos = ethos_bellicose
+	heritage = heritage_oghur
+	language = language_oghur
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_ruling_caste
+		#tradition_horse_lords
+		tradition_talent_acquisition
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	dlc_tradition = {
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_avar
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_western_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		#10 = turkic
+		#20 = turkic_west
+		40 = asian_turkic_avar_4
+		2 = asian_turkic_26_khazar
+		2 = asian_turkic_27_khazar
+		2 = asian_turkic_28_khazar
+		2 = asian_turkic_29_khazar
+		2 = asian_turkic_30_khazar
+		4 = asian_turkic_1_western
+		4 = asian_turkic_2_western
+		4 = asian_turkic_3_western
+		4 = asian_turkic_4_western
+		4 = asian_turkic_5_western
+		4 = asian_turkic_6_western
+		4 = asian_turkic_7_western
+		4 = asian_turkic_8_western 
+		4 = asian_turkic_9_western
+		4 = asian_turkic_15_western 
+		4 = asian_turkic_16_western
+		4 = asian_turkic_17_western
+		4 = asian_turkic_19_western
+		4 = asian_turkic_20_western
+		4 = asian_turkic_23_western
+ 		4 = asian_turkic_1
+ 		4 = asian_turkic_2
+ 		4 = asian_turkic_3
+ 		4 = asian_turkic_4
+ 		4 = asian_turkic_5
+ 		4 = asian_turkic_6
+ 		4 = asian_turkic_7
+ 		4 = asian_turkic_8 
+ 		4 = asian_turkic_9
+ 		4 = asian_turkic_10
+ 		4 = asian_turkic_11
+ 		4 = asian_turkic_12
+ 		4 = asian_turkic_13
+ 		4 = asian_turkic_14
+ 		4 = asian_turkic_15 
+ 		2 = asian_turkic_16
+ 		2 = asian_turkic_16_eastern
+ 		2 = asian_turkic_17
+ 		2 = asian_turkic_17_eastern
+ 		4 = asian_turkic_18
+ 		4 = asian_turkic_19
+ 		4 = asian_turkic_20
+ 		4 = asian_turkic_21
+ 		4 = asian_turkic_22
+ 		4 = asian_turkic_22
+ 		4 = asian_turkic_23
+ 		4 = asian_turkic_24
+ 		4 = asian_turkic_25
+ 		4 = asian_turkic_26
+ 		4 = asian_turkic_27
+ 		4 = asian_turkic_28
+ 		4 = asian_turkic_29
+ 		4 = asian_turkic_30
+ 		4 = asian_turkic_36
+ 		4 = asian_turkic_37
+ 		4 = asian_turkic_38
+ 		4 = asian_turkic_39
+ 		4 = asian_turkic_40
+ 		4 = asian_turkic_41
+ 		4 = asian_turkic_42
+ 		4 = asian_turkic_43
+ 		4 = asian_turkic_44
+ 		4 = asian_turkic_45
+ 		3 = asian_turkic_46
+ 		3 = asian_turkic_47
+ 		3 = asian_turkic_48
+ 		3 = asian_turkic_49
+ 		3 = asian_turkic_50
+	}
+}
+
+karluk = {
+	color = { 248 138 71 }
+	created = 700.1.1
+	parents = { tujue }
+	history_loc_override = karluk_history_loc
+	
+	ethos = ethos_communal
+	heritage = heritage_turkic # Yusseter: heritage_on_oq (On-Oq)
+	language = language_karluk
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		#tradition_steppe_tolerance
+		#tradition_horse_lords
+		tradition_horse_breeder
+		tradition_sacred_mountains
+		tradition_dryland_dwellers
+		tradition_mountain_homes
+	}
+	
+	#dlc_tradition = {
+	#	trait = tradition_malleable_invaders
+	#	requires_dlc_flag = hybridize_culture
+	#}
+	
+	name_list = name_list_karluk
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx yb_timurid_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		#30 = turkic
+		4 = asian_turkic_1
+		4 = asian_turkic_2
+		4 = asian_turkic_3
+		4 = asian_turkic_4
+		4 = asian_turkic_5
+		4 = asian_turkic_6
+		4 = asian_turkic_7
+		4 = asian_turkic_8
+		4 = asian_turkic_9
+		4 = asian_turkic_10
+		4 = asian_turkic_11
+		4 = asian_turkic_12
+		4 = asian_turkic_13
+		4 = asian_turkic_14
+		4 = asian_turkic_15
+		2 = asian_turkic_16
+		2 = asian_turkic_16_eastern
+		2 = asian_turkic_17
+		2 = asian_turkic_17_eastern
+		4 = asian_turkic_18
+		4 = asian_turkic_19
+		4 = asian_turkic_20
+		4 = asian_turkic_21
+		4 = asian_turkic_22
+		4 = asian_turkic_22
+		4 = asian_turkic_23
+		4 = asian_turkic_24
+		4 = asian_turkic_25
+		4 = asian_turkic_26
+		4 = asian_turkic_27
+		4 = asian_turkic_28
+		4 = asian_turkic_29
+		4 = asian_turkic_30
+		4 = asian_turkic_36
+		4 = asian_turkic_37
+		4 = asian_turkic_38
+		4 = asian_turkic_39
+		4 = asian_turkic_40
+		4 = asian_turkic_41
+		4 = asian_turkic_42
+		4 = asian_turkic_43
+		4 = asian_turkic_44
+		4 = asian_turkic_45
+		2 = asian_turkic_46
+		2 = asian_turkic_47
+		2 = asian_turkic_48
+		2 = asian_turkic_49
+		2 = asian_turkic_50
+	}
+}
+
+kimek = {
+	color = { 0.90 0.75 0.10 }
+	created = 750.1.1
+	parents = { ueban kipchak }
+	
+	ethos = ethos_stoic
+	heritage = heritage_kipchak
+	#heritage = heritage_turkic # Yusseter: heritage_on_oq (On-Oq)
+	language = language_kipchak
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		#tradition_horse_lords
+		tradition_hunters
+		tradition_pastoralists
+		tradition_stalwart_defenders
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp1_northern_stories
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_runestones
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	name_list = name_list_kimek
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { cuman_unit_gfx mongol_unit_gfx }
+
+	ethnicities = {
+		#30 = turkic
+		4 = asian_turkic_1_kipchak
+		4 = asian_turkic_2_kipchak
+		4 = asian_turkic_3_kipchak
+		4 = asian_turkic_4_kipchak
+		4 = asian_turkic_5_kipchak
+		4 = asian_turkic_6_kipchak
+		4 = asian_turkic_7_kipchak
+		4 = asian_turkic_10_kipchak
+		4 = asian_turkic_11_kipchak
+		4 = asian_turkic_12_kipchak
+		4 = asian_turkic_13_kipchak
+		4 = asian_turkic_14_kipchak
+		4 = asian_turkic_20_kipchak
+		4 = asian_turkic_16_eastern
+		4 = asian_turkic_17
+		4 = asian_turkic_17_eastern
+		4 = asian_turkic_36
+		4 = asian_turkic_37
+		4 = asian_turkic_38
+		4 = asian_turkic_39
+		4 = asian_turkic_40
+		4 = asian_turkic_26
+		4 = asian_turkic_27
+		4 = asian_turkic_28
+		4 = asian_turkic_29
+		4 = asian_turkic_30
+		2 = asian_turkic_46
+		2 = asian_turkic_47
+		2 = asian_turkic_48
+		2 = asian_turkic_49
+		2 = asian_turkic_50
+	}
+}
+
+kipchak = {
+	color = { 0.55 0.50 0.15 }
+	created = 600.1.1
+	parents = { kangly }
+	
+	ethos = ethos_stoic
+	heritage = heritage_kipchak
+	language = language_kipchak
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_swords_for_hire
+		#tradition_horse_lords
+		tradition_hunters
+		tradition_quarrelsome
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	name_list = name_list_kipchak
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { cuman_unit_gfx mongol_unit_gfx }
+
+	ethnicities = {
+		#30 = turkic
+		4 = asian_turkic_1_kipchak
+		4 = asian_turkic_2_kipchak
+		4 = asian_turkic_3_kipchak
+		4 = asian_turkic_4_kipchak
+		4 = asian_turkic_5_kipchak
+		4 = asian_turkic_6_kipchak
+		4 = asian_turkic_7_kipchak
+		4 = asian_turkic_10_kipchak
+		4 = asian_turkic_11_kipchak
+		4 = asian_turkic_12_kipchak
+		4 = asian_turkic_13_kipchak
+		4 = asian_turkic_14_kipchak
+		4 = asian_turkic_20_kipchak
+		4 = asian_turkic_16_eastern
+		4 = asian_turkic_17
+		4 = asian_turkic_17_eastern
+		4 = asian_turkic_36
+		4 = asian_turkic_37
+		4 = asian_turkic_38
+		4 = asian_turkic_39
+		4 = asian_turkic_40
+		4 = asian_turkic_26
+		4 = asian_turkic_27
+		4 = asian_turkic_28
+		4 = asian_turkic_29
+		4 = asian_turkic_30
+		2 = asian_turkic_46
+		2 = asian_turkic_47
+		2 = asian_turkic_48
+		2 = asian_turkic_49
+		2 = asian_turkic_50
+	}
+}
+
+# Xionites were at least part Iranian in origin and influence, though likely mixed with Turkic and Proto-Mongolic elements
+# See https://iranicaonline.org/articles/chionites-lat for more info
+xionite = {
+	color = { 147 124 93 }
+
+	parents = { xiongnu main_saka }
+
+	created = 150.1.1 # It was formed by the Xiongnu (Asian Hun) who migrated westwards as a result of the collapse of the Xiongnu Empire in 91 AD. First mentioned around the 350s AD, likely part of wave of major nomadic migrations in Central Asia c. 350 AD
+
+	ethos = ethos_bellicose
+	heritage = heritage_hunnic
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		#tradition_horse_lords # Cybr: Steppe nomads
+		tradition_stalwart_defenders
+		tradition_steppe_tolerance # Cybr: Steppe nomads
+		tradition_city_keepers # Cybr: Although they may (or may not) have started off as nomads, they often settled into cities, and according to recent scholarship the Kidarite/Hephthalite period was one of increased urban growth in the eastern Iranian worlds
+		#tradition_nomadic_migrations # Cybr: nomad empire
+	}
+
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	#dlc_tradition = { # Did a lot of culture blending later on
+	#	trait = tradition_malleable_invaders
+	#	requires_dlc_flag = hybridize_culture
+	#}
+	
+	name_list = name_list_hephthalite
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { turkic_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		3 = iranian_saka_01
+		3 = iranian_saka_02
+		3 = iranian_saka_03
+		3 = iranian_saka_04
+		3 = iranian_saka_05
+		3 = iranian_saka_06
+		3 = iranian_saka_07
+		3 = iranian_saka_08
+		3 = iranian_saka_09
+		3 = iranian_saka_10
+		3 = iranian_saka_11
+		3 = iranian_saka_12
+		3 = iranian_saka_13
+		3 = iranian_saka_14
+		3 = iranian_saka_15
+		3 = iranian_saka_16
+		3 = iranian_saka_17
+		3 = iranian_saka_18
+		3 = iranian_saka_19
+		3 = iranian_saka_20
+ 		4 = asian_turkic_1
+ 		4 = asian_turkic_2
+ 		4 = asian_turkic_3
+ 		4 = asian_turkic_4
+ 		4 = asian_turkic_5
+ 		4 = asian_turkic_6
+ 		4 = asian_turkic_7
+ 		4 = asian_turkic_8 
+ 		4 = asian_turkic_9
+ 		4 = asian_turkic_10
+ 		4 = asian_turkic_11
+ 		4 = asian_turkic_12
+ 		4 = asian_turkic_13
+ 		4 = asian_turkic_14
+ 		4 = asian_turkic_15 
+ 		2 = asian_turkic_16
+ 		2 = asian_turkic_16_eastern
+ 		2 = asian_turkic_17
+ 		2 = asian_turkic_17_eastern
+ 		4 = asian_turkic_18
+ 		4 = asian_turkic_19
+ 		4 = asian_turkic_20
+ 		4 = asian_turkic_21
+ 		4 = asian_turkic_22
+ 		4 = asian_turkic_22
+ 		4 = asian_turkic_23
+ 		4 = asian_turkic_24
+ 		4 = asian_turkic_25
+ 		4 = asian_turkic_26
+ 		4 = asian_turkic_27
+ 		4 = asian_turkic_28
+ 		4 = asian_turkic_29
+ 		4 = asian_turkic_30
+ 		4 = asian_turkic_36
+ 		4 = asian_turkic_37
+ 		4 = asian_turkic_38
+ 		4 = asian_turkic_39
+ 		4 = asian_turkic_40
+ 		4 = asian_turkic_41
+ 		4 = asian_turkic_42
+ 		4 = asian_turkic_43
+ 		4 = asian_turkic_44
+ 		4 = asian_turkic_45
+ 		3 = asian_turkic_46
+ 		3 = asian_turkic_47
+ 		3 = asian_turkic_48
+ 		3 = asian_turkic_49
+ 		3 = asian_turkic_50
+	}
+}
+
+laktan = { # Teleut
+	color = { 0.55 0.45 0.10 }
+	created = 700.1.1
+	parents = { ueban }
+	
+	ethos = ethos_stoic
+	heritage = heritage_turkic # Yusseter: heritage_on_oq (On-Oq)
+	language = language_kimek # Teleut
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_hunters
+		tradition_forest_folk
+		#tradition_horse_lords
+		tradition_stalwart_defenders
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	name_list = name_list_laktan
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_eastern_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		#30 = turkic
+		1 = asian_turkic_enisey_kirghiz_01
+		1 = asian_turkic_enisey_kirghiz_02
+		1 = asian_turkic_enisey_kirghiz_03
+		1 = asian_turkic_enisey_kirghiz_04
+		1 = asian_turkic_enisey_kirghiz_05
+		1 = asian_turkic_enisey_kirghiz_06
+		1 = asian_turkic_enisey_kirghiz_07
+		1 = asian_turkic_enisey_kirghiz_08
+		1 = asian_turkic_enisey_kirghiz_09
+		1 = asian_turkic_enisey_kirghiz_10
+		4 = asian_turkic_1_kipchak
+		4 = asian_turkic_2_kipchak
+		4 = asian_turkic_3_kipchak
+		4 = asian_turkic_4_kipchak
+		4 = asian_turkic_5_kipchak
+		4 = asian_turkic_6_kipchak
+		4 = asian_turkic_7_kipchak
+		4 = asian_turkic_10_kipchak
+		4 = asian_turkic_11_kipchak
+		4 = asian_turkic_12_kipchak
+		4 = asian_turkic_13_kipchak
+		4 = asian_turkic_14_kipchak
+		4 = asian_turkic_20_kipchak
+		1 = asian_turkic_1_cuman
+		1 = asian_turkic_2_cuman
+		1 = asian_turkic_3_cuman
+		1 = asian_turkic_4_cuman
+		1 = asian_turkic_5_cuman
+		1 = asian_turkic_8_cuman 
+		1 = asian_turkic_9_cuman
+		1 = asian_turkic_15_cuman
+		1 = asian_turkic_26_cuman
+		1 = asian_turkic_27_cuman
+		1 = asian_turkic_28_cuman
+		1 = asian_turkic_29_cuman
+		1 = asian_turkic_30_cuman
+		1 = asian_turkic_31_cuman
+		1 = asian_turkic_32_cuman
+		1 = asian_turkic_33_cuman
+		1 = asian_turkic_34_cuman
+		1 = asian_turkic_35_cuman
+		1 = asian_turkic_13_cuman
+		1 = asian_turkic_14_cuman
+		2 = asian_turkic_1
+		2 = asian_turkic_2
+		2 = asian_turkic_3
+		2 = asian_turkic_4
+		2 = asian_turkic_5
+		2 = asian_turkic_6
+		2 = asian_turkic_7
+		2 = asian_turkic_8 
+		2 = asian_turkic_9
+		2 = asian_turkic_10
+		2 = asian_turkic_11
+		2 = asian_turkic_12
+		2 = asian_turkic_13
+		2 = asian_turkic_14
+		2 = asian_turkic_15 
+		2 = asian_turkic_15_western
+		2 = asian_turkic_16
+		2 = asian_turkic_16_eastern
+		2 = asian_turkic_17
+		2 = asian_turkic_17_eastern
+		2 = asian_turkic_18
+		2 = asian_turkic_19
+		2 = asian_turkic_20
+		2 = asian_turkic_21
+		2 = asian_turkic_22
+		2 = asian_turkic_22
+		2 = asian_turkic_23
+		2 = asian_turkic_24
+		2 = asian_turkic_25
+		2 = asian_turkic_26
+		2 = asian_turkic_27
+		2 = asian_turkic_28
+		2 = asian_turkic_29
+		2 = asian_turkic_30
+		2 = asian_turkic_36
+		2 = asian_turkic_37
+		2 = asian_turkic_38
+		2 = asian_turkic_39
+		2 = asian_turkic_40
+	}
+}
+
+uyghur = {
+	color = { 0.85 0.75 0.50 }
+	created = 870.1.1
+	parents = { uigur tocharian }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_tocharian
+	language = language_siberian_turkic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_religious_patronage
+		#tradition_steppe_tolerance
+		tradition_caravaneers
+		tradition_charitable
+		tradition_xenophilic
+	}
+	
+	name_list = name_list_uyghur
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { epe_uyghur_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		#30 = turkic
+		4 = asian_turkic_1
+		4 = asian_turkic_2
+		4 = asian_turkic_3
+		4 = asian_turkic_4
+		4 = asian_turkic_5
+		4 = asian_turkic_6
+		4 = asian_turkic_7
+		4 = asian_turkic_8 
+		4 = asian_turkic_9
+		6 = asian_turkic_10_uyghur
+		6 = asian_turkic_11_uyghur
+		6 = asian_turkic_12_uyghur
+		6 = asian_turkic_13_uyghur
+		4 = asian_turkic_14
+		4 = asian_turkic_15
+		2 = asian_turkic_15_western
+		4 = asian_turkic_16
+		6 = asian_turkic_16_eastern
+		4 = asian_turkic_17
+		6 = asian_turkic_17_eastern
+		4 = asian_turkic_18
+		4 = asian_turkic_19
+		6 = asian_turkic_20_uyghur
+		6 = asian_turkic_21_uyghur
+		4 = asian_turkic_22
+		4 = asian_turkic_22
+		4 = asian_turkic_23
+		4 = asian_turkic_24
+		4 = asian_turkic_25
+		4 = asian_turkic_26
+		4 = asian_turkic_27
+		4 = asian_turkic_28
+		4 = asian_turkic_29
+		4 = asian_turkic_30
+		4 = asian_turkic_36
+		4 = asian_turkic_37
+		4 = asian_turkic_38
+		4 = asian_turkic_39
+		4 = asian_turkic_40
+		6 = asian_turkic_41_uyghur
+		6 = asian_turkic_42_uyghur
+		6 = asian_turkic_43_uyghur
+		6 = asian_turkic_44_uyghur
+		6 = asian_turkic_45_uyghur
+		4 = asian_turkic_46
+		4 = asian_turkic_47
+		4 = asian_turkic_48
+		4 = asian_turkic_49
+		2 = asian_tocharian_1
+		2 = asian_tocharian_2
+		2 = asian_tocharian_3
+		2 = asian_tocharian_4 
+		2 = asian_tocharian_5
+		2 = asian_tocharian_6
+		2 = asian_tocharian_7
+		2 = asian_tocharian_8
+		2 = asian_tocharian_9 
+		2 = asian_tocharian_10
+		2 = asian_tocharian_11
+		2 = asian_tocharian_12
+		2 = asian_tocharian_13
+		2 = asian_tocharian_14 
+		2 = asian_tocharian_15
+		2 = asian_tocharian_16
+		2 = asian_tocharian_17
+		2 = asian_tocharian_18
+		2 = asian_tocharian_19
+		2 = asian_tocharian_20
+		2 = asian_tocharian_21
+		2 = asian_tocharian_22
+		2 = asian_tocharian_23
+		2 = asian_tocharian_24
+		2 = asian_tocharian_25 
+		2 = asian_tocharian_26
+		2 = asian_tocharian_27
+		2 = asian_tocharian_28
+		2 = asian_tocharian_29
+		2 = asian_tocharian_30 
+		2 = asian_tocharian_31
+		2 = asian_tocharian_32
+		2 = asian_tocharian_33
+		2 = asian_tocharian_34
+		2 = asian_tocharian_35 
+		2 = asian_tocharian_36
+		2 = asian_tocharian_37
+		2 = asian_tocharian_38
+		2 = asian_tocharian_39
+		2 = asian_tocharian_40
+		2 = asian_tocharian_41
+		2 = asian_tocharian_42
+		2 = asian_tocharian_43
+		2 = asian_tocharian_44
+		2 = asian_tocharian_45 
+		2 = asian_tocharian_46
+		2 = asian_tocharian_47
+		2 = asian_tocharian_48
+		2 = asian_tocharian_49
+		2 = asian_tocharian_50 
+		2 = asian_tocharian_51
+		2 = asian_tocharian_52
+		2 = asian_tocharian_53
+		2 = asian_tocharian_54
+		2 = asian_tocharian_55 
+		2 = asian_tocharian_56
+		2 = asian_tocharian_57
+		2 = asian_tocharian_58
+		2 = asian_tocharian_59
+		2 = asian_tocharian_60
+	}
+}
+
+yughur = {
+	color = { 0.65 0.95 0.55 }
+	created = 850.1.1
+    parents = { shatuo uigur }
+
+	ethos = ethos_communal
+	heritage = heritage_toquz_oghuz
+	language = language_siberian_turkic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_pastoralists
+		tradition_horse_breeder
+		#tradition_steppe_tolerance
+		#tradition_horse_lords
+	}
+
+	dlc_tradition = {
+		trait = tradition_mpo_iron_cavalry
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	name_list = name_list_yughur
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_eastern_steppe_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		#15 = turkic
+		#15 = asian_mongol
+		4 = asian_turkic_1
+		4 = asian_turkic_2
+		4 = asian_turkic_3
+		4 = asian_turkic_4
+		4 = asian_turkic_5
+		4 = asian_turkic_6
+		4 = asian_turkic_7
+		4 = asian_turkic_8 
+		4 = asian_turkic_9
+		1 = asian_turkic_10_uyghur
+		1 = asian_turkic_11_uyghur
+		1 = asian_turkic_12_uyghur
+		1 = asian_turkic_13_uyghur
+		4 = asian_turkic_14
+		2 = asian_turkic_15
+		2 = asian_turkic_15_western
+		2 = asian_turkic_16
+		2 = asian_turkic_16_eastern
+		2 = asian_turkic_17
+		2 = asian_turkic_17_eastern
+		4 = asian_turkic_18
+		4 = asian_turkic_19
+		1 = asian_turkic_20_uyghur
+		1 = asian_turkic_21_uyghur
+		4 = asian_turkic_22
+		4 = asian_turkic_22
+		4 = asian_turkic_23
+		4 = asian_turkic_24
+		4 = asian_turkic_25
+		4 = asian_turkic_26
+		4 = asian_turkic_27
+		4 = asian_turkic_28
+		4 = asian_turkic_29
+		4 = asian_turkic_30
+		4 = asian_turkic_36
+		4 = asian_turkic_37
+		4 = asian_turkic_38
+		4 = asian_turkic_39
+		4 = asian_turkic_40
+		1 = asian_turkic_41_uyghur
+		1 = asian_turkic_42_uyghur
+		1 = asian_turkic_43_uyghur
+		1 = asian_turkic_44_uyghur
+		1 = asian_turkic_45_uyghur
+		2 = asian_turkic_46
+		2 = asian_turkic_47
+		2 = asian_turkic_48
+		2 = asian_turkic_49
+	}
+}
+
+chuvash = {	# Burtas
+	color = { 0.7 0.5 0.6 }
+	created = 800.1.1 # Date set to allow them in 867 - Exact date/period is probably slightly later
+	parents = { bolghar main_alan } # Likely a divergent from Bolghar, but exact origin seem uncertain
+	history_loc_override = chuvash_history_loc
+
+	
+	ethos = ethos_communal
+	heritage = heritage_oghur
+	language = language_bolghar
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_sacred_groves
+		tradition_sacred_hunts
+		tradition_zealous_people
+		#tradition_horse_lords
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	name_list = name_list_chuvash
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_western_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		#20 = turkic_west
+		1 = european_magyar_magyar_01
+		1 = european_magyar_magyar_02
+		1 = european_magyar_magyar_03
+		1 = european_magyar_magyar_04
+		1 = european_magyar_magyar_05
+		1 = european_magyar_magyar_06
+		1 = european_magyar_magyar_07
+		1 = european_magyar_magyar_08
+		1 = european_magyar_magyar_09
+		1 = european_magyar_magyar_10
+		1 = european_magyar_magyar_11
+		1 = european_magyar_magyar_12
+		1 = european_magyar_magyar_13
+		1 = european_magyar_magyar_14
+		1 = european_magyar_magyar_15
+		1 = european_magyar_magyar_16
+		1 = european_magyar_magyar_17
+		1 = european_magyar_magyar_18
+		1 = european_magyar_magyar_19
+		1 = european_magyar_magyar_20
+		1 = european_magyar_magyar_21
+		1 = european_magyar_magyar_22
+		1 = european_magyar_magyar_23
+		1 = european_magyar_magyar_24
+		1 = european_magyar_magyar_25
+		1 =	steppe_volga_finn_mordvin_01
+		1 =	steppe_volga_finn_mordvin_02
+		1 =	steppe_volga_finn_mordvin_03
+		1 =	steppe_volga_finn_mordvin_04
+		1 =	steppe_volga_finn_mordvin_05
+		1 =	steppe_volga_finn_mordvin_06
+		1 =	steppe_volga_finn_mordvin_07
+		1 =	steppe_volga_finn_mordvin_08
+		1 =	steppe_volga_finn_mordvin_09
+		1 =	steppe_volga_finn_mordvin_10
+		1 =	steppe_volga_finn_mordvin_11
+		1 =	steppe_volga_finn_mordvin_12
+		1 =	steppe_volga_finn_mordvin_13
+		1 =	steppe_volga_finn_mordvin_14
+		1 =	steppe_volga_finn_mordvin_15
+		1 =	steppe_volga_finn_mordvin_16
+		1 =	steppe_volga_finn_mordvin_17
+		1 =	steppe_volga_finn_mordvin_18
+		1 =	steppe_volga_finn_mordvin_19
+		1 =	steppe_volga_finn_mordvin_20
+		1 =	steppe_volga_finn_mordvin_21
+		1 =	steppe_volga_finn_mordvin_22
+		1 =	steppe_volga_finn_mordvin_23
+		1 =	steppe_volga_finn_mordvin_24
+		1 =	steppe_volga_finn_mordvin_25
+		1 =	steppe_volga_finn_mordvin_26
+		1 =	steppe_volga_finn_mordvin_27
+		1 =	steppe_volga_finn_mordvin_28
+		1 =	steppe_volga_finn_mordvin_29
+		1 =	steppe_volga_finn_mordvin_30
+		1 =	steppe_volga_finn_mordvin_31
+		1 =	steppe_volga_finn_mordvin_32
+		1 =	steppe_volga_finn_mordvin_33
+		1 =	steppe_volga_finn_mordvin_34
+		1 =	steppe_volga_finn_mordvin_35
+		1 =	steppe_volga_finn_mordvin_36
+		1 =	steppe_volga_finn_mordvin_37
+		1 =	steppe_volga_finn_mordvin_38
+		1 =	steppe_volga_finn_mordvin_39
+		4 = asian_turkic_1_western
+		4 = asian_turkic_2_western
+		4 = asian_turkic_3_western
+		4 = asian_turkic_4_western
+		4 = asian_turkic_5_western
+		4 = asian_turkic_6_western
+		4 = asian_turkic_7_western
+		4 = asian_turkic_8_western
+		4 = asian_turkic_9_western
+		4 = asian_turkic_15_western
+		4 = asian_turkic_16_western
+		4 = asian_turkic_17_western
+		4 = asian_turkic_19_western
+		4 = asian_turkic_20_western
+		4 = asian_turkic_23_western
+	}
+}
+
+ongud = { #Mongolicized turks of the Ordos region
+	color = { 0.65 0.4 0.15 }
+	created = 769.1.1
+	parents = { tataric shatuo }
+	history_loc_override = mongolized_history_loc
+	
+	ethos = ethos_bellicose
+	heritage = heritage_mongolic #heritage_tatar
+	language = language_siberian_turkic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		#tradition_horse_lords
+		tradition_stalwart_defenders
+		tradition_astute_diplomats
+		tradition_hunters
+		#tradition_steppe_tolerance
+	}
+	
+	name_list = name_list_ongud
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_eastern_steppe_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		#15 = turkic
+		#15 = asian_mongol
+		5 = asian_turkic_16_eastern
+		5 = asian_turkic_17_eastern
+		1 = asian_turkic_36
+		1 = asian_turkic_37
+		1 = asian_turkic_38
+		1 = asian_turkic_39
+		1 = asian_turkic_40
+		1 = asian_turkic_26
+		1 = asian_turkic_27
+		1 = asian_turkic_28
+		1 = asian_turkic_29
+		1 = asian_turkic_30
+		2 = asian_mongol_1
+		2 = asian_mongol_2
+		2 = asian_mongol_3
+		2 = asian_mongol_4
+		2 = asian_mongol_5
+		2 = asian_mongol_6
+		2 = asian_mongol_7
+		2 = asian_mongol_8
+		2 = asian_mongol_9
+		2 = asian_mongol_10
+		2 = asian_mongol_11
+		2 = asian_mongol_12
+		2 = asian_mongol_13
+		2 = asian_mongol_14
+		2 = asian_mongol_15
+		2 = asian_mongol_16
+		2 = asian_mongol_17
+		2 = asian_mongol_18
+		2 = asian_mongol_19
+		2 = asian_mongol_20
+		2 = asian_mongol_21
+		2 = asian_mongol_22
+		2 = asian_mongol_23
+		2 = asian_mongol_24
+		2 = asian_mongol_25
+		2 = asian_mongol_26
+		2 = asian_mongol_27
+		2 = asian_mongol_28
+		2 = asian_mongol_29
+		2 = asian_mongol_30
+		2 = asian_mongol_31
+	}
+}
+
+turkish = {	# Oghuz
+	color = turkish
+	created = 600.1.1
+	parents = { tujue tiele }
+	history_loc_override = oghuz_history_loc
+
+	ethos = ethos_bellicose
+	heritage = heritage_turkic # Yusseter: heritage_on_oq (On-Oq)
+	language = language_oghuz
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_warrior_culture
+		#tradition_horse_lords
+		tradition_swords_for_hire
+		tradition_ruling_caste
+	}
+
+	dlc_tradition = {
+		trait = tradition_mpo_iron_cavalry
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	dlc_tradition = { # Yusseter: They allways adapted to local traditions
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
+	}
+
+	name_list = name_list_cuman
+
+	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		#15 = turkic
+		#15 = turkic_west
+		4 = asian_turkic_1_seljuk
+		4 = asian_turkic_2_seljuk
+		4 = asian_turkic_3_seljuk
+		4 = asian_turkic_4_seljuk
+		4 = asian_turkic_5_seljuk
+		1 = asian_turkic_6
+		2 = asian_turkic_6_seljuk
+		2 = asian_turkic_7_seljuk
+		1 = asian_turkic_7
+		4 = asian_turkic_8 
+		2 = asian_turkic_9_seljuk
+		2 = asian_turkic_9
+		4 = asian_turkic_10
+		4 = asian_turkic_11
+		2 = asian_turkic_12_seljuk
+		2 = asian_turkic_12
+		2 = asian_turkic_13_seljuk
+		2 = asian_turkic_13
+		2 = asian_turkic_14_seljuk
+		2 = asian_turkic_14
+		4 = asian_turkic_15 
+		4 = asian_turkic_16
+		4 = asian_turkic_17
+		4 = asian_turkic_18
+		2 = asian_turkic_19_seljuk
+		1 = asian_turkic_19
+		4 = asian_turkic_20_seljuk
+		4 = asian_turkic_21_seljuk
+		2 = asian_turkic_22_seljuk
+		2 = asian_turkic_23_seljuk
+		1 = asian_turkic_23
+		2 = asian_turkic_24_seljuk
+		1 = asian_turkic_24
+		2 = asian_turkic_25_seljuk
+		1 = asian_turkic_25
+		2 = asian_turkic_41
+		2 = asian_turkic_42
+		2 = asian_turkic_43
+		2 = asian_turkic_44
+		2 = asian_turkic_45
+		2 = asian_turkic_46
+		2 = asian_turkic_47
+		2 = asian_turkic_48
+		2 = asian_turkic_49
+		4 = asian_turkic_50
+		4 = asian_turkic_51_oghuz
+		4 = asian_turkic_52_oghuz
+		4 = asian_turkic_53_oghuz
+		4 = asian_turkic_54_oghuz
+		4 = asian_turkic_55_oghuz
+		4 = asian_turkic_56_oghuz
+		4 = asian_turkic_57_oghuz
+		4 = asian_turkic_58_oghuz
+		4 = asian_turkic_59_oghuz
+		4 = asian_turkic_60_oghuz
+	}
+}
+
+kashgari = {
+	color = kashgari
+
+	created = 1000.1.1
+	parents = { karluk saka }
+
+	ethos = ethos_stoic
+	heritage = heritage_tocharian
+	language = language_karluk
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_caravaneers
+		tradition_artisans
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	# FP3 traditions
+	dlc_tradition = {
+		trait = tradition_fp3_irrigation_experts
+		requires_dlc_flag = legacy_of_persia
+	}
+
+	name_list = name_list_karluk
+
+	coa_gfx = { turkic_group_coa_gfx iranian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { iranian_building_gfx steppe_building_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx iranian_unit_gfx }
+
+	ethnicities = {
+		6 = asian_turkic_1
+		6 = asian_turkic_2
+		6 = asian_turkic_3
+		6 = asian_turkic_4
+		6 = asian_turkic_5
+		6 = asian_turkic_6
+		6 = asian_turkic_7
+		6 = asian_turkic_8
+		6 = asian_turkic_9
+		6 = asian_turkic_10
+		6 = asian_turkic_11
+		6 = asian_turkic_12
+		6 = asian_turkic_13
+		6 = asian_turkic_14
+		6 = asian_turkic_15
+		3 = asian_turkic_16
+		3 = asian_turkic_16_eastern
+		3 = asian_turkic_17
+		3 = asian_turkic_17_eastern
+		6 = asian_turkic_18
+		6 = asian_turkic_19
+		6 = asian_turkic_20
+		6 = asian_turkic_21
+		6 = asian_turkic_22
+		6 = asian_turkic_22
+		6 = asian_turkic_23
+		6 = asian_turkic_24
+		6 = asian_turkic_25
+		6 = asian_turkic_26
+		6 = asian_turkic_27
+		6 = asian_turkic_28
+		6 = asian_turkic_29
+		6 = asian_turkic_30
+		6 = asian_turkic_36
+		6 = asian_turkic_37
+		6 = asian_turkic_38
+		6 = asian_turkic_39
+		6 = asian_turkic_40
+		6 = asian_turkic_41
+		6 = asian_turkic_42
+		6 = asian_turkic_43
+		6 = asian_turkic_44
+		6 = asian_turkic_45
+		3 = asian_turkic_46
+		3 = asian_turkic_47
+		3 = asian_turkic_48
+		3 = asian_turkic_49
+		3 = asian_turkic_50
+		3 = iranian_saka_01
+		3 = iranian_saka_02
+		3 = iranian_saka_03
+		3 = iranian_saka_04
+		3 = iranian_saka_05
+		3 = iranian_saka_06
+		3 = iranian_saka_07
+		3 = iranian_saka_08
+		2 = iranian_saka_09
+		2 = iranian_saka_10
+		2 = iranian_saka_11
+		2 = iranian_saka_12
+		2 = iranian_saka_13
+		2 = iranian_saka_14
+		2 = iranian_saka_15
+		2 = iranian_saka_16
+		2 = iranian_saka_17
+		2 = iranian_saka_18
+		2 = iranian_saka_19
+		2 = iranian_saka_20
+		1 = asian_tocharian_1
+		1 = asian_tocharian_2
+		1 = asian_tocharian_3
+		1 = asian_tocharian_4 
+		1 = asian_tocharian_5
+		1 = asian_tocharian_6
+		1 = asian_tocharian_7
+		1 = asian_tocharian_8
+		1 = asian_tocharian_9 
+		1 = asian_tocharian_10
+		1 = asian_tocharian_11
+		1 = asian_tocharian_12
+		1 = asian_tocharian_13
+		1 = asian_tocharian_14 
+		1 = asian_tocharian_15
+		1 = asian_tocharian_16
+		1 = asian_tocharian_17
+		1 = asian_tocharian_18
+		1 = asian_tocharian_19
+		1 = asian_tocharian_20
+		1 = asian_tocharian_21
+		1 = asian_tocharian_22
+		1 = asian_tocharian_23
+		1 = asian_tocharian_24
+		1 = asian_tocharian_25 
+		1 = asian_tocharian_26
+		1 = asian_tocharian_27
+		1 = asian_tocharian_28
+		1 = asian_tocharian_29
+		1 = asian_tocharian_30 
+		1 = asian_tocharian_31
+		1 = asian_tocharian_32
+		1 = asian_tocharian_33
+		1 = asian_tocharian_34
+		1 = asian_tocharian_35 
+		1 = asian_tocharian_36
+		1 = asian_tocharian_37
+		1 = asian_tocharian_38
+		1 = asian_tocharian_39
+		1 = asian_tocharian_40
+		1 = asian_tocharian_41
+		1 = asian_tocharian_42
+		1 = asian_tocharian_43
+		1 = asian_tocharian_44
+		1 = asian_tocharian_45 
+		1 = asian_tocharian_46
+		1 = asian_tocharian_47
+		1 = asian_tocharian_48
+		1 = asian_tocharian_49
+		1 = asian_tocharian_50 
+		1 = asian_tocharian_51
+		1 = asian_tocharian_52
+		1 = asian_tocharian_53
+		1 = asian_tocharian_54
+		1 = asian_tocharian_55 
+		1 = asian_tocharian_56
+		1 = asian_tocharian_57
+		1 = asian_tocharian_58
+		1 = asian_tocharian_59
+		1 = asian_tocharian_60
+	}
+}
+
+jie = { #羯
+
+	color = { 0.2 0.2 1.0 }
+
+	created = 200.1.1
+	parents = { xiongnu yeniseian } #There's tons of theories of who they may have been related to. Many mention them speaking a Yenesei language and being related to the Xiongnu so just went with that. OE has them as 'hunic' which I assume just means generic 'barbarian' in that mod
+
+	ethos = ethos_bellicose
+	heritage = heritage_mongolic #heritage_tatar
+	language = language_yeniseian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_hunters
+		tradition_steppe_tolerance
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+
+	name_list = name_list_jie
+
+	coa_gfx = { mongol_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		4 = asian_turkic_enisey_kirghiz_01
+		4 = asian_turkic_enisey_kirghiz_02
+		4 = asian_turkic_enisey_kirghiz_03
+		4 = asian_turkic_enisey_kirghiz_04
+		4 = asian_turkic_enisey_kirghiz_05
+		4 = asian_turkic_enisey_kirghiz_06
+		4 = asian_turkic_enisey_kirghiz_07
+		4 = asian_turkic_enisey_kirghiz_08
+		4 = asian_turkic_enisey_kirghiz_09
+		4 = asian_turkic_enisey_kirghiz_10
+		5 = asian_turkic_16_eastern
+		5 = asian_turkic_17_eastern
+		1 = asian_turkic_36
+		1 = asian_turkic_37
+		1 = asian_turkic_38
+		1 = asian_turkic_39
+		1 = asian_turkic_40
+		1 = asian_turkic_26
+		1 = asian_turkic_27
+		1 = asian_turkic_28
+		1 = asian_turkic_29
+		1 = asian_turkic_30
+		2 = asian_mongol_1
+		2 = asian_mongol_2
+		2 = asian_mongol_3
+		2 = asian_mongol_4
+		2 = asian_mongol_5
+		2 = asian_mongol_6
+		2 = asian_mongol_7
+		2 = asian_mongol_8
+		2 = asian_mongol_9
+		2 = asian_mongol_10
+		2 = asian_mongol_11
+		2 = asian_mongol_12
+		2 = asian_mongol_13
+		2 = asian_mongol_14
+		2 = asian_mongol_15
+		2 = asian_mongol_16
+		2 = asian_mongol_17
+		2 = asian_mongol_18
+		2 = asian_mongol_19
+		2 = asian_mongol_20
+		2 = asian_mongol_21
+		2 = asian_mongol_22
+		2 = asian_mongol_23
+		2 = asian_mongol_24
+		2 = asian_mongol_25
+		2 = asian_mongol_26
+		2 = asian_mongol_27
+		2 = asian_mongol_28
+		2 = asian_mongol_29
+		2 = asian_mongol_30
+		2 = asian_mongol_31
+	}
+}
+
+tardush = { # Sir Tardush
+	color = { 0.68 0.6 0.72 }
+	created = 600.1.1
+	parents = { tiele }
+
+	ethos = ethos_bellicose
+	heritage = heritage_hunnic
+	language = language_tiele
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_mystical_ancestors # Cybr: Legendary origins in Chinese sources, put it here because why not
+		tradition_battlefield_looters # Cybr: Loved looting according to Chinese sources (though that's a pretty generic trope)
+		tradition_warrior_culture # Cybr: Lots of involvement in wars according to Chinese sources (though that's also a pretty generic trope)
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+
+	name_list = name_list_tiele
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_eastern_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+ 		4 = asian_turkic_1
+ 		4 = asian_turkic_2
+ 		4 = asian_turkic_3
+ 		4 = asian_turkic_4
+ 		4 = asian_turkic_5
+ 		4 = asian_turkic_6
+ 		4 = asian_turkic_7
+ 		4 = asian_turkic_8 
+ 		4 = asian_turkic_9
+ 		4 = asian_turkic_10
+ 		4 = asian_turkic_11
+ 		4 = asian_turkic_12
+ 		4 = asian_turkic_13
+ 		4 = asian_turkic_14
+ 		4 = asian_turkic_15 
+ 		2 = asian_turkic_16
+ 		2 = asian_turkic_16_eastern
+ 		2 = asian_turkic_17
+ 		2 = asian_turkic_17_eastern
+ 		4 = asian_turkic_18
+ 		4 = asian_turkic_19
+ 		4 = asian_turkic_20
+ 		4 = asian_turkic_21
+ 		4 = asian_turkic_22
+ 		4 = asian_turkic_22
+ 		4 = asian_turkic_23
+ 		4 = asian_turkic_24
+ 		4 = asian_turkic_25
+ 		4 = asian_turkic_26
+ 		4 = asian_turkic_27
+ 		4 = asian_turkic_28
+ 		4 = asian_turkic_29
+ 		4 = asian_turkic_30
+ 		4 = asian_turkic_36
+ 		4 = asian_turkic_37
+ 		4 = asian_turkic_38
+ 		4 = asian_turkic_39
+ 		4 = asian_turkic_40
+ 		4 = asian_turkic_41
+ 		4 = asian_turkic_42
+ 		4 = asian_turkic_43
+ 		4 = asian_turkic_44
+ 		4 = asian_turkic_45
+ 		3 = asian_turkic_46
+ 		3 = asian_turkic_47
+ 		3 = asian_turkic_48
+ 		3 = asian_turkic_49
+ 		3 = asian_turkic_50
+	}
+}
+
+tiele = { # Tolesh
+	color = { 0.68 0.6 0.72 }
+	created = 450.1.1
+	parents = { dingling }
+
+	ethos = ethos_bellicose
+	heritage = heritage_hunnic
+	language = language_tiele # Yusseter: Language unknown. Iranic/Turkic/Mongolic/Yeniseian theories. Probably Turkic.
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_mystical_ancestors # Cybr: Legendary origins in Chinese sources, put it here because why not
+		tradition_battlefield_looters # Cybr: Loved looting according to Chinese sources (though that's a pretty generic trope)
+		tradition_warrior_culture # Cybr: Lots of involvement in wars according to Chinese sources (though that's also a pretty generic trope)
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+
+	name_list = name_list_tiele
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_eastern_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+ 		4 = asian_turkic_1
+ 		4 = asian_turkic_2
+ 		4 = asian_turkic_3
+ 		4 = asian_turkic_4
+ 		4 = asian_turkic_5
+ 		4 = asian_turkic_6
+ 		4 = asian_turkic_7
+ 		4 = asian_turkic_8 
+ 		4 = asian_turkic_9
+ 		4 = asian_turkic_10
+ 		4 = asian_turkic_11
+ 		4 = asian_turkic_12
+ 		4 = asian_turkic_13
+ 		4 = asian_turkic_14
+ 		4 = asian_turkic_15 
+ 		2 = asian_turkic_16
+ 		2 = asian_turkic_16_eastern
+ 		2 = asian_turkic_17
+ 		2 = asian_turkic_17_eastern
+ 		4 = asian_turkic_18
+ 		4 = asian_turkic_19
+ 		4 = asian_turkic_20
+ 		4 = asian_turkic_21
+ 		4 = asian_turkic_22
+ 		4 = asian_turkic_22
+ 		4 = asian_turkic_23
+ 		4 = asian_turkic_24
+ 		4 = asian_turkic_25
+ 		4 = asian_turkic_26
+ 		4 = asian_turkic_27
+ 		4 = asian_turkic_28
+ 		4 = asian_turkic_29
+ 		4 = asian_turkic_30
+ 		4 = asian_turkic_36
+ 		4 = asian_turkic_37
+ 		4 = asian_turkic_38
+ 		4 = asian_turkic_39
+ 		4 = asian_turkic_40
+ 		4 = asian_turkic_41
+ 		4 = asian_turkic_42
+ 		4 = asian_turkic_43
+ 		4 = asian_turkic_44
+ 		4 = asian_turkic_45
+ 		3 = asian_turkic_46
+ 		3 = asian_turkic_47
+ 		3 = asian_turkic_48
+ 		3 = asian_turkic_49
+ 		3 = asian_turkic_50
+	}
+}
+
+dingling = {
+	color = { 0.68 0.6 0.72 }
+	created = 50.1.1
+	parents = { xiongnu main_saka }
+	history_loc_override = dingling_history_loc
+
+	ethos = ethos_bellicose
+	heritage = heritage_hunnic
+	language = language_turkic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		#tradition_horse_lords
+		tradition_mystical_ancestors # Cybr: Legendary origins in Chinese sources, put it here because why not
+		tradition_battlefield_looters # Cybr: Loved looting according to Chinese sources (though that's a pretty generic trope)
+		tradition_warrior_culture # Cybr: Lots of involvement in wars according to Chinese sources (though that's also a pretty generic trope)
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_tiele
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+ 		4 = asian_turkic_1
+ 		4 = asian_turkic_2
+ 		4 = asian_turkic_3
+ 		4 = asian_turkic_4
+ 		4 = asian_turkic_5
+ 		4 = asian_turkic_6
+ 		4 = asian_turkic_7
+ 		4 = asian_turkic_8 
+ 		4 = asian_turkic_9
+ 		4 = asian_turkic_10
+ 		4 = asian_turkic_11
+ 		4 = asian_turkic_12
+ 		4 = asian_turkic_13
+ 		4 = asian_turkic_14
+ 		4 = asian_turkic_15 
+ 		2 = asian_turkic_16
+ 		2 = asian_turkic_16_eastern
+ 		2 = asian_turkic_17
+ 		2 = asian_turkic_17_eastern
+ 		4 = asian_turkic_18
+ 		4 = asian_turkic_19
+ 		4 = asian_turkic_20
+ 		4 = asian_turkic_21
+ 		4 = asian_turkic_22
+ 		4 = asian_turkic_22
+ 		4 = asian_turkic_23
+ 		4 = asian_turkic_24
+ 		4 = asian_turkic_25
+ 		4 = asian_turkic_26
+ 		4 = asian_turkic_27
+ 		4 = asian_turkic_28
+ 		4 = asian_turkic_29
+ 		4 = asian_turkic_30
+ 		4 = asian_turkic_36
+ 		4 = asian_turkic_37
+ 		4 = asian_turkic_38
+ 		4 = asian_turkic_39
+ 		4 = asian_turkic_40
+ 		4 = asian_turkic_41
+ 		4 = asian_turkic_42
+ 		4 = asian_turkic_43
+ 		4 = asian_turkic_44
+ 		4 = asian_turkic_45
+ 		3 = asian_turkic_46
+ 		3 = asian_turkic_47
+ 		3 = asian_turkic_48
+ 		3 = asian_turkic_49
+ 		3 = asian_turkic_50
+	}
+}
+
+anatolian_turkish = { # Based on Oghuz - Representing the Anatolian Turkish
+	color = { 0.85 0.55 0.15 }
+	created = 1150.1.1
+	parents = { persian_turkish greek }
+	#history_loc_override = anatolia_turk_history_loc
+
+	ethos = ethos_bellicose
+	heritage = heritage_byzantine
+	language = language_anatolian_turk
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain # No longer nomadic
+	traditions = {
+		#tradition_warrior_culture
+		#tradition_formation_fighting
+		tradition_court_eunuchs
+		tradition_ruling_caste
+		tradition_by_the_sword
+		tradition_hill_dwellers
+		tradition_ce1_ritual_washing
+	}
+	
+	dlc_tradition = {
+		trait = tradition_mpo_iron_cavalry
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	#dlc_tradition = {
+	#	trait = tradition_devoted_horsemanship
+	#	requires_dlc_flag = khans_of_the_steppe
+	#}
+	dlc_tradition = {
+		trait = tradition_fp3_beacon_of_learning
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_philosopher_culture
+	}
+
+	name_list = name_list_persian_turkish
+
+	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { turkish_building_gfx steppe_building_gfx } # I mean the place they lived in was taken from the ERE
+	clothing_gfx = { epe_seljuk_clothing_gfx iranian_clothing_gfx }
+	unit_gfx = { seljuk_unit_gfx }
+
+	ethnicities = {
+		4 = european_med_greek_1
+		4 = european_med_greek_2
+		4 = european_med_greek_3
+		4 = european_med_greek_4
+		4 = european_med_greek_5
+		4 = european_med_greek_6
+		4 = european_med_greek_7
+		4 = european_med_greek_8
+		4 = european_med_greek_9
+		4 = european_med_greek_10
+		4 = european_med_greek_11
+		4 = european_med_greek_12
+		4 = european_med_greek_13
+		4 = european_med_greek_14
+		4 = european_med_greek_15
+		4 = european_med_greek_16
+		4 = european_med_greek_17
+		4 = european_med_greek_18
+		4 = european_med_greek_19
+		4 = european_med_greek_20
+		4 = european_med_greek_21
+		4 = european_med_greek_22
+		4 = european_med_greek_23
+		4 = european_med_greek_24
+		4 = european_med_greek_25
+		4 = european_med_greek_26
+		4 = european_med_greek_27
+		4 = european_med_greek_28
+		4 = european_med_greek_29
+		4 = european_med_greek_30
+		4 = european_med_greek_31
+		4 = european_med_greek_32
+		4 = european_med_greek_33
+		4 = european_med_greek_34
+		4 = european_med_greek_35
+		4 = european_med_greek_36
+		4 = european_med_greek_37
+		4 = european_med_greek_38
+		4 = european_med_greek_39
+		4 = european_med_greek_40
+		4 = european_med_greek_41
+		4 = european_med_greek_42
+		4 = european_med_greek_43
+		4 = european_med_greek_44
+		4 = european_med_greek_45
+		4 = european_med_greek_46
+		4 = european_med_greek_47
+		5 = mid_east_turkmen_01
+		5 = mid_east_turkmen_02
+		5 = mid_east_turkmen_03
+		5 = mid_east_turkmen_04
+		5 = mid_east_turkmen_05
+		5 = mid_east_turkmen_06
+		5 = mid_east_turkmen_07
+		5 = mid_east_turkmen_08
+		5 = mid_east_turkmen_09
+		5 = mid_east_turkmen_10
+		5 = mid_east_turkmen_11
+		5 = mid_east_turkmen_12
+		5 = mid_east_turkmen_13
+		5 = mid_east_turkmen_14
+		5 = mid_east_turkmen_15
+		5 = mid_east_turkmen_16
+		5 = mid_east_turkmen_17
+		5 = mid_east_turkmen_18
+		5 = mid_east_turkmen_19
+		5 = mid_east_turkmen_20
+		5 = mid_east_turkmen_21
+		5 = mid_east_turkmen_22
+		5 = mid_east_turkmen_23
+		5 = mid_east_turkmen_24
+		5 = mid_east_turkmen_25
+		5 = mid_east_turkmen_26
+		5 = mid_east_turkmen_27
+		5 = mid_east_turkmen_28
+		5 = mid_east_turkmen_29
+		5 = mid_east_turkmen_30
+		5 = mid_east_turkmen_31
+		5 = mid_east_turkmen_32
+		5 = mid_east_turkmen_33
+		5 = mid_east_turkmen_34
+		5 = mid_east_turkmen_35
+		5 = mid_east_turkmen_36
+		5 = mid_east_turkmen_37
+		5 = mid_east_turkmen_38
+		5 = mid_east_turkmen_39
+		5 = mid_east_turkmen_40
+		2 = european_med_armenian_1
+		2 = european_med_armenian_2
+		2 = european_med_armenian_3
+		2 = european_med_armenian_4
+		2 = european_med_armenian_5
+		2 = european_med_armenian_6
+		2 = european_med_armenian_7
+		2 = european_med_armenian_8
+		2 = european_med_armenian_9
+		2 = european_med_armenian_10
+		2 = european_med_armenian_11
+		2 = european_med_armenian_12
+		2 = european_med_armenian_13
+		2 = european_med_armenian_14
+		2 = european_med_armenian_15
+		2 = european_med_armenian_16
+		2 = european_med_armenian_17
+		2 = european_med_armenian_28
+		2 = european_med_armenian_29
+		2 = european_med_armenian_30
+		2 = european_med_armenian_31
+		2 = european_med_armenian_32
+		2 = european_med_armenian_33
+		2 = european_med_armenian_34
+		2 = european_med_armenian_35
+		2 = european_med_armenian_36
+		2 = european_med_armenian_37
+		2 = european_med_armenian_38
+		2 = european_med_armenian_39
+		2 = european_med_armenian_40
+		2 = european_med_armenian_41
+		2 = european_med_armenian_42
+		2 = european_med_armenian_43
+		2 = european_med_armenian_44
+		2 = european_med_armenian_45
+		2 = european_med_armenian_46
+		2 = european_med_armenian_47
+		2 = european_med_armenian_48
+		2 = european_med_armenian_49
+		2 = european_med_armenian_50
+		1 = iranian_kurdish_1
+		1 = iranian_kurdish_2
+		1 = iranian_kurdish_3
+		1 = iranian_kurdish_4
+		1 = iranian_kurdish_5
+		1 = iranian_kurdish_6
+		1 = iranian_kurdish_7
+		1 = iranian_kurdish_8
+		1 = iranian_kurdish_9
+		1 = iranian_kurdish_10
+		1 = iranian_kurdish_11
+		1 = iranian_kurdish_12
+		1 = iranian_kurdish_13
+		1 = iranian_kurdish_14
+		1 = iranian_kurdish_15
+		1 = iranian_kurdish_16
+		1 = iranian_kurdish_17
+		1 = iranian_kurdish_18
+		1 = iranian_kurdish_19
+		1 = iranian_kurdish_20
+		1 = iranian_kurdish_21
+		1 = iranian_kurdish_22
+		1 = iranian_kurdish_23
+		1 = iranian_kurdish_24
+		1 = iranian_kurdish_25
+		1 = iranian_kurdish_26
+		1 = iranian_kurdish_27
+		1 = iranian_kurdish_28
+		1 = iranian_kurdish_29
+		1 = iranian_kurdish_30
+		1 = iranian_kurdish_31
+		1 = iranian_kurdish_32
+		1 = iranian_kurdish_33
+		1 = iranian_kurdish_34
+		1 = iranian_kurdish_35
+		1 = iranian_kurdish_36
+		1 = iranian_kurdish_37
+		1 = iranian_kurdish_38
+		1 = iranian_kurdish_39
+		1 = iranian_kurdish_40
+	}
+}
+
+azerbaijan_turkish = { # Azeri
+	color = azerbaijan_turkish #{ 194 160 93 }
+	
+	created = 1150.1.1
+	parents = { persian_turkish azeri }
+	#history_loc_override = azeri_history_loc
+
+	ethos = ethos_courtly
+	heritage = heritage_iranian
+	language = language_anatolian_turk
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_swords_for_hire
+		tradition_ruling_caste
+		tradition_hill_dwellers
+		tradition_loyal_soldiers
+	}
+
+	#FP3 Tradition
+	dlc_tradition = {
+		trait = tradition_fp3_beacon_of_learning
+		requires_dlc_flag = legacy_of_persia
+	}
+	
+	name_list = name_list_persian_turkish
+	
+	coa_gfx = { iranian_group_coa_gfx oghuz_coa_gfx }
+	building_gfx = { turkish_building_gfx iranian_building_gfx }
+	clothing_gfx = { epe_seljuk_clothing_gfx iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { seljuk_unit_gfx }
+	
+	ethnicities = {
+		4 = mid_east_turkmen_01
+		4 = mid_east_turkmen_02
+		4 = mid_east_turkmen_03
+		4 = mid_east_turkmen_04
+		4 = mid_east_turkmen_05
+		4 = mid_east_turkmen_06
+		4 = mid_east_turkmen_07
+		4 = mid_east_turkmen_08
+		4 = mid_east_turkmen_09
+		4 = mid_east_turkmen_10
+		4 = mid_east_turkmen_11
+		4 = mid_east_turkmen_12
+		4 = mid_east_turkmen_13
+		4 = mid_east_turkmen_14
+		4 = mid_east_turkmen_15
+		4 = mid_east_turkmen_16
+		4 = mid_east_turkmen_17
+		4 = mid_east_turkmen_18
+		4 = mid_east_turkmen_19
+		4 = mid_east_turkmen_20
+		4 = mid_east_turkmen_21
+		4 = mid_east_turkmen_22
+		4 = mid_east_turkmen_23
+		4 = mid_east_turkmen_24
+		4 = mid_east_turkmen_25
+		4 = mid_east_turkmen_26
+		4 = mid_east_turkmen_27
+		4 = mid_east_turkmen_28
+		4 = mid_east_turkmen_29
+		4 = mid_east_turkmen_30
+		4 = mid_east_turkmen_31
+		4 = mid_east_turkmen_32
+		4 = mid_east_turkmen_33
+		4 = mid_east_turkmen_34
+		4 = mid_east_turkmen_35
+		4 = mid_east_turkmen_36
+		4 = mid_east_turkmen_37
+		4 = mid_east_turkmen_38
+		4 = mid_east_turkmen_39
+		4 = mid_east_turkmen_40
+		1 = iranian_daylamite_1
+		1 = iranian_daylamite_2
+		1 = iranian_daylamite_3
+		1 = iranian_daylamite_4
+		1 = iranian_daylamite_5
+		1 = iranian_daylamite_6
+		1 = iranian_daylamite_7
+		1 = iranian_daylamite_8
+		1 = iranian_daylamite_9
+		1 = iranian_daylamite_10
+		1 = iranian_daylamite_11
+		1 = iranian_daylamite_12
+		1 = iranian_daylamite_13
+		1 = iranian_daylamite_14
+		1 = iranian_daylamite_15
+		1 = iranian_daylamite_16
+		1 = iranian_daylamite_17
+		1 = iranian_daylamite_18
+		1 = iranian_daylamite_19
+		1 = iranian_daylamite_20
+		1 = iranian_daylamite_21
+		1 = iranian_daylamite_22
+		1 = iranian_daylamite_23
+		1 = iranian_kurdish_1
+		1 = iranian_kurdish_2
+		1 = iranian_kurdish_3
+		1 = iranian_kurdish_4
+		1 = iranian_kurdish_5
+		1 = iranian_kurdish_6
+		1 = iranian_kurdish_7
+		1 = iranian_kurdish_8
+		1 = iranian_kurdish_9
+		1 = iranian_kurdish_10
+		1 = iranian_kurdish_11
+		1 = iranian_kurdish_12
+		1 = iranian_kurdish_13
+		1 = iranian_kurdish_14
+		1 = iranian_kurdish_15
+		1 = iranian_kurdish_16
+		1 = iranian_kurdish_17
+		1 = iranian_kurdish_18
+		1 = iranian_kurdish_19
+		1 = iranian_kurdish_20
+		1 = iranian_kurdish_21
+		1 = iranian_kurdish_22
+		1 = iranian_kurdish_23
+		1 = iranian_kurdish_24
+		1 = iranian_kurdish_25
+		1 = iranian_kurdish_26
+		1 = iranian_kurdish_27
+		1 = iranian_kurdish_28
+		1 = iranian_kurdish_29
+		1 = iranian_kurdish_30
+		1 = iranian_kurdish_31
+		1 = iranian_kurdish_32
+		1 = iranian_kurdish_33
+		1 = iranian_kurdish_34
+		1 = iranian_kurdish_35
+		1 = iranian_kurdish_36
+		1 = iranian_kurdish_37
+		1 = iranian_kurdish_38
+		1 = iranian_kurdish_39
+		1 = iranian_kurdish_40
+		1 = european_med_armenian_1
+		1 = european_med_armenian_2
+		1 = european_med_armenian_3
+		1 = european_med_armenian_4
+		1 = european_med_armenian_5
+		1 = european_med_armenian_6
+		1 = european_med_armenian_7
+		1 = european_med_armenian_8
+		1 = european_med_armenian_9
+		1 = european_med_armenian_10
+		1 = european_med_armenian_11
+		1 = european_med_armenian_12
+		1 = european_med_armenian_13
+		1 = european_med_armenian_14
+		1 = european_med_armenian_15
+		1 = european_med_armenian_16
+		1 = european_med_armenian_17
+		1 = european_med_armenian_28
+		1 = european_med_armenian_29
+		1 = european_med_armenian_30
+		1 = european_med_armenian_31
+		1 = european_med_armenian_32
+		1 = european_med_armenian_33
+		1 = european_med_armenian_34
+		1 = european_med_armenian_35
+		1 = european_med_armenian_36
+		1 = european_med_armenian_37
+		1 = european_med_armenian_38
+		1 = european_med_armenian_39
+		1 = european_med_armenian_40
+		1 = european_med_armenian_41
+		1 = european_med_armenian_42
+		1 = european_med_armenian_43
+		1 = european_med_armenian_44
+		1 = european_med_armenian_45
+		1 = european_med_armenian_46
+		1 = european_med_armenian_47
+		1 = european_med_armenian_48
+		1 = european_med_armenian_49
+		1 = european_med_armenian_50
+	}
+}
+
+syromesopotamian_turkish = { # Tereqame
+	color = syromesopotamian_turkish #{ 194 160 93 }
+	
+	created = 1150.1.1
+	parents = { persian_turkish syromesopotamian }
+	#history_loc_override = azeri_history_loc
+
+	ethos = ethos_stoic
+	heritage = heritage_iranian
+	language = language_anatolian_turk
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_swords_for_hire
+		tradition_medicinal_plants
+		tradition_disloyal_subjects
+		tradition_religious_patronage
+		tradition_ce1_ritual_washing
+	}
+	
+	name_list = name_list_persian_turkish
+	
+	coa_gfx = { iranian_group_coa_gfx oghuz_coa_gfx }
+	building_gfx = { turkish_building_gfx iranian_building_gfx }
+	clothing_gfx = { epe_seljuk_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { seljuk_unit_gfx }
+
+	ethnicities = {
+		5 = mid_east_turkmen_01
+		5 = mid_east_turkmen_02
+		5 = mid_east_turkmen_03
+		5 = mid_east_turkmen_04
+		5 = mid_east_turkmen_05
+		5 = mid_east_turkmen_06
+		5 = mid_east_turkmen_07
+		5 = mid_east_turkmen_08
+		5 = mid_east_turkmen_09
+		5 = mid_east_turkmen_10
+		5 = mid_east_turkmen_11
+		5 = mid_east_turkmen_12
+		5 = mid_east_turkmen_13
+		5 = mid_east_turkmen_14
+		5 = mid_east_turkmen_15
+		5 = mid_east_turkmen_16
+		5 = mid_east_turkmen_17
+		5 = mid_east_turkmen_18
+		5 = mid_east_turkmen_19
+		5 = mid_east_turkmen_20
+		5 = mid_east_turkmen_21
+		5 = mid_east_turkmen_22
+		5 = mid_east_turkmen_23
+		5 = mid_east_turkmen_24
+		5 = mid_east_turkmen_25
+		5 = mid_east_turkmen_26
+		5 = mid_east_turkmen_27
+		5 = mid_east_turkmen_28
+		5 = mid_east_turkmen_29
+		5 = mid_east_turkmen_30
+		5 = mid_east_turkmen_31
+		5 = mid_east_turkmen_32
+		5 = mid_east_turkmen_33
+		5 = mid_east_turkmen_34
+		5 = mid_east_turkmen_35
+		5 = mid_east_turkmen_36
+		5 = mid_east_turkmen_37
+		5 = mid_east_turkmen_38
+		5 = mid_east_turkmen_39
+		5 = mid_east_turkmen_40
+		20 = european_med_assyrian_1
+		2 = iranian_kurdish_1
+		2 = iranian_kurdish_2
+		2 = iranian_kurdish_3
+		2 = iranian_kurdish_4
+		2 = iranian_kurdish_5
+		2 = iranian_kurdish_6
+		2 = iranian_kurdish_7
+		2 = iranian_kurdish_8
+		2 = iranian_kurdish_9
+		2 = iranian_kurdish_10
+		2 = iranian_kurdish_11
+		2 = iranian_kurdish_12
+		2 = iranian_kurdish_13
+		2 = iranian_kurdish_14
+		2 = iranian_kurdish_15
+		2 = iranian_kurdish_16
+		2 = iranian_kurdish_17
+		2 = iranian_kurdish_18
+		2 = iranian_kurdish_19
+		2 = iranian_kurdish_20
+		2 = iranian_kurdish_21
+		2 = iranian_kurdish_22
+		2 = iranian_kurdish_23
+		2 = iranian_kurdish_24
+		2 = iranian_kurdish_25
+		2 = iranian_kurdish_26
+		2 = iranian_kurdish_27
+		2 = iranian_kurdish_28
+		2 = iranian_kurdish_29
+		2 = iranian_kurdish_30
+		2 = iranian_kurdish_31
+		2 = iranian_kurdish_32
+		2 = iranian_kurdish_33
+		2 = iranian_kurdish_34
+		2 = iranian_kurdish_35
+		2 = iranian_kurdish_36
+		2 = iranian_kurdish_37
+		2 = iranian_kurdish_38
+		2 = iranian_kurdish_39
+		2 = iranian_kurdish_40
+		1 = mid_east_arabic_1
+		1 = mid_east_arabic_2
+		1 = mid_east_arabic_3
+		1 = mid_east_arabic_4
+		1 = mid_east_arabic_5
+		1 = mid_east_arabic_6
+		1 = mid_east_arabic_7
+		1 = mid_east_arabic_8
+		1 = mid_east_arabic_9
+		1 = mid_east_arabic_10
+		1 = mid_east_arabic_11
+		1 = mid_east_arabic_12
+		1 = mid_east_arabic_13
+		1 = mid_east_arabic_14
+		1 = mid_east_arabic_15
+		1 = mid_east_arabic_16
+		1 = mid_east_arabic_17
+		1 = mid_east_arabic_18
+		1 = mid_east_arabic_19
+		1 = mid_east_arabic_20
+		1 = mid_east_arabic_21
+		1 = mid_east_arabic_22
+		1 = mid_east_arabic_23
+		1 = mid_east_arabic_24
+		1 = mid_east_arabic_25
+		1 = mid_east_arabic_26
+		1 = mid_east_arabic_27
+		1 = mid_east_arabic_28
+		1 = mid_east_arabic_29
+		1 = mid_east_arabic_30
+		1 = mid_east_arabic_31
+		1 = mid_east_arabic_32
+		1 = mid_east_arabic_33
+		1 = mid_east_arabic_34
+		1 = mid_east_arabic_35
+		1 = mid_east_arabic_36
+		1 = mid_east_arabic_37
+		1 = mid_east_arabic_38
+		1 = mid_east_arabic_39
+		1 = mid_east_arabic_40
+		1 = mid_east_arabic_41
+		1 = mid_east_arabic_42
+		1 = mid_east_arabic_43
+		1 = mid_east_arabic_44
+		1 = mid_east_arabic_45
+		1 = mid_east_arabic_46
+		1 = mid_east_arabic_47
+		1 = mid_east_arabic_48
+		1 = mid_east_arabic_49
+		1 = mid_east_arabic_50
+		1 = mid_east_arabic_51
+		1 = mid_east_arabic_52
+		1 = mid_east_arabic_53
+		1 = mid_east_arabic_54
+		1 = mid_east_arabic_55
+		1 = mid_east_arabic_56
+		1 = mid_east_arabic_57
+		1 = mid_east_arabic_58
+		1 = mid_east_arabic_59
+		1 = mid_east_arabic_60
+		1 = mid_east_arabic_61
+		1 = mid_east_arabic_62
+		1 = mid_east_arabic_63
+		1 = mid_east_arabic_64
+		1 = mid_east_arabic_65
+		1 = mid_east_arabic_66
+		1 = mid_east_arabic_67
+		1 = mid_east_arabic_68
+		1 = mid_east_arabic_69
+		1 = mid_east_arabic_70
+		1 = mid_east_arabic_71
+		1 = mid_east_arabic_72
+		1 = mid_east_arabic_73
+		1 = mid_east_arabic_74
+		1 = mid_east_arabic_75
+		1 = mid_east_arabic_76
+		1 = mid_east_arabic_77
+		1 = mid_east_arabic_78
+		1 = mid_east_arabic_79
+		1 = mid_east_arabic_80
+		1 = mid_east_arabic_81
+		1 = mid_east_arabic_82
+		1 = mid_east_arabic_83
+		1 = mid_east_arabic_84
+		1 = mid_east_arabic_85
+		1 = mid_east_arabic_86
+		1 = mid_east_arabic_87
+		1 = mid_east_arabic_88
+		1 = mid_east_arabic_89
+		1 = mid_east_arabic_90
+		1 = mid_east_arabic_91
+		1 = mid_east_arabic_92
+		1 = mid_east_arabic_93
+		1 = mid_east_arabic_94
+		1 = mid_east_arabic_95
+		1 = mid_east_arabic_96
+		1 = mid_east_arabic_97
+		1 = mid_east_arabic_98
+		1 = mid_east_arabic_99
+		1 = mid_east_arabic_100
+		1 = mid_east_arabic_101
+		1 = mid_east_arabic_102
+		1 = mid_east_arabic_103
+		1 = mid_east_arabic_104
+		1 = mid_east_arabic_105
+		1 = mid_east_arabic_106
+		1 = mid_east_arabic_107
+		1 = mid_east_arabic_108
+	}
+}
+
+persian_turkish = { # Based on Oghuz - Representing the Turco-Persians
+	color = { 0.90 0.50 0.05 }
+
+	parents = { turkish persian }
+	history_loc_override = persian_turk_history_loc
+	created = 1050.1.1
+
+	ethos = ethos_courtly
+	heritage = heritage_iranian
+	language = language_anatolian_turk
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain # No longer nomadic
+	traditions = {
+		tradition_ghazi
+		tradition_formation_fighting
+		tradition_ruling_caste
+		tradition_esteemed_hospitality
+	}
+	
+	dlc_tradition = {
+		trait = tradition_mpo_iron_cavalry
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	name_list = name_list_persian_turkish
+
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { turkish_building_gfx iranian_building_gfx }
+	clothing_gfx = { epe_seljuk_clothing_gfx iranian_clothing_gfx turkic_clothing_gfx }
+	unit_gfx = { seljuk_unit_gfx }
+
+	ethnicities = {
+		4 = mid_east_turkmen_01
+		4 = mid_east_turkmen_02
+		4 = mid_east_turkmen_03
+		4 = mid_east_turkmen_04
+		4 = mid_east_turkmen_05
+		4 = mid_east_turkmen_06
+		4 = mid_east_turkmen_07
+		4 = mid_east_turkmen_08
+		4 = mid_east_turkmen_09
+		4 = mid_east_turkmen_10
+		4 = mid_east_turkmen_11
+		4 = mid_east_turkmen_12
+		4 = mid_east_turkmen_13
+		4 = mid_east_turkmen_14
+		4 = mid_east_turkmen_15
+		4 = mid_east_turkmen_16
+		4 = mid_east_turkmen_17
+		4 = mid_east_turkmen_18
+		4 = mid_east_turkmen_19
+		4 = mid_east_turkmen_20
+		4 = mid_east_turkmen_21
+		4 = mid_east_turkmen_22
+		4 = mid_east_turkmen_23
+		4 = mid_east_turkmen_24
+		4 = mid_east_turkmen_25
+		4 = mid_east_turkmen_26
+		4 = mid_east_turkmen_27
+		4 = mid_east_turkmen_28
+		4 = mid_east_turkmen_29
+		4 = mid_east_turkmen_30
+		4 = mid_east_turkmen_31
+		4 = mid_east_turkmen_32
+		4 = mid_east_turkmen_33
+		4 = mid_east_turkmen_34
+		4 = mid_east_turkmen_35
+		4 = mid_east_turkmen_36
+		4 = mid_east_turkmen_37
+		4 = mid_east_turkmen_38
+		4 = mid_east_turkmen_39
+		4 = mid_east_turkmen_40
+		5 = asian_turkic_1_seljuk
+		5 = asian_turkic_2_seljuk
+		5 = asian_turkic_3_seljuk
+		5 = asian_turkic_4_seljuk
+		5 = asian_turkic_5_seljuk
+		3 = asian_turkic_6
+		5 = asian_turkic_6_seljuk
+		5 = asian_turkic_7_seljuk
+		3 = asian_turkic_7
+		3 = asian_turkic_8 
+		5 = asian_turkic_9_seljuk
+		3 = asian_turkic_9
+		3 = asian_turkic_10
+		3 = asian_turkic_11
+		5 = asian_turkic_12_seljuk
+		3 = asian_turkic_12
+		5 = asian_turkic_13_seljuk
+		3 = asian_turkic_13
+		5 = asian_turkic_14_seljuk
+		3 = asian_turkic_14
+		3 = asian_turkic_15 
+		3 = asian_turkic_16
+		3 = asian_turkic_17
+		3 = asian_turkic_18
+		5 = asian_turkic_19_seljuk
+		3 = asian_turkic_19
+		5 = asian_turkic_20_seljuk
+		5 = asian_turkic_21_seljuk
+		5 = asian_turkic_22_seljuk
+		5 = asian_turkic_23_seljuk
+		3 = asian_turkic_23
+		5 = asian_turkic_24_seljuk
+		3 = asian_turkic_24
+		5 = asian_turkic_25_seljuk
+		3 = asian_turkic_25
+		3 = asian_turkic_41
+		3 = asian_turkic_42
+		3 = asian_turkic_43
+		3 = asian_turkic_44
+		3 = asian_turkic_45
+		3 = asian_turkic_46
+		3 = asian_turkic_47
+		3 = asian_turkic_48
+		3 = asian_turkic_49
+		3 = asian_turkic_50
+		5 = asian_turkic_51_oghuz
+		5 = asian_turkic_52_oghuz
+		5 = asian_turkic_53_oghuz
+		5 = asian_turkic_54_oghuz
+		5 = asian_turkic_55_oghuz
+		5 = asian_turkic_56_oghuz
+		5 = asian_turkic_57_oghuz
+		5 = asian_turkic_58_oghuz
+		5 = asian_turkic_59_oghuz
+		5 = asian_turkic_60_oghuz
+	}
+}
+
+turkmeni = { # Qungrat
+	color = { 240 240 120 }
+
+	parents = { onggirad turkish }
+	created = 1300.1.1
+
+	ethos = ethos_bellicose
+	heritage = heritage_turkic # Yusseter: heritage_on_oq (On-Oq)
+	language = language_turkmen
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_warrior_culture
+		tradition_swords_for_hire
+		tradition_ruling_caste
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	name_list = name_list_turkish
+
+	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { epe_seljuk_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { seljuk_unit_gfx }
+
+	ethnicities = {
+		4 = asian_turkic_1_seljuk
+		4 = asian_turkic_2_seljuk
+		4 = asian_turkic_3_seljuk
+		4 = asian_turkic_4_seljuk
+		4 = asian_turkic_5_seljuk
+		1 = asian_turkic_6
+		3 = asian_turkic_6_seljuk
+		3 = asian_turkic_7_seljuk
+		1 = asian_turkic_7
+		4 = asian_turkic_8
+		2 = asian_turkic_9_seljuk
+		2 = asian_turkic_9
+		4 = asian_turkic_10
+		4 = asian_turkic_11
+		2 = asian_turkic_12_seljuk
+		2 = asian_turkic_12
+		2 = asian_turkic_13_seljuk
+		2 = asian_turkic_13
+		2 = asian_turkic_14_seljuk
+		2 = asian_turkic_14
+		4 = asian_turkic_15
+		4 = asian_turkic_16
+		4 = asian_turkic_17
+		4 = asian_turkic_18
+		3 = asian_turkic_19_seljuk
+		1 = asian_turkic_19
+		4 = asian_turkic_20_seljuk
+		4 = asian_turkic_21_seljuk
+		2 = asian_turkic_22_seljuk
+		3 = asian_turkic_23_seljuk
+		1 = asian_turkic_23
+		3 = asian_turkic_24_seljuk
+		1 = asian_turkic_24
+		3 = asian_turkic_25_seljuk
+		1 = asian_turkic_25
+		2 = asian_turkic_41
+		2 = asian_turkic_42
+		2 = asian_turkic_43
+		2 = asian_turkic_44
+		2 = asian_turkic_45
+		2 = asian_turkic_46
+		2 = asian_turkic_47
+		2 = asian_turkic_48
+		3 = asian_turkic_49
+		4 = asian_turkic_50
+		4 = asian_turkic_51_oghuz
+		4 = asian_turkic_52_oghuz
+		4 = asian_turkic_53_oghuz
+		4 = asian_turkic_54_oghuz
+		4 = asian_turkic_55_oghuz
+		4 = asian_turkic_56_oghuz
+		4 = asian_turkic_57_oghuz
+		4 = asian_turkic_58_oghuz
+		4 = asian_turkic_59_oghuz
+		4 = asian_turkic_60_oghuz
+	}
+}
+
+chigil = {
+	color = chigil
+
+	created = 700.1.1
+	parents = { ueban karluk }
+
+	ethos = ethos_stoic
+	heritage = heritage_turkic # Yusseter: heritage_on_oq (On-Oq)
+	language = language_karluk
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_battlefield_looters
+		tradition_steppe_tolerance
+		tradition_caravaneers
+	}
+
+	name_list = name_list_karluk
+
+	coa_gfx = { mongol_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+			4 = asian_turkic_1
+			4 = asian_turkic_2
+			4 = asian_turkic_3
+			4 = asian_turkic_4
+			4 = asian_turkic_5
+			4 = asian_turkic_6
+			4 = asian_turkic_7
+			4 = asian_turkic_8
+			4 = asian_turkic_9
+			4 = asian_turkic_10
+			4 = asian_turkic_11
+			4 = asian_turkic_12
+			4 = asian_turkic_13
+			4 = asian_turkic_14
+			4 = asian_turkic_15
+			2 = asian_turkic_16
+			2 = asian_turkic_16_eastern
+			2 = asian_turkic_17
+			2 = asian_turkic_17_eastern
+			4 = asian_turkic_18
+			4 = asian_turkic_19
+			4 = asian_turkic_20
+			4 = asian_turkic_21
+			4 = asian_turkic_22
+			4 = asian_turkic_22
+			4 = asian_turkic_23
+			4 = asian_turkic_24
+			4 = asian_turkic_25
+			4 = asian_turkic_26
+			4 = asian_turkic_27
+			4 = asian_turkic_28
+			4 = asian_turkic_29
+			4 = asian_turkic_30
+			4 = asian_turkic_36
+			4 = asian_turkic_37
+			4 = asian_turkic_38
+			4 = asian_turkic_39
+			4 = asian_turkic_40
+			4 = asian_turkic_41
+			4 = asian_turkic_42
+			4 = asian_turkic_43
+			4 = asian_turkic_44
+			4 = asian_turkic_45
+			3 = asian_turkic_46
+			3 = asian_turkic_47
+			3 = asian_turkic_48
+			3 = asian_turkic_49
+			3 = asian_turkic_50
+	}
+}
+
+shatuo = {
+	color = shatuo
+
+	created = 700.1.1
+	parents = { ueban han } #tujue
+
+	ethos = ethos_courtly
+	heritage = heritage_turkic # Yusseter: heritage_on_oq (On-Oq)
+	language = language_chinese
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_court_eunuchs
+		tradition_ruling_caste
+		tradition_malleable_invaders
+	}
+
+	name_list = name_list_shatuo
+
+	coa_gfx = { chinese_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { han_clothing_gfx chinese_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		#15 = turkic
+		#15 = asian_mongol
+		5 = asian_turkic_16_eastern
+		5 = asian_turkic_17_eastern
+		1 = asian_turkic_36
+		1 = asian_turkic_37
+		1 = asian_turkic_38
+		1 = asian_turkic_39
+		1 = asian_turkic_40
+		1 = asian_turkic_26
+		1 = asian_turkic_27
+		1 = asian_turkic_28
+		1 = asian_turkic_29
+		1 = asian_turkic_30
+		2 = asian_mongol_1
+		2 = asian_mongol_2
+		2 = asian_mongol_3
+		2 = asian_mongol_4
+		2 = asian_mongol_5
+		2 = asian_mongol_6
+		2 = asian_mongol_7
+		2 = asian_mongol_8
+		2 = asian_mongol_9
+		2 = asian_mongol_10
+		2 = asian_mongol_11
+		2 = asian_mongol_12
+		2 = asian_mongol_13
+		2 = asian_mongol_14
+		2 = asian_mongol_15
+		2 = asian_mongol_16
+		2 = asian_mongol_17
+		2 = asian_mongol_18
+		2 = asian_mongol_19
+		2 = asian_mongol_20
+		2 = asian_mongol_21
+		2 = asian_mongol_22
+		2 = asian_mongol_23
+		2 = asian_mongol_24
+		2 = asian_mongol_25
+		2 = asian_mongol_26
+		2 = asian_mongol_27
+		2 = asian_mongol_28
+		2 = asian_mongol_29
+		2 = asian_mongol_30
+		2 = asian_mongol_31
+	}
+}
+
+kirghiz = {
+	color = { 0.85 0.72 0.30 }
+	created = 925.4.28 # Yusseter: Fall of Kyrgyz Khaganate
+	parents = { yenisei_kirghiz kimek }
+
+	ethos = ethos_egalitarian
+	heritage = heritage_sayan_altaic
+	language = language_kipchak
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_hunters
+		tradition_quarrelsome
+	}
+
+	dlc_tradition = {
+		trait = tradition_mpo_northern_tribes
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	name_list = name_list_kirghiz
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_eastern_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		1 = asian_turkic_enisey_kirghiz_01
+		1 = asian_turkic_enisey_kirghiz_02
+		1 = asian_turkic_enisey_kirghiz_03
+		1 = asian_turkic_enisey_kirghiz_04
+		1 = asian_turkic_enisey_kirghiz_05
+		1 = asian_turkic_enisey_kirghiz_06
+		1 = asian_turkic_enisey_kirghiz_07
+		1 = asian_turkic_enisey_kirghiz_08
+		1 = asian_turkic_enisey_kirghiz_09
+		1 = asian_turkic_enisey_kirghiz_10
+		2 = asian_turkic_1_kipchak
+		2 = asian_turkic_2_kipchak
+		2 = asian_turkic_3_kipchak
+		2 = asian_turkic_4_kipchak
+		2 = asian_turkic_5_kipchak
+		2 = asian_turkic_6_kipchak
+		2 = asian_turkic_7_kipchak
+		2 = asian_turkic_10_kipchak
+		2 = asian_turkic_11_kipchak
+		2 = asian_turkic_12_kipchak
+		2 = asian_turkic_13_kipchak
+		2 = asian_turkic_14_kipchak
+		2 = asian_turkic_20_kipchak
+		2 = asian_turkic_16_eastern
+		2 = asian_turkic_1
+		2 = asian_turkic_2
+		2 = asian_turkic_3
+		2 = asian_turkic_4
+		2 = asian_turkic_5
+		2 = asian_turkic_6
+		2 = asian_turkic_7
+		2 = asian_turkic_8 
+		2 = asian_turkic_9
+		2 = asian_turkic_10
+		2 = asian_turkic_11
+		2 = asian_turkic_12
+		2 = asian_turkic_13
+		2 = asian_turkic_14
+		2 = asian_turkic_15 
+		2 = asian_turkic_15_western
+		2 = asian_turkic_16
+		2 = asian_turkic_16_eastern
+		2 = asian_turkic_17
+		2 = asian_turkic_17_eastern
+		2 = asian_turkic_18
+		2 = asian_turkic_19
+		2 = asian_turkic_20
+		2 = asian_turkic_21
+		2 = asian_turkic_22
+		2 = asian_turkic_22
+		2 = asian_turkic_23
+		2 = asian_turkic_24
+		2 = asian_turkic_25
+		2 = asian_turkic_26
+		2 = asian_turkic_27
+		2 = asian_turkic_28
+		2 = asian_turkic_29
+		2 = asian_turkic_30
+		2 = asian_turkic_36
+		2 = asian_turkic_37
+		2 = asian_turkic_38
+		2 = asian_turkic_39
+		2 = asian_turkic_40
+	}
+}
+
+ograk = {
+	color = ograk
+
+	ethos = ethos_communal
+	heritage = heritage_turkic # Yusseter: heritage_on_oq (On-Oq)
+	language = language_basmyl
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_staunch_traditionalists
+		tradition_quarrelsome
+		tradition_warrior_culture
+	}
+
+	name_list = name_list_karluk
+
+	coa_gfx = { mongol_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		4 = asian_turkic_1
+		4 = asian_turkic_2
+		4 = asian_turkic_3
+		4 = asian_turkic_4
+		4 = asian_turkic_5
+		4 = asian_turkic_6
+		4 = asian_turkic_7
+		4 = asian_turkic_8
+		4 = asian_turkic_9
+		4 = asian_turkic_10
+		4 = asian_turkic_11
+		4 = asian_turkic_12
+		4 = asian_turkic_13
+		4 = asian_turkic_14
+		4 = asian_turkic_15
+		2 = asian_turkic_16
+		2 = asian_turkic_16_eastern
+		2 = asian_turkic_17
+		2 = asian_turkic_17_eastern
+		4 = asian_turkic_18
+		4 = asian_turkic_19
+		4 = asian_turkic_20
+		4 = asian_turkic_21
+		4 = asian_turkic_22
+		4 = asian_turkic_22
+		4 = asian_turkic_23
+		4 = asian_turkic_24
+		4 = asian_turkic_25
+		4 = asian_turkic_26
+		4 = asian_turkic_27
+		4 = asian_turkic_28
+		4 = asian_turkic_29
+		4 = asian_turkic_30
+		4 = asian_turkic_36
+		4 = asian_turkic_37
+		4 = asian_turkic_38
+		4 = asian_turkic_39
+		4 = asian_turkic_40
+		4 = asian_turkic_41
+		4 = asian_turkic_42
+		4 = asian_turkic_43
+		4 = asian_turkic_44
+		4 = asian_turkic_45
+		3 = asian_turkic_46
+		3 = asian_turkic_47
+		3 = asian_turkic_48
+		3 = asian_turkic_49
+		3 = asian_turkic_50
+	}
+}
+
+turgesh = {
+	color = turgesh
+	created = 700.1.1
+	parents = { tujue sogdian }
+
+	ethos = ethos_bellicose
+	heritage = heritage_turkic # Yusseter: heritage_on_oq (On-Oq)
+	language = language_siberian_turkic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_horse_breeder
+		# Balbals (Runestone Raisers)
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp1_northern_stories
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_runestones
+	}
+
+	name_list = name_list_karluk
+
+	coa_gfx = { mongol_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		4 = asian_turkic_1
+		4 = asian_turkic_2
+		4 = asian_turkic_3
+		4 = asian_turkic_4
+		4 = asian_turkic_5
+		4 = asian_turkic_6
+		4 = asian_turkic_7
+		4 = asian_turkic_8
+		4 = asian_turkic_9
+		4 = asian_turkic_10
+		4 = asian_turkic_11
+		4 = asian_turkic_12
+		4 = asian_turkic_13
+		4 = asian_turkic_14
+		4 = asian_turkic_15
+		2 = asian_turkic_16
+		2 = asian_turkic_16_eastern
+		2 = asian_turkic_17
+		2 = asian_turkic_17_eastern
+		4 = asian_turkic_18
+		4 = asian_turkic_19
+		4 = asian_turkic_20
+		4 = asian_turkic_21
+		4 = asian_turkic_22
+		4 = asian_turkic_22
+		4 = asian_turkic_23
+		4 = asian_turkic_24
+		4 = asian_turkic_25
+		4 = asian_turkic_26
+		4 = asian_turkic_27
+		4 = asian_turkic_28
+		4 = asian_turkic_29
+		4 = asian_turkic_30
+		4 = asian_turkic_36
+		4 = asian_turkic_37
+		4 = asian_turkic_38
+		4 = asian_turkic_39
+		4 = asian_turkic_40
+		4 = asian_turkic_41
+		4 = asian_turkic_42
+		4 = asian_turkic_43
+		4 = asian_turkic_44
+		4 = asian_turkic_45
+		3 = asian_turkic_46
+		3 = asian_turkic_47
+		3 = asian_turkic_48
+		3 = asian_turkic_49
+		3 = asian_turkic_50
+	}
+}
+
+qun = {
+	color = qun
+
+	ethos = ethos_bellicose
+	heritage = heritage_toquz_oghuz
+	language = language_tiele
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_horse_breeder
+		tradition_quarrelsome
+		tradition_warrior_culture
+	}
+
+	name_list = name_list_uyghur
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_eastern_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		4 = asian_turkic_1
+		4 = asian_turkic_2
+		4 = asian_turkic_3
+		4 = asian_turkic_4
+		4 = asian_turkic_5
+		4 = asian_turkic_6
+		4 = asian_turkic_7
+		4 = asian_turkic_8 
+		4 = asian_turkic_9
+		1 = asian_turkic_10_uyghur
+		1 = asian_turkic_11_uyghur
+		1 = asian_turkic_12_uyghur
+		1 = asian_turkic_13_uyghur
+		4 = asian_turkic_14
+		2 = asian_turkic_15
+		2 = asian_turkic_15_western
+		2 = asian_turkic_16
+		2 = asian_turkic_16_eastern
+		2 = asian_turkic_17
+		2 = asian_turkic_17_eastern
+		4 = asian_turkic_18
+		4 = asian_turkic_19
+		1 = asian_turkic_20_uyghur
+		1 = asian_turkic_21_uyghur
+		4 = asian_turkic_22
+		4 = asian_turkic_22
+		4 = asian_turkic_23
+		4 = asian_turkic_24
+		4 = asian_turkic_25
+		4 = asian_turkic_26
+		4 = asian_turkic_27
+		4 = asian_turkic_28
+		4 = asian_turkic_29
+		4 = asian_turkic_30
+		4 = asian_turkic_36
+		4 = asian_turkic_37
+		4 = asian_turkic_38
+		4 = asian_turkic_39
+		4 = asian_turkic_40
+		1 = asian_turkic_41_uyghur
+		1 = asian_turkic_42_uyghur
+		1 = asian_turkic_43_uyghur
+		1 = asian_turkic_44_uyghur
+		1 = asian_turkic_45_uyghur
+		2 = asian_turkic_46
+		2 = asian_turkic_47
+		2 = asian_turkic_48
+		2 = asian_turkic_49
+	}
+}
+
+siqar = {
+	color = siqar
+
+	ethos = ethos_egalitarian
+	heritage = heritage_toquz_oghuz
+	language = language_tiele
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_talent_acquisition
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp1_northern_stories
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_runestones
+	}
+
+	name_list = name_list_tiele
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_eastern_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		4 = asian_turkic_1
+		4 = asian_turkic_2
+		4 = asian_turkic_3
+		4 = asian_turkic_4
+		4 = asian_turkic_5
+		4 = asian_turkic_6
+		4 = asian_turkic_7
+		4 = asian_turkic_8 
+		4 = asian_turkic_9
+		1 = asian_turkic_10_uyghur
+		1 = asian_turkic_11_uyghur
+		1 = asian_turkic_12_uyghur
+		1 = asian_turkic_13_uyghur
+		4 = asian_turkic_14
+		2 = asian_turkic_15
+		2 = asian_turkic_15_western
+		2 = asian_turkic_16
+		2 = asian_turkic_16_eastern
+		2 = asian_turkic_17
+		2 = asian_turkic_17_eastern
+		4 = asian_turkic_18
+		4 = asian_turkic_19
+		1 = asian_turkic_20_uyghur
+		1 = asian_turkic_21_uyghur
+		4 = asian_turkic_22
+		4 = asian_turkic_22
+		4 = asian_turkic_23
+		4 = asian_turkic_24
+		4 = asian_turkic_25
+		4 = asian_turkic_26
+		4 = asian_turkic_27
+		4 = asian_turkic_28
+		4 = asian_turkic_29
+		4 = asian_turkic_30
+		4 = asian_turkic_36
+		4 = asian_turkic_37
+		4 = asian_turkic_38
+		4 = asian_turkic_39
+		4 = asian_turkic_40
+		1 = asian_turkic_41_uyghur
+		1 = asian_turkic_42_uyghur
+		1 = asian_turkic_43_uyghur
+		1 = asian_turkic_44_uyghur
+		1 = asian_turkic_45_uyghur
+		2 = asian_turkic_46
+		2 = asian_turkic_47
+		2 = asian_turkic_48
+		2 = asian_turkic_49
+	}
+}
+
+tongra = {
+	color = tongra
+
+	ethos = ethos_bellicose
+	heritage = heritage_toquz_oghuz
+	language = language_tiele
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_quarrelsome
+		tradition_hunters
+		tradition_fp1_trials_by_combat
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	name_list = name_list_tiele
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_eastern_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		4 = asian_turkic_1
+		4 = asian_turkic_2
+		4 = asian_turkic_3
+		4 = asian_turkic_4
+		4 = asian_turkic_5
+		4 = asian_turkic_6
+		4 = asian_turkic_7
+		4 = asian_turkic_8 
+		4 = asian_turkic_9
+		1 = asian_turkic_10_uyghur
+		1 = asian_turkic_11_uyghur
+		1 = asian_turkic_12_uyghur
+		1 = asian_turkic_13_uyghur
+		4 = asian_turkic_14
+		2 = asian_turkic_15
+		2 = asian_turkic_15_western
+		2 = asian_turkic_16
+		2 = asian_turkic_16_eastern
+		2 = asian_turkic_17
+		2 = asian_turkic_17_eastern
+		4 = asian_turkic_18
+		4 = asian_turkic_19
+		1 = asian_turkic_20_uyghur
+		1 = asian_turkic_21_uyghur
+		4 = asian_turkic_22
+		4 = asian_turkic_22
+		4 = asian_turkic_23
+		4 = asian_turkic_24
+		4 = asian_turkic_25
+		4 = asian_turkic_26
+		4 = asian_turkic_27
+		4 = asian_turkic_28
+		4 = asian_turkic_29
+		4 = asian_turkic_30
+		4 = asian_turkic_36
+		4 = asian_turkic_37
+		4 = asian_turkic_38
+		4 = asian_turkic_39
+		4 = asian_turkic_40
+		1 = asian_turkic_41_uyghur
+		1 = asian_turkic_42_uyghur
+		1 = asian_turkic_43_uyghur
+		1 = asian_turkic_44_uyghur
+		1 = asian_turkic_45_uyghur
+		2 = asian_turkic_46
+		2 = asian_turkic_47
+		2 = asian_turkic_48
+		2 = asian_turkic_49
+	}
+}
+
+bayirku = {
+	color = bayirku
+
+	ethos = ethos_bellicose
+	heritage = heritage_toquz_oghuz
+	language = language_basmyl
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_quarrelsome
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	name_list = name_list_naiman
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_eastern_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		4 = asian_turkic_1
+		4 = asian_turkic_2
+		4 = asian_turkic_3
+		4 = asian_turkic_4
+		4 = asian_turkic_5
+		4 = asian_turkic_6
+		4 = asian_turkic_7
+		4 = asian_turkic_8 
+		4 = asian_turkic_9
+		1 = asian_turkic_10_uyghur
+		1 = asian_turkic_11_uyghur
+		1 = asian_turkic_12_uyghur
+		1 = asian_turkic_13_uyghur
+		4 = asian_turkic_14
+		2 = asian_turkic_15
+		2 = asian_turkic_15_western
+		2 = asian_turkic_16
+		2 = asian_turkic_16_eastern
+		2 = asian_turkic_17
+		2 = asian_turkic_17_eastern
+		4 = asian_turkic_18
+		4 = asian_turkic_19
+		1 = asian_turkic_20_uyghur
+		1 = asian_turkic_21_uyghur
+		4 = asian_turkic_22
+		4 = asian_turkic_22
+		4 = asian_turkic_23
+		4 = asian_turkic_24
+		4 = asian_turkic_25
+		4 = asian_turkic_26
+		4 = asian_turkic_27
+		4 = asian_turkic_28
+		4 = asian_turkic_29
+		4 = asian_turkic_30
+		4 = asian_turkic_36
+		4 = asian_turkic_37
+		4 = asian_turkic_38
+		4 = asian_turkic_39
+		4 = asian_turkic_40
+		1 = asian_turkic_41_uyghur
+		1 = asian_turkic_42_uyghur
+		1 = asian_turkic_43_uyghur
+		1 = asian_turkic_44_uyghur
+		1 = asian_turkic_45_uyghur
+		2 = asian_turkic_46
+		2 = asian_turkic_47
+		2 = asian_turkic_48
+		2 = asian_turkic_49
+	}
+}
+
+yagma = {
+	color = yagma
+
+	created = 795.1.1
+	parents = { uigur chigil }
+
+	ethos = ethos_courtly
+	heritage = heritage_toquz_oghuz
+	language = language_karluk
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_quarrelsome
+		tradition_steppe_tolerance
+	}
+
+	name_list = name_list_uyghur
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		4 = asian_turkic_1
+		4 = asian_turkic_2
+		4 = asian_turkic_3
+		4 = asian_turkic_4
+		4 = asian_turkic_5
+		4 = asian_turkic_6
+		4 = asian_turkic_7
+		4 = asian_turkic_8
+		4 = asian_turkic_9
+		1 = asian_turkic_10_uyghur
+		1 = asian_turkic_11_uyghur
+		1 = asian_turkic_12_uyghur
+		1 = asian_turkic_13_uyghur
+		4 = asian_turkic_14
+		2 = asian_turkic_15
+		2 = asian_turkic_15_western
+		2 = asian_turkic_16
+		2 = asian_turkic_16_eastern
+		2 = asian_turkic_17
+		2 = asian_turkic_17_eastern
+		4 = asian_turkic_18
+		4 = asian_turkic_19
+		1 = asian_turkic_20_uyghur
+		1 = asian_turkic_21_uyghur
+		4 = asian_turkic_22
+		4 = asian_turkic_22
+		4 = asian_turkic_23
+		4 = asian_turkic_24
+		4 = asian_turkic_25
+		4 = asian_turkic_26
+		4 = asian_turkic_27
+		4 = asian_turkic_28
+		4 = asian_turkic_29
+		4 = asian_turkic_30
+		4 = asian_turkic_36
+		4 = asian_turkic_37
+		4 = asian_turkic_38
+		4 = asian_turkic_39
+		4 = asian_turkic_40
+		1 = asian_turkic_41_uyghur
+		1 = asian_turkic_42_uyghur
+		1 = asian_turkic_43_uyghur
+		1 = asian_turkic_44_uyghur
+		1 = asian_turkic_45_uyghur
+		3 = asian_turkic_46
+		3 = asian_turkic_47
+		3 = asian_turkic_48
+		3 = asian_turkic_49
+	}
+}
+
+yenisei_kirghiz = {
+	color = { 0.40 0.70 0.40 }
+
+	ethos = ethos_egalitarian
+	heritage = heritage_sayan_altaic
+	language = language_tuvan
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_warrior_culture
+		tradition_horse_breeder
+		tradition_swords_for_hire
+	}
+	
+	dlc_tradition = {
+		trait = tradition_mpo_northern_tribes
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp1_northern_stories
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_runestones
+	}
+	
+	name_list = name_list_kirghiz
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_eastern_steppe_clothing_gfx yb_siberian_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = { # Yusseter: According to Tang sources and skeletal remains, the Yenisei Kyrgyz were ethnically European (has light colored hair and eyes).
+		4 = asian_turkic_enisey_kirghiz_01
+		4 = asian_turkic_enisey_kirghiz_02
+		4 = asian_turkic_enisey_kirghiz_03
+		4 = asian_turkic_enisey_kirghiz_04
+		4 = asian_turkic_enisey_kirghiz_05
+		4 = asian_turkic_enisey_kirghiz_06
+		4 = asian_turkic_enisey_kirghiz_07
+		4 = asian_turkic_enisey_kirghiz_08
+		4 = asian_turkic_enisey_kirghiz_09
+		4 = asian_turkic_enisey_kirghiz_10
+		2 = asian_turkic_1_western
+		2 = asian_turkic_2_western
+		2 = asian_turkic_3_western
+		2 = asian_turkic_4_western
+		2 = asian_turkic_5_western
+		2 = asian_turkic_6_western
+		2 = asian_turkic_7_western
+		2 = asian_turkic_8_western 
+		2 = asian_turkic_9_western
+		2 = asian_turkic_15_western 
+		2 = asian_turkic_16_western
+		2 = asian_turkic_17_western
+		2 = asian_turkic_19_western
+		2 = asian_turkic_20_western
+		2 = asian_turkic_23_western
+		4 = european_circumpolar_dark_1
+		4 = european_circumpolar_dark_2
+		4 = european_circumpolar_brown_1
+		4 = european_circumpolar_brown_2
+		4 = european_circumpolar_blond_1
+		4 = european_circumpolar_blond_2
+		1 =	steppe_volga_finn_mordvin_01
+		1 =	steppe_volga_finn_mordvin_02
+		1 =	steppe_volga_finn_mordvin_03
+		1 =	steppe_volga_finn_mordvin_04
+		1 =	steppe_volga_finn_mordvin_05
+		1 =	steppe_volga_finn_mordvin_06
+		1 =	steppe_volga_finn_mordvin_07
+		1 =	steppe_volga_finn_mordvin_08
+		1 =	steppe_volga_finn_mordvin_09
+		1 =	steppe_volga_finn_mordvin_10
+		1 =	steppe_volga_finn_mordvin_11
+		1 =	steppe_volga_finn_mordvin_12
+		1 =	steppe_volga_finn_mordvin_13
+		1 =	steppe_volga_finn_mordvin_14
+		1 =	steppe_volga_finn_mordvin_15
+		1 =	steppe_volga_finn_mordvin_16
+		1 =	steppe_volga_finn_mordvin_17
+		1 =	steppe_volga_finn_mordvin_18
+		1 =	steppe_volga_finn_mordvin_19
+		1 =	steppe_volga_finn_mordvin_20
+		1 =	steppe_volga_finn_mordvin_21
+		1 =	steppe_volga_finn_mordvin_22
+		1 =	steppe_volga_finn_mordvin_23
+		1 =	steppe_volga_finn_mordvin_24
+		1 =	steppe_volga_finn_mordvin_25
+		1 =	steppe_volga_finn_mordvin_26
+		1 =	steppe_volga_finn_mordvin_27
+		1 =	steppe_volga_finn_mordvin_28
+		1 =	steppe_volga_finn_mordvin_29
+		1 =	steppe_volga_finn_mordvin_30
+		1 =	steppe_volga_finn_mordvin_31
+		1 =	steppe_volga_finn_mordvin_32
+		1 =	steppe_volga_finn_mordvin_33
+		1 =	steppe_volga_finn_mordvin_34
+		1 =	steppe_volga_finn_mordvin_35
+		1 =	steppe_volga_finn_mordvin_36
+		1 =	steppe_volga_finn_mordvin_37
+		1 =	steppe_volga_finn_mordvin_38
+		1 =	steppe_volga_finn_mordvin_39
+	}
+}
+
+khakas = {
+	color = { 129 133 93 }
+	created = 925.4.28 # Yusseter: Fall of Kyrgyz Khaganate
+	parents = { yenisei_kirghiz }
+
+	ethos = ethos_egalitarian
+	heritage = heritage_sayan_altaic
+	language = language_tuvan
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_pastoralists
+		tradition_tribe_unity
+		tradition_hunters
+	}
+	
+	dlc_tradition = {
+		trait = tradition_mpo_northern_tribes
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	name_list = name_list_kirghiz
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_eastern_steppe_clothing_gfx yb_siberian_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		1 = asian_turkic_enisey_kirghiz_01
+		1 = asian_turkic_enisey_kirghiz_02
+		1 = asian_turkic_enisey_kirghiz_03
+		1 = asian_turkic_enisey_kirghiz_04
+		1 = asian_turkic_enisey_kirghiz_05
+		1 = asian_turkic_enisey_kirghiz_06
+		1 = asian_turkic_enisey_kirghiz_07
+		1 = asian_turkic_enisey_kirghiz_08
+		1 = asian_turkic_enisey_kirghiz_09
+		1 = asian_turkic_enisey_kirghiz_10
+		2 = asian_turkic_1
+		2 = asian_turkic_2
+		2 = asian_turkic_3
+		2 = asian_turkic_4
+		2 = asian_turkic_5
+		2 = asian_turkic_6
+		2 = asian_turkic_7
+		2 = asian_turkic_8 
+		2 = asian_turkic_9
+		2 = asian_turkic_10
+		2 = asian_turkic_11
+		2 = asian_turkic_12
+		2 = asian_turkic_13
+		2 = asian_turkic_14
+		2 = asian_turkic_15 
+		2 = asian_turkic_15_western
+		2 = asian_turkic_16
+		2 = asian_turkic_16_eastern
+		2 = asian_turkic_17
+		2 = asian_turkic_17_eastern
+		2 = asian_turkic_18
+		2 = asian_turkic_19
+		2 = asian_turkic_20
+		2 = asian_turkic_21
+		2 = asian_turkic_22
+		2 = asian_turkic_22
+		2 = asian_turkic_23
+		2 = asian_turkic_24
+		2 = asian_turkic_25
+		2 = asian_turkic_26
+		2 = asian_turkic_27
+		2 = asian_turkic_28
+		2 = asian_turkic_29
+		2 = asian_turkic_30
+		2 = asian_turkic_36
+		2 = asian_turkic_37
+		2 = asian_turkic_38
+		2 = asian_turkic_39
+		2 = asian_turkic_40
+	}
+}
+
+dukha = {
+	color = dukha
+	created = 890.1.1 # Yusseter
+	parents = { yenisei_kirghiz siqar }
+
+	ethos = ethos_communal
+	heritage = heritage_sayan_altaic
+	language = language_shor # Dukha
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_forest_folk
+		tradition_adaptive_skirmishing
+		tradition_winter_warriors
+	}
+	
+	dlc_tradition = {
+		trait = tradition_mpo_northern_tribes
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	name_list = name_list_kirghiz
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_eastern_steppe_clothing_gfx yb_siberian_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		1 = asian_turkic_10_uyghur
+		1 = asian_turkic_11_uyghur
+		1 = asian_turkic_12_uyghur
+		1 = asian_turkic_13_uyghur
+		1 = asian_turkic_20_uyghur
+		1 = asian_turkic_21_uyghur
+		1 = asian_turkic_41_uyghur
+		1 = asian_turkic_42_uyghur
+		1 = asian_turkic_43_uyghur
+		1 = asian_turkic_44_uyghur
+		1 = asian_turkic_45_uyghur
+		3 = asian_turkic_1
+		3 = asian_turkic_2
+		3 = asian_turkic_3
+		3 = asian_turkic_4
+		3 = asian_turkic_5
+		3 = asian_turkic_6
+		3 = asian_turkic_7
+		3 = asian_turkic_8 
+		3 = asian_turkic_9
+		3 = asian_turkic_10
+		3 = asian_turkic_11
+		3 = asian_turkic_12
+		3 = asian_turkic_13
+		3 = asian_turkic_14
+		3 = asian_turkic_15 
+		3 = asian_turkic_15_western
+		3 = asian_turkic_16
+		3 = asian_turkic_16_eastern
+		3 = asian_turkic_17
+		3 = asian_turkic_17_eastern
+		3 = asian_turkic_18
+		3 = asian_turkic_19
+		3 = asian_turkic_20
+		3 = asian_turkic_21
+		3 = asian_turkic_22
+		3 = asian_turkic_22
+		3 = asian_turkic_23
+		3 = asian_turkic_24
+		3 = asian_turkic_25
+		3 = asian_turkic_26
+		3 = asian_turkic_27
+		3 = asian_turkic_28
+		3 = asian_turkic_29
+		3 = asian_turkic_30
+		3 = asian_turkic_36
+		3 = asian_turkic_37
+		3 = asian_turkic_38
+		3 = asian_turkic_39
+		3 = asian_turkic_40
+	}
+}
+
+todzh = {
+	color = todzh
+	created = 925.4.28 # Yusseter: Fall of Kyrgyz Khaganate
+	parents = { yenisei_kirghiz }
+
+	ethos = ethos_communal
+	heritage = heritage_sayan_altaic
+	language = language_tuvan
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_forest_folk
+		tradition_highland_warriors
+		tradition_winter_warriors
+	}
+	
+	dlc_tradition = {
+		trait = tradition_mpo_northern_tribes
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	name_list = name_list_kirghiz
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_eastern_steppe_clothing_gfx yb_siberian_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		1 = asian_turkic_enisey_kirghiz_01
+		1 = asian_turkic_enisey_kirghiz_02
+		1 = asian_turkic_enisey_kirghiz_03
+		1 = asian_turkic_enisey_kirghiz_04
+		1 = asian_turkic_enisey_kirghiz_05
+		1 = asian_turkic_enisey_kirghiz_06
+		1 = asian_turkic_enisey_kirghiz_07
+		1 = asian_turkic_enisey_kirghiz_08
+		1 = asian_turkic_enisey_kirghiz_09
+		1 = asian_turkic_enisey_kirghiz_10
+		3 = asian_turkic_1
+		3 = asian_turkic_2
+		3 = asian_turkic_3
+		3 = asian_turkic_4
+		3 = asian_turkic_5
+		3 = asian_turkic_6
+		3 = asian_turkic_7
+		3 = asian_turkic_8 
+		3 = asian_turkic_9
+		3 = asian_turkic_10
+		3 = asian_turkic_11
+		3 = asian_turkic_12
+		3 = asian_turkic_13
+		3 = asian_turkic_14
+		3 = asian_turkic_15 
+		3 = asian_turkic_15_western
+		3 = asian_turkic_16
+		3 = asian_turkic_16_eastern
+		3 = asian_turkic_17
+		3 = asian_turkic_17_eastern
+		3 = asian_turkic_18
+		3 = asian_turkic_19
+		3 = asian_turkic_20
+		3 = asian_turkic_21
+		3 = asian_turkic_22
+		3 = asian_turkic_22
+		3 = asian_turkic_23
+		3 = asian_turkic_24
+		3 = asian_turkic_25
+		3 = asian_turkic_26
+		3 = asian_turkic_27
+		3 = asian_turkic_28
+		3 = asian_turkic_29
+		3 = asian_turkic_30
+		3 = asian_turkic_36
+		3 = asian_turkic_37
+		3 = asian_turkic_38
+		3 = asian_turkic_39
+		3 = asian_turkic_40
+	}
+}
+
+cik = {
+	color = cik
+	created = 925.4.28 # Yusseter: Fall of Kyrgyz Khaganate
+	parents = { yenisei_kirghiz }
+
+	ethos = ethos_spiritual
+	heritage = heritage_sayan_altaic
+	language = language_tuvan
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_hit_and_run
+		tradition_highland_warriors
+	}
+	
+	dlc_tradition = {
+		trait = tradition_mpo_northern_tribes
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	name_list = name_list_kirghiz
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_eastern_steppe_clothing_gfx yb_siberian_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		1 = asian_turkic_enisey_kirghiz_01
+		1 = asian_turkic_enisey_kirghiz_02
+		1 = asian_turkic_enisey_kirghiz_03
+		1 = asian_turkic_enisey_kirghiz_04
+		1 = asian_turkic_enisey_kirghiz_05
+		1 = asian_turkic_enisey_kirghiz_06
+		1 = asian_turkic_enisey_kirghiz_07
+		1 = asian_turkic_enisey_kirghiz_08
+		1 = asian_turkic_enisey_kirghiz_09
+		1 = asian_turkic_enisey_kirghiz_10
+		3 = asian_turkic_1
+		3 = asian_turkic_2
+		3 = asian_turkic_3
+		3 = asian_turkic_4
+		3 = asian_turkic_5
+		3 = asian_turkic_6
+		3 = asian_turkic_7
+		3 = asian_turkic_8 
+		3 = asian_turkic_9
+		3 = asian_turkic_10
+		3 = asian_turkic_11
+		3 = asian_turkic_12
+		3 = asian_turkic_13
+		3 = asian_turkic_14
+		3 = asian_turkic_15 
+		3 = asian_turkic_15_western
+		3 = asian_turkic_16
+		3 = asian_turkic_16_eastern
+		3 = asian_turkic_17
+		3 = asian_turkic_17_eastern
+		3 = asian_turkic_18
+		3 = asian_turkic_19
+		3 = asian_turkic_20
+		3 = asian_turkic_21
+		3 = asian_turkic_22
+		3 = asian_turkic_22
+		3 = asian_turkic_23
+		3 = asian_turkic_24
+		3 = asian_turkic_25
+		3 = asian_turkic_26
+		3 = asian_turkic_27
+		3 = asian_turkic_28
+		3 = asian_turkic_29
+		3 = asian_turkic_30
+		3 = asian_turkic_36
+		3 = asian_turkic_37
+		3 = asian_turkic_38
+		3 = asian_turkic_39
+		3 = asian_turkic_40
+	}
+}
+
+az = {
+	color = az
+	created = 925.4.28 # Yusseter: Fall of Kyrgyz Khaganate
+	parents = { yenisei_kirghiz basmyl }
+
+	ethos = ethos_stoic
+	heritage = heritage_sayan_altaic
+	language = language_tuvan
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_adaptive_skirmishing
+		tradition_mountaineers
+		tradition_mountain_homes
+	}
+	
+	dlc_tradition = {
+		trait = tradition_mpo_northern_tribes
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	name_list = name_list_kirghiz
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_eastern_steppe_clothing_gfx yb_siberian_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		1 = asian_turkic_enisey_kirghiz_01
+		1 = asian_turkic_enisey_kirghiz_02
+		1 = asian_turkic_enisey_kirghiz_03
+		1 = asian_turkic_enisey_kirghiz_04
+		1 = asian_turkic_enisey_kirghiz_05
+		1 = asian_turkic_enisey_kirghiz_06
+		1 = asian_turkic_enisey_kirghiz_07
+		1 = asian_turkic_enisey_kirghiz_08
+		1 = asian_turkic_enisey_kirghiz_09
+		1 = asian_turkic_enisey_kirghiz_10
+		3 = asian_turkic_1
+		3 = asian_turkic_2
+		3 = asian_turkic_3
+		3 = asian_turkic_4
+		3 = asian_turkic_5
+		3 = asian_turkic_6
+		3 = asian_turkic_7
+		3 = asian_turkic_8 
+		3 = asian_turkic_9
+		3 = asian_turkic_10
+		3 = asian_turkic_11
+		3 = asian_turkic_12
+		3 = asian_turkic_13
+		3 = asian_turkic_14
+		3 = asian_turkic_15 
+		3 = asian_turkic_15_western
+		3 = asian_turkic_16
+		3 = asian_turkic_16_eastern
+		3 = asian_turkic_17
+		3 = asian_turkic_17_eastern
+		3 = asian_turkic_18
+		3 = asian_turkic_19
+		3 = asian_turkic_20
+		3 = asian_turkic_21
+		3 = asian_turkic_22
+		3 = asian_turkic_22
+		3 = asian_turkic_23
+		3 = asian_turkic_24
+		3 = asian_turkic_25
+		3 = asian_turkic_26
+		3 = asian_turkic_27
+		3 = asian_turkic_28
+		3 = asian_turkic_29
+		3 = asian_turkic_30
+		3 = asian_turkic_36
+		3 = asian_turkic_37
+		3 = asian_turkic_38
+		3 = asian_turkic_39
+		3 = asian_turkic_40
+	}
+}
+
+shor = {
+	color = shor
+	created = 925.4.28 # Yusseter: Fall of Kyrgyz Khaganate
+	parents = { yenisei_kirghiz }
+
+	ethos = ethos_communal
+	heritage = heritage_sayan_altaic
+	language = language_tuvan
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_metal_craftsmanship
+		tradition_staunch_traditionalists
+		tradition_sacred_mountains
+	}
+	
+	dlc_tradition = {
+		trait = tradition_mpo_northern_tribes
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	name_list = name_list_kirghiz
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_eastern_steppe_clothing_gfx yb_siberian_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		1 = asian_turkic_enisey_kirghiz_01
+		1 = asian_turkic_enisey_kirghiz_02
+		1 = asian_turkic_enisey_kirghiz_03
+		1 = asian_turkic_enisey_kirghiz_04
+		1 = asian_turkic_enisey_kirghiz_05
+		1 = asian_turkic_enisey_kirghiz_06
+		1 = asian_turkic_enisey_kirghiz_07
+		1 = asian_turkic_enisey_kirghiz_08
+		1 = asian_turkic_enisey_kirghiz_09
+		1 = asian_turkic_enisey_kirghiz_10
+		3 = asian_turkic_1
+		3 = asian_turkic_2
+		3 = asian_turkic_3
+		3 = asian_turkic_4
+		3 = asian_turkic_5
+		3 = asian_turkic_6
+		3 = asian_turkic_7
+		3 = asian_turkic_8 
+		3 = asian_turkic_9
+		3 = asian_turkic_10
+		3 = asian_turkic_11
+		3 = asian_turkic_12
+		3 = asian_turkic_13
+		3 = asian_turkic_14
+		3 = asian_turkic_15 
+		3 = asian_turkic_15_western
+		3 = asian_turkic_16
+		3 = asian_turkic_16_eastern
+		3 = asian_turkic_17
+		3 = asian_turkic_17_eastern
+		3 = asian_turkic_18
+		3 = asian_turkic_19
+		3 = asian_turkic_20
+		3 = asian_turkic_21
+		3 = asian_turkic_22
+		3 = asian_turkic_22
+		3 = asian_turkic_23
+		3 = asian_turkic_24
+		3 = asian_turkic_25
+		3 = asian_turkic_26
+		3 = asian_turkic_27
+		3 = asian_turkic_28
+		3 = asian_turkic_29
+		3 = asian_turkic_30
+		3 = asian_turkic_36
+		3 = asian_turkic_37
+		3 = asian_turkic_38
+		3 = asian_turkic_39
+		3 = asian_turkic_40
+	}
+}
+
+
+telengit = { # Yusseter: Not in use.
+	color = telengit
+
+	ethos = ethos_spiritual
+	heritage = heritage_sayan_altaic
+	language = language_kimek # Teleut
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_hit_and_run
+		tradition_hunters
+		tradition_warrior_culture
+	}
+
+	name_list = name_list_kirghiz
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		1 = asian_turkic_enisey_kirghiz_01
+		1 = asian_turkic_enisey_kirghiz_02
+		1 = asian_turkic_enisey_kirghiz_03
+		1 = asian_turkic_enisey_kirghiz_04
+		1 = asian_turkic_enisey_kirghiz_05
+		1 = asian_turkic_enisey_kirghiz_06
+		1 = asian_turkic_enisey_kirghiz_07
+		1 = asian_turkic_enisey_kirghiz_08
+		1 = asian_turkic_enisey_kirghiz_09
+		1 = asian_turkic_enisey_kirghiz_10
+		4 = asian_turkic_1_kipchak
+		4 = asian_turkic_2_kipchak
+		4 = asian_turkic_3_kipchak
+		4 = asian_turkic_4_kipchak
+		4 = asian_turkic_5_kipchak
+		4 = asian_turkic_6_kipchak
+		4 = asian_turkic_7_kipchak
+		4 = asian_turkic_10_kipchak
+		4 = asian_turkic_11_kipchak
+		4 = asian_turkic_12_kipchak
+		4 = asian_turkic_13_kipchak
+		4 = asian_turkic_14_kipchak
+		4 = asian_turkic_20_kipchak
+		1 = asian_turkic_1_cuman
+		1 = asian_turkic_2_cuman
+		1 = asian_turkic_3_cuman
+		1 = asian_turkic_4_cuman
+		1 = asian_turkic_5_cuman
+		1 = asian_turkic_8_cuman 
+		1 = asian_turkic_9_cuman
+		1 = asian_turkic_15_cuman
+		1 = asian_turkic_26_cuman
+		1 = asian_turkic_27_cuman
+		1 = asian_turkic_28_cuman
+		1 = asian_turkic_29_cuman
+		1 = asian_turkic_30_cuman
+		1 = asian_turkic_31_cuman
+		1 = asian_turkic_32_cuman
+		1 = asian_turkic_33_cuman
+		1 = asian_turkic_34_cuman
+		1 = asian_turkic_35_cuman
+		1 = asian_turkic_13_cuman
+		1 = asian_turkic_14_cuman
+		2 = asian_turkic_1
+		2 = asian_turkic_2
+		2 = asian_turkic_3
+		2 = asian_turkic_4
+		2 = asian_turkic_5
+		2 = asian_turkic_6
+		2 = asian_turkic_7
+		2 = asian_turkic_8 
+		2 = asian_turkic_9
+		2 = asian_turkic_10
+		2 = asian_turkic_11
+		2 = asian_turkic_12
+		2 = asian_turkic_13
+		2 = asian_turkic_14
+		2 = asian_turkic_15 
+		2 = asian_turkic_15_western
+		2 = asian_turkic_16
+		2 = asian_turkic_16_eastern
+		2 = asian_turkic_17
+		2 = asian_turkic_17_eastern
+		2 = asian_turkic_18
+		2 = asian_turkic_19
+		2 = asian_turkic_20
+		2 = asian_turkic_21
+		2 = asian_turkic_22
+		2 = asian_turkic_22
+		2 = asian_turkic_23
+		2 = asian_turkic_24
+		2 = asian_turkic_25
+		2 = asian_turkic_26
+		2 = asian_turkic_27
+		2 = asian_turkic_28
+		2 = asian_turkic_29
+		2 = asian_turkic_30
+		2 = asian_turkic_36
+		2 = asian_turkic_37
+		2 = asian_turkic_38
+		2 = asian_turkic_39
+		2 = asian_turkic_40
+	}
+}
+
+sakha = { # Yusseter: Not in use.
+	color = sakha
+
+	ethos = ethos_communal
+	heritage = heritage_siberian
+	language = language_siberian_turkic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_horse_breeder
+		tradition_pastoralists
+		tradition_winter_warriors
+	}
+
+	name_list = name_list_kirghiz
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		2 = asian_mongol_1
+		2 = asian_mongol_2
+		2 = asian_mongol_3
+		2 = asian_mongol_4
+		2 = asian_mongol_5
+		2 = asian_mongol_6
+		2 = asian_mongol_7
+		2 = asian_mongol_8
+		2 = asian_mongol_9
+		2 = asian_mongol_10
+		2 = asian_mongol_11
+		2 = asian_mongol_12
+		2 = asian_mongol_13
+		2 = asian_mongol_14
+		2 = asian_mongol_15
+		2 = asian_mongol_16
+		2 = asian_mongol_17
+		2 = asian_mongol_18
+		2 = asian_mongol_19
+		2 = asian_mongol_20
+		2 = asian_mongol_21
+		2 = asian_mongol_22
+		2 = asian_mongol_23
+		2 = asian_mongol_24
+		2 = asian_mongol_25
+		2 = asian_mongol_26
+		2 = asian_mongol_27
+		2 = asian_mongol_28
+		2 = asian_mongol_29
+		2 = asian_mongol_30
+		2 = asian_mongol_31
+		3 = siberian_siberian_01
+		3 = siberian_siberian_02
+		3 = siberian_siberian_03
+		3 = siberian_siberian_04
+		3 = siberian_siberian_05
+		3 = siberian_siberian_06
+		3 = siberian_siberian_07
+		3 = siberian_siberian_08
+		3 = siberian_siberian_09
+		3 = siberian_siberian_10
+		3 = siberian_siberian_11
+		3 = siberian_siberian_12
+		3 = siberian_siberian_13
+		3 = siberian_siberian_14
+		3 = siberian_siberian_15
+		3 = siberian_siberian_16
+		3 = siberian_siberian_17
+		3 = siberian_siberian_18
+		3 = siberian_siberian_19
+		3 = siberian_siberian_20
+		3 = siberian_siberian_21
+		3 = siberian_siberian_22
+		3 = siberian_siberian_23
+		3 = siberian_siberian_24
+		3 = siberian_siberian_25
+	}
+}
+
+barsil = {
+	color = barsil
+
+	ethos = ethos_bellicose
+	heritage = heritage_toquz_oghuz
+	language = language_barsil
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_warrior_culture
+		tradition_fp2_ritualised_friendship
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	name_list = name_list_tiele
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_eastern_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		4 = asian_turkic_1
+		4 = asian_turkic_2
+		4 = asian_turkic_3
+		4 = asian_turkic_4
+		4 = asian_turkic_5
+		4 = asian_turkic_6
+		4 = asian_turkic_7
+		4 = asian_turkic_8
+		4 = asian_turkic_9
+		1 = asian_turkic_10_uyghur
+		1 = asian_turkic_11_uyghur
+		1 = asian_turkic_12_uyghur
+		1 = asian_turkic_13_uyghur
+		4 = asian_turkic_14
+		2 = asian_turkic_15
+		2 = asian_turkic_15_western
+		2 = asian_turkic_16
+		2 = asian_turkic_16_eastern
+		2 = asian_turkic_17
+		2 = asian_turkic_17_eastern
+		4 = asian_turkic_18
+		4 = asian_turkic_19
+		1 = asian_turkic_20_uyghur
+		1 = asian_turkic_21_uyghur
+		4 = asian_turkic_22
+		4 = asian_turkic_22
+		4 = asian_turkic_23
+		4 = asian_turkic_24
+		4 = asian_turkic_25
+		4 = asian_turkic_26
+		4 = asian_turkic_27
+		4 = asian_turkic_28
+		4 = asian_turkic_29
+		4 = asian_turkic_30
+		4 = asian_turkic_36
+		4 = asian_turkic_37
+		4 = asian_turkic_38
+		4 = asian_turkic_39
+		4 = asian_turkic_40
+		1 = asian_turkic_41_uyghur
+		1 = asian_turkic_42_uyghur
+		1 = asian_turkic_43_uyghur
+		1 = asian_turkic_44_uyghur
+		1 = asian_turkic_45_uyghur
+		3 = asian_turkic_46
+		3 = asian_turkic_47
+		3 = asian_turkic_48
+		3 = asian_turkic_49
+	}
+}
+
+ezgil = {
+	color = barsil
+
+	ethos = ethos_bellicose
+	heritage = heritage_toquz_oghuz
+	language = language_barsil
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_warrior_culture
+		tradition_fp2_ritualised_friendship
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	name_list = name_list_tiele
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_eastern_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		4 = asian_turkic_1
+		4 = asian_turkic_2
+		4 = asian_turkic_3
+		4 = asian_turkic_4
+		4 = asian_turkic_5
+		4 = asian_turkic_6
+		4 = asian_turkic_7
+		4 = asian_turkic_8
+		4 = asian_turkic_9
+		1 = asian_turkic_10_uyghur
+		1 = asian_turkic_11_uyghur
+		1 = asian_turkic_12_uyghur
+		1 = asian_turkic_13_uyghur
+		4 = asian_turkic_14
+		2 = asian_turkic_15
+		2 = asian_turkic_15_western
+		2 = asian_turkic_16
+		2 = asian_turkic_16_eastern
+		2 = asian_turkic_17
+		2 = asian_turkic_17_eastern
+		4 = asian_turkic_18
+		4 = asian_turkic_19
+		1 = asian_turkic_20_uyghur
+		1 = asian_turkic_21_uyghur
+		4 = asian_turkic_22
+		4 = asian_turkic_22
+		4 = asian_turkic_23
+		4 = asian_turkic_24
+		4 = asian_turkic_25
+		4 = asian_turkic_26
+		4 = asian_turkic_27
+		4 = asian_turkic_28
+		4 = asian_turkic_29
+		4 = asian_turkic_30
+		4 = asian_turkic_36
+		4 = asian_turkic_37
+		4 = asian_turkic_38
+		4 = asian_turkic_39
+		4 = asian_turkic_40
+		1 = asian_turkic_41_uyghur
+		1 = asian_turkic_42_uyghur
+		1 = asian_turkic_43_uyghur
+		1 = asian_turkic_44_uyghur
+		1 = asian_turkic_45_uyghur
+		3 = asian_turkic_46
+		3 = asian_turkic_47
+		3 = asian_turkic_48
+		3 = asian_turkic_49
+	}
+}
+
+pugu = {
+	color = barsil
+
+	ethos = ethos_bellicose
+	heritage = heritage_toquz_oghuz
+	language = language_barsil
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_warrior_culture
+		tradition_fp2_ritualised_friendship
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	name_list = name_list_tiele
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_eastern_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		4 = asian_turkic_1
+		4 = asian_turkic_2
+		4 = asian_turkic_3
+		4 = asian_turkic_4
+		4 = asian_turkic_5
+		4 = asian_turkic_6
+		4 = asian_turkic_7
+		4 = asian_turkic_8
+		4 = asian_turkic_9
+		1 = asian_turkic_10_uyghur
+		1 = asian_turkic_11_uyghur
+		1 = asian_turkic_12_uyghur
+		1 = asian_turkic_13_uyghur
+		4 = asian_turkic_14
+		2 = asian_turkic_15
+		2 = asian_turkic_15_western
+		2 = asian_turkic_16
+		2 = asian_turkic_16_eastern
+		2 = asian_turkic_17
+		2 = asian_turkic_17_eastern
+		4 = asian_turkic_18
+		4 = asian_turkic_19
+		1 = asian_turkic_20_uyghur
+		1 = asian_turkic_21_uyghur
+		4 = asian_turkic_22
+		4 = asian_turkic_22
+		4 = asian_turkic_23
+		4 = asian_turkic_24
+		4 = asian_turkic_25
+		4 = asian_turkic_26
+		4 = asian_turkic_27
+		4 = asian_turkic_28
+		4 = asian_turkic_29
+		4 = asian_turkic_30
+		4 = asian_turkic_36
+		4 = asian_turkic_37
+		4 = asian_turkic_38
+		4 = asian_turkic_39
+		4 = asian_turkic_40
+		1 = asian_turkic_41_uyghur
+		1 = asian_turkic_42_uyghur
+		1 = asian_turkic_43_uyghur
+		1 = asian_turkic_44_uyghur
+		1 = asian_turkic_45_uyghur
+		3 = asian_turkic_46
+		3 = asian_turkic_47
+		3 = asian_turkic_48
+		3 = asian_turkic_49
+	}
+}
+
+qibi = { 
+	color = barsil
+
+	ethos = ethos_bellicose
+	heritage = heritage_toquz_oghuz
+	language = language_barsil
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_warrior_culture
+		tradition_fp2_ritualised_friendship
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	name_list = name_list_tiele
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_eastern_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		4 = asian_turkic_1
+		4 = asian_turkic_2
+		4 = asian_turkic_3
+		4 = asian_turkic_4
+		4 = asian_turkic_5
+		4 = asian_turkic_6
+		4 = asian_turkic_7
+		4 = asian_turkic_8
+		4 = asian_turkic_9
+		1 = asian_turkic_10_uyghur
+		1 = asian_turkic_11_uyghur
+		1 = asian_turkic_12_uyghur
+		1 = asian_turkic_13_uyghur
+		4 = asian_turkic_14
+		2 = asian_turkic_15
+		2 = asian_turkic_15_western
+		2 = asian_turkic_16
+		2 = asian_turkic_16_eastern
+		2 = asian_turkic_17
+		2 = asian_turkic_17_eastern
+		4 = asian_turkic_18
+		4 = asian_turkic_19
+		1 = asian_turkic_20_uyghur
+		1 = asian_turkic_21_uyghur
+		4 = asian_turkic_22
+		4 = asian_turkic_22
+		4 = asian_turkic_23
+		4 = asian_turkic_24
+		4 = asian_turkic_25
+		4 = asian_turkic_26
+		4 = asian_turkic_27
+		4 = asian_turkic_28
+		4 = asian_turkic_29
+		4 = asian_turkic_30
+		4 = asian_turkic_36
+		4 = asian_turkic_37
+		4 = asian_turkic_38
+		4 = asian_turkic_39
+		4 = asian_turkic_40
+		1 = asian_turkic_41_uyghur
+		1 = asian_turkic_42_uyghur
+		1 = asian_turkic_43_uyghur
+		1 = asian_turkic_44_uyghur
+		1 = asian_turkic_45_uyghur
+		3 = asian_turkic_46
+		3 = asian_turkic_47
+		3 = asian_turkic_48
+		3 = asian_turkic_49
+	}
+}
+
+abusi = {
+	color = barsil
+
+	ethos = ethos_bellicose
+	heritage = heritage_toquz_oghuz
+	language = language_barsil
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_warrior_culture
+		tradition_fp2_ritualised_friendship
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	name_list = name_list_tiele
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_eastern_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		4 = asian_turkic_1
+		4 = asian_turkic_2
+		4 = asian_turkic_3
+		4 = asian_turkic_4
+		4 = asian_turkic_5
+		4 = asian_turkic_6
+		4 = asian_turkic_7
+		4 = asian_turkic_8
+		4 = asian_turkic_9
+		1 = asian_turkic_10_uyghur
+		1 = asian_turkic_11_uyghur
+		1 = asian_turkic_12_uyghur
+		1 = asian_turkic_13_uyghur
+		4 = asian_turkic_14
+		2 = asian_turkic_15
+		2 = asian_turkic_15_western
+		2 = asian_turkic_16
+		2 = asian_turkic_16_eastern
+		2 = asian_turkic_17
+		2 = asian_turkic_17_eastern
+		4 = asian_turkic_18
+		4 = asian_turkic_19
+		1 = asian_turkic_20_uyghur
+		1 = asian_turkic_21_uyghur
+		4 = asian_turkic_22
+		4 = asian_turkic_22
+		4 = asian_turkic_23
+		4 = asian_turkic_24
+		4 = asian_turkic_25
+		4 = asian_turkic_26
+		4 = asian_turkic_27
+		4 = asian_turkic_28
+		4 = asian_turkic_29
+		4 = asian_turkic_30
+		4 = asian_turkic_36
+		4 = asian_turkic_37
+		4 = asian_turkic_38
+		4 = asian_turkic_39
+		4 = asian_turkic_40
+		1 = asian_turkic_41_uyghur
+		1 = asian_turkic_42_uyghur
+		1 = asian_turkic_43_uyghur
+		1 = asian_turkic_44_uyghur
+		1 = asian_turkic_45_uyghur
+		3 = asian_turkic_46
+		3 = asian_turkic_47
+		3 = asian_turkic_48
+		3 = asian_turkic_49
+	}
+}
+
+gulunwugu = {
+	color = barsil
+
+	ethos = ethos_bellicose
+	heritage = heritage_toquz_oghuz
+	language = language_barsil
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_warrior_culture
+		tradition_fp2_ritualised_friendship
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	name_list = name_list_tiele
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_eastern_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		4 = asian_turkic_1
+		4 = asian_turkic_2
+		4 = asian_turkic_3
+		4 = asian_turkic_4
+		4 = asian_turkic_5
+		4 = asian_turkic_6
+		4 = asian_turkic_7
+		4 = asian_turkic_8
+		4 = asian_turkic_9
+		1 = asian_turkic_10_uyghur
+		1 = asian_turkic_11_uyghur
+		1 = asian_turkic_12_uyghur
+		1 = asian_turkic_13_uyghur
+		4 = asian_turkic_14
+		2 = asian_turkic_15
+		2 = asian_turkic_15_western
+		2 = asian_turkic_16
+		2 = asian_turkic_16_eastern
+		2 = asian_turkic_17
+		2 = asian_turkic_17_eastern
+		4 = asian_turkic_18
+		4 = asian_turkic_19
+		1 = asian_turkic_20_uyghur
+		1 = asian_turkic_21_uyghur
+		4 = asian_turkic_22
+		4 = asian_turkic_22
+		4 = asian_turkic_23
+		4 = asian_turkic_24
+		4 = asian_turkic_25
+		4 = asian_turkic_26
+		4 = asian_turkic_27
+		4 = asian_turkic_28
+		4 = asian_turkic_29
+		4 = asian_turkic_30
+		4 = asian_turkic_36
+		4 = asian_turkic_37
+		4 = asian_turkic_38
+		4 = asian_turkic_39
+		4 = asian_turkic_40
+		1 = asian_turkic_41_uyghur
+		1 = asian_turkic_42_uyghur
+		1 = asian_turkic_43_uyghur
+		1 = asian_turkic_44_uyghur
+		1 = asian_turkic_45_uyghur
+		3 = asian_turkic_46
+		3 = asian_turkic_47
+		3 = asian_turkic_48
+		3 = asian_turkic_49
+	}
+}
+
+khalaj = {
+	color = { 80 25 28 }
+	parents = { turco_hephthalite afghan }
+	created = 900.1.1
+	
+	ethos = ethos_communal
+	heritage = heritage_turkic # Yusseter: heritage_on_oq (On-Oq)
+	language = language_arghu
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		# Traditions based on Soraya's recommendations
+		tradition_swords_for_hire
+		tradition_pastoralists
+		tradition_mountain_homes
+		tradition_futuwaa # Temp until a more appropriate MAA tradition can be figured out
+	}
+
+	# FP3 traditions
+	dlc_tradition = {
+		trait = tradition_fp3_jirga
+		requires_dlc_flag = legacy_of_persia
+	}
+	
+	name_list = name_list_afghan
+	
+	coa_gfx = { turkic_group_coa_gfx iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+
+	ethnicities = {
+		3 = iranian_saka_01
+		3 = iranian_saka_02
+		3 = iranian_saka_03
+		3 = iranian_saka_04
+		3 = iranian_saka_05
+		3 = iranian_saka_06
+		3 = iranian_saka_07
+		3 = iranian_saka_08
+		3 = iranian_saka_09
+		3 = iranian_saka_10
+		3 = iranian_saka_11
+		3 = iranian_saka_12
+		3 = iranian_saka_13
+		3 = iranian_saka_14
+		3 = iranian_saka_15
+		3 = iranian_saka_16
+		3 = iranian_saka_17
+		3 = iranian_saka_18
+		3 = iranian_saka_19
+		3 = iranian_saka_20
+		1 = iranian_afghan_1
+		1 = iranian_afghan_2
+		1 = iranian_afghan_3
+		1 = iranian_afghan_4
+		1 = iranian_afghan_5
+		1 = iranian_afghan_6
+		1 = iranian_afghan_7
+		1 = iranian_afghan_8
+		1 = iranian_afghan_9
+		1 = iranian_afghan_10
+		1 = iranian_afghan_11
+		1 = iranian_afghan_12
+		1 = iranian_afghan_13
+		1 = iranian_afghan_14
+		1 = iranian_afghan_15
+		1 = iranian_afghan_16
+		1 = iranian_afghan_17
+		1 = iranian_afghan_18
+		1 = iranian_afghan_19
+		1 = iranian_afghan_20
+		1 = iranian_afghan_21
+		1 = iranian_afghan_22
+		1 = iranian_afghan_23
+		1 = iranian_afghan_24
+		1 = iranian_afghan_25
+		1 = iranian_afghan_26
+		1 = iranian_afghan_27
+		1 = iranian_afghan_28
+		1 = iranian_afghan_29
+		1 = iranian_afghan_30
+		1 = iranian_afghan_31
+		1 = iranian_afghan_32
+		1 = iranian_afghan_33
+		1 = iranian_afghan_34
+		1 = iranian_afghan_35
+		1 = iranian_afghan_36
+		1 = iranian_afghan_37
+		1 = iranian_afghan_38
+		1 = iranian_afghan_39
+		1 = iranian_afghan_40
+		1 = iranian_afghan_41
+		1 = iranian_afghan_42
+		1 = iranian_afghan_43
+		1 = iranian_afghan_44
+		1 = iranian_afghan_45
+		1 = iranian_afghan_46
+		1 = iranian_afghan_47
+		1 = iranian_afghan_48
+		1 = iranian_afghan_49
+		1 = iranian_afghan_50
+		2 = mid_east_turkmen_01
+		2 = mid_east_turkmen_02
+		2 = mid_east_turkmen_03
+		2 = mid_east_turkmen_04
+		2 = mid_east_turkmen_05
+		2 = mid_east_turkmen_06
+		2 = mid_east_turkmen_07
+		2 = mid_east_turkmen_08
+		2 = mid_east_turkmen_09
+		2 = mid_east_turkmen_10
+		2 = mid_east_turkmen_11
+		2 = mid_east_turkmen_12
+		2 = mid_east_turkmen_13
+		2 = mid_east_turkmen_14
+		2 = mid_east_turkmen_15
+		2 = mid_east_turkmen_16
+		2 = mid_east_turkmen_17
+		2 = mid_east_turkmen_18
+		2 = mid_east_turkmen_19
+		2 = mid_east_turkmen_20
+		2 = mid_east_turkmen_21
+		2 = mid_east_turkmen_22
+		2 = mid_east_turkmen_23
+		2 = mid_east_turkmen_24
+		2 = mid_east_turkmen_25
+		2 = mid_east_turkmen_26
+		2 = mid_east_turkmen_27
+		2 = mid_east_turkmen_28
+		2 = mid_east_turkmen_29
+		2 = mid_east_turkmen_30
+		2 = mid_east_turkmen_31
+		2 = mid_east_turkmen_32
+		2 = mid_east_turkmen_33
+		2 = mid_east_turkmen_34
+		2 = mid_east_turkmen_35
+		2 = mid_east_turkmen_36
+		2 = mid_east_turkmen_37
+		2 = mid_east_turkmen_38
+		2 = mid_east_turkmen_39
+		2 = mid_east_turkmen_40
+	}
+}
+
+tatars = {	# Umbrella term for turks with mongol influence. Better than a mongol super culture spreading from Mongolia to Romania. Based on turkish
+	color = { 195 140 75 }
+
+	created = 1300.1.1
+	parents = { tataric kipchak }
+	history_loc_override = mongolized_history_loc
+
+	ethos = ethos_bellicose
+	heritage = heritage_kipchak
+	language = language_kipchak
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_warrior_culture
+		tradition_swords_for_hire
+		tradition_ruling_caste
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	name_list = name_list_tatar
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_western_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		4 = asian_turkic_1_kipchak
+		4 = asian_turkic_2_kipchak
+		4 = asian_turkic_3_kipchak
+		4 = asian_turkic_4_kipchak
+		4 = asian_turkic_5_kipchak
+		4 = asian_turkic_6_kipchak
+		4 = asian_turkic_7_kipchak
+		4 = asian_turkic_10_kipchak
+		4 = asian_turkic_11_kipchak
+		4 = asian_turkic_12_kipchak
+		4 = asian_turkic_13_kipchak
+		4 = asian_turkic_14_kipchak
+		4 = asian_turkic_20_kipchak
+		4 = asian_turkic_36
+		4 = asian_turkic_37
+		4 = asian_turkic_38
+		4 = asian_turkic_39
+		4 = asian_turkic_40
+		4 = asian_turkic_26
+		4 = asian_turkic_27
+		4 = asian_turkic_28
+		4 = asian_turkic_29
+		4 = asian_turkic_30
+	}
+}
+
+nogai = {
+	color = { 145 125 185 }
+
+	parents = { tatars khazar }
+	created = 1300.1.1
+
+	ethos = ethos_stoic
+	heritage = heritage_kipchak
+	language = language_kipchak
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_pastoralists
+		tradition_hunters
+		tradition_disloyal_subjects
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	name_list = name_list_kipchak
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_western_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		4 = asian_turkic_1_kipchak
+		4 = asian_turkic_2_kipchak
+		4 = asian_turkic_3_kipchak
+		4 = asian_turkic_4_kipchak
+		4 = asian_turkic_5_kipchak
+		4 = asian_turkic_6_kipchak
+		4 = asian_turkic_7_kipchak
+		4 = asian_turkic_10_kipchak
+		4 = asian_turkic_11_kipchak
+		4 = asian_turkic_12_kipchak
+		4 = asian_turkic_13_kipchak
+		4 = asian_turkic_14_kipchak
+		4 = asian_turkic_20_kipchak
+		4 = asian_turkic_36
+		4 = asian_turkic_37
+		4 = asian_turkic_38
+		4 = asian_turkic_39
+		4 = asian_turkic_40
+		4 = asian_turkic_26
+		4 = asian_turkic_27
+		4 = asian_turkic_28
+		4 = asian_turkic_29
+		4 = asian_turkic_30
+	}
+}
+
+crimean = {
+	color = { 155 135 145 }
+
+	created = 1300.1.1
+	parents = { tatars cuman }
+
+	ethos = ethos_bellicose
+	heritage = heritage_kipchak
+	language = language_kipchak
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_warrior_culture
+		tradition_swords_for_hire
+	}
+
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	name_list = name_list_cuman
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_western_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		4 = asian_turkic_1_cuman
+		4 = asian_turkic_2_cuman
+		4 = asian_turkic_3_cuman
+		4 = asian_turkic_4_cuman
+		4 = asian_turkic_5_cuman
+		4 = asian_turkic_8_cuman
+		4 = asian_turkic_9_cuman
+		4 = asian_turkic_15_cuman
+		4 = asian_turkic_26_cuman
+		4 = asian_turkic_27_cuman
+		4 = asian_turkic_28_cuman
+		4 = asian_turkic_29_cuman
+		4 = asian_turkic_30_cuman
+		4 = asian_turkic_31_cuman
+		4 = asian_turkic_32_cuman
+		4 = asian_turkic_33_cuman
+		4 = asian_turkic_34_cuman
+		4 = asian_turkic_35_cuman
+		4 = asian_turkic_13_cuman
+		4 = asian_turkic_14_cuman
+		4 = asian_turkic_6_western
+		4 = asian_turkic_7_western
+		4 = asian_turkic_16_western
+		4 = asian_turkic_17_western
+		4 = asian_turkic_19_western
+		4 = asian_turkic_20_western
+		4 = asian_turkic_23_western
+	}
+}
+
+kazani = {
+	color = { 150 140 175 }
+
+	parents = { tatars bolghar }
+	created = 1300.1.1
+
+	ethos = ethos_communal
+	heritage = heritage_kipchak
+	language = language_kipchak
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_ruling_caste
+		tradition_astute_diplomats
+	}
+
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	name_list = name_list_bolghar
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_western_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		1 = european_magyar_magyar_01
+		1 = european_magyar_magyar_02
+		1 = european_magyar_magyar_03
+		1 = european_magyar_magyar_04
+		1 = european_magyar_magyar_05
+		1 = european_magyar_magyar_06
+		1 = european_magyar_magyar_07
+		1 = european_magyar_magyar_08
+		1 = european_magyar_magyar_09
+		1 = european_magyar_magyar_10
+		1 = european_magyar_magyar_11
+		1 = european_magyar_magyar_12
+		1 = european_magyar_magyar_13
+		1 = european_magyar_magyar_14
+		1 = european_magyar_magyar_15
+		1 = european_magyar_magyar_16
+		1 = european_magyar_magyar_17
+		1 = european_magyar_magyar_18
+		1 = european_magyar_magyar_19
+		1 = european_magyar_magyar_20
+		1 = european_magyar_magyar_21
+		1 = european_magyar_magyar_22
+		1 = european_magyar_magyar_23
+		1 = european_magyar_magyar_24
+		1 = european_magyar_magyar_25
+		1 =	steppe_volga_finn_mordvin_01
+		1 =	steppe_volga_finn_mordvin_02
+		1 =	steppe_volga_finn_mordvin_03
+		1 =	steppe_volga_finn_mordvin_04
+		1 =	steppe_volga_finn_mordvin_05
+		1 =	steppe_volga_finn_mordvin_06
+		1 =	steppe_volga_finn_mordvin_07
+		1 =	steppe_volga_finn_mordvin_08
+		1 =	steppe_volga_finn_mordvin_09
+		1 =	steppe_volga_finn_mordvin_10
+		1 =	steppe_volga_finn_mordvin_11
+		1 =	steppe_volga_finn_mordvin_12
+		1 =	steppe_volga_finn_mordvin_13
+		1 =	steppe_volga_finn_mordvin_14
+		1 =	steppe_volga_finn_mordvin_15
+		1 =	steppe_volga_finn_mordvin_16
+		1 =	steppe_volga_finn_mordvin_17
+		1 =	steppe_volga_finn_mordvin_18
+		1 =	steppe_volga_finn_mordvin_19
+		1 =	steppe_volga_finn_mordvin_20
+		1 =	steppe_volga_finn_mordvin_21
+		1 =	steppe_volga_finn_mordvin_22
+		1 =	steppe_volga_finn_mordvin_23
+		1 =	steppe_volga_finn_mordvin_24
+		1 =	steppe_volga_finn_mordvin_25
+		1 =	steppe_volga_finn_mordvin_26
+		1 =	steppe_volga_finn_mordvin_27
+		1 =	steppe_volga_finn_mordvin_28
+		1 =	steppe_volga_finn_mordvin_29
+		1 =	steppe_volga_finn_mordvin_30
+		1 =	steppe_volga_finn_mordvin_31
+		1 =	steppe_volga_finn_mordvin_32
+		1 =	steppe_volga_finn_mordvin_33
+		1 =	steppe_volga_finn_mordvin_34
+		1 =	steppe_volga_finn_mordvin_35
+		1 =	steppe_volga_finn_mordvin_36
+		1 =	steppe_volga_finn_mordvin_37
+		1 =	steppe_volga_finn_mordvin_38
+		1 =	steppe_volga_finn_mordvin_39
+		4 = asian_turkic_1_western
+		4 = asian_turkic_2_western
+		4 = asian_turkic_3_western
+		4 = asian_turkic_4_western
+		4 = asian_turkic_5_western
+		4 = asian_turkic_6_western
+		4 = asian_turkic_7_western
+		4 = asian_turkic_8_western
+		4 = asian_turkic_9_western
+		4 = asian_turkic_15_western
+		4 = asian_turkic_16_western
+		4 = asian_turkic_17_western
+		4 = asian_turkic_19_western
+		4 = asian_turkic_20_western
+		4 = asian_turkic_23_western
+	}
+}
+
+mishar = {
+	color = { 130 130 190 }
+
+	parents = { tatars mordvin }
+	created = 1300.1.1
+
+	ethos = ethos_stoic
+	heritage = heritage_kipchak
+	language = language_kipchak
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_swords_for_hire
+		tradition_hunters
+		tradition_quarrelsome
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	name_list = name_list_kipchak
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_western_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		1 = european_magyar_magyar_01
+		1 = european_magyar_magyar_02
+		1 = european_magyar_magyar_03
+		1 = european_magyar_magyar_04
+		1 = european_magyar_magyar_05
+		1 = european_magyar_magyar_06
+		1 = european_magyar_magyar_07
+		1 = european_magyar_magyar_08
+		1 = european_magyar_magyar_09
+		1 = european_magyar_magyar_10
+		1 = european_magyar_magyar_11
+		1 = european_magyar_magyar_12
+		1 = european_magyar_magyar_13
+		1 = european_magyar_magyar_14
+		1 = european_magyar_magyar_15
+		1 = european_magyar_magyar_16
+		1 = european_magyar_magyar_17
+		1 = european_magyar_magyar_18
+		1 = european_magyar_magyar_19
+		1 = european_magyar_magyar_20
+		1 = european_magyar_magyar_21
+		1 = european_magyar_magyar_22
+		1 = european_magyar_magyar_23
+		1 = european_magyar_magyar_24
+		1 = european_magyar_magyar_25
+		1 =	steppe_volga_finn_mordvin_01
+		1 =	steppe_volga_finn_mordvin_02
+		1 =	steppe_volga_finn_mordvin_03
+		1 =	steppe_volga_finn_mordvin_04
+		1 =	steppe_volga_finn_mordvin_05
+		1 =	steppe_volga_finn_mordvin_06
+		1 =	steppe_volga_finn_mordvin_07
+		1 =	steppe_volga_finn_mordvin_08
+		1 =	steppe_volga_finn_mordvin_09
+		1 =	steppe_volga_finn_mordvin_10
+		1 =	steppe_volga_finn_mordvin_11
+		1 =	steppe_volga_finn_mordvin_12
+		1 =	steppe_volga_finn_mordvin_13
+		1 =	steppe_volga_finn_mordvin_14
+		1 =	steppe_volga_finn_mordvin_15
+		1 =	steppe_volga_finn_mordvin_16
+		1 =	steppe_volga_finn_mordvin_17
+		1 =	steppe_volga_finn_mordvin_18
+		1 =	steppe_volga_finn_mordvin_19
+		1 =	steppe_volga_finn_mordvin_20
+		1 =	steppe_volga_finn_mordvin_21
+		1 =	steppe_volga_finn_mordvin_22
+		1 =	steppe_volga_finn_mordvin_23
+		1 =	steppe_volga_finn_mordvin_24
+		1 =	steppe_volga_finn_mordvin_25
+		1 =	steppe_volga_finn_mordvin_26
+		1 =	steppe_volga_finn_mordvin_27
+		1 =	steppe_volga_finn_mordvin_28
+		1 =	steppe_volga_finn_mordvin_29
+		1 =	steppe_volga_finn_mordvin_30
+		1 =	steppe_volga_finn_mordvin_31
+		1 =	steppe_volga_finn_mordvin_32
+		1 =	steppe_volga_finn_mordvin_33
+		1 =	steppe_volga_finn_mordvin_34
+		1 =	steppe_volga_finn_mordvin_35
+		1 =	steppe_volga_finn_mordvin_36
+		1 =	steppe_volga_finn_mordvin_37
+		1 =	steppe_volga_finn_mordvin_38
+		1 =	steppe_volga_finn_mordvin_39
+		4 = asian_turkic_1_western
+		4 = asian_turkic_2_western
+		4 = asian_turkic_3_western
+		4 = asian_turkic_4_western
+		4 = asian_turkic_5_western
+		4 = asian_turkic_6_western
+		4 = asian_turkic_7_western
+		4 = asian_turkic_8_western
+		4 = asian_turkic_9_western
+		4 = asian_turkic_15_western
+		4 = asian_turkic_16_western
+		4 = asian_turkic_17_western
+		4 = asian_turkic_19_western
+		4 = asian_turkic_20_western
+		4 = asian_turkic_23_western
+	}
+}
+
+chagatai = {
+	color = { 195 200 200 }
+
+	parents = { karluk tajik }
+	created = 1300.1.1
+	history_loc_override = chagatai_history_loc
+
+	ethos = ethos_communal
+	heritage = heritage_iranian # Yusseter: heritage_on_oq (On-Oq)
+	#heritage = heritage_turkic # Yusseter: heritage_on_oq (On-Oq)
+	language = language_karluk
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_steppe_tolerance
+		tradition_sacred_mountains
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+
+	name_list = name_list_chagatai
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		4 = asian_turkic_1
+		4 = asian_turkic_2
+		4 = asian_turkic_3
+		4 = asian_turkic_4
+		4 = asian_turkic_5
+		4 = asian_turkic_6
+		4 = asian_turkic_7
+		4 = asian_turkic_8 
+		4 = asian_turkic_9
+		4 = asian_turkic_10
+		4 = asian_turkic_11
+		4 = asian_turkic_12
+		4 = asian_turkic_13
+		4 = asian_turkic_14
+		4 = asian_turkic_15 
+		2 = asian_turkic_16
+		2 = asian_turkic_16_eastern
+		2 = asian_turkic_17
+		2 = asian_turkic_17_eastern
+		4 = asian_turkic_18
+		4 = asian_turkic_19
+		4 = asian_turkic_20
+		4 = asian_turkic_21
+		4 = asian_turkic_22
+		4 = asian_turkic_22
+		4 = asian_turkic_23
+		4 = asian_turkic_24
+		4 = asian_turkic_25
+		4 = asian_turkic_26
+		4 = asian_turkic_27
+		4 = asian_turkic_28
+		4 = asian_turkic_29
+		4 = asian_turkic_30
+		4 = asian_turkic_36
+		4 = asian_turkic_37
+		4 = asian_turkic_38
+		4 = asian_turkic_39
+		4 = asian_turkic_40
+		4 = asian_turkic_41
+		4 = asian_turkic_42
+		4 = asian_turkic_43
+		4 = asian_turkic_44
+		4 = asian_turkic_45
+		3 = asian_turkic_46
+		3 = asian_turkic_47
+		3 = asian_turkic_48
+		3 = asian_turkic_49
+		3 = asian_turkic_50
+		2 = iranian_sogdian_01
+		2 = iranian_sogdian_02
+		2 = iranian_sogdian_03
+		2 = iranian_sogdian_04
+		2 = iranian_sogdian_05
+		2 = iranian_sogdian_06
+		2 = iranian_sogdian_07
+		2 = iranian_sogdian_08
+		2 = iranian_sogdian_09
+		2 = iranian_sogdian_10
+		2 = iranian_sogdian_11
+		2 = iranian_sogdian_12
+		2 = iranian_sogdian_13
+		2 = iranian_sogdian_14
+		2 = iranian_sogdian_15
+		2 = iranian_sogdian_16
+		2 = iranian_sogdian_17
+		2 = iranian_sogdian_18
+		2 = iranian_sogdian_19
+		2 = iranian_sogdian_20
+		2 = iranian_sogdian_21
+		2 = iranian_sogdian_22
+		2 = iranian_sogdian_23
+		2 = iranian_sogdian_24
+		2 = iranian_sogdian_25
+		2 = iranian_sogdian_26
+		2 = iranian_sogdian_27
+		2 = iranian_sogdian_28
+		2 = iranian_sogdian_29
+		2 = iranian_sogdian_30
+		2 = iranian_sogdian_31
+		2 = iranian_sogdian_32
+		2 = iranian_sogdian_33
+		2 = iranian_sogdian_34
+		2 = iranian_sogdian_35
+		2 = iranian_sogdian_36
+		2 = iranian_sogdian_37
+		2 = iranian_sogdian_38
+		2 = iranian_sogdian_39
+		2 = iranian_sogdian_40
+		2 = iranian_sogdian_41
+		2 = iranian_sogdian_42
+		2 = iranian_sogdian_43
+		2 = iranian_sogdian_44
+		2 = iranian_sogdian_45
+		2 = iranian_sogdian_46
+		2 = iranian_sogdian_47
+		2 = iranian_sogdian_49
+		2 = iranian_sogdian_50
+		2 = iranian_sogdian_51
+		2 = iranian_sogdian_52
+		2 = iranian_sogdian_53
+		2 = iranian_sogdian_54
+		1 = iranian_saka_01
+		1 = iranian_saka_02
+		1 = iranian_saka_03
+		1 = iranian_saka_04
+		1 = iranian_saka_05
+		1 = iranian_saka_06
+		1 = iranian_saka_07
+		1 = iranian_saka_08
+		1 = iranian_saka_09
+		1 = iranian_saka_10
+		1 = iranian_saka_11
+		1 = iranian_saka_12
+		1 = iranian_saka_13
+		1 = iranian_saka_14
+		1 = iranian_saka_15
+		1 = iranian_saka_16
+		1 = iranian_saka_17
+		1 = iranian_saka_18
+		1 = iranian_saka_19
+		1 = iranian_saka_20
+	}
+}
+
+hindustani_proper = { # Hindavi
+	color = hindustani_proper
+	created = 1206.1.1
+	parents = { persian_turkish hindustani }
+
+	ethos = ethos_courtly
+	heritage = heritage_iranian
+	language = language_hindi
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_court_eunuchs
+		tradition_philosopher_culture
+		tradition_music_theory
+		tradition_gardening
+		tradition_lords_of_the_elephant
+	}
+
+	name_list = name_list_turkish
+
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx iranian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+		25 = indian_hindustani_1
+		2 = indian_northern_1
+		2 = indian_northern_2
+		2 = indian_northern_3
+		2 = indian_northern_4
+		2 = indian_northern_5
+		2 = indian_northern_6
+		2 = indian_northern_7
+		2 = indian_northern_8
+		2 = indian_northern_9
+		2 = indian_northern_10
+		2 = indian_northern_11
+		2 = indian_northern_12
+		2 = indian_northern_13
+		2 = indian_northern_14
+		2 = indian_northern_15
+		2 = indian_northern_16
+		2 = indian_northern_17
+		2 = indian_northern_18
+		2 = indian_northern_19
+		2 = indian_northern_20
+		2 = indian_northern_21
+		2 = indian_northern_22
+		2 = indian_northern_23
+		2 = indian_northern_24
+		2 = indian_northern_25
+		2 = indian_northern_26
+		2 = indian_northern_27
+		1 = iranian_afghan_1
+		1 = iranian_afghan_2
+		1 = iranian_afghan_3
+		1 = iranian_afghan_4
+		1 = iranian_afghan_5
+		1 = iranian_afghan_6
+		1 = iranian_afghan_7
+		1 = iranian_afghan_8
+		1 = iranian_afghan_9
+		1 = iranian_afghan_10
+		1 = iranian_afghan_11
+		1 = iranian_afghan_12
+		1 = iranian_afghan_13
+		1 = iranian_afghan_14
+		1 = iranian_afghan_15
+		1 = iranian_afghan_16
+		1 = iranian_afghan_17
+		1 = iranian_afghan_18
+		1 = iranian_afghan_19
+		1 = iranian_afghan_20
+		1 = iranian_afghan_21
+		1 = iranian_afghan_22
+		1 = iranian_afghan_23
+		1 = iranian_afghan_24
+		1 = iranian_afghan_25
+		1 = iranian_afghan_26
+		1 = iranian_afghan_27
+		1 = iranian_afghan_28
+		1 = iranian_afghan_29
+		1 = iranian_afghan_30
+		1 = iranian_afghan_31
+		1 = iranian_afghan_32
+		1 = iranian_afghan_33
+		1 = iranian_afghan_34
+		1 = iranian_afghan_35
+		1 = iranian_afghan_36
+		1 = iranian_afghan_37
+		1 = iranian_afghan_38
+		1 = iranian_afghan_39
+		1 = iranian_afghan_40
+		1 = iranian_afghan_41
+		1 = iranian_afghan_42
+		1 = iranian_afghan_43
+		1 = iranian_afghan_44
+		1 = iranian_afghan_45
+		1 = iranian_afghan_46
+		1 = iranian_afghan_47
+		1 = iranian_afghan_48
+		1 = iranian_afghan_49
+		1 = iranian_afghan_50
+		2 = mid_east_turkmen_01
+		2 = mid_east_turkmen_02
+		2 = mid_east_turkmen_03
+		2 = mid_east_turkmen_04
+		2 = mid_east_turkmen_05
+		2 = mid_east_turkmen_06
+		2 = mid_east_turkmen_07
+		2 = mid_east_turkmen_08
+		2 = mid_east_turkmen_09
+		2 = mid_east_turkmen_10
+		2 = mid_east_turkmen_11
+		2 = mid_east_turkmen_12
+		2 = mid_east_turkmen_13
+		2 = mid_east_turkmen_14
+		2 = mid_east_turkmen_15
+		2 = mid_east_turkmen_16
+		2 = mid_east_turkmen_17
+		2 = mid_east_turkmen_18
+		2 = mid_east_turkmen_19
+		2 = mid_east_turkmen_20
+		2 = mid_east_turkmen_21
+		2 = mid_east_turkmen_22
+		2 = mid_east_turkmen_23
+		2 = mid_east_turkmen_24
+		2 = mid_east_turkmen_25
+		2 = mid_east_turkmen_26
+		2 = mid_east_turkmen_27
+		2 = mid_east_turkmen_28
+		2 = mid_east_turkmen_29
+		2 = mid_east_turkmen_30
+		2 = mid_east_turkmen_31
+		2 = mid_east_turkmen_32
+		2 = mid_east_turkmen_33
+		2 = mid_east_turkmen_34
+		2 = mid_east_turkmen_35
+		2 = mid_east_turkmen_36
+		2 = mid_east_turkmen_37
+		2 = mid_east_turkmen_38
+		2 = mid_east_turkmen_39
+		2 = mid_east_turkmen_40
+	}
+}

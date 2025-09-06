@@ -1,0 +1,7 @@
+﻿# Yusseter: This file is for make nonexistent the non used cultures. Now this causes crashes.
+
+#albanian = {}
+#goliad = {}
+#kemetic = {}
+#khotanese = {}
+#turkmen = {}

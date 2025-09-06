@@ -1,0 +1,9 @@
+﻿death_killed_by_own_men = {
+	public_knowledge = yes
+	icon = "death_murder.dds"
+}
+
+death_killed_by_own_men_on_order = {
+	public_knowledge = yes
+	icon = "death_murder.dds"
+}

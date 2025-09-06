@@ -1,0 +1,564 @@
+﻿butr = { # Butr - nomadic Berber
+	color = { 161 90 40 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_berber
+	language = language_berber
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_african_tolerance
+		tradition_saharan_nomads
+		tradition_desert_ribat
+		tradition_equal_inheritance
+	}
+	
+	name_list = name_list_butr
+	
+	coa_gfx = { berber_group_coa_gfx }
+	building_gfx = { berber_building_gfx }
+	clothing_gfx = { afr_berber_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { berber_unit_gfx mena_unit_gfx }
+	
+	ethnicities = {
+		2 = north_african_berber_71
+		2 = north_african_berber_72
+		2 = north_african_berber_73
+		2 = north_african_berber_74
+		2 = north_african_berber_75
+		2 = north_african_berber_76
+		2 = north_african_berber_77
+		2 = north_african_berber_78
+		2 = north_african_berber_79
+		2 = north_african_berber_80
+		2 = north_african_berber_81
+		2 = north_african_berber_82
+		2 = north_african_berber_83
+		2 = north_african_berber_84
+		2 = north_african_berber_85
+		2 = north_african_amazigh_01
+		2 = north_african_amazigh_02
+		2 = north_african_amazigh_03
+		2 = north_african_amazigh_04
+		2 = north_african_amazigh_05
+		2 = north_african_amazigh_06
+		2 = north_african_amazigh_07
+		2 = north_african_amazigh_08
+		2 = north_african_amazigh_09
+		2 = north_african_amazigh_10
+		2 = north_african_amazigh_11
+		2 = north_african_amazigh_12
+		2 = north_african_amazigh_13
+		2 = north_african_amazigh_14
+		2 = north_african_amazigh_15
+		2 = north_african_amazigh_16
+		2 = north_african_amazigh_17
+	}
+}
+
+baranis = { # Baranis - settled Berber
+	color = baranis
+	
+	ethos = ethos_spiritual
+	heritage = heritage_berber
+	language = language_berber
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_african_tolerance
+		tradition_family_entrepreneurship
+		tradition_mountain_herding
+	}
+	
+	name_list = name_list_baranis
+	
+	coa_gfx = { berber_group_coa_gfx }
+	building_gfx = { berber_building_gfx }
+	clothing_gfx = { afr_berber_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { berber_unit_gfx mena_unit_gfx }
+	
+	ethnicities = {
+		2 = north_african_berber_71
+		2 = north_african_berber_72
+		2 = north_african_berber_73
+		2 = north_african_berber_74
+		2 = north_african_berber_75
+		2 = north_african_berber_76
+		2 = north_african_berber_77
+		2 = north_african_berber_78
+		2 = north_african_berber_79
+		2 = north_african_berber_80
+		2 = north_african_berber_81
+		2 = north_african_berber_82
+		2 = north_african_berber_83
+		2 = north_african_berber_84
+		2 = north_african_berber_85
+		2 = north_african_baranis_1
+		2 = north_african_baranis_2
+		2 = north_african_baranis_3
+		2 = north_african_baranis_4
+		2 = north_african_baranis_5
+		2 = north_african_baranis_6
+		2 = north_african_baranis_7
+		2 = north_african_baranis_8
+		2 = north_african_baranis_9
+		2 = north_african_baranis_10
+		2 = north_african_baranis_11
+		2 = north_african_baranis_12
+		2 = north_african_baranis_13
+		2 = north_african_baranis_14
+		2 = north_african_baranis_15
+		2 = north_african_baranis_16
+		2 = north_african_baranis_17
+		2 = north_african_baranis_18
+		2 = north_african_baranis_19
+		2 = north_african_baranis_20
+		2 = north_african_baranis_21
+		2 = north_african_baranis_22
+		2 = north_african_baranis_23
+		2 = north_african_baranis_24
+		2 = north_african_baranis_25
+		2 = north_african_baranis_26
+		2 = north_african_baranis_27
+		2 = north_african_baranis_28
+		2 = north_african_baranis_29
+		2 = north_african_baranis_30
+		2 = north_african_baranis_31
+		2 = north_african_baranis_32
+		2 = north_african_baranis_33
+	}
+}
+
+guanches = { # Canary Islanders
+	color = { 181 87 67 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_berber
+	language = language_guanche
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_stalwart_defenders
+		tradition_mystical_ancestors
+		tradition_isolationist
+	}
+	
+	name_list = name_list_guanches
+	
+	coa_gfx = { west_african_group_coa_gfx }
+	building_gfx = { berber_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { berber_unit_gfx mena_unit_gfx }
+	
+	ethnicities = {
+		2 = north_african_amazigh_01
+		2 = north_african_amazigh_02
+		2 = north_african_amazigh_03
+		2 = north_african_amazigh_04
+		2 = north_african_amazigh_05
+		2 = north_african_amazigh_06
+		2 = north_african_amazigh_07
+		2 = north_african_amazigh_08
+		2 = north_african_amazigh_09
+		2 = north_african_amazigh_10
+		2 = north_african_amazigh_11
+		2 = north_african_amazigh_12
+		2 = north_african_amazigh_13
+		2 = north_african_amazigh_14
+		2 = north_african_amazigh_15
+		2 = north_african_amazigh_16
+		2 = north_african_amazigh_17
+	}
+}
+
+zaghawa = {
+	color = zaghawa #{ 149 75 20 }
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_berber
+	language = language_tubu
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_african_tolerance
+		tradition_saharan_nomads
+		tradition_desert_ribat
+	}
+	
+	name_list = name_list_zaghawa
+	
+	coa_gfx = { berber_group_coa_gfx }
+	building_gfx = { berber_building_gfx }
+	clothing_gfx = { afr_berber_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { berber_unit_gfx mena_unit_gfx }
+	
+	ethnicities = {
+		2 = north_african_berber_71
+		2 = north_african_berber_72
+		2 = north_african_berber_73
+		2 = north_african_berber_74
+		2 = north_african_berber_75
+		2 = north_african_berber_76
+		2 = north_african_berber_77
+		2 = north_african_berber_78
+		2 = north_african_berber_79
+		2 = north_african_berber_80
+		2 = north_african_berber_81
+		2 = north_african_berber_82
+		2 = north_african_berber_83
+		2 = north_african_berber_84
+		2 = north_african_berber_85
+		5 = west_african_1
+		5 = west_african_2
+	}
+}
+
+# epe_old_butr = { #Exists to hold the vanilla clothing GFX group.
+# 	color = { 161 90 40 }
+	
+# 	ethos = ethos_stoic
+# 	heritage = heritage_berber
+# 	language = language_berber
+# 	martial_custom = martial_custom_male_only
+# 	traditions = {
+# 		tradition_african_tolerance
+# 		tradition_saharan_nomads
+# 		tradition_desert_ribat
+# 		tradition_equal_inheritance
+# 	}
+	
+# 	name_list = name_list_butr
+	
+# 	coa_gfx = { berber_group_coa_gfx }
+#	building_gfx = { berber_building_gfx }
+# 	clothing_gfx = { afr_berber_clothing_gfx epe_maghreb_clothing_gfx }
+# 	unit_gfx = { berber_unit_gfx mena_unit_gfx }
+	
+# 	ethnicities = {
+# 		2 = north_african_amazigh_01
+# 		2 = north_african_amazigh_02
+# 		2 = north_african_amazigh_03
+# 		2 = north_african_amazigh_04
+# 		2 = north_african_amazigh_05
+# 		2 = north_african_amazigh_06
+# 		2 = north_african_amazigh_07
+# 		2 = north_african_amazigh_08
+# 		2 = north_african_amazigh_09
+# 		2 = north_african_amazigh_10
+# 		2 = north_african_amazigh_11
+# 		2 = north_african_amazigh_12
+# 		2 = north_african_amazigh_13
+# 		2 = north_african_amazigh_14
+# 		2 = north_african_amazigh_15
+# 		2 = north_african_amazigh_16
+# 		2 = north_african_amazigh_17
+
+# 	}
+# }
+
+haratin = {
+	color = { 0.8 0.4 0.0 }
+	
+	ethos = ethos_communal
+	heritage = heritage_berber #unclear to the degree at which Haratin pops were assimilated but they are native north africans
+	language = language_haratine #now days they speak berber language but unclear when they may have lost their own language
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_family_entrepreneurship  #provide specialist caste workers in west sahara
+		tradition_dryland_dwellers #desert agriculturalists
+		tradition_esteemed_hospitality 
+	}
+	
+	name_list = name_list_butr
+	
+	coa_gfx = { berber_group_coa_gfx }
+	building_gfx = { berber_building_gfx mena_building_gfx }
+	clothing_gfx = { afr_berber_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { berber_unit_gfx mena_unit_gfx }
+	
+	ethnicities = {
+		2 = north_african_berber_71
+		2 = north_african_berber_72
+		2 = north_african_berber_73
+		2 = north_african_berber_74
+		2 = north_african_berber_75
+		2 = north_african_berber_76
+		2 = north_african_berber_77
+		2 = north_african_berber_78
+		2 = north_african_berber_79
+		2 = north_african_berber_80
+		2 = north_african_berber_81
+		2 = north_african_berber_82
+		2 = north_african_berber_83
+		2 = north_african_berber_84
+		2 = north_african_berber_85
+	}
+}
+
+tuareg = {
+	color = hsv{ 0.8 1 0.2 }
+
+	parents = { butr kanuri }
+
+	# Approximate date of Tin Hinan, legendary Tuareg ancestor
+	# However, while the Tuaregs' ancestors are recorded early on, they as a distinct group do not appear until the late timeframe
+	# As such, this date is for convenience
+	created = 300.1.1
+	history_loc_override = tuareg_history_loc
+
+	ethos = ethos_bellicose
+	heritage = heritage_berber
+	language = language_berber
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_desert_ribat #the description is a bit off but the MAA is literally a tuareg unit so...
+		tradition_poetry #poetry and the performance of it is valued form of entertainment
+		tradition_saharan_nomads #the ogs of the sahara
+	}
+
+	name_list = name_list_tuareg
+
+	coa_gfx = { berber_group_coa_gfx }
+	building_gfx = { berber_building_gfx mena_building_gfx }
+	clothing_gfx = { afr_berber_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
+
+	ethnicities = {
+		2 = north_african_berber_71
+		2 = north_african_berber_72
+		2 = north_african_berber_73
+		2 = north_african_berber_74
+		2 = north_african_berber_75
+		2 = north_african_berber_76
+		2 = north_african_berber_77
+		2 = north_african_berber_78
+		2 = north_african_berber_79
+		2 = north_african_berber_80
+		2 = north_african_berber_81
+		2 = north_african_berber_82
+		2 = north_african_berber_83
+		2 = north_african_berber_84
+		2 = north_african_berber_85
+	}
+}
+
+maurian = {
+	color = hsv{ 0.0 0.85 0.83 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_berber
+	language = language_berber
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_saharan_nomads
+		#tradition_desert_ribat
+		#tradition_desert_horsemen
+		#tradition_servile_soldiers # Cybr: raided as far as Iberia in antiquity
+		tradition_quarrelsome # Cybr: Several noted revolts againt Romans/Byzantines, though calling it Quarrelsome might be excessive
+		tradition_swords_for_hire # Cybr: many Mauri joined the Roman army
+	}
+	
+	name_list = name_list_maurian
+	
+	coa_gfx = { berber_group_coa_gfx }
+	building_gfx = { berber_building_gfx mena_building_gfx }
+	clothing_gfx = { afr_berber_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = {
+		5 = north_african_baranis_1
+		5 = north_african_baranis_2
+		5 = north_african_baranis_3
+		5 = north_african_baranis_4
+		5 = north_african_baranis_5
+		5 = north_african_baranis_6
+		5 = north_african_baranis_7
+		5 = north_african_baranis_8
+		5 = north_african_baranis_9
+		5 = north_african_baranis_10
+		5 = north_african_baranis_11
+		5 = north_african_baranis_12
+		5 = north_african_baranis_13
+		5 = north_african_baranis_14
+		5 = north_african_baranis_15
+		5 = north_african_baranis_16
+		5 = north_african_baranis_17
+		5 = north_african_baranis_18
+		5 = north_african_baranis_19
+		5 = north_african_baranis_20
+		5 = north_african_baranis_21
+		5 = north_african_baranis_22
+		5 = north_african_baranis_23
+		5 = north_african_baranis_24
+		5 = north_african_baranis_25
+		5 = north_african_baranis_26
+		5 = north_african_baranis_27
+		5 = north_african_baranis_28
+		5 = north_african_baranis_29
+		5 = north_african_baranis_30
+		5 = north_african_baranis_31
+		5 = north_african_baranis_32
+		5 = north_african_baranis_33
+	}
+}
+
+egyptian_coptic = { #Based on Egyptian
+	color = hsv{ 0.08 0.10 0.5 }
+	created = 2.1.1
+	parents = { macedonian ancient_egyptian }
+	history_loc_override = aegyptian_history_loc
+
+	ethos = ethos_spiritual
+	heritage = heritage_egyptian #Could probably use something more unique but this makes them not get Arabic naming
+	language = language_coptic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_philosopher_culture
+		tradition_agrarian
+		tradition_zealous_people
+		tradition_mubarizuns
+	}
+
+	name_list = name_list_coptic
+
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { mena_group_clothing_gfx byzantine_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { levant_unit_gfx mena_unit_gfx } 
+
+	ethnicities = {
+		3 = mid_east_egyptian_1
+		3 = mid_east_egyptian_2
+		3 = mid_east_egyptian_3
+		3 = mid_east_egyptian_4
+		3 = mid_east_egyptian_5
+		3 = mid_east_egyptian_6
+		3 = mid_east_egyptian_7
+		3 = mid_east_egyptian_8
+		3 = mid_east_egyptian_9
+		3 = mid_east_egyptian_10
+		3 = mid_east_egyptian_11
+		3 = mid_east_egyptian_12
+		3 = mid_east_egyptian_13
+		3 = mid_east_egyptian_14
+		3 = mid_east_egyptian_15
+		3 = mid_east_egyptian_16
+		3 = mid_east_egyptian_17
+		3 = mid_east_egyptian_18
+		3 = mid_east_egyptian_19
+		3 = mid_east_egyptian_20
+		3 = mid_east_egyptian_21
+		3 = mid_east_egyptian_22
+		3 = mid_east_egyptian_23
+		3 = mid_east_egyptian_24
+		3 = mid_east_egyptian_25
+		3 = mid_east_egyptian_26
+		3 = mid_east_egyptian_27
+		3 = mid_east_egyptian_28
+		3 = mid_east_egyptian_29
+		3 = mid_east_egyptian_30
+		3 = mid_east_egyptian_31
+		3 = mid_east_egyptian_32
+		3 = mid_east_egyptian_33
+		3 = mid_east_egyptian_34
+		3 = mid_east_egyptian_35
+		3 = mid_east_egyptian_36
+		3 = mid_east_egyptian_37
+		3 = mid_east_egyptian_38
+		3 = mid_east_egyptian_39
+		3 = mid_east_egyptian_40
+		3 = mid_east_egyptian_41
+		3 = mid_east_egyptian_42
+		3 = mid_east_egyptian_43
+		3 = mid_east_egyptian_44
+		3 = mid_east_egyptian_45
+		3 = mid_east_egyptian_46
+		3 = mid_east_egyptian_47
+		3 = mid_east_egyptian_48
+		3 = mid_east_egyptian_49
+		3 = mid_east_egyptian_50
+	}
+}
+
+ancient_egyptian = {
+	color = ancient_egyptian
+	#created = 2.1.1
+	#history_loc_override = ancient_egyptian_history_loc
+	
+	ethos = ethos_spiritual
+	heritage = heritage_egyptian
+	language = language_egyptian
+	martial_custom = martial_custom_equal # Questionable, women in Egyptian court had equal status to men, but they were granted that status *by* men
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_philosopher_culture
+		tradition_agrarian
+		tradition_zealous_people
+		tradition_hereditary_hierarchy
+	}
+	
+	name_list = name_list_ancient_egyptian
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	clothing_gfx = { mena_clothing_gfx dde_abbasid_clothing_gfx } 
+	clothing_gfx = { byzantine_clothing_gfx }
+	building_gfx = { arabic_group_building_gfx mena_building_gfx }
+	unit_gfx = { mena_unit_gfx }
+
+	ethnicities = {
+		3 = mid_east_egyptian_1
+		3 = mid_east_egyptian_2
+		3 = mid_east_egyptian_3
+		3 = mid_east_egyptian_4
+		3 = mid_east_egyptian_5
+		3 = mid_east_egyptian_6
+		3 = mid_east_egyptian_7
+		3 = mid_east_egyptian_8
+		3 = mid_east_egyptian_9
+		3 = mid_east_egyptian_10
+		3 = mid_east_egyptian_11
+		3 = mid_east_egyptian_12
+		3 = mid_east_egyptian_13
+		3 = mid_east_egyptian_14
+		3 = mid_east_egyptian_15
+		3 = mid_east_egyptian_16
+		3 = mid_east_egyptian_17
+		3 = mid_east_egyptian_18
+		3 = mid_east_egyptian_19
+		3 = mid_east_egyptian_20
+		3 = mid_east_egyptian_21
+		3 = mid_east_egyptian_22
+		3 = mid_east_egyptian_23
+		3 = mid_east_egyptian_24
+		3 = mid_east_egyptian_25
+		3 = mid_east_egyptian_26
+		3 = mid_east_egyptian_27
+		3 = mid_east_egyptian_28
+		3 = mid_east_egyptian_29
+		3 = mid_east_egyptian_30
+		3 = mid_east_egyptian_31
+		3 = mid_east_egyptian_32
+		3 = mid_east_egyptian_33
+		3 = mid_east_egyptian_34
+		3 = mid_east_egyptian_35
+		3 = mid_east_egyptian_36
+		3 = mid_east_egyptian_37
+		3 = mid_east_egyptian_38
+		3 = mid_east_egyptian_39
+		3 = mid_east_egyptian_40
+		3 = mid_east_egyptian_41
+		3 = mid_east_egyptian_42
+		3 = mid_east_egyptian_43
+		3 = mid_east_egyptian_44
+		3 = mid_east_egyptian_45
+		3 = mid_east_egyptian_46
+		3 = mid_east_egyptian_47
+		3 = mid_east_egyptian_48
+		3 = mid_east_egyptian_49
+		3 = mid_east_egyptian_50
+	}
+}

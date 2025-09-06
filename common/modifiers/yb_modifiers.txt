@@ -1,0 +1,12 @@
+﻿ckc_interfaith_marriage = {
+	icon = prestige_positive
+}
+
+volga_tolls_modifier = {
+	icon = fertility_positive
+	supply_limit_mult = 0.2
+	county_fertility_growth_mult = 0.2
+	tax_mult = 0.2
+	herd_gain_mult = 0.2
+	development_growth_factor = 0.2
+}

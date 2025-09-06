@@ -1,0 +1,511 @@
+﻿188912 = {
+	name = "Jirug"
+	dna = bookmark_nomads_zhilugu # Yusseter
+	religion = kegon
+	culture = khitan
+	1157.5.5 = {
+		birth = yes
+	}
+}
+
+188905 = {
+	name = "Dashi"
+	religion = kegon
+	culture = khitan
+	1087.5.5 = {
+		birth = yes
+	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
+}
+
+188907 = {
+	name = "Iriye"
+	religion = kegon
+	culture = qitai # Yusseter
+	#culture = khitan
+	1135.5.5 = {
+		birth = yes
+	}
+}
+
+188908 = {
+	name = "Pusuen"
+	female = yes
+	religion = kegon
+	culture = qitai # Yusseter
+	#culture = khitan
+	1136.8.8 = {
+		birth = yes
+	}
+}
+
+188912 = {
+	name = "Jirug"
+	religion = kegon
+	culture = qitai # Yusseter
+	#culture = khitan
+	1157.5.5 = {
+		birth = yes
+	}
+}
+
+1413836 = {
+	name = "Agu"
+	female = yes
+	religion = kegon
+	culture = khitan
+	1077.1.1 = {
+		birth = yes
+	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
+}
+
+1413843 = {
+	name = "Heju"
+	female = yes
+	religion = kegon
+	culture = khitan
+	1100.1.1 = {
+		birth = yes
+	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
+}
+
+1413844 = {
+	name = "Urulan"
+	female = yes
+	religion = kegon
+	culture = khitan
+	1101.1.1 = {
+		birth = yes
+	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
+}
+
+1413864 = {
+	name = "Urduor"
+	religion = kegon
+	culture = khitan
+	1099.1.1 = {
+		birth = yes
+	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
+}
+
+1413867 = {
+	name = "Shuangpao"
+	female = yes
+	religion = kegon
+	culture = khitan
+	1104.1.1 = {
+		birth = yes
+	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
+}
+
+1413865 = {
+	name = "Jirug"
+	religion = kegon
+	culture = khitan
+	1107.1.1 = {
+		birth = yes
+	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
+}
+
+1413868 = {
+	name = "Gur"
+	female = yes
+	religion = kegon
+	culture = khitan
+	1108.1.1 = {
+		birth = yes
+	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
+}
+
+1413866 = {
+	name = "Dabeinu"
+	religion = kegon
+	culture = khitan
+	1110.1.1 = {
+		birth = yes
+	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
+}
+
+1413869 = {
+	name = "Siegianu"
+	religion = kegon
+	culture = khitan
+	1099.1.1 = {
+		birth = yes
+	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
+}
+
+1413870 = {
+	name = "Husha"
+	religion = kegon
+	culture = khitan
+	1102.1.1 = {
+		birth = yes
+	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
+}
+
+1413871 = {
+	name = "Pusulan"
+	female = yes
+	religion = kegon
+	culture = khitan
+	1100.1.1 = {
+		birth = yes
+	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
+}
+
+1413872 = {
+	name = "Hulan"
+	female = yes
+	religion = kegon
+	culture = khitan
+	1103.1.1 = {
+		birth = yes
+	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
+
+}
+1413873 = {
+	name = "Agu"
+	religion = kegon
+	culture = khitan
+	1100.1.1 = {
+		birth = yes
+	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
+}
+
+1413678 = {
+	name = "Shunian"
+	religion = kegon
+	culture = khitan
+	1100.1.1 = {
+		birth = yes
+	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
+}
+
+1413680 = {
+	name = "Huwuli"
+	religion = kegon
+	culture = khitan
+
+	1130.1.1 = {
+		birth = yes
+	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
+}
+
+1413863 = {
+	name = "Shouyang"
+	female = yes
+	religion = kegon
+	culture = qitai # Yusseter
+	#culture = khitan
+	1139.1.1 = {
+		birth = yes
+	}
+}
+
+1413679 = {
+	name = "Gulie"
+	religion = kegon
+	culture = khitan
+	1118.1.1 = {
+		birth = yes
+	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
+}
+
+1413681 = {
+	name = "Imer"
+	culture = qitai # Yusseter
+	#culture = khitan
+	1161.1.1 = {
+		birth = yes
+	}
+}
+
+1413682 = {
+	name = "Imer"
+	culture = qitai # Yusseter
+	#culture = khitan
+	1163.1.1 = {
+		birth = yes
+	}
+}
+
+1413683 = {
+	name = "Guir"
+	culture = qitai # Yusseter
+	#culture = khitan
+	1165.1.1 = {
+		birth = yes
+	}
+}
+
+1413861 = {
+	name = "Agu"
+	female = yes
+	culture = qitai # Yusseter
+	#culture = khitan
+	1160.1.1 = {
+		birth = yes
+	}
+}
+
+1413862 = {
+	name = "Miji"
+	female = yes
+	culture = qitai # Yusseter
+	#culture = khitan
+	1163.1.1 = {
+		birth = yes
+	}
+}
+
+1413922 = {
+	name = "Zhaoming"
+	culture = khitan
+	religion = eastern_tengri
+	1101.1.1 = {
+		birth = yes
+	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
+}
+
+churudmb1 = {
+	name = "Yenliu"
+	culture = khitan
+	religion = eastern_tengri
+	1131.1.1 = {
+		birth = yes
+	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
+}
+
+churudmb2 = {
+	name = "Yenliu"
+	culture = qitai # Yusseter
+	#culture = khitan
+	1157.1.1 = {
+		birth = yes
+	}
+}
+
+1231510 = {
+	name = "Mosa"
+	culture = khitan
+	religion = kegon
+	1092.1.1 = {
+		birth = yes
+	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
+}
+
+188909 = {
+	name = "Wolila"
+	religion = kegon
+	culture = khitan
+	1110.5.5 = {
+		birth = yes
+	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
+}
+
+188906 = {
+	name = "Tabuyen"
+	female = yes
+	religion = kegon
+	culture = khitan
+	1110.5.5 = {
+		birth = yes
+	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
+}
+
+
+188910 = {
+	name = "Duolubu"
+	religion = kegon
+	culture = qitai # Yusseter
+	#culture = khitan
+	1134.5.5 = {
+		birth = yes
+	}
+}
+
+188911 = {
+	name = "Puguji"
+	religion = kegon
+	culture = qitai # Yusseter
+	#culture = khitan
+	1136.5.5 = {
+		birth = yes
+	}
+}
+
+jurchen1353 = {
+	name = "dinianabu_jurchen_name"
+	culture = khitan
+	religion = kegon
+	1113.1.1 = {
+		birth = yes
+	}
+	1151.1.1 = { # Yusseter
+		culture = qitai
+	}
+}
+
+siaumb1 = {
+	name = "teme_jurchen_name"
+	religion = kegon
+	culture = qitai # Yusseter
+	#culture = khitan
+	1139.1.1 = {
+		birth = yes
+	}
+}
+
+siaumb2 = {
+	name = "Abulang"
+	religion = kegon
+	culture = qitai # Yusseter
+	#culture = khitan
+	1161.1.1 = {
+		birth = yes
+	}
+}
+
+siaumb3 = {
+	name = "Juerbiesu"
+	female = yes
+	religion = kegon
+	culture = qitai # Yusseter
+	#culture = khitan
+	1167.1.1 = {
+		birth = yes
+	}
+}
+
+siaumb4 = {
+	name = "Susa_name"
+	religion = kegon
+	culture = qitai # Yusseter
+	#culture = khitan
+	1172.1.1 = {
+		birth = yes
+	}
+}
+
+1413808 = {
+	name = "Maan"
+	religion = kegon
+	culture = khitan
+	1130.1.1 = {
+		birth = yes
+	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
+}
+
+1413809 = {
+	name = "Agulin"
+	female = yes
+	religion = kegon
+	culture = qitai # Yusseter
+	#culture = khitan
+	1162.1.1 = {
+		birth = yes
+	}
+}
+
+XiaoKhitai4 = {
+	name = "Fengyi"
+	religion = kegon
+	culture = khitan
+	1097.12.5 = {
+		birth = yes
+	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
+}
+
+XiaoKhitai5 = {
+	name = "Haowen"
+	religion = kegon
+	culture = khitan
+	1130.7.19 = {
+		birth = yes
+	}
+	1134.1.1 = { # Yusseter
+		culture = qitai
+	}
+}
+
+XiaoKhitai6 = {
+	name = "Xianming"
+	religion = kegon
+	culture = qitai # Yusseter
+	#culture = khitan
+	1160.4.11 = {
+		birth = yes
+	}
+}

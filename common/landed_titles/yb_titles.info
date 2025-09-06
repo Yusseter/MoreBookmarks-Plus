@@ -1,0 +1,30 @@
+﻿@correct_culture_primary_score = 100
+@better_than_the_alternatives_score = 50
+@always_primary_score = 1000
+@never_primary_score = -1000
+
+e_cuman_kipchak = {
+	color = { 97 111 135 }
+	definite_form = yes
+
+	capital = c_itil
+	de_jure_drift_disabled = yes
+	can_be_named_after_dynasty = no
+	can_use_nomadic_naming = no
+	
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				OR = {
+					culture = culture:cuman
+					culture = culture:kipchak
+				}
+			}
+			add = @always_primary_score
+		}
+	}
+}

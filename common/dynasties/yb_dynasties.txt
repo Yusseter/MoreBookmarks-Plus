@@ -1,0 +1,74 @@
+﻿12269 = {
+	name = "dynn_Ashina"
+	culture = "tujue"
+}
+
+yb_ashide = {
+	name = "dynn_Ashide"
+	culture = "tujue"
+}
+
+790 = {
+	name = "dynn_Ghaznavid"
+	culture = "karluk"
+}
+
+2001156 = {
+	name = "dynn_Enisey_Kyrgyz"
+	culture = "yenisei_kirghiz"
+}
+
+dynasty_yujiulu = {
+	name = "dynn_Yujiulu"
+	culture = "rouran"
+}
+
+dynasty_uar = {
+	name = "dynn_Uar"
+	culture = "avar"
+}
+
+dynasty_sol = {
+	name = "dynn_Sol"
+	culture = "yenisei_kirghiz"
+}
+
+dynasty_avar_1 = {
+	name = "dynn_avar_1"
+	culture = "avar"
+}
+
+dynasty_pecheneg_1 = {
+	name = "dynn_pecheneg_1"
+	culture = "pecheneg"
+}
+
+2001141 = {
+	name = "dynn_Cik" #dynn_Tuva
+	culture = "cik"
+}
+
+yb_albasri = {
+	name = "dynn_albasri"
+	culture = "madan"
+}
+
+1040063 = {
+	name = "dynn_Kurebir"
+	culture = "qun"
+}
+
+1040062 = {
+	name = "dynn_Kulug"
+	culture = "uigur"
+}
+
+dynasty_xueyantuo_1 = {
+	name = "dynn_chor"
+	culture = "tiele"
+}
+
+dynasty_kutluk_1 = {
+	name = "dynn_kutluk"
+	culture = "tiele"
+}

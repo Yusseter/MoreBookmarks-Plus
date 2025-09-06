@@ -1,0 +1,65 @@
+#e_cuman_kipchak = {
+#	1050.1.1 = {
+#		holder = 1233015
+#		#name = "CUMANIACONFED"
+#	}
+#	1065.1.1 = {
+#		holder = 1229733 # Sharukan
+#	}
+#	#1082.1.1 = {
+#	#	holder = 1229733 # Sharukan
+#	#}
+#	1107.1.1 = {
+#		holder = 1229751 # Bönek I
+#	}
+#	1112.1.1 = {
+#		holder = 1233001 # Sugr
+#	}
+#	1116.1.1 = {
+#		holder = 1229735 # Ötrök
+#	}
+#	#1117.1.1 = {
+#	#	holder = 1229735 # Äträk
+#	#}
+#	1140.1.1 = {
+#		holder = 1229752 # Sevenç
+#	}
+#	1151.1.1 = {
+#		holder = 1229736 # Sirçan
+#	}
+#	1159.1.1 = {
+#		holder = 1233002 # Bönek II
+#	}
+#	1167.1.1 = {
+#		holder = 1229737 # Künçek
+#	}
+#	1203.1.1 = {
+#		holder = 1229739 # Yurgi
+#	}
+#	1223.5.31 = {
+#		holder = 1233005 # Bachman
+#	}
+#	1239.1.1 = {
+#		holder = 0 # Bachman slain by the mongols.
+#	}
+#}
+
+d_laamp_enian = {
+	840.1.1 = { # Yusseter
+		holder = 166765
+	}
+	846.1.1 = {
+		liege = 0
+		holder = 1410750 # Enian Qaghan
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+			destroy_landless_title_no_dlc_effect = { DATE = 867.1.1 }
+		}
+	}
+	868.1.1 = {
+		holder = 0
+	}
+}

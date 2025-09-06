@@ -1,0 +1,52 @@
+﻿name_list_east_galindian = {
+	
+	mercenary_names = {
+		{ name = "mercenary_company_baltic_band" }
+		{ name = "mercenary_company_riders_of_the_coast" }
+		{ name = "mercenary_company_company_of_the_deeplands" }
+	}
+
+	cadet_dynasty_names = {
+		"dynn_Jogailaitis"
+		"dynn_Gediminaitis"
+		"dynn_Astikaitis"
+		"dynn_Cartoriskis"
+		"dynn_Giedraitis"
+		"dynn_Alelkaitis"
+		"dynn_Sviriskis"
+		"dynn_Valmantaitis"
+		"dynn_Kesgailos"
+		"dynn_Mangirdaitis"
+		"dynn_Hlebowicius"
+		"dynn_Schalauosunus"
+	}
+	
+	dynasty_names = {
+		"dynn_Jogailaitis"
+		"dynn_Gediminaitis"
+		"dynn_Astikaitis"
+		"dynn_Cartoriskis"
+		"dynn_Giedraitis"
+		"dynn_Alelkaitis"
+		"dynn_Sviriskis"
+		"dynn_Valmantaitis"
+		"dynn_Kesgailos"
+		"dynn_Mangirdaitis"
+		"dynn_Hlebowicius"
+		"dynn_Schalauosunus"
+	}
+
+	male_names = {
+		Algelgas Algibartas Algibutas Algigailus Algigirdas Algimantas Alginoras Algitawtas Algiwaldas Algiwiltas Daubartas Daubutas Daugailus Daugirdas Daulgas Daumantas Daunoras Dautawtas
+		Dauwaldas Dauwiltas Genbartas Genbutas Genelgas Gengailus Gengirdas Genmantas Genoras Gentawtas Genwaldas Genwiltas Girdbartas Girdbutas Girdmantas Girdnoras Girdwaldas Girdwiltas
+		Girtawtas Girdelgas Girdgailus Giwenbartas Giwenbutas Giwenelgas Giwengailus Giwengirdas Giwenmantas Giwenoras Giwentawtas Giwenwaldas Giwenwiltas Ljaubartas Ljaubutas Ljauelgas
+		Ljaugailus Ljaugirdas Ljaumantas Ljaunoras Ljautawtas Ljauwaldas Ljauwiltas Mantawtas Mantbartas Mantbutas Mantelgas Mantgailus Mantgirdas Mantnoras Mantwaldas Mantwiltas Minbartas
+		Minbutas Minelgas Mingailus Mingurdas Minmantas Minoras Mintawtas Minwaldas Minwiltas Skirbartas Skirbutas Skirelgas Skirgailus Skirgurdas Skirmantas Skirnoras Skirtawtas Skirwaldas
+		Skirwiltas Trijwaldas Waisbartas Waisbutas Waiselgas Waisgailus Waisgurdas Waismantas Waisnoras Waistawtas Waiswaldas Waiswiltas
+	}
+	female_names = {
+		Aldona Anele Audra Ausra Austra Birute Daina Danute Dolja Evalda Gaudimante Giedre Gintare Gubja Jevna Kenna Laima Migla Mikova Rasa Roze Saule Svajone Unge Vida 
+	}
+
+	dynasty_of_location_prefix = "dynnp_gada"
+}

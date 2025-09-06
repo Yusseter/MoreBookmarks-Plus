@@ -1,0 +1,784 @@
+﻿# Several groups in this file have extremely little available evidence to go off of, and so are more educated guesses than we'd like. They should be updated comprehensively when we can. Specifically:
+	# * Komi
+
+komi = { # AKA "Permian"
+	color = komi
+	
+	ethos = ethos_communal
+	heritage = heritage_ugro_permian
+	language = language_ugro_permian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_forest_wardens
+		tradition_frugal_armorsmiths
+	}
+
+	dlc_tradition = {
+		trait = tradition_mpo_northern_tribes
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	name_list = name_list_komi
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { tundra_building_gfx }
+	clothing_gfx = { ugro_permian_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { circumpolar_unit_gfx northern_unit_gfx }
+
+	ethnicities = {
+		30 = european_circumpolar_dark_1
+		30 = european_circumpolar_dark_2
+		15 = european_circumpolar_brown_1
+		15 = european_circumpolar_brown_2
+		5 = european_circumpolar_blond_1
+		5 = european_circumpolar_blond_2
+	}
+}
+
+khanty = { # AKA "Ostyak"
+	color = { 0.4 0.65 0.20 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_ugro_permian
+	language = language_ugro_permian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_zealous_people
+		tradition_isolationist
+	}
+
+	dlc_tradition = {
+		trait = tradition_mpo_northern_tribes
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	name_list = name_list_khanty
+
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx mongol_coa_gfx }
+	building_gfx = { tundra_building_gfx }
+	clothing_gfx = { ugro_permian_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { circumpolar_unit_gfx mongol_unit_gfx }
+	
+	ethnicities = {
+		15 = european_circumpolar_dark_1
+		15 = european_circumpolar_dark_2
+		8 = european_circumpolar_brown_1
+		7 = european_circumpolar_brown_2
+		3 = european_circumpolar_blond_1
+		2 = european_circumpolar_blond_2
+		2 = siberian_siberian_01
+		2 = siberian_siberian_02
+		2 = siberian_siberian_03
+		2 = siberian_siberian_04
+		2 = siberian_siberian_05
+		2 = siberian_siberian_06
+		2 = siberian_siberian_07
+		2 = siberian_siberian_08
+		2 = siberian_siberian_09
+		2 = siberian_siberian_10
+		2 = siberian_siberian_11
+		2 = siberian_siberian_12
+		2 = siberian_siberian_13
+		2 = siberian_siberian_14
+		2 = siberian_siberian_15
+		2 = siberian_siberian_16
+		2 = siberian_siberian_17
+		2 = siberian_siberian_18
+		2 = siberian_siberian_19
+		2 = siberian_siberian_20
+		2 = siberian_siberian_21
+		2 = siberian_siberian_22
+		2 = siberian_siberian_23
+		2 = siberian_siberian_24
+		2 = siberian_siberian_25
+	}
+}
+
+samoyed = { # Bjarmian is difrent, Selkup
+	color = { 0.3 0.87 0.21 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_samoyedic
+	language = language_ugro_permian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_xenophilic
+		tradition_welcoming
+		tradition_forest_wardens
+		#tradition_storytellers
+		tradition_caravaneers
+	}
+	
+	dlc_tradition = {
+		trait = tradition_mpo_northern_tribes
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	name_list = name_list_samoyed
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { tundra_building_gfx }
+	clothing_gfx = { ugro_permian_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { circumpolar_unit_gfx northern_unit_gfx }
+	
+	ethnicities = {
+		5 = european_circumpolar_dark_1
+		5 = european_circumpolar_dark_2
+		5 = european_circumpolar_brown_1
+		5 = european_circumpolar_brown_2
+		3 = european_circumpolar_blond_1
+		3 = european_circumpolar_blond_2
+		6 = siberian_siberian_01
+		6 = siberian_siberian_02
+		6 = siberian_siberian_03
+		6 = siberian_siberian_04
+		6 = siberian_siberian_05
+		6 = siberian_siberian_06
+		6 = siberian_siberian_07
+		6 = siberian_siberian_08
+		6 = siberian_siberian_09
+		6 = siberian_siberian_10
+		6 = siberian_siberian_11
+		6 = siberian_siberian_12
+		6 = siberian_siberian_13
+		6 = siberian_siberian_14
+		6 = siberian_siberian_15
+		6 = siberian_siberian_16
+		6 = siberian_siberian_17
+		6 = siberian_siberian_18
+		6 = siberian_siberian_19
+		6 = siberian_siberian_20
+		6 = siberian_siberian_21
+		6 = siberian_siberian_22
+		6 = siberian_siberian_23
+		6 = siberian_siberian_24
+		6 = siberian_siberian_25
+		5 = asian_turkic_16_eastern
+		5 = asian_turkic_17_eastern
+		1 = asian_turkic_36
+		1 = asian_turkic_37
+		1 = asian_turkic_38
+		1 = asian_turkic_39
+		1 = asian_turkic_40
+		1 = asian_turkic_26
+		1 = asian_turkic_27
+		1 = asian_turkic_28
+		1 = asian_turkic_29
+		1 = asian_turkic_30
+		2 = asian_mongol_1
+		2 = asian_mongol_2
+		2 = asian_mongol_3
+		2 = asian_mongol_4
+		2 = asian_mongol_5
+		2 = asian_mongol_6
+		2 = asian_mongol_7
+		2 = asian_mongol_8
+		2 = asian_mongol_9
+		2 = asian_mongol_10
+		2 = asian_mongol_11
+		2 = asian_mongol_12
+		2 = asian_mongol_13
+		2 = asian_mongol_14
+		2 = asian_mongol_15
+		2 = asian_mongol_16
+		2 = asian_mongol_17
+		2 = asian_mongol_18
+		2 = asian_mongol_19
+		2 = asian_mongol_20
+		2 = asian_mongol_21
+		2 = asian_mongol_22
+		2 = asian_mongol_23
+		2 = asian_mongol_24
+		2 = asian_mongol_25
+		2 = asian_mongol_26
+		2 = asian_mongol_27
+		2 = asian_mongol_28
+		2 = asian_mongol_29
+		2 = asian_mongol_30
+		2 = asian_mongol_31
+	}
+}
+
+nenets = {
+	color = { 0.2 0.55 0.23 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_samoyedic
+	language = language_selkup
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_isolationist
+	}
+
+	name_list = name_list_nenets
+
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { tundra_building_gfx }
+	clothing_gfx = { ugro_permian_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+
+	ethnicities = {
+		5 = european_circumpolar_dark_1
+		5 = european_circumpolar_dark_2
+		5 = european_circumpolar_brown_1
+		5 = european_circumpolar_brown_2
+		3 = european_circumpolar_blond_1
+		3 = european_circumpolar_blond_2
+		6 = siberian_siberian_01
+		6 = siberian_siberian_02
+		6 = siberian_siberian_03
+		6 = siberian_siberian_04
+		6 = siberian_siberian_05
+		6 = siberian_siberian_06
+		6 = siberian_siberian_07
+		6 = siberian_siberian_08
+		6 = siberian_siberian_09
+		6 = siberian_siberian_10
+		6 = siberian_siberian_11
+		6 = siberian_siberian_12
+		6 = siberian_siberian_13
+		6 = siberian_siberian_14
+		6 = siberian_siberian_15
+		6 = siberian_siberian_16
+		6 = siberian_siberian_17
+		6 = siberian_siberian_18
+		6 = siberian_siberian_19
+		6 = siberian_siberian_20
+		6 = siberian_siberian_21
+		6 = siberian_siberian_22
+		6 = siberian_siberian_23
+		6 = siberian_siberian_24
+		6 = siberian_siberian_25
+		5 = asian_turkic_16_eastern
+		5 = asian_turkic_17_eastern
+		1 = asian_turkic_36
+		1 = asian_turkic_37
+		1 = asian_turkic_38
+		1 = asian_turkic_39
+		1 = asian_turkic_40
+		1 = asian_turkic_26
+		1 = asian_turkic_27
+		1 = asian_turkic_28
+		1 = asian_turkic_29
+		1 = asian_turkic_30
+		2 = asian_mongol_1
+		2 = asian_mongol_2
+		2 = asian_mongol_3
+		2 = asian_mongol_4
+		2 = asian_mongol_5
+		2 = asian_mongol_6
+		2 = asian_mongol_7
+		2 = asian_mongol_8
+		2 = asian_mongol_9
+		2 = asian_mongol_10
+		2 = asian_mongol_11
+		2 = asian_mongol_12
+		2 = asian_mongol_13
+		2 = asian_mongol_14
+		2 = asian_mongol_15
+		2 = asian_mongol_16
+		2 = asian_mongol_17
+		2 = asian_mongol_18
+		2 = asian_mongol_19
+		2 = asian_mongol_20
+		2 = asian_mongol_21
+		2 = asian_mongol_22
+		2 = asian_mongol_23
+		2 = asian_mongol_24
+		2 = asian_mongol_25
+		2 = asian_mongol_26
+		2 = asian_mongol_27
+		2 = asian_mongol_28
+		2 = asian_mongol_29
+		2 = asian_mongol_30
+		2 = asian_mongol_31
+	}
+}
+
+solqumyt = { #Selkup
+	color = solqumyt
+
+	ethos = ethos_bellicose
+	heritage = heritage_samoyedic
+	language = language_selkup
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_forest_folk
+		tradition_hunters
+		tradition_winter_warriors
+	}
+
+	name_list = name_list_yeniseian
+
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { tundra_building_gfx }
+	clothing_gfx = { ugro_permian_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+
+	ethnicities = {
+		5 = european_circumpolar_dark_1
+		5 = european_circumpolar_dark_2
+		5 = european_circumpolar_brown_1
+		5 = european_circumpolar_brown_2
+		3 = european_circumpolar_blond_1
+		3 = european_circumpolar_blond_2
+		6 = siberian_siberian_01
+		6 = siberian_siberian_02
+		6 = siberian_siberian_03
+		6 = siberian_siberian_04
+		6 = siberian_siberian_05
+		6 = siberian_siberian_06
+		6 = siberian_siberian_07
+		6 = siberian_siberian_08
+		6 = siberian_siberian_09
+		6 = siberian_siberian_10
+		6 = siberian_siberian_11
+		6 = siberian_siberian_12
+		6 = siberian_siberian_13
+		6 = siberian_siberian_14
+		6 = siberian_siberian_15
+		6 = siberian_siberian_16
+		6 = siberian_siberian_17
+		6 = siberian_siberian_18
+		6 = siberian_siberian_19
+		6 = siberian_siberian_20
+		6 = siberian_siberian_21
+		6 = siberian_siberian_22
+		6 = siberian_siberian_23
+		6 = siberian_siberian_24
+		6 = siberian_siberian_25
+		5 = asian_turkic_16_eastern
+		5 = asian_turkic_17_eastern
+		1 = asian_turkic_36
+		1 = asian_turkic_37
+		1 = asian_turkic_38
+		1 = asian_turkic_39
+		1 = asian_turkic_40
+		1 = asian_turkic_26
+		1 = asian_turkic_27
+		1 = asian_turkic_28
+		1 = asian_turkic_29
+		1 = asian_turkic_30
+		2 = asian_mongol_1
+		2 = asian_mongol_2
+		2 = asian_mongol_3
+		2 = asian_mongol_4
+		2 = asian_mongol_5
+		2 = asian_mongol_6
+		2 = asian_mongol_7
+		2 = asian_mongol_8
+		2 = asian_mongol_9
+		2 = asian_mongol_10
+		2 = asian_mongol_11
+		2 = asian_mongol_12
+		2 = asian_mongol_13
+		2 = asian_mongol_14
+		2 = asian_mongol_15
+		2 = asian_mongol_16
+		2 = asian_mongol_17
+		2 = asian_mongol_18
+		2 = asian_mongol_19
+		2 = asian_mongol_20
+		2 = asian_mongol_21
+		2 = asian_mongol_22
+		2 = asian_mongol_23
+		2 = asian_mongol_24
+		2 = asian_mongol_25
+		2 = asian_mongol_26
+		2 = asian_mongol_27
+		2 = asian_mongol_28
+		2 = asian_mongol_29
+		2 = asian_mongol_30
+		2 = asian_mongol_31
+	}
+}
+
+udmurt = {
+	color = udmurt
+
+	ethos = ethos_communal
+	heritage = heritage_ugro_permian
+	language = language_udmurt
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_forest_wardens
+		tradition_frugal_armorsmiths
+	}
+	
+	dlc_tradition = {
+		trait = tradition_mpo_northern_tribes
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	name_list = name_list_udmurt
+
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { tundra_building_gfx }
+	clothing_gfx = { ugro_permian_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+
+	ethnicities = {
+		30 = european_circumpolar_dark_1
+		30 = european_circumpolar_dark_2
+		15 = european_circumpolar_brown_1
+		15 = european_circumpolar_brown_2
+		5 = european_circumpolar_blond_1
+		5 = european_circumpolar_blond_2
+	}
+}
+
+bjarmian = { # Actual Bjarmian
+	color = { 0.1 0.8 0.1 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_balto_finnic
+	language = language_finnic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_xenophilic
+		tradition_welcoming
+		tradition_forest_wardens
+		tradition_caravaneers
+	}
+	
+	name_list = name_list_samoyed
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { tundra_building_gfx }
+	clothing_gfx = { sami_clothing_gfx epe_balto_finnic_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+
+	ethnicities = {
+		30 = european_circumpolar_dark_1
+		30 = european_circumpolar_dark_2
+		15 = european_circumpolar_brown_1
+		15 = european_circumpolar_brown_2
+		5 = european_circumpolar_blond_1
+		5 = european_circumpolar_blond_2
+		2 =	steppe_volga_finn_mordvin_01
+		2 =	steppe_volga_finn_mordvin_02 
+		2 =	steppe_volga_finn_mordvin_03   
+		2 =	steppe_volga_finn_mordvin_04  
+		2 =	steppe_volga_finn_mordvin_05 
+		2 =	steppe_volga_finn_mordvin_06
+		2 =	steppe_volga_finn_mordvin_07 
+		2 =	steppe_volga_finn_mordvin_08
+		2 =	steppe_volga_finn_mordvin_09
+		2 =	steppe_volga_finn_mordvin_10
+		2 =	steppe_volga_finn_mordvin_11
+		2 =	steppe_volga_finn_mordvin_12
+		2 =	steppe_volga_finn_mordvin_13
+		2 =	steppe_volga_finn_mordvin_14
+		2 =	steppe_volga_finn_mordvin_15
+		2 =	steppe_volga_finn_mordvin_16
+		2 =	steppe_volga_finn_mordvin_17
+		2 =	steppe_volga_finn_mordvin_18
+		2 =	steppe_volga_finn_mordvin_19
+		2 =	steppe_volga_finn_mordvin_20
+		2 =	steppe_volga_finn_mordvin_21
+		2 =	steppe_volga_finn_mordvin_22
+		2 =	steppe_volga_finn_mordvin_23
+		2 =	steppe_volga_finn_mordvin_24
+		2 =	steppe_volga_finn_mordvin_25
+		2 =	steppe_volga_finn_mordvin_26
+		2 =	steppe_volga_finn_mordvin_27
+		2 =	steppe_volga_finn_mordvin_28
+		2 =	steppe_volga_finn_mordvin_29
+		2 =	steppe_volga_finn_mordvin_30
+		2 =	steppe_volga_finn_mordvin_31
+		2 =	steppe_volga_finn_mordvin_32
+		2 =	steppe_volga_finn_mordvin_33
+		2 =	steppe_volga_finn_mordvin_34
+		2 =	steppe_volga_finn_mordvin_35
+		2 =	steppe_volga_finn_mordvin_36
+		2 =	steppe_volga_finn_mordvin_37
+		2 =	steppe_volga_finn_mordvin_38
+		2 =	steppe_volga_finn_mordvin_39
+	}
+}
+
+mogyer = {
+	color = { 0.3 0.4 0.1 }
+	created = 550.1.1
+	parents = { hunnic khanty }
+	history_loc_override = mogyer_history_loc
+
+	ethos = ethos_bellicose
+	heritage = heritage_oghur
+	language = language_magyar
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_tribe_unity
+		#tradition_horse_lords
+		tradition_zealous_people
+	}
+
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	name_list = name_list_mogyer
+
+	coa_gfx = { magyar_group_coa_gfx ugro_permian_group_coa_gfx steppe_coa_gfx } 
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { yb_western_steppe_clothing_gfx turkic_clothing_gfx mongol_clothing_gfx } 
+	unit_gfx = { magyar_unit_gfx } 	
+
+	ethnicities = {
+		#5 = turkic
+		#25 = turkic_west
+		#100 = asian_magyar_1
+		15 = asian_turkic_26_khazar
+		15 = asian_turkic_27_khazar
+		15 = asian_turkic_28_khazar
+		15 = asian_turkic_29_khazar
+		15 = asian_turkic_30_khazar
+		15 = asian_turkic_7_western
+		15 = asian_turkic_8_western 
+		15 = asian_turkic_9_western
+		15 = asian_turkic_15_western 
+		15 = asian_turkic_16_western
+		15 = asian_turkic_17_western
+		15 = asian_turkic_19_western
+		5 = asian_turkic_1_cuman
+		5 = asian_turkic_2_cuman
+		5 = asian_turkic_3_cuman
+		5 = asian_turkic_4_cuman
+		5 = asian_turkic_5_cuman
+		5 = asian_turkic_8_cuman 
+		5 = asian_turkic_9_cuman
+		5 = asian_turkic_15_cuman
+		5 = asian_turkic_26_cuman
+		5 = asian_turkic_27_cuman
+		5 = asian_turkic_28_cuman
+		5 = asian_turkic_29_cuman
+		5 = asian_turkic_30_cuman
+		5 = asian_turkic_31_cuman
+		5 = asian_turkic_32_cuman
+		5 = asian_turkic_33_cuman
+		5 = asian_turkic_34_cuman
+		5 = asian_turkic_35_cuman
+		5 = asian_turkic_13_cuman
+		5 = asian_turkic_14_cuman
+		5 = asian_turkic_36
+		5 = asian_turkic_37
+		5 = asian_turkic_38
+		5 = asian_turkic_39
+		5 = asian_turkic_40
+		5 = asian_turkic_26
+		5 = asian_turkic_27
+		5 = asian_turkic_28
+		5 = asian_turkic_29
+		5 = asian_turkic_30
+		4 = european_magyar_magyar_01
+		4 = european_magyar_magyar_02
+		4 = european_magyar_magyar_03
+		4 = european_magyar_magyar_04
+		4 = european_magyar_magyar_05
+		4 = european_magyar_magyar_06
+		4 = european_magyar_magyar_07
+		4 = european_magyar_magyar_08
+		4 = european_magyar_magyar_09
+		4 = european_magyar_magyar_10
+		4 = european_magyar_magyar_11
+		4 = european_magyar_magyar_12
+		4 = european_magyar_magyar_13
+		4 = european_magyar_magyar_14
+		4 = european_magyar_magyar_15
+		4 = european_magyar_magyar_16
+		4 = european_magyar_magyar_17
+		4 = european_magyar_magyar_18
+		4 = european_magyar_magyar_19
+		4 = european_magyar_magyar_20
+		4 = european_magyar_magyar_21
+		4 = european_magyar_magyar_22
+		4 = european_magyar_magyar_23
+		4 = european_magyar_magyar_24
+		4 = european_magyar_magyar_25
+		4 = european_magyar_magyar_26
+		4 = european_magyar_magyar_27
+		4 = european_magyar_magyar_28
+		4 = european_magyar_magyar_29
+		4 = european_magyar_magyar_30
+		4 = european_magyar_magyar_31
+		4 = european_magyar_magyar_32
+		4 = european_magyar_magyar_33
+		4 = european_magyar_magyar_34
+		4 = european_magyar_magyar_35
+		4 = european_magyar_magyar_36
+		4 = european_magyar_magyar_37
+		4 = european_magyar_magyar_38
+		4 = european_magyar_magyar_39
+		4 = european_magyar_magyar_40
+		4 = european_magyar_magyar_41
+		4 = european_magyar_magyar_42
+		4 = european_magyar_magyar_43
+		4 = european_magyar_magyar_44
+		4 = european_magyar_magyar_45
+		4 = european_magyar_magyar_46
+		4 = european_magyar_magyar_47
+		4 = european_magyar_magyar_48
+		4 = european_magyar_magyar_49
+		4 = european_magyar_magyar_50
+	}
+}
+
+hungarian = {
+	color = hungarian
+	created = 1000.1.1
+	parents = { mogyer blatno_slavic }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_vlach
+	language = language_magyar
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_agrarian
+		tradition_hussar
+		tradition_zealous_people
+	}
+	
+	name_list = name_list_hungarian
+
+	coa_gfx = { magyar_group_coa_gfx ugro_permian_group_coa_gfx steppe_coa_gfx } 
+	coa_gfx = { western_coa_gfx } 
+	building_gfx = { magyar_building_gfx }
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 	
+
+	ethnicities = {
+		5 = european_magyar_hungarian_01
+		5 = european_magyar_hungarian_02
+		5 = european_magyar_hungarian_03
+		5 = european_magyar_hungarian_04
+		5 = european_magyar_hungarian_05
+		5 = european_magyar_hungarian_06
+		5 = european_magyar_hungarian_07
+		5 = european_magyar_hungarian_08
+		5 = european_magyar_hungarian_09
+		5 = european_magyar_hungarian_10
+		5 = european_magyar_hungarian_11
+		5 = european_magyar_hungarian_12
+		5 = european_magyar_hungarian_13
+		5 = european_magyar_hungarian_14
+		5 = european_magyar_hungarian_15
+		5 = european_magyar_hungarian_16
+		5 = european_magyar_hungarian_17
+		5 = european_magyar_hungarian_18
+		5 = european_magyar_hungarian_19
+		5 = european_magyar_hungarian_20
+		5 = european_magyar_hungarian_21
+		5 = european_magyar_hungarian_22
+		5 = european_magyar_hungarian_23
+		5 = european_magyar_hungarian_24
+		5 = european_magyar_hungarian_25
+		5 = european_magyar_hungarian_26
+		5 = european_magyar_hungarian_27
+		5 = european_magyar_hungarian_28
+		5 = european_magyar_hungarian_29
+		5 = european_magyar_hungarian_30
+		5 = european_magyar_hungarian_31
+		5 = european_magyar_hungarian_32
+		5 = european_magyar_hungarian_33
+		5 = european_magyar_hungarian_34
+		5 = european_magyar_hungarian_35
+		5 = european_magyar_hungarian_36
+		5 = european_magyar_hungarian_37
+		5 = european_magyar_hungarian_38
+		5 = european_magyar_hungarian_39
+		5 = european_magyar_hungarian_40
+		5 = european_magyar_hungarian_41
+		5 = european_magyar_hungarian_42
+		5 = european_magyar_hungarian_43
+	}
+}
+
+szekely = {
+	color = { 0.4 0.4 0.2 }
+	created = 1150.1.1
+	parents = { hungarian }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_vlach
+	language = language_magyar
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_isolationist
+		tradition_mountaineers
+		tradition_castle_keepers
+		#tradition_mountain_homes
+       # tradition_stalwart_defenders
+		#tradition_hussar
+		#tradition_loyal_soldiers
+		#tradition_stand_and_fight
+	}
+	dlc_tradition = {
+		trait = tradition_fp2_malleable_subjects
+		requires_dlc_flag = the_fate_of_iberia
+	}
+	
+	name_list = name_list_hungarian
+
+	coa_gfx = { magyar_group_coa_gfx ugro_permian_group_coa_gfx steppe_coa_gfx } 
+	coa_gfx = { western_coa_gfx } 
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { mongol_unit_gfx } 	
+
+	ethnicities = {
+		5 = european_magyar_hungarian_01
+		5 = european_magyar_hungarian_02
+		5 = european_magyar_hungarian_03
+		5 = european_magyar_hungarian_04
+		5 = european_magyar_hungarian_05
+		5 = european_magyar_hungarian_06
+		5 = european_magyar_hungarian_07
+		5 = european_magyar_hungarian_08
+		5 = european_magyar_hungarian_09
+		5 = european_magyar_hungarian_10
+		5 = european_magyar_hungarian_11
+		5 = european_magyar_hungarian_12
+		5 = european_magyar_hungarian_13
+		5 = european_magyar_hungarian_14
+		5 = european_magyar_hungarian_15
+		5 = european_magyar_hungarian_16
+		5 = european_magyar_hungarian_17
+		5 = european_magyar_hungarian_18
+		5 = european_magyar_hungarian_19
+		5 = european_magyar_hungarian_20
+		5 = european_magyar_hungarian_21
+		5 = european_magyar_hungarian_22
+		5 = european_magyar_hungarian_23
+		5 = european_magyar_hungarian_24
+		5 = european_magyar_hungarian_25
+		5 = european_magyar_hungarian_26
+		5 = european_magyar_hungarian_27
+		5 = european_magyar_hungarian_28
+		5 = european_magyar_hungarian_29
+		5 = european_magyar_hungarian_30
+		5 = european_magyar_hungarian_31
+		5 = european_magyar_hungarian_32
+		5 = european_magyar_hungarian_33
+		5 = european_magyar_hungarian_34
+		5 = european_magyar_hungarian_35
+		5 = european_magyar_hungarian_36
+		5 = european_magyar_hungarian_37
+		5 = european_magyar_hungarian_38
+		5 = european_magyar_hungarian_39
+		5 = european_magyar_hungarian_40
+		5 = european_magyar_hungarian_41
+		5 = european_magyar_hungarian_42
+		5 = european_magyar_hungarian_43
+	}
+}

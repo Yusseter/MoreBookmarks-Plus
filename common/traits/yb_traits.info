@@ -1,0 +1,19 @@
+﻿adopted = {
+	category = fame
+	icon = { desc = child_of_adoption.dds }
+	diplomacy = -1
+	legitimacy_gain_mult = 0.1
+	ruler_designer_cost = -5
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_adopted_desc
+			}
+			desc = trait_adopted_character_desc
+		}
+	}
+}

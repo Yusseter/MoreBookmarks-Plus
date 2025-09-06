@@ -1,0 +1,59 @@
+﻿on_game_start = {
+	on_actions = {
+		yb_setup
+		yb_setup_867
+		yb_setup_1066
+		yb_setup_1178
+	}
+}
+
+yb_setup = {
+    effect = {
+		#yb_title_effect = yes
+		#yb_government_setup_effect = yes
+		yb_character_setup_effects = yes
+    }
+}
+
+yb_setup_867 = {
+	trigger = { game_start_date < 1066.9.15 }
+	#trigger = { game_start_date = 867.1.1 }
+
+    effect = {
+		yb_title_effect_867 = yes
+		yb_cultural_piller_setup_effect_867 = yes
+		yb_county_setup_effect_867 = yes
+		yb_de_jure_setup_effect_867 = yes
+		yb_cultural_title_coa_effect_867 = yes
+    }
+}
+
+yb_setup_1066 = {
+	trigger = {
+		game_start_date > 867.1.1
+		game_start_date < 1178.10.1 
+	}
+	#trigger = { game_start_date = 1066.9.15 }
+
+    effect = {
+		yb_title_effect_1066 = yes
+		yb_cultural_piller_setup_effect_1066 = yes
+		yb_county_setup_effect_1066 = yes
+		yb_de_jure_setup_effect_1066 = yes
+		yb_cultural_title_coa_effect_1066 = yes
+    }
+}
+
+yb_setup_1178 = {
+	trigger = { game_start_date > 1066.9.15 }
+    #trigger = { game_start_date = 1178.10.1 }
+
+	effect = {
+		yb_title_effect_1178 = yes
+		yb_cultural_piller_setup_effect_1178 = yes
+		yb_county_setup_effect_1178 = yes
+		yb_de_jure_setup_effect_1178 = yes
+	}
+}
+
+MB_setup_after_game_start_on_actions = {}

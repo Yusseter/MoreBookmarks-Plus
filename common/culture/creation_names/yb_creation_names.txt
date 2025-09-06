@@ -1,0 +1,9 @@
+﻿nomadic_house_name = {
+	name = nomadic_house_name_name
+	collective_noun = nomadic_house_name_collective_noun
+	prefix = nomadic_house_name_prefix
+
+	trigger = {
+		government_has_flag = government_is_nomadic
+	}
+}

@@ -1,0 +1,44 @@
+﻿culture_descriptions = {
+	scope = culture
+
+	effect = {
+		switch = {
+			trigger = root
+
+			culture:britano_roman = { custom_tooltip = britano_roman_desc }
+			culture:briton = { custom_tooltip = briton_desc }
+			culture:ancient_egyptian = { custom_tooltip = ancient_egyptian_desc }
+			culture:karluk = { custom_tooltip = karluk_desc }
+			culture:yeniseian = { custom_tooltip = yeniseian_desc }
+			culture:xiongnu = { custom_tooltip = xiongnu_desc }
+			culture:tujue = { custom_tooltip = tujue_desc }
+			culture:kurdish = { custom_tooltip = kurdish_desc }
+			culture:armenian = { custom_tooltip = armenian_desc }
+			culture:gaul = { custom_tooltip = gaul_desc }
+			culture:anglo_saxon = { custom_tooltip = anglo_saxon_desc }
+			culture:alamannic = { custom_tooltip = alamannic_desc }
+			culture:old_suebi = { custom_tooltip = old_suebi_desc }
+			culture:langobard = { custom_tooltip = langobard_desc }
+			culture:norse = { custom_tooltip = norse_desc }
+			culture:geat = { custom_tooltip = geat_desc }
+			culture:dane = { custom_tooltip = dane_desc }
+			culture:svear = { custom_tooltip = svear_desc }
+			culture:old_saxon = { custom_tooltip = old_saxon_desc }
+			culture:old_anglian = { custom_tooltip = old_anglian_desc }
+			culture:jute = { custom_tooltip = jute_desc }
+			culture:frankish = { custom_tooltip = frankish_desc }
+			culture:gothic = { custom_tooltip = gothic_desc }
+			culture:visigothic = { custom_tooltip = visigothic_desc }
+			culture:ostrogothic = { custom_tooltip = ostrogothic_desc }
+			culture:vandalic = { custom_tooltip = vandalic_desc }
+			culture:burgundian = { custom_tooltip = burgundian_desc }
+			culture:russian = { custom_tooltip = russian_desc }
+			culture:old_persian = { custom_tooltip = old_persian_desc }
+			culture:main_saka = { custom_tooltip = main_saka_desc }
+			culture:main_bedouin = { custom_tooltip = main_bedouin_desc }
+			culture:israelite = { custom_tooltip = israelite_desc }
+			culture:elamite = { custom_tooltip = elamite_desc }
+			culture:roman = { custom_tooltip = roman_desc }
+		}
+	}
+}

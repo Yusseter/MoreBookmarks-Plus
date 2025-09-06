@@ -1,0 +1,53 @@
+﻿yb_coa_rouran_trigger = {
+	holder.culture = {
+		OR = {
+			this = culture:rouran
+			any_parent_culture_or_above = {
+				this = culture:rouran
+			}
+		}
+	}
+}
+
+yb_coa_gokturk_trigger = {
+	holder.culture = {
+		OR = {
+			this = culture:tujue
+			any_parent_culture_or_above = {
+				this = culture:tujue
+			}
+		}
+		NOR = {
+			has_name_list = name_list_uyghur
+			has_name_list = name_list_karluk
+		}
+	}
+}
+
+yb_coa_toquz_oghuz_trigger = {
+	holder.culture = {
+		OR = {
+			has_name_list = name_list_uyghur
+			has_name_list = name_list_karluk
+		}
+	}
+}
+
+yb_coa_kirghiz_trigger = {
+	holder.culture = { has_name_list = name_list_kirghiz }
+}
+
+yb_coa_khitan_trigger = {
+	holder.culture = { 
+		has_name_list = name_list_khitan 
+		NOT = { this = culture:rouran }
+	}
+	#holder.culture = { has_name_list = name_list_khitan }
+}
+
+portrait_tibetan_clothing_trigger = {
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = tibetan
+	}
+}

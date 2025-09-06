@@ -1,0 +1,3217 @@
+﻿egyptian = {
+	color = { 0.1 0.6 0.1 }
+
+	created = 650.1.1
+	parents = { main_bedouin egyptian_coptic }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_arabic
+	language = language_egyptian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_philosopher_culture
+		tradition_agrarian
+		tradition_zealous_people
+		tradition_mubarizuns
+	}
+	
+	name_list = name_list_egyptian
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { levant_unit_gfx mena_unit_gfx } 	
+
+	ethnicities = {
+		3 = mid_east_egyptian_1
+		3 = mid_east_egyptian_2
+		3 = mid_east_egyptian_3
+		3 = mid_east_egyptian_4
+		3 = mid_east_egyptian_5
+		3 = mid_east_egyptian_6
+		3 = mid_east_egyptian_7
+		3 = mid_east_egyptian_8
+		3 = mid_east_egyptian_9
+		3 = mid_east_egyptian_10
+		3 = mid_east_egyptian_11
+		3 = mid_east_egyptian_12
+		3 = mid_east_egyptian_13
+		3 = mid_east_egyptian_14
+		3 = mid_east_egyptian_15
+		3 = mid_east_egyptian_16
+		3 = mid_east_egyptian_17
+		3 = mid_east_egyptian_18
+		3 = mid_east_egyptian_19
+		3 = mid_east_egyptian_20
+		3 = mid_east_egyptian_21
+		3 = mid_east_egyptian_22
+		3 = mid_east_egyptian_23
+		3 = mid_east_egyptian_24
+		3 = mid_east_egyptian_25
+		3 = mid_east_egyptian_26
+		3 = mid_east_egyptian_27
+		3 = mid_east_egyptian_28
+		3 = mid_east_egyptian_29
+		3 = mid_east_egyptian_30
+		3 = mid_east_egyptian_31
+		3 = mid_east_egyptian_32
+		3 = mid_east_egyptian_33
+		3 = mid_east_egyptian_34
+		3 = mid_east_egyptian_35
+		3 = mid_east_egyptian_36
+		3 = mid_east_egyptian_37
+		3 = mid_east_egyptian_38
+		3 = mid_east_egyptian_39
+		3 = mid_east_egyptian_40
+		3 = mid_east_egyptian_41
+		3 = mid_east_egyptian_42
+		3 = mid_east_egyptian_43
+		3 = mid_east_egyptian_44
+		3 = mid_east_egyptian_45
+		3 = mid_east_egyptian_46
+		3 = mid_east_egyptian_47
+		3 = mid_east_egyptian_48
+		3 = mid_east_egyptian_49
+		3 = mid_east_egyptian_50
+		1 = mid_east_arabic_1
+		1 = mid_east_arabic_2
+		1 = mid_east_arabic_3
+		1 = mid_east_arabic_4
+		1 = mid_east_arabic_5
+		1 = mid_east_arabic_6
+		1 = mid_east_arabic_7
+		1 = mid_east_arabic_8
+		1 = mid_east_arabic_9
+		1 = mid_east_arabic_10
+		1 = mid_east_arabic_11
+		1 = mid_east_arabic_12
+		1 = mid_east_arabic_13
+		1 = mid_east_arabic_14
+		1 = mid_east_arabic_15
+		1 = mid_east_arabic_16
+		1 = mid_east_arabic_17
+		1 = mid_east_arabic_18
+		1 = mid_east_arabic_19
+		1 = mid_east_arabic_20
+		1 = mid_east_arabic_21
+		1 = mid_east_arabic_22
+		1 = mid_east_arabic_23
+		1 = mid_east_arabic_24
+		1 = mid_east_arabic_25
+		1 = mid_east_arabic_26
+		1 = mid_east_arabic_27
+		1 = mid_east_arabic_28
+		1 = mid_east_arabic_29
+		1 = mid_east_arabic_30
+		1 = mid_east_arabic_31
+		1 = mid_east_arabic_32
+		1 = mid_east_arabic_33
+		1 = mid_east_arabic_34
+		1 = mid_east_arabic_35
+		1 = mid_east_arabic_36
+		1 = mid_east_arabic_37
+		1 = mid_east_arabic_38
+		1 = mid_east_arabic_39
+		1 = mid_east_arabic_40
+		1 = mid_east_arabic_41
+		1 = mid_east_arabic_42
+		1 = mid_east_arabic_43
+		1 = mid_east_arabic_44
+		1 = mid_east_arabic_45
+		1 = mid_east_arabic_46
+		1 = mid_east_arabic_47
+		1 = mid_east_arabic_48
+		1 = mid_east_arabic_49
+		1 = mid_east_arabic_50
+		1 = mid_east_arabic_51
+		1 = mid_east_arabic_52
+		1 = mid_east_arabic_53
+		1 = mid_east_arabic_54
+		1 = mid_east_arabic_55
+		1 = mid_east_arabic_56
+		1 = mid_east_arabic_57
+		1 = mid_east_arabic_58
+		1 = mid_east_arabic_59
+		1 = mid_east_arabic_60
+		1 = mid_east_arabic_61
+		1 = mid_east_arabic_62
+		1 = mid_east_arabic_63
+		1 = mid_east_arabic_64
+		1 = mid_east_arabic_65
+		1 = mid_east_arabic_66
+		1 = mid_east_arabic_67
+		1 = mid_east_arabic_68
+		1 = mid_east_arabic_69
+		1 = mid_east_arabic_70
+		1 = mid_east_arabic_71
+		1 = mid_east_arabic_72
+		1 = mid_east_arabic_73
+		1 = mid_east_arabic_74
+		1 = mid_east_arabic_75
+		1 = mid_east_arabic_76
+		1 = mid_east_arabic_77
+		1 = mid_east_arabic_78
+		1 = mid_east_arabic_79
+		1 = mid_east_arabic_80
+		1 = mid_east_arabic_81
+		1 = mid_east_arabic_82
+		1 = mid_east_arabic_83
+		1 = mid_east_arabic_84
+		1 = mid_east_arabic_85
+		1 = mid_east_arabic_86
+		1 = mid_east_arabic_87
+		1 = mid_east_arabic_88
+		1 = mid_east_arabic_89
+		1 = mid_east_arabic_90
+		1 = mid_east_arabic_91
+		1 = mid_east_arabic_92
+		1 = mid_east_arabic_93
+		1 = mid_east_arabic_94
+		1 = mid_east_arabic_95
+		1 = mid_east_arabic_96
+		1 = mid_east_arabic_97
+		1 = mid_east_arabic_98
+		1 = mid_east_arabic_99
+		1 = mid_east_arabic_100
+		1 = mid_east_arabic_101
+		1 = mid_east_arabic_102
+		1 = mid_east_arabic_103
+		1 = mid_east_arabic_104
+		1 = mid_east_arabic_105
+		1 = mid_east_arabic_106
+		1 = mid_east_arabic_107
+		1 = mid_east_arabic_108
+	}
+}
+
+saidi = { #Peoples of Upper Egypt. Mostly to represent the cultural distinction between the more rural Upper Egypt and the more urban Lower Egypt
+	color = { 0.15 0.75 0.20 }
+
+	created = 1000.1.1 #Random date. No actual date given for when the culture and dialect really formed
+	parents = { egyptian }
+
+	ethos = ethos_spiritual
+	heritage = heritage_arabic
+	language = language_egyptian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_music_theory
+		tradition_agrarian
+		tradition_tribe_unity
+		tradition_mubarizuns
+	}
+
+	name_list = name_list_egyptian
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx mena_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+
+	ethnicities = {
+		3 = mid_east_egyptian_1
+		3 = mid_east_egyptian_2
+		3 = mid_east_egyptian_3
+		3 = mid_east_egyptian_4
+		3 = mid_east_egyptian_5
+		3 = mid_east_egyptian_6
+		3 = mid_east_egyptian_7
+		3 = mid_east_egyptian_8
+		3 = mid_east_egyptian_9
+		3 = mid_east_egyptian_10
+		3 = mid_east_egyptian_11
+		3 = mid_east_egyptian_12
+		3 = mid_east_egyptian_13
+		3 = mid_east_egyptian_14
+		3 = mid_east_egyptian_15
+		3 = mid_east_egyptian_16
+		3 = mid_east_egyptian_17
+		3 = mid_east_egyptian_18
+		3 = mid_east_egyptian_19
+		3 = mid_east_egyptian_20
+		3 = mid_east_egyptian_21
+		3 = mid_east_egyptian_22
+		3 = mid_east_egyptian_23
+		3 = mid_east_egyptian_24
+		3 = mid_east_egyptian_25
+		3 = mid_east_egyptian_26
+		3 = mid_east_egyptian_27
+		3 = mid_east_egyptian_28
+		3 = mid_east_egyptian_29
+		3 = mid_east_egyptian_30
+		3 = mid_east_egyptian_31
+		3 = mid_east_egyptian_32
+		3 = mid_east_egyptian_33
+		3 = mid_east_egyptian_34
+		3 = mid_east_egyptian_35
+		3 = mid_east_egyptian_36
+		3 = mid_east_egyptian_37
+		3 = mid_east_egyptian_38
+		3 = mid_east_egyptian_39
+		3 = mid_east_egyptian_40
+		3 = mid_east_egyptian_41
+		3 = mid_east_egyptian_42
+		3 = mid_east_egyptian_43
+		3 = mid_east_egyptian_44
+		3 = mid_east_egyptian_45
+		3 = mid_east_egyptian_46
+		3 = mid_east_egyptian_47
+		3 = mid_east_egyptian_48
+		3 = mid_east_egyptian_49
+		3 = mid_east_egyptian_50
+		1 = mid_east_arabic_1
+		1 = mid_east_arabic_2
+		1 = mid_east_arabic_3
+		1 = mid_east_arabic_4
+		1 = mid_east_arabic_5
+		1 = mid_east_arabic_6
+		1 = mid_east_arabic_7
+		1 = mid_east_arabic_8
+		1 = mid_east_arabic_9
+		1 = mid_east_arabic_10
+		1 = mid_east_arabic_11
+		1 = mid_east_arabic_12
+		1 = mid_east_arabic_13
+		1 = mid_east_arabic_14
+		1 = mid_east_arabic_15
+		1 = mid_east_arabic_16
+		1 = mid_east_arabic_17
+		1 = mid_east_arabic_18
+		1 = mid_east_arabic_19
+		1 = mid_east_arabic_20
+		1 = mid_east_arabic_21
+		1 = mid_east_arabic_22
+		1 = mid_east_arabic_23
+		1 = mid_east_arabic_24
+		1 = mid_east_arabic_25
+		1 = mid_east_arabic_26
+		1 = mid_east_arabic_27
+		1 = mid_east_arabic_28
+		1 = mid_east_arabic_29
+		1 = mid_east_arabic_30
+		1 = mid_east_arabic_31
+		1 = mid_east_arabic_32
+		1 = mid_east_arabic_33
+		1 = mid_east_arabic_34
+		1 = mid_east_arabic_35
+		1 = mid_east_arabic_36
+		1 = mid_east_arabic_37
+		1 = mid_east_arabic_38
+		1 = mid_east_arabic_39
+		1 = mid_east_arabic_40
+		1 = mid_east_arabic_41
+		1 = mid_east_arabic_42
+		1 = mid_east_arabic_43
+		1 = mid_east_arabic_44
+		1 = mid_east_arabic_45
+		1 = mid_east_arabic_46
+		1 = mid_east_arabic_47
+		1 = mid_east_arabic_48
+		1 = mid_east_arabic_49
+		1 = mid_east_arabic_50
+		1 = mid_east_arabic_51
+		1 = mid_east_arabic_52
+		1 = mid_east_arabic_53
+		1 = mid_east_arabic_54
+		1 = mid_east_arabic_55
+		1 = mid_east_arabic_56
+		1 = mid_east_arabic_57
+		1 = mid_east_arabic_58
+		1 = mid_east_arabic_59
+		1 = mid_east_arabic_60
+		1 = mid_east_arabic_61
+		1 = mid_east_arabic_62
+		1 = mid_east_arabic_63
+		1 = mid_east_arabic_64
+		1 = mid_east_arabic_65
+		1 = mid_east_arabic_66
+		1 = mid_east_arabic_67
+		1 = mid_east_arabic_68
+		1 = mid_east_arabic_69
+		1 = mid_east_arabic_70
+		1 = mid_east_arabic_71
+		1 = mid_east_arabic_72
+		1 = mid_east_arabic_73
+		1 = mid_east_arabic_74
+		1 = mid_east_arabic_75
+		1 = mid_east_arabic_76
+		1 = mid_east_arabic_77
+		1 = mid_east_arabic_78
+		1 = mid_east_arabic_79
+		1 = mid_east_arabic_80
+		1 = mid_east_arabic_81
+		1 = mid_east_arabic_82
+		1 = mid_east_arabic_83
+		1 = mid_east_arabic_84
+		1 = mid_east_arabic_85
+		1 = mid_east_arabic_86
+		1 = mid_east_arabic_87
+		1 = mid_east_arabic_88
+		1 = mid_east_arabic_89
+		1 = mid_east_arabic_90
+		1 = mid_east_arabic_91
+		1 = mid_east_arabic_92
+		1 = mid_east_arabic_93
+		1 = mid_east_arabic_94
+		1 = mid_east_arabic_95
+		1 = mid_east_arabic_96
+		1 = mid_east_arabic_97
+		1 = mid_east_arabic_98
+		1 = mid_east_arabic_99
+		1 = mid_east_arabic_100
+		1 = mid_east_arabic_101
+		1 = mid_east_arabic_102
+		1 = mid_east_arabic_103
+		1 = mid_east_arabic_104
+		1 = mid_east_arabic_105
+		1 = mid_east_arabic_106
+		1 = mid_east_arabic_107
+		1 = mid_east_arabic_108
+	}
+}
+
+madan = { #A derogatory name in modern times but not sure what else to use as 'Marsh Arab' doesn't sound any better
+
+	color = { 0.3 0.60 0.48 }
+	created = 850.1.1 #First mentioned in 9th century
+	parents = { main_bedouin }
+
+	ethos = ethos_communal
+	heritage = heritage_arabic
+	language = language_najdi
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_pastoralists
+		tradition_medicinal_plants
+		tradition_mubarizuns
+		tradition_wetlanders
+	}
+
+	name_list = name_list_bedouin
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx mena_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+
+	ethnicities = {
+		2 = mid_east_bedouin_1
+		2 = mid_east_bedouin_2
+		2 = mid_east_bedouin_3
+		2 = mid_east_bedouin_4
+		2 = mid_east_bedouin_5
+		2 = mid_east_bedouin_6
+		2 = mid_east_bedouin_7
+		2 = mid_east_bedouin_8
+		2 = mid_east_bedouin_9
+		2 = mid_east_bedouin_10
+		2 = mid_east_bedouin_11
+		2 = mid_east_bedouin_12
+		2 = mid_east_bedouin_13
+		2 = mid_east_bedouin_14
+		2 = mid_east_bedouin_15
+		2 = mid_east_bedouin_16
+		2 = mid_east_bedouin_17
+		2 = mid_east_bedouin_18
+		2 = mid_east_bedouin_19
+		2 = mid_east_bedouin_20
+		2 = mid_east_bedouin_21
+		2 = mid_east_bedouin_22
+		2 = mid_east_bedouin_23
+		2 = mid_east_bedouin_24
+		2 = mid_east_bedouin_25
+		2 = mid_east_bedouin_26
+		2 = mid_east_bedouin_27
+		2 = mid_east_bedouin_28
+		2 = mid_east_bedouin_29
+		2 = mid_east_bedouin_30
+		2 = mid_east_bedouin_31
+		2 = mid_east_bedouin_32
+		2 = mid_east_bedouin_33
+		2 = mid_east_bedouin_34
+		2 = mid_east_bedouin_35
+		2 = mid_east_bedouin_36
+		2 = mid_east_bedouin_37
+		2 = mid_east_bedouin_38
+		2 = mid_east_bedouin_39
+		2 = mid_east_bedouin_40
+		1 = mid_east_arabic_1
+		1 = mid_east_arabic_2
+		1 = mid_east_arabic_3
+		1 = mid_east_arabic_4
+		1 = mid_east_arabic_5
+		1 = mid_east_arabic_6
+		1 = mid_east_arabic_7
+		1 = mid_east_arabic_8
+		1 = mid_east_arabic_9
+		1 = mid_east_arabic_10
+		1 = mid_east_arabic_11
+		1 = mid_east_arabic_12
+		1 = mid_east_arabic_13
+		1 = mid_east_arabic_14
+		1 = mid_east_arabic_15
+		1 = mid_east_arabic_16
+		1 = mid_east_arabic_17
+		1 = mid_east_arabic_18
+		1 = mid_east_arabic_19
+		1 = mid_east_arabic_20
+		1 = mid_east_arabic_21
+		1 = mid_east_arabic_22
+		1 = mid_east_arabic_23
+		1 = mid_east_arabic_24
+		1 = mid_east_arabic_25
+		1 = mid_east_arabic_26
+		1 = mid_east_arabic_27
+		1 = mid_east_arabic_28
+		1 = mid_east_arabic_29
+		1 = mid_east_arabic_30
+		1 = mid_east_arabic_31
+		1 = mid_east_arabic_32
+		1 = mid_east_arabic_33
+		1 = mid_east_arabic_34
+		1 = mid_east_arabic_35
+		1 = mid_east_arabic_36
+		1 = mid_east_arabic_37
+		1 = mid_east_arabic_38
+		1 = mid_east_arabic_39
+		1 = mid_east_arabic_40
+		1 = mid_east_arabic_41
+		1 = mid_east_arabic_42
+		1 = mid_east_arabic_43
+		1 = mid_east_arabic_44
+		1 = mid_east_arabic_45
+		1 = mid_east_arabic_46
+		1 = mid_east_arabic_47
+		1 = mid_east_arabic_48
+		1 = mid_east_arabic_49
+		1 = mid_east_arabic_50
+		1 = mid_east_arabic_51
+		1 = mid_east_arabic_52
+		1 = mid_east_arabic_53
+		1 = mid_east_arabic_54
+		1 = mid_east_arabic_55
+		1 = mid_east_arabic_56
+		1 = mid_east_arabic_57
+		1 = mid_east_arabic_58
+		1 = mid_east_arabic_59
+		1 = mid_east_arabic_60
+		1 = mid_east_arabic_61
+		1 = mid_east_arabic_62
+		1 = mid_east_arabic_63
+		1 = mid_east_arabic_64
+		1 = mid_east_arabic_65
+		1 = mid_east_arabic_66
+		1 = mid_east_arabic_67
+		1 = mid_east_arabic_68
+		1 = mid_east_arabic_69
+		1 = mid_east_arabic_70
+		1 = mid_east_arabic_71
+		1 = mid_east_arabic_72
+		1 = mid_east_arabic_73
+		1 = mid_east_arabic_74
+		1 = mid_east_arabic_75
+		1 = mid_east_arabic_76
+		1 = mid_east_arabic_77
+		1 = mid_east_arabic_78
+		1 = mid_east_arabic_79
+		1 = mid_east_arabic_80
+		1 = mid_east_arabic_81
+		1 = mid_east_arabic_82
+		1 = mid_east_arabic_83
+		1 = mid_east_arabic_84
+		1 = mid_east_arabic_85
+		1 = mid_east_arabic_86
+		1 = mid_east_arabic_87
+		1 = mid_east_arabic_88
+		1 = mid_east_arabic_89
+		1 = mid_east_arabic_90
+		1 = mid_east_arabic_91
+		1 = mid_east_arabic_92
+		1 = mid_east_arabic_93
+		1 = mid_east_arabic_94
+		1 = mid_east_arabic_95
+		1 = mid_east_arabic_96
+		1 = mid_east_arabic_97
+		1 = mid_east_arabic_98
+		1 = mid_east_arabic_99
+		1 = mid_east_arabic_100
+		1 = mid_east_arabic_101
+		1 = mid_east_arabic_102
+		1 = mid_east_arabic_103
+		1 = mid_east_arabic_104
+		1 = mid_east_arabic_105
+		1 = mid_east_arabic_106
+		1 = mid_east_arabic_107
+		1 = mid_east_arabic_108
+	}
+}
+
+main_bedouin = {
+	color = { 0.45 0.8 0.35 }
+	#created = 2.1.1
+	#history_loc_override = bedouin_history_loc
+	
+	ethos = ethos_stoic
+	heritage = heritage_arabic
+	language = language_arabic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		#Societal Traditions
+		tradition_ep2_avid_falconers
+		#Regional Traditions
+		tradition_desert_nomads #Bedouin bequeathal
+		#Ritual Traditions
+		#Realm Traditions
+		#Combat Traditions
+		tradition_quarrelsome #Keep the Arabs at each other's throats prior to the Rise of Islam
+	}
+	
+	name_list = name_list_bedouin
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 
+
+	ethnicities = {
+		2 = mid_east_bedouin_1
+		2 = mid_east_bedouin_2
+		2 = mid_east_bedouin_3
+		2 = mid_east_bedouin_4
+		2 = mid_east_bedouin_5
+		2 = mid_east_bedouin_6
+		2 = mid_east_bedouin_7
+		2 = mid_east_bedouin_8
+		2 = mid_east_bedouin_9
+		2 = mid_east_bedouin_10
+		2 = mid_east_bedouin_11
+		2 = mid_east_bedouin_12
+		2 = mid_east_bedouin_13
+		2 = mid_east_bedouin_14
+		2 = mid_east_bedouin_15
+		2 = mid_east_bedouin_16
+		2 = mid_east_bedouin_17
+		2 = mid_east_bedouin_18
+		2 = mid_east_bedouin_19
+		2 = mid_east_bedouin_20
+		2 = mid_east_bedouin_21
+		2 = mid_east_bedouin_22
+		2 = mid_east_bedouin_23
+		2 = mid_east_bedouin_24
+		2 = mid_east_bedouin_25
+		2 = mid_east_bedouin_26
+		2 = mid_east_bedouin_27
+		2 = mid_east_bedouin_28
+		2 = mid_east_bedouin_29
+		2 = mid_east_bedouin_30
+		2 = mid_east_bedouin_31
+		2 = mid_east_bedouin_32
+		2 = mid_east_bedouin_33
+		2 = mid_east_bedouin_34
+		2 = mid_east_bedouin_35
+		2 = mid_east_bedouin_36
+		2 = mid_east_bedouin_37
+		2 = mid_east_bedouin_38
+		2 = mid_east_bedouin_39
+		2 = mid_east_bedouin_40
+	}
+}
+
+bedouin = {
+	color = bedouin
+	created = 650.1.1
+	parents = { main_bedouin }
+	
+	ethos = ethos_stoic
+	heritage = heritage_arabic
+	language = language_najdi
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_tribe_unity
+		tradition_desert_nomads
+		tradition_mubarizuns
+		tradition_caravaneers
+		tradition_ep2_avid_falconers
+	}
+	
+	name_list = name_list_bedouin
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 
+
+	ethnicities = {
+		2 = mid_east_bedouin_1
+		2 = mid_east_bedouin_2
+		2 = mid_east_bedouin_3
+		2 = mid_east_bedouin_4
+		2 = mid_east_bedouin_5
+		2 = mid_east_bedouin_6
+		2 = mid_east_bedouin_7
+		2 = mid_east_bedouin_8
+		2 = mid_east_bedouin_9
+		2 = mid_east_bedouin_10
+		2 = mid_east_bedouin_11
+		2 = mid_east_bedouin_12
+		2 = mid_east_bedouin_13
+		2 = mid_east_bedouin_14
+		2 = mid_east_bedouin_15
+		2 = mid_east_bedouin_16
+		2 = mid_east_bedouin_17
+		2 = mid_east_bedouin_18
+		2 = mid_east_bedouin_19
+		2 = mid_east_bedouin_20
+		2 = mid_east_bedouin_21
+		2 = mid_east_bedouin_22
+		2 = mid_east_bedouin_23
+		2 = mid_east_bedouin_24
+		2 = mid_east_bedouin_25
+		2 = mid_east_bedouin_26
+		2 = mid_east_bedouin_27
+		2 = mid_east_bedouin_28
+		2 = mid_east_bedouin_29
+		2 = mid_east_bedouin_30
+		2 = mid_east_bedouin_31
+		2 = mid_east_bedouin_32
+		2 = mid_east_bedouin_33
+		2 = mid_east_bedouin_34
+		2 = mid_east_bedouin_35
+		2 = mid_east_bedouin_36
+		2 = mid_east_bedouin_37
+		2 = mid_east_bedouin_38
+		2 = mid_east_bedouin_39
+		2 = mid_east_bedouin_40
+	}
+}
+
+levantine = {
+	color = { 0.3 0.95 0.3 }
+	created = 650.1.1
+	parents = { main_bedouin syriac }
+
+	#history_loc_override = levantine_history_loc
+
+	ethos = ethos_spiritual
+	heritage = heritage_arabic
+	language = language_levantine_arabic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_philosopher_culture
+		tradition_by_the_sword
+		tradition_mubarizuns
+		tradition_dryland_dwellers
+		tradition_ce1_ritual_washing
+	}
+
+	name_list = name_list_levantine
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx mena_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+
+	ethnicities = {
+		2 = mid_east_arabic_1
+		2 = mid_east_arabic_2
+		2 = mid_east_arabic_3
+		2 = mid_east_arabic_4
+		2 = mid_east_arabic_5
+		2 = mid_east_arabic_6
+		2 = mid_east_arabic_7
+		2 = mid_east_arabic_8
+		2 = mid_east_arabic_9
+		2 = mid_east_arabic_10
+		2 = mid_east_arabic_11
+		2 = mid_east_arabic_12
+		2 = mid_east_arabic_13
+		2 = mid_east_arabic_14
+		2 = mid_east_arabic_15
+		2 = mid_east_arabic_16
+		2 = mid_east_arabic_17
+		2 = mid_east_arabic_18
+		2 = mid_east_arabic_19
+		2 = mid_east_arabic_20
+		2 = mid_east_arabic_21
+		2 = mid_east_arabic_22
+		2 = mid_east_arabic_23
+		2 = mid_east_arabic_24
+		2 = mid_east_arabic_25
+		2 = mid_east_arabic_26
+		2 = mid_east_arabic_27
+		2 = mid_east_arabic_28
+		2 = mid_east_arabic_29
+		2 = mid_east_arabic_30
+		2 = mid_east_arabic_31
+		2 = mid_east_arabic_32
+		2 = mid_east_arabic_33
+		2 = mid_east_arabic_34
+		2 = mid_east_arabic_35
+		2 = mid_east_arabic_36
+		2 = mid_east_arabic_37
+		2 = mid_east_arabic_38
+		2 = mid_east_arabic_39
+		2 = mid_east_arabic_40
+		2 = mid_east_arabic_41
+		2 = mid_east_arabic_42
+		2 = mid_east_arabic_43
+		2 = mid_east_arabic_44
+		2 = mid_east_arabic_45
+		2 = mid_east_arabic_46
+		2 = mid_east_arabic_47
+		2 = mid_east_arabic_48
+		2 = mid_east_arabic_49
+		2 = mid_east_arabic_50
+		2 = mid_east_arabic_51
+		2 = mid_east_arabic_52
+		2 = mid_east_arabic_53
+		2 = mid_east_arabic_54
+		2 = mid_east_arabic_55
+		2 = mid_east_arabic_56
+		2 = mid_east_arabic_57
+		2 = mid_east_arabic_58
+		2 = mid_east_arabic_59
+		2 = mid_east_arabic_60
+		2 = mid_east_arabic_61
+		2 = mid_east_arabic_62
+		2 = mid_east_arabic_63
+		2 = mid_east_arabic_64
+		2 = mid_east_arabic_65
+		2 = mid_east_arabic_66
+		2 = mid_east_arabic_67
+		2 = mid_east_arabic_68
+		2 = mid_east_arabic_69
+		2 = mid_east_arabic_70
+		2 = mid_east_arabic_71
+		2 = mid_east_arabic_72
+		2 = mid_east_arabic_73
+		2 = mid_east_arabic_74
+		2 = mid_east_arabic_75
+		2 = mid_east_arabic_76
+		2 = mid_east_arabic_77
+		2 = mid_east_arabic_78
+		2 = mid_east_arabic_79
+		2 = mid_east_arabic_80
+		2 = mid_east_arabic_81
+		2 = mid_east_arabic_82
+		2 = mid_east_arabic_83
+		2 = mid_east_arabic_84
+		2 = mid_east_arabic_85
+		2 = mid_east_arabic_86
+		2 = mid_east_arabic_87
+		2 = mid_east_arabic_88
+		2 = mid_east_arabic_89
+		2 = mid_east_arabic_90
+		2 = mid_east_arabic_91
+		2 = mid_east_arabic_92
+		2 = mid_east_arabic_93
+		2 = mid_east_arabic_94
+		2 = mid_east_arabic_95
+		2 = mid_east_arabic_96
+		2 = mid_east_arabic_97
+		2 = mid_east_arabic_98
+		2 = mid_east_arabic_99
+		2 = mid_east_arabic_100
+		2 = mid_east_arabic_101
+		2 = mid_east_arabic_102
+		2 = mid_east_arabic_103
+		2 = mid_east_arabic_104
+		2 = mid_east_arabic_105
+		2 = mid_east_arabic_106
+		2 = mid_east_arabic_107
+		2 = mid_east_arabic_108
+	}
+}
+
+iraqi = { #Based on Levantine
+
+	color = { 0.2 0.75 0.4 }
+	created = 650.1.1
+	parents = { main_bedouin mandaic }
+
+	#history_loc_override = syromesopotamian_history_loc
+
+	ethos = ethos_spiritual
+	heritage = heritage_arabic
+	language = language_levantine_arabic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_philosopher_culture
+		tradition_medicinal_plants
+		tradition_mubarizuns
+		tradition_dryland_dwellers
+		tradition_ce1_ritual_washing
+	}
+
+	name_list = name_list_levantine
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx mena_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+
+	ethnicities = {
+		2 = mid_east_arabic_1
+		2 = mid_east_arabic_2
+		2 = mid_east_arabic_3
+		2 = mid_east_arabic_4
+		2 = mid_east_arabic_5
+		2 = mid_east_arabic_6
+		2 = mid_east_arabic_7
+		2 = mid_east_arabic_8
+		2 = mid_east_arabic_9
+		2 = mid_east_arabic_10
+		2 = mid_east_arabic_11
+		2 = mid_east_arabic_12
+		2 = mid_east_arabic_13
+		2 = mid_east_arabic_14
+		2 = mid_east_arabic_15
+		2 = mid_east_arabic_16
+		2 = mid_east_arabic_17
+		2 = mid_east_arabic_18
+		2 = mid_east_arabic_19
+		2 = mid_east_arabic_20
+		2 = mid_east_arabic_21
+		2 = mid_east_arabic_22
+		2 = mid_east_arabic_23
+		2 = mid_east_arabic_24
+		2 = mid_east_arabic_25
+		2 = mid_east_arabic_26
+		2 = mid_east_arabic_27
+		2 = mid_east_arabic_28
+		2 = mid_east_arabic_29
+		2 = mid_east_arabic_30
+		2 = mid_east_arabic_31
+		2 = mid_east_arabic_32
+		2 = mid_east_arabic_33
+		2 = mid_east_arabic_34
+		2 = mid_east_arabic_35
+		2 = mid_east_arabic_36
+		2 = mid_east_arabic_37
+		2 = mid_east_arabic_38
+		2 = mid_east_arabic_39
+		2 = mid_east_arabic_40
+		2 = mid_east_arabic_41
+		2 = mid_east_arabic_42
+		2 = mid_east_arabic_43
+		2 = mid_east_arabic_44
+		2 = mid_east_arabic_45
+		2 = mid_east_arabic_46
+		2 = mid_east_arabic_47
+		2 = mid_east_arabic_48
+		2 = mid_east_arabic_49
+		2 = mid_east_arabic_50
+		2 = mid_east_arabic_51
+		2 = mid_east_arabic_52
+		2 = mid_east_arabic_53
+		2 = mid_east_arabic_54
+		2 = mid_east_arabic_55
+		2 = mid_east_arabic_56
+		2 = mid_east_arabic_57
+		2 = mid_east_arabic_58
+		2 = mid_east_arabic_59
+		2 = mid_east_arabic_60
+		2 = mid_east_arabic_61
+		2 = mid_east_arabic_62
+		2 = mid_east_arabic_63
+		2 = mid_east_arabic_64
+		2 = mid_east_arabic_65
+		2 = mid_east_arabic_66
+		2 = mid_east_arabic_67
+		2 = mid_east_arabic_68
+		2 = mid_east_arabic_69
+		2 = mid_east_arabic_70
+		2 = mid_east_arabic_71
+		2 = mid_east_arabic_72
+		2 = mid_east_arabic_73
+		2 = mid_east_arabic_74
+		2 = mid_east_arabic_75
+		2 = mid_east_arabic_76
+		2 = mid_east_arabic_77
+		2 = mid_east_arabic_78
+		2 = mid_east_arabic_79
+		2 = mid_east_arabic_80
+		2 = mid_east_arabic_81
+		2 = mid_east_arabic_82
+		2 = mid_east_arabic_83
+		2 = mid_east_arabic_84
+		2 = mid_east_arabic_85
+		2 = mid_east_arabic_86
+		2 = mid_east_arabic_87
+		2 = mid_east_arabic_88
+		2 = mid_east_arabic_89
+		2 = mid_east_arabic_90
+		2 = mid_east_arabic_91
+		2 = mid_east_arabic_92
+		2 = mid_east_arabic_93
+		2 = mid_east_arabic_94
+		2 = mid_east_arabic_95
+		2 = mid_east_arabic_96
+		2 = mid_east_arabic_97
+		2 = mid_east_arabic_98
+		2 = mid_east_arabic_99
+		2 = mid_east_arabic_100
+		2 = mid_east_arabic_101
+		2 = mid_east_arabic_102
+		2 = mid_east_arabic_103
+		2 = mid_east_arabic_104
+		2 = mid_east_arabic_105
+		2 = mid_east_arabic_106
+		2 = mid_east_arabic_107
+		2 = mid_east_arabic_108
+	}
+}
+
+syromesopotamian = { #
+
+	color = { 0.25 0.70 0.30 }
+	created = 650.1.1
+	parents = { main_bedouin assyrian }
+
+	history_loc_override = moslawi_history_loc
+
+	ethos = ethos_spiritual
+	heritage = heritage_arabic
+	language = language_levantine_arabic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_religious_patronage
+		tradition_medicinal_plants
+		tradition_language_scholars
+		tradition_dryland_dwellers
+		tradition_ce1_ritual_washing
+	}
+
+	name_list = name_list_levantine
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx mena_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+
+	ethnicities = {
+		30 = european_med_assyrian_1
+		2 = iranian_kurdish_1
+		2 = iranian_kurdish_2
+		2 = iranian_kurdish_3
+		2 = iranian_kurdish_4
+		2 = iranian_kurdish_5
+		2 = iranian_kurdish_6
+		2 = iranian_kurdish_7
+		2 = iranian_kurdish_8
+		2 = iranian_kurdish_9
+		2 = iranian_kurdish_10
+		2 = iranian_kurdish_11
+		2 = iranian_kurdish_12
+		2 = iranian_kurdish_13
+		2 = iranian_kurdish_14
+		2 = iranian_kurdish_15
+		2 = iranian_kurdish_16
+		2 = iranian_kurdish_17
+		2 = iranian_kurdish_18
+		2 = iranian_kurdish_19
+		2 = iranian_kurdish_20
+		2 = iranian_kurdish_21
+		2 = iranian_kurdish_22
+		2 = iranian_kurdish_23
+		2 = iranian_kurdish_24
+		2 = iranian_kurdish_25
+		2 = iranian_kurdish_26
+		2 = iranian_kurdish_27
+		2 = iranian_kurdish_28
+		2 = iranian_kurdish_29
+		2 = iranian_kurdish_30
+		2 = iranian_kurdish_31
+		2 = iranian_kurdish_32
+		2 = iranian_kurdish_33
+		2 = iranian_kurdish_34
+		2 = iranian_kurdish_35
+		2 = iranian_kurdish_36
+		2 = iranian_kurdish_37
+		2 = iranian_kurdish_38
+		2 = iranian_kurdish_39
+		2 = iranian_kurdish_40
+		2 = mid_east_arabic_1
+		2 = mid_east_arabic_2
+		2 = mid_east_arabic_3
+		2 = mid_east_arabic_4
+		2 = mid_east_arabic_5
+		2 = mid_east_arabic_6
+		2 = mid_east_arabic_7
+		2 = mid_east_arabic_8
+		2 = mid_east_arabic_9
+		2 = mid_east_arabic_10
+		2 = mid_east_arabic_11
+		2 = mid_east_arabic_12
+		2 = mid_east_arabic_13
+		2 = mid_east_arabic_14
+		2 = mid_east_arabic_15
+		2 = mid_east_arabic_16
+		2 = mid_east_arabic_17
+		2 = mid_east_arabic_18
+		2 = mid_east_arabic_19
+		2 = mid_east_arabic_20
+		2 = mid_east_arabic_21
+		2 = mid_east_arabic_22
+		2 = mid_east_arabic_23
+		2 = mid_east_arabic_24
+		2 = mid_east_arabic_25
+		2 = mid_east_arabic_26
+		2 = mid_east_arabic_27
+		2 = mid_east_arabic_28
+		2 = mid_east_arabic_29
+		2 = mid_east_arabic_30
+		2 = mid_east_arabic_31
+		2 = mid_east_arabic_32
+		2 = mid_east_arabic_33
+		2 = mid_east_arabic_34
+		2 = mid_east_arabic_35
+		2 = mid_east_arabic_36
+		2 = mid_east_arabic_37
+		2 = mid_east_arabic_38
+		2 = mid_east_arabic_39
+		2 = mid_east_arabic_40
+		2 = mid_east_arabic_41
+		2 = mid_east_arabic_42
+		2 = mid_east_arabic_43
+		2 = mid_east_arabic_44
+		2 = mid_east_arabic_45
+		2 = mid_east_arabic_46
+		2 = mid_east_arabic_47
+		2 = mid_east_arabic_48
+		2 = mid_east_arabic_49
+		2 = mid_east_arabic_50
+		2 = mid_east_arabic_51
+		2 = mid_east_arabic_52
+		2 = mid_east_arabic_53
+		2 = mid_east_arabic_54
+		2 = mid_east_arabic_55
+		2 = mid_east_arabic_56
+		2 = mid_east_arabic_57
+		2 = mid_east_arabic_58
+		2 = mid_east_arabic_59
+		2 = mid_east_arabic_60
+		2 = mid_east_arabic_61
+		2 = mid_east_arabic_62
+		2 = mid_east_arabic_63
+		2 = mid_east_arabic_64
+		2 = mid_east_arabic_65
+		2 = mid_east_arabic_66
+		2 = mid_east_arabic_67
+		2 = mid_east_arabic_68
+		2 = mid_east_arabic_69
+		2 = mid_east_arabic_70
+		2 = mid_east_arabic_71
+		2 = mid_east_arabic_72
+		2 = mid_east_arabic_73
+		2 = mid_east_arabic_74
+		2 = mid_east_arabic_75
+		2 = mid_east_arabic_76
+		2 = mid_east_arabic_77
+		2 = mid_east_arabic_78
+		2 = mid_east_arabic_79
+		2 = mid_east_arabic_80
+		2 = mid_east_arabic_81
+		2 = mid_east_arabic_82
+		2 = mid_east_arabic_83
+		2 = mid_east_arabic_84
+		2 = mid_east_arabic_85
+		2 = mid_east_arabic_86
+		2 = mid_east_arabic_87
+		2 = mid_east_arabic_88
+		2 = mid_east_arabic_89
+		2 = mid_east_arabic_90
+		2 = mid_east_arabic_91
+		2 = mid_east_arabic_92
+		2 = mid_east_arabic_93
+		2 = mid_east_arabic_94
+		2 = mid_east_arabic_95
+		2 = mid_east_arabic_96
+		2 = mid_east_arabic_97
+		2 = mid_east_arabic_98
+		2 = mid_east_arabic_99
+		2 = mid_east_arabic_100
+		2 = mid_east_arabic_101
+		2 = mid_east_arabic_102
+		2 = mid_east_arabic_103
+		2 = mid_east_arabic_104
+		2 = mid_east_arabic_105
+		2 = mid_east_arabic_106
+		2 = mid_east_arabic_107
+		2 = mid_east_arabic_108
+	}
+}
+
+maghrebi = {
+	color = { 0.1 0.6 0.15 }
+	created = 670.1.1
+	parents = { main_bedouin african_roman }
+	history_loc_override = maghrebi_history_loc
+	
+	ethos = ethos_spiritual
+	heritage = heritage_arabic
+	language = language_tunisian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_ce1_ritual_washing
+		tradition_african_tolerance
+		tradition_mubarizuns #Replaced tradition_hit_and_run
+		tradition_dryland_dwellers
+		tradition_fishermen
+	}
+	
+	name_list = name_list_maghrebi
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { afr_berber_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 	
+
+	ethnicities = {
+		1 = mid_east_arabic_1
+		1 = mid_east_arabic_2
+		1 = mid_east_arabic_3
+		1 = mid_east_arabic_4
+		1 = mid_east_arabic_5
+		1 = mid_east_arabic_6
+		1 = mid_east_arabic_7
+		1 = mid_east_arabic_8
+		1 = mid_east_arabic_9
+		1 = mid_east_arabic_10
+		1 = mid_east_arabic_11
+		1 = mid_east_arabic_12
+		1 = mid_east_arabic_13
+		1 = mid_east_arabic_14
+		1 = mid_east_arabic_15
+		1 = mid_east_arabic_16
+		1 = mid_east_arabic_17
+		1 = mid_east_arabic_18
+		1 = mid_east_arabic_19
+		1 = mid_east_arabic_20
+		1 = mid_east_arabic_21
+		1 = mid_east_arabic_22
+		1 = mid_east_arabic_23
+		1 = mid_east_arabic_24
+		1 = mid_east_arabic_25
+		1 = mid_east_arabic_26
+		1 = mid_east_arabic_27
+		1 = mid_east_arabic_28
+		1 = mid_east_arabic_29
+		1 = mid_east_arabic_30
+		1 = mid_east_arabic_31
+		1 = mid_east_arabic_32
+		1 = mid_east_arabic_33
+		1 = mid_east_arabic_34
+		1 = mid_east_arabic_35
+		1 = mid_east_arabic_36
+		1 = mid_east_arabic_37
+		1 = mid_east_arabic_38
+		1 = mid_east_arabic_39
+		1 = mid_east_arabic_40
+		1 = mid_east_arabic_41
+		1 = mid_east_arabic_42
+		1 = mid_east_arabic_43
+		1 = mid_east_arabic_44
+		1 = mid_east_arabic_45
+		1 = mid_east_arabic_46
+		1 = mid_east_arabic_47
+		1 = mid_east_arabic_48
+		1 = mid_east_arabic_49
+		1 = mid_east_arabic_50
+		1 = mid_east_arabic_51
+		1 = mid_east_arabic_52
+		1 = mid_east_arabic_53
+		1 = mid_east_arabic_54
+		1 = mid_east_arabic_55
+		1 = mid_east_arabic_56
+		1 = mid_east_arabic_57
+		1 = mid_east_arabic_58
+		1 = mid_east_arabic_59
+		1 = mid_east_arabic_60
+		1 = mid_east_arabic_61
+		1 = mid_east_arabic_62
+		1 = mid_east_arabic_63
+		1 = mid_east_arabic_64
+		1 = mid_east_arabic_65
+		1 = mid_east_arabic_66
+		1 = mid_east_arabic_67
+		1 = mid_east_arabic_68
+		1 = mid_east_arabic_69
+		1 = mid_east_arabic_70
+		1 = mid_east_arabic_71
+		1 = mid_east_arabic_72
+		1 = mid_east_arabic_73
+		1 = mid_east_arabic_74
+		1 = mid_east_arabic_75
+		1 = mid_east_arabic_76
+		1 = mid_east_arabic_77
+		1 = mid_east_arabic_78
+		1 = mid_east_arabic_79
+		1 = mid_east_arabic_80
+		1 = mid_east_arabic_81
+		1 = mid_east_arabic_82
+		1 = mid_east_arabic_83
+		1 = mid_east_arabic_84
+		1 = mid_east_arabic_85
+		1 = mid_east_arabic_86
+		1 = mid_east_arabic_87
+		1 = mid_east_arabic_88
+		1 = mid_east_arabic_89
+		1 = mid_east_arabic_90
+		1 = mid_east_arabic_91
+		1 = mid_east_arabic_92
+		1 = mid_east_arabic_93
+		1 = mid_east_arabic_94
+		1 = mid_east_arabic_95
+		1 = mid_east_arabic_96
+		1 = mid_east_arabic_97
+		1 = mid_east_arabic_98
+		1 = mid_east_arabic_99
+		1 = mid_east_arabic_100
+		1 = mid_east_arabic_101
+		1 = mid_east_arabic_102
+		1 = mid_east_arabic_103
+		1 = mid_east_arabic_104
+		1 = mid_east_arabic_105
+		1 = mid_east_arabic_106
+		1 = mid_east_arabic_107
+		1 = mid_east_arabic_108
+		4 = north_african_baranis_1
+		4 = north_african_baranis_2
+		4 = north_african_baranis_3
+		4 = north_african_baranis_4
+		4 = north_african_baranis_5
+		4 = north_african_baranis_6
+		4 = north_african_baranis_7
+		4 = north_african_baranis_8
+		4 = north_african_baranis_9
+		4 = north_african_baranis_10
+		4 = north_african_baranis_11
+		4 = north_african_baranis_12
+		4 = north_african_baranis_13
+		4 = north_african_baranis_14
+		4 = north_african_baranis_15
+		4 = north_african_baranis_16
+		4 = north_african_baranis_17
+		4 = north_african_baranis_18
+		4 = north_african_baranis_19
+		4 = north_african_baranis_20
+		4 = north_african_baranis_21
+		4 = north_african_baranis_22
+		4 = north_african_baranis_23
+		4 = north_african_baranis_24
+		4 = north_african_baranis_25
+		4 = north_african_baranis_26
+		4 = north_african_baranis_27
+		4 = north_african_baranis_28
+		4 = north_african_baranis_29
+		4 = north_african_baranis_30
+		4 = north_african_baranis_31
+		4 = north_african_baranis_32
+		4 = north_african_baranis_33
+	}
+}
+
+nabatean = {
+	color = { 0.4 0.45 0.4 }
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_syriac
+	language = language_aramaic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		#Societal Traditions
+		tradition_xenophilic
+		#Regional Traditions
+		tradition_caravaneers #Noted traders, Petra
+		#Ritual Traditions
+		#Realm Traditions
+		tradition_dryland_dwellers
+		#Combat Traditions
+	}
+	
+	name_list = name_list_nabatean
+	
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { levant_unit_gfx }
+	
+	ethnicities = { 
+		3 = mid_east_bedouin_1
+		3 = mid_east_bedouin_2
+		3 = mid_east_bedouin_3
+		3 = mid_east_bedouin_4
+		3 = mid_east_bedouin_5
+		3 = mid_east_bedouin_6
+		3 = mid_east_bedouin_7
+		3 = mid_east_bedouin_8
+		3 = mid_east_bedouin_9
+		3 = mid_east_bedouin_10
+		3 = mid_east_bedouin_11
+		3 = mid_east_bedouin_12
+		3 = mid_east_bedouin_13
+		3 = mid_east_bedouin_14
+		3 = mid_east_bedouin_15
+		3 = mid_east_bedouin_16
+		3 = mid_east_bedouin_17
+		3 = mid_east_bedouin_18
+		3 = mid_east_bedouin_19
+		3 = mid_east_bedouin_20
+		3 = mid_east_bedouin_21
+		3 = mid_east_bedouin_22
+		3 = mid_east_bedouin_23
+		3 = mid_east_bedouin_24
+		3 = mid_east_bedouin_25
+		3 = mid_east_bedouin_26
+		3 = mid_east_bedouin_27
+		3 = mid_east_bedouin_28
+		3 = mid_east_bedouin_29
+		3 = mid_east_bedouin_30
+		3 = mid_east_bedouin_31
+		3 = mid_east_bedouin_32
+		3 = mid_east_bedouin_33
+		3 = mid_east_bedouin_34
+		3 = mid_east_bedouin_35
+		3 = mid_east_bedouin_36
+		3 = mid_east_bedouin_37
+		3 = mid_east_bedouin_38
+		3 = mid_east_bedouin_39
+		3 = mid_east_bedouin_40
+		1 = mid_east_egyptian_10
+		1 = mid_east_egyptian_11
+		1 = mid_east_egyptian_12
+		1 = mid_east_egyptian_13
+		1 = mid_east_egyptian_14
+		1 = mid_east_egyptian_15
+		1 = mid_east_egyptian_16
+		1 = mid_east_egyptian_17
+		1 = mid_east_egyptian_18
+		1 = mid_east_egyptian_19
+		1 = mid_east_egyptian_20
+		1 = mid_east_egyptian_21
+		1 = mid_east_egyptian_22
+		1 = mid_east_egyptian_23
+		1 = mid_east_egyptian_24
+		1 = mid_east_egyptian_25
+		1 = mid_east_egyptian_26
+		1 = mid_east_egyptian_27
+		1 = mid_east_egyptian_28
+		1 = mid_east_egyptian_29
+		1 = mid_east_egyptian_30
+		1 = mid_east_egyptian_31
+		1 = mid_east_egyptian_32
+		1 = mid_east_egyptian_33
+		1 = mid_east_egyptian_34
+		1 = mid_east_egyptian_35
+		1 = mid_east_egyptian_36
+		1 = mid_east_egyptian_37
+		1 = mid_east_egyptian_38
+		1 = mid_east_egyptian_39
+		1 = mid_east_egyptian_40
+		1 = mid_east_egyptian_41
+		1 = mid_east_egyptian_42
+		1 = mid_east_egyptian_43
+		1 = mid_east_egyptian_44
+		1 = mid_east_egyptian_45
+		1 = mid_east_egyptian_46
+		1 = mid_east_egyptian_47
+		1 = mid_east_egyptian_48
+		1 = mid_east_egyptian_49
+		1 = mid_east_egyptian_50
+	 }
+}
+
+yemeni = {
+	color = { 0.2 0.6 0.2 }
+	created = 640.1.1
+	parents = { main_bedouin himyarite }
+	
+	ethos = ethos_communal
+	heritage = heritage_arabic
+	language = language_najdi
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_mountaineers
+		tradition_mountain_herding 
+		tradition_religion_blending
+		tradition_maritime_mercantilism
+	}
+	
+	name_list = name_list_yemeni
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 	
+
+	ethnicities = {
+		2 = mid_east_yemeni_1
+		2 = mid_east_yemeni_2
+		2 = mid_east_yemeni_3
+		2 = mid_east_yemeni_4
+		2 = mid_east_yemeni_5
+		2 = mid_east_yemeni_6
+		2 = mid_east_yemeni_7
+		2 = mid_east_yemeni_8
+		2 = mid_east_yemeni_9
+		2 = mid_east_yemeni_10
+		2 = mid_east_yemeni_11
+		2 = mid_east_yemeni_12
+		2 = mid_east_yemeni_13
+		2 = mid_east_yemeni_14
+		2 = mid_east_yemeni_15
+		2 = mid_east_yemeni_16
+		2 = mid_east_yemeni_17
+		2 = mid_east_yemeni_18
+		2 = mid_east_yemeni_19
+		2 = mid_east_yemeni_20
+		2 = mid_east_yemeni_21
+		2 = mid_east_yemeni_22
+		2 = mid_east_yemeni_23
+		2 = mid_east_yemeni_24
+		2 = mid_east_yemeni_25
+		2 = mid_east_yemeni_26
+		2 = mid_east_yemeni_27
+		2 = mid_east_yemeni_28
+		2 = mid_east_yemeni_29
+		2 = mid_east_yemeni_30
+		2 = mid_east_yemeni_31
+		2 = mid_east_yemeni_32
+		2 = mid_east_yemeni_33
+		2 = mid_east_yemeni_34
+		2 = mid_east_yemeni_35
+		2 = mid_east_yemeni_36
+		2 = mid_east_yemeni_37
+		2 = mid_east_yemeni_38
+		2 = mid_east_yemeni_39
+		2 = mid_east_yemeni_40
+		2 = mid_east_yemeni_41
+		2 = mid_east_yemeni_42
+		2 = mid_east_yemeni_43
+		2 = mid_east_yemeni_44
+		2 = mid_east_yemeni_45
+		2 = mid_east_yemeni_46
+		2 = mid_east_yemeni_47
+		2 = mid_east_yemeni_48
+		2 = mid_east_yemeni_49
+		2 = mid_east_yemeni_50
+		2 = mid_east_bedouin_1
+		2 = mid_east_bedouin_2
+		2 = mid_east_bedouin_3
+		2 = mid_east_bedouin_4
+		2 = mid_east_bedouin_5
+		2 = mid_east_bedouin_6
+		2 = mid_east_bedouin_7
+		2 = mid_east_bedouin_8
+		2 = mid_east_bedouin_9
+		2 = mid_east_bedouin_10
+		2 = mid_east_bedouin_11
+		2 = mid_east_bedouin_12
+		2 = mid_east_bedouin_13
+		2 = mid_east_bedouin_14
+		2 = mid_east_bedouin_15
+		2 = mid_east_bedouin_16
+		2 = mid_east_bedouin_17
+		2 = mid_east_bedouin_18
+		2 = mid_east_bedouin_19
+		2 = mid_east_bedouin_20
+		2 = mid_east_bedouin_21
+		2 = mid_east_bedouin_22
+		2 = mid_east_bedouin_23
+		2 = mid_east_bedouin_24
+		2 = mid_east_bedouin_25
+	}
+}
+
+hadhrami = {
+	color = { 0.25 0.4 0.35 }
+	created = 640.1.1
+	parents = { main_bedouin south_arabian }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_arabic
+	language = language_najdi
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_dryland_dwellers
+		tradition_quarrelsome
+		tradition_storytellers
+	}
+	
+	name_list = name_list_yemeni
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 	
+
+	ethnicities = {
+		2 = mid_east_bedouin_1
+		2 = mid_east_bedouin_2
+		2 = mid_east_bedouin_3
+		2 = mid_east_bedouin_4
+		2 = mid_east_bedouin_5
+		2 = mid_east_bedouin_6
+		2 = mid_east_bedouin_7
+		2 = mid_east_bedouin_8
+		2 = mid_east_bedouin_9
+		2 = mid_east_bedouin_10
+		2 = mid_east_bedouin_11
+		2 = mid_east_bedouin_12
+		2 = mid_east_bedouin_13
+		2 = mid_east_bedouin_14
+		2 = mid_east_bedouin_15
+		2 = mid_east_bedouin_16
+		2 = mid_east_bedouin_17
+		2 = mid_east_bedouin_18
+		2 = mid_east_bedouin_19
+		2 = mid_east_bedouin_20
+		2 = mid_east_bedouin_21
+		2 = mid_east_bedouin_22
+		2 = mid_east_bedouin_23
+		2 = mid_east_bedouin_24
+		2 = mid_east_bedouin_25
+		2 = mid_east_south_arabian_01
+		2 = mid_east_south_arabian_02
+		2 = mid_east_south_arabian_03
+		2 = mid_east_south_arabian_04
+		2 = mid_east_south_arabian_05
+		2 = mid_east_south_arabian_06
+		2 = mid_east_south_arabian_07
+		2 = mid_east_south_arabian_08
+		2 = mid_east_south_arabian_09
+		2 = mid_east_south_arabian_10
+		2 = mid_east_south_arabian_11
+		2 = mid_east_south_arabian_12
+		2 = mid_east_south_arabian_13
+		2 = mid_east_south_arabian_14
+		2 = mid_east_south_arabian_15
+		2 = mid_east_south_arabian_16
+		2 = mid_east_south_arabian_17
+		2 = mid_east_south_arabian_18
+		2 = mid_east_south_arabian_19
+		2 = mid_east_south_arabian_20
+		2 = mid_east_south_arabian_21
+		2 = mid_east_south_arabian_22
+		2 = mid_east_south_arabian_23
+		2 = mid_east_south_arabian_24
+		2 = mid_east_south_arabian_25
+		2 = mid_east_south_arabian_26
+		2 = mid_east_south_arabian_27
+		2 = mid_east_south_arabian_28
+		2 = mid_east_south_arabian_29
+		2 = mid_east_south_arabian_30
+		2 = mid_east_south_arabian_31
+		2 = mid_east_south_arabian_32
+		2 = mid_east_south_arabian_33
+		2 = mid_east_south_arabian_34
+		2 = mid_east_south_arabian_35
+		2 = mid_east_south_arabian_36
+		2 = mid_east_south_arabian_37
+		2 = mid_east_south_arabian_38
+		2 = mid_east_south_arabian_39
+		2 = mid_east_south_arabian_40
+		2 = mid_east_south_arabian_41
+		2 = mid_east_south_arabian_42
+		2 = mid_east_south_arabian_43
+		2 = mid_east_south_arabian_44
+		2 = mid_east_south_arabian_45
+		2 = mid_east_south_arabian_46
+		2 = mid_east_south_arabian_47
+		2 = mid_east_south_arabian_48
+		2 = mid_east_south_arabian_49
+		2 = mid_east_south_arabian_50
+	}
+}
+
+south_arabian = { # Mahri
+	color = { 0.3 0.6 0.5 }
+	
+	ethos = ethos_communal
+	heritage = heritage_south_arabian
+	language = language_south_arabian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_seafaring
+		tradition_quarrelsome
+		tradition_fishermen
+		tradition_maritime_mercantilism
+		tradition_stand_and_fight
+		#tradition_horse_breeder
+		#tradition_caravaneers
+	}
+	
+	name_list = name_list_south_arabian
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 
+
+	ethnicities = {
+		2 = mid_east_south_arabian_01
+		2 = mid_east_south_arabian_02
+		2 = mid_east_south_arabian_03
+		2 = mid_east_south_arabian_04
+		2 = mid_east_south_arabian_05
+		2 = mid_east_south_arabian_06
+		2 = mid_east_south_arabian_07
+		2 = mid_east_south_arabian_08
+		2 = mid_east_south_arabian_09
+		2 = mid_east_south_arabian_10
+		2 = mid_east_south_arabian_11
+		2 = mid_east_south_arabian_12
+		2 = mid_east_south_arabian_13
+		2 = mid_east_south_arabian_14
+		2 = mid_east_south_arabian_15
+		2 = mid_east_south_arabian_16
+		2 = mid_east_south_arabian_17
+		2 = mid_east_south_arabian_18
+		2 = mid_east_south_arabian_19
+		2 = mid_east_south_arabian_20
+		2 = mid_east_south_arabian_21
+		2 = mid_east_south_arabian_22
+		2 = mid_east_south_arabian_23
+		2 = mid_east_south_arabian_24
+		2 = mid_east_south_arabian_25
+		2 = mid_east_south_arabian_26
+		2 = mid_east_south_arabian_27
+		2 = mid_east_south_arabian_28
+		2 = mid_east_south_arabian_29
+		2 = mid_east_south_arabian_30
+		2 = mid_east_south_arabian_31
+		2 = mid_east_south_arabian_32
+		2 = mid_east_south_arabian_33
+		2 = mid_east_south_arabian_34
+		2 = mid_east_south_arabian_35
+		2 = mid_east_south_arabian_36
+		2 = mid_east_south_arabian_37
+		2 = mid_east_south_arabian_38
+		2 = mid_east_south_arabian_39
+		2 = mid_east_south_arabian_40
+		2 = mid_east_south_arabian_41
+		2 = mid_east_south_arabian_42
+		2 = mid_east_south_arabian_43
+		2 = mid_east_south_arabian_44
+		2 = mid_east_south_arabian_45
+		2 = mid_east_south_arabian_46
+		2 = mid_east_south_arabian_47
+		2 = mid_east_south_arabian_48
+		2 = mid_east_south_arabian_49
+		2 = mid_east_south_arabian_50
+	}
+}
+
+
+soqotri = {
+	color = { 0.50 0.70 0.55 }
+
+	ethos = ethos_communal
+	heritage = heritage_south_arabian
+	language = language_south_arabian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_seafaring
+		tradition_isolationist
+		tradition_fishermen
+		tradition_maritime_mercantilism
+	}
+
+	name_list = name_list_south_arabian
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+
+	ethnicities = {
+		2 = mid_east_south_arabian_01
+		2 = mid_east_south_arabian_02
+		2 = mid_east_south_arabian_03
+		2 = mid_east_south_arabian_04
+		2 = mid_east_south_arabian_05
+		2 = mid_east_south_arabian_06
+		2 = mid_east_south_arabian_07
+		2 = mid_east_south_arabian_08
+		2 = mid_east_south_arabian_09
+		2 = mid_east_south_arabian_10
+		2 = mid_east_south_arabian_11
+		2 = mid_east_south_arabian_12
+		2 = mid_east_south_arabian_13
+		2 = mid_east_south_arabian_14
+		2 = mid_east_south_arabian_15
+		2 = mid_east_south_arabian_16
+		2 = mid_east_south_arabian_17
+		2 = mid_east_south_arabian_18
+		2 = mid_east_south_arabian_19
+		2 = mid_east_south_arabian_20
+		2 = mid_east_south_arabian_21
+		2 = mid_east_south_arabian_22
+		2 = mid_east_south_arabian_23
+		2 = mid_east_south_arabian_24
+		2 = mid_east_south_arabian_25
+		2 = mid_east_south_arabian_26
+		2 = mid_east_south_arabian_27
+		2 = mid_east_south_arabian_28
+		2 = mid_east_south_arabian_29
+		2 = mid_east_south_arabian_30
+		2 = mid_east_south_arabian_31
+		2 = mid_east_south_arabian_32
+		2 = mid_east_south_arabian_33
+		2 = mid_east_south_arabian_34
+		2 = mid_east_south_arabian_35
+		2 = mid_east_south_arabian_36
+		2 = mid_east_south_arabian_37
+		2 = mid_east_south_arabian_38
+		2 = mid_east_south_arabian_39
+		2 = mid_east_south_arabian_40
+		2 = mid_east_south_arabian_41
+		2 = mid_east_south_arabian_42
+		2 = mid_east_south_arabian_43
+		2 = mid_east_south_arabian_44
+		2 = mid_east_south_arabian_45
+		2 = mid_east_south_arabian_46
+		2 = mid_east_south_arabian_47
+		2 = mid_east_south_arabian_48
+		2 = mid_east_south_arabian_49
+		2 = mid_east_south_arabian_50
+	}
+}
+
+himyarite = {
+	color = { 0.53 0.66 0.56 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_south_arabian
+	language = language_sayhadic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_mountaineers
+		tradition_mountain_herding 
+		tradition_religion_blending
+		tradition_maritime_mercantilism
+		tradition_ancient_miners
+	}
+	
+	name_list = name_list_himyarite
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 
+
+	ethnicities = {
+		2 = mid_east_yemeni_1
+		2 = mid_east_yemeni_2
+		2 = mid_east_yemeni_3
+		2 = mid_east_yemeni_4
+		2 = mid_east_yemeni_5
+		2 = mid_east_yemeni_6
+		2 = mid_east_yemeni_7
+		2 = mid_east_yemeni_8
+		2 = mid_east_yemeni_9
+		2 = mid_east_yemeni_10
+		2 = mid_east_yemeni_11
+		2 = mid_east_yemeni_12
+		2 = mid_east_yemeni_13
+		2 = mid_east_yemeni_14
+		2 = mid_east_yemeni_15
+		2 = mid_east_yemeni_16
+		2 = mid_east_yemeni_17
+		2 = mid_east_yemeni_18
+		2 = mid_east_yemeni_19
+		2 = mid_east_yemeni_20
+		2 = mid_east_yemeni_21
+		2 = mid_east_yemeni_22
+		2 = mid_east_yemeni_23
+		2 = mid_east_yemeni_24
+		2 = mid_east_yemeni_25
+		2 = mid_east_yemeni_26
+		2 = mid_east_yemeni_27
+		2 = mid_east_yemeni_28
+		2 = mid_east_yemeni_29
+		2 = mid_east_yemeni_30
+		2 = mid_east_yemeni_31
+		2 = mid_east_yemeni_32
+		2 = mid_east_yemeni_33
+		2 = mid_east_yemeni_34
+		2 = mid_east_yemeni_35
+		2 = mid_east_yemeni_36
+		2 = mid_east_yemeni_37
+		2 = mid_east_yemeni_38
+		2 = mid_east_yemeni_39
+		2 = mid_east_yemeni_40
+		2 = mid_east_yemeni_41
+		2 = mid_east_yemeni_42
+		2 = mid_east_yemeni_43
+		2 = mid_east_yemeni_44
+		2 = mid_east_yemeni_45
+		2 = mid_east_yemeni_46
+		2 = mid_east_yemeni_47
+		2 = mid_east_yemeni_48
+		2 = mid_east_yemeni_49
+		2 = mid_east_yemeni_50
+		1 = mid_east_south_arabian_01
+		1 = mid_east_south_arabian_02
+		1 = mid_east_south_arabian_03
+		1 = mid_east_south_arabian_04
+		1 = mid_east_south_arabian_05
+		1 = mid_east_south_arabian_06
+		1 = mid_east_south_arabian_07
+		1 = mid_east_south_arabian_08
+		1 = mid_east_south_arabian_09
+		1 = mid_east_south_arabian_10
+		1 = mid_east_south_arabian_11
+		1 = mid_east_south_arabian_12
+		1 = mid_east_south_arabian_13
+		1 = mid_east_south_arabian_14
+		1 = mid_east_south_arabian_15
+		1 = mid_east_south_arabian_16
+		1 = mid_east_south_arabian_17
+		1 = mid_east_south_arabian_18
+		1 = mid_east_south_arabian_19
+		1 = mid_east_south_arabian_20
+		1 = mid_east_south_arabian_21
+		1 = mid_east_south_arabian_22
+		1 = mid_east_south_arabian_23
+		1 = mid_east_south_arabian_24
+		1 = mid_east_south_arabian_25
+		1 = mid_east_south_arabian_26
+		1 = mid_east_south_arabian_27
+		1 = mid_east_south_arabian_28
+		1 = mid_east_south_arabian_29
+		1 = mid_east_south_arabian_30
+		1 = mid_east_south_arabian_31
+		1 = mid_east_south_arabian_32
+		1 = mid_east_south_arabian_33
+		1 = mid_east_south_arabian_34
+		1 = mid_east_south_arabian_35
+		1 = mid_east_south_arabian_36
+		1 = mid_east_south_arabian_37
+		1 = mid_east_south_arabian_38
+		1 = mid_east_south_arabian_39
+		1 = mid_east_south_arabian_40
+		1 = mid_east_south_arabian_41
+		1 = mid_east_south_arabian_42
+		1 = mid_east_south_arabian_43
+		1 = mid_east_south_arabian_44
+		1 = mid_east_south_arabian_45
+		1 = mid_east_south_arabian_46
+		1 = mid_east_south_arabian_47
+		1 = mid_east_south_arabian_48
+		1 = mid_east_south_arabian_49
+		1 = mid_east_south_arabian_50
+	}
+}
+
+siqilli = {
+	color = { 0.3 0.6 0.3 }
+	created = 850.1.1
+	parents = { maghrebi griko }
+	#history_loc_override = siqilli_history_loc
+	
+	ethos = ethos_spiritual
+	heritage = heritage_arabic
+	language = language_tunisian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_xenophilic
+		tradition_african_tolerance
+		tradition_mubarizuns #Replaced tradition_hit_and_run
+		tradition_dryland_dwellers
+		tradition_fishermen
+		tradition_ce1_ritual_washing
+	}
+	
+	name_list = name_list_siculo_arabic
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { sicilian_building_gfx iberian_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx afr_berber_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 
+
+	ethnicities = {
+		1 = north_african_baranis_1
+		1 = north_african_baranis_2
+		1 = north_african_baranis_3
+		1 = north_african_baranis_4
+		1 = north_african_baranis_5
+		1 = north_african_baranis_6
+		1 = north_african_baranis_7
+		1 = north_african_baranis_8
+		1 = north_african_baranis_9
+		1 = north_african_baranis_10
+		1 = north_african_baranis_11
+		1 = north_african_baranis_12
+		1 = north_african_baranis_13
+		1 = north_african_baranis_14
+		1 = north_african_baranis_15
+		1 = north_african_baranis_16
+		1 = north_african_baranis_17
+		1 = north_african_baranis_18
+		1 = north_african_baranis_19
+		1 = north_african_baranis_20
+		1 = north_african_baranis_21
+		1 = north_african_baranis_22
+		1 = north_african_baranis_23
+		1 = north_african_baranis_24
+		1 = north_african_baranis_25
+		1 = north_african_baranis_26
+		1 = north_african_baranis_27
+		1 = north_african_baranis_28
+		1 = north_african_baranis_29
+		1 = north_african_baranis_30
+		1 = north_african_baranis_31
+		1 = north_african_baranis_32
+		1 = north_african_baranis_33
+		2 = european_med_sicilian_01
+		2 = european_med_sicilian_02
+		2 = european_med_sicilian_03
+		2 = european_med_sicilian_04
+		2 = european_med_sicilian_05
+		2 = european_med_sicilian_06
+		2 = european_med_sicilian_07
+		2 = european_med_sicilian_08
+		2 = european_med_sicilian_09
+		2 = european_med_sicilian_10
+		2 = european_med_sicilian_11
+		2 = european_med_sicilian_12
+		2 = european_med_sicilian_13
+		2 = european_med_sicilian_14
+		2 = european_med_sicilian_15
+		2 = european_med_sicilian_16
+		2 = european_med_sicilian_17
+		2 = european_med_sicilian_18
+		2 = european_med_sicilian_19
+		2 = european_med_sicilian_20
+		2 = european_med_sicilian_21
+		2 = european_med_sicilian_22
+		2 = european_med_sicilian_23
+		2 = european_med_sicilian_24
+		2 = european_med_sicilian_25
+		2 = european_med_sicilian_26
+		2 = european_med_sicilian_27
+		2 = european_med_sicilian_28
+		2 = european_med_sicilian_29
+		2 = european_med_sicilian_30
+		2 = european_med_sicilian_31
+		2 = european_med_sicilian_32
+		2 = european_med_sicilian_33
+		2 = european_med_sicilian_34
+		2 = european_med_sicilian_35
+		2 = european_med_sicilian_36
+		2 = european_med_sicilian_37
+		2 = european_med_sicilian_38
+		2 = european_med_sicilian_39
+		2 = european_med_sicilian_40
+		2 = european_med_sicilian_41
+		2 = european_med_sicilian_42
+		2 = european_med_sicilian_43
+		2 = european_med_sicilian_44
+		2 = european_med_sicilian_45
+		2 = european_med_sicilian_46
+		2 = european_med_sicilian_47
+		2 = european_med_sicilian_48
+		2 = european_med_sicilian_49
+		2 = european_med_sicilian_50
+	}
+}	
+
+maltese = {
+	color = { 0.35 0.65 0.5 }
+	created = 1125.1.1
+	parents = { siqilli sicilian }
+	#history_loc_override = maltese_history_loc
+	
+	ethos = ethos_courtly
+	heritage = heritage_latin
+	language = language_tunisian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_zealous_people
+		tradition_swords_for_hire
+		tradition_maritime_mercantilism
+		tradition_poetry
+		tradition_republican_legacy
+	}
+	
+	name_list = name_list_sicilian
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { sicilian_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { italian_unit_gfx }
+	
+	ethnicities = {
+		1 = north_african_baranis_1
+		1 = north_african_baranis_2
+		1 = north_african_baranis_3
+		1 = north_african_baranis_4
+		1 = north_african_baranis_5
+		1 = north_african_baranis_6
+		1 = north_african_baranis_7
+		1 = north_african_baranis_8
+		1 = north_african_baranis_9
+		1 = north_african_baranis_10
+		1 = north_african_baranis_11
+		1 = north_african_baranis_12
+		1 = north_african_baranis_13
+		1 = north_african_baranis_14
+		1 = north_african_baranis_15
+		1 = north_african_baranis_16
+		1 = north_african_baranis_17
+		1 = north_african_baranis_18
+		1 = north_african_baranis_19
+		1 = north_african_baranis_20
+		1 = north_african_baranis_21
+		1 = north_african_baranis_22
+		1 = north_african_baranis_23
+		1 = north_african_baranis_24
+		1 = north_african_baranis_25
+		1 = north_african_baranis_26
+		1 = north_african_baranis_27
+		1 = north_african_baranis_28
+		1 = north_african_baranis_29
+		1 = north_african_baranis_30
+		1 = north_african_baranis_31
+		1 = north_african_baranis_32
+		1 = north_african_baranis_33
+		2 = european_med_sicilian_01
+		2 = european_med_sicilian_02
+		2 = european_med_sicilian_03
+		2 = european_med_sicilian_04
+		2 = european_med_sicilian_05
+		2 = european_med_sicilian_06
+		2 = european_med_sicilian_07
+		2 = european_med_sicilian_08
+		2 = european_med_sicilian_09
+		2 = european_med_sicilian_10
+		2 = european_med_sicilian_11
+		2 = european_med_sicilian_12
+		2 = european_med_sicilian_13
+		2 = european_med_sicilian_14
+		2 = european_med_sicilian_15
+		2 = european_med_sicilian_16
+		2 = european_med_sicilian_17
+		2 = european_med_sicilian_18
+		2 = european_med_sicilian_19
+		2 = european_med_sicilian_20
+		2 = european_med_sicilian_21
+		2 = european_med_sicilian_22
+		2 = european_med_sicilian_23
+		2 = european_med_sicilian_24
+		2 = european_med_sicilian_25
+		2 = european_med_sicilian_26
+		2 = european_med_sicilian_27
+		2 = european_med_sicilian_28
+		2 = european_med_sicilian_29
+		2 = european_med_sicilian_30
+		2 = european_med_sicilian_31
+		2 = european_med_sicilian_32
+		2 = european_med_sicilian_33
+		2 = european_med_sicilian_34
+		2 = european_med_sicilian_35
+		2 = european_med_sicilian_36
+		2 = european_med_sicilian_37
+		2 = european_med_sicilian_38
+		2 = european_med_sicilian_39
+		2 = european_med_sicilian_40
+		2 = european_med_sicilian_41
+		2 = european_med_sicilian_42
+		2 = european_med_sicilian_43
+		2 = european_med_sicilian_44
+		2 = european_med_sicilian_45
+		2 = european_med_sicilian_46
+		2 = european_med_sicilian_47
+		2 = european_med_sicilian_48
+		2 = european_med_sicilian_49
+		2 = european_med_sicilian_50
+	}	
+}
+
+
+badawi = {
+	color = badawi
+
+	created = 650.1.1
+	parents = { main_bedouin nabatean }
+
+	ethos = ethos_stoic
+	heritage = heritage_arabic
+	language = language_najdi
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_tribe_unity
+		tradition_desert_nomads
+		tradition_mubarizuns
+		tradition_caravaneers
+		tradition_esteemed_hospitality
+	}
+
+	name_list = name_list_bedouin
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx mena_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+
+	ethnicities = {
+		3 = mid_east_bedouin_1
+		3 = mid_east_bedouin_2
+		3 = mid_east_bedouin_3
+		3 = mid_east_bedouin_4
+		3 = mid_east_bedouin_5
+		3 = mid_east_bedouin_6
+		3 = mid_east_bedouin_7
+		3 = mid_east_bedouin_8
+		3 = mid_east_bedouin_9
+		3 = mid_east_bedouin_10
+		3 = mid_east_bedouin_11
+		3 = mid_east_bedouin_12
+		3 = mid_east_bedouin_13
+		3 = mid_east_bedouin_14
+		3 = mid_east_bedouin_15
+		3 = mid_east_bedouin_16
+		3 = mid_east_bedouin_17
+		3 = mid_east_bedouin_18
+		3 = mid_east_bedouin_19
+		3 = mid_east_bedouin_20
+		3 = mid_east_bedouin_21
+		3 = mid_east_bedouin_22
+		3 = mid_east_bedouin_23
+		3 = mid_east_bedouin_24
+		3 = mid_east_bedouin_25
+		3 = mid_east_bedouin_26
+		3 = mid_east_bedouin_27
+		3 = mid_east_bedouin_28
+		3 = mid_east_bedouin_29
+		3 = mid_east_bedouin_30
+		3 = mid_east_bedouin_31
+		3 = mid_east_bedouin_32
+		3 = mid_east_bedouin_33
+		3 = mid_east_bedouin_34
+		3 = mid_east_bedouin_35
+		3 = mid_east_bedouin_36
+		3 = mid_east_bedouin_37
+		3 = mid_east_bedouin_38
+		3 = mid_east_bedouin_39
+		3 = mid_east_bedouin_40
+	}
+}
+
+bahraini = { #Based on Bedouin
+	color = { 90 130 60 }
+	created = 650.1.1
+	parents = { main_bedouin }
+
+	ethos = ethos_stoic
+	heritage = heritage_arabic
+	language = language_najdi
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_tribe_unity
+		tradition_desert_nomads
+		tradition_mubarizuns
+		tradition_caravaneers
+	}
+
+	name_list = name_list_bedouin
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx mena_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+
+	ethnicities = {
+		3 = mid_east_bedouin_1
+		3 = mid_east_bedouin_2
+		3 = mid_east_bedouin_3
+		3 = mid_east_bedouin_4
+		3 = mid_east_bedouin_5
+		3 = mid_east_bedouin_6
+		3 = mid_east_bedouin_7
+		3 = mid_east_bedouin_8
+		3 = mid_east_bedouin_9
+		3 = mid_east_bedouin_10
+		3 = mid_east_bedouin_11
+		3 = mid_east_bedouin_12
+		3 = mid_east_bedouin_13
+		3 = mid_east_bedouin_14
+		3 = mid_east_bedouin_15
+		3 = mid_east_bedouin_16
+		3 = mid_east_bedouin_17
+		3 = mid_east_bedouin_18
+		3 = mid_east_bedouin_19
+		3 = mid_east_bedouin_20
+		3 = mid_east_bedouin_21
+		3 = mid_east_bedouin_22
+		3 = mid_east_bedouin_23
+		3 = mid_east_bedouin_24
+		3 = mid_east_bedouin_25
+		3 = mid_east_bedouin_26
+		3 = mid_east_bedouin_27
+		3 = mid_east_bedouin_28
+		3 = mid_east_bedouin_29
+		3 = mid_east_bedouin_30
+		3 = mid_east_bedouin_31
+		3 = mid_east_bedouin_32
+		3 = mid_east_bedouin_33
+		3 = mid_east_bedouin_34
+		3 = mid_east_bedouin_35
+		3 = mid_east_bedouin_36
+		3 = mid_east_bedouin_37
+		3 = mid_east_bedouin_38
+		3 = mid_east_bedouin_39
+		3 = mid_east_bedouin_40
+	}
+}
+
+omani = { #Based on Bedouin
+	color = { 90 175 130 }
+	created = 650.1.1
+	parents = { main_bedouin }
+
+	ethos = ethos_stoic
+	heritage = heritage_arabic
+	language = language_najdi
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_tribe_unity
+		tradition_desert_nomads
+		tradition_mubarizuns
+		tradition_caravaneers
+	}
+
+	name_list = name_list_bedouin
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx mena_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+
+	ethnicities = {
+		3 = mid_east_bedouin_1
+		3 = mid_east_bedouin_2
+		3 = mid_east_bedouin_3
+		3 = mid_east_bedouin_4
+		3 = mid_east_bedouin_5
+		3 = mid_east_bedouin_6
+		3 = mid_east_bedouin_7
+		3 = mid_east_bedouin_8
+		3 = mid_east_bedouin_9
+		3 = mid_east_bedouin_10
+		3 = mid_east_bedouin_11
+		3 = mid_east_bedouin_12
+		3 = mid_east_bedouin_13
+		3 = mid_east_bedouin_14
+		3 = mid_east_bedouin_15
+		3 = mid_east_bedouin_16
+		3 = mid_east_bedouin_17
+		3 = mid_east_bedouin_18
+		3 = mid_east_bedouin_19
+		3 = mid_east_bedouin_20
+		3 = mid_east_bedouin_21
+		3 = mid_east_bedouin_22
+		3 = mid_east_bedouin_23
+		3 = mid_east_bedouin_24
+		3 = mid_east_bedouin_25
+		3 = mid_east_bedouin_26
+		3 = mid_east_bedouin_27
+		3 = mid_east_bedouin_28
+		3 = mid_east_bedouin_29
+		3 = mid_east_bedouin_30
+		3 = mid_east_bedouin_31
+		3 = mid_east_bedouin_32
+		3 = mid_east_bedouin_33
+		3 = mid_east_bedouin_34
+		3 = mid_east_bedouin_35
+		3 = mid_east_bedouin_36
+		3 = mid_east_bedouin_37
+		3 = mid_east_bedouin_38
+		3 = mid_east_bedouin_39
+		3 = mid_east_bedouin_40
+	}
+}
+
+hejazi = { #Based on Bedouin #Was hijazi
+	color = { 0.1 0.7 0.8 }
+	created = 650.1.1
+	parents = { main_bedouin }
+
+	ethos = ethos_stoic
+	heritage = heritage_arabic
+	language = language_najdi
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_tribe_unity
+		tradition_desert_nomads
+		tradition_mubarizuns
+		tradition_caravaneers
+		tradition_ce1_ritual_washing
+	}
+
+	name_list = name_list_bedouin
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx mena_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+
+	ethnicities = {
+		3 = mid_east_bedouin_1
+		3 = mid_east_bedouin_2
+		3 = mid_east_bedouin_3
+		3 = mid_east_bedouin_4
+		3 = mid_east_bedouin_5
+		3 = mid_east_bedouin_6
+		3 = mid_east_bedouin_7
+		3 = mid_east_bedouin_8
+		3 = mid_east_bedouin_9
+		3 = mid_east_bedouin_10
+		3 = mid_east_bedouin_11
+		3 = mid_east_bedouin_12
+		3 = mid_east_bedouin_13
+		3 = mid_east_bedouin_14
+		3 = mid_east_bedouin_15
+		3 = mid_east_bedouin_16
+		3 = mid_east_bedouin_17
+		3 = mid_east_bedouin_18
+		3 = mid_east_bedouin_19
+		3 = mid_east_bedouin_20
+		3 = mid_east_bedouin_21
+		3 = mid_east_bedouin_22
+		3 = mid_east_bedouin_23
+		3 = mid_east_bedouin_24
+		3 = mid_east_bedouin_25
+		3 = mid_east_bedouin_26
+		3 = mid_east_bedouin_27
+		3 = mid_east_bedouin_28
+		3 = mid_east_bedouin_29
+		3 = mid_east_bedouin_30
+		3 = mid_east_bedouin_31
+		3 = mid_east_bedouin_32
+		3 = mid_east_bedouin_33
+		3 = mid_east_bedouin_34
+		3 = mid_east_bedouin_35
+		3 = mid_east_bedouin_36
+		3 = mid_east_bedouin_37
+		3 = mid_east_bedouin_38
+		3 = mid_east_bedouin_39
+		3 = mid_east_bedouin_40
+	}
+}
+
+libyan = { #
+	color = { 0.30 0.3 0.40 }
+
+	created = 1100.1.1
+	parents = { maghrebi luwata }
+
+	history_loc_override = parent_maghrebi_history_loc
+
+	ethos = ethos_stoic
+	heritage = heritage_arabic
+	language = language_tunisian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_tribe_unity
+		tradition_desert_nomads
+		tradition_mubarizuns
+		tradition_caravaneers
+		tradition_ce1_ritual_washing
+	}
+
+	name_list = name_list_maghrebi
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx berber_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx afr_berber_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+
+	ethnicities = {
+		3 = mid_east_bedouin_1
+		3 = mid_east_bedouin_2
+		3 = mid_east_bedouin_3
+		3 = mid_east_bedouin_4
+		3 = mid_east_bedouin_5
+		3 = mid_east_bedouin_6
+		3 = mid_east_bedouin_7
+		3 = mid_east_bedouin_8
+		3 = mid_east_bedouin_9
+		3 = mid_east_bedouin_10
+		3 = mid_east_bedouin_11
+		3 = mid_east_bedouin_12
+		3 = mid_east_bedouin_13
+		3 = mid_east_bedouin_14
+		3 = mid_east_bedouin_15
+		3 = mid_east_bedouin_16
+		3 = mid_east_bedouin_17
+		3 = mid_east_bedouin_18
+		3 = mid_east_bedouin_19
+		3 = mid_east_bedouin_20
+		3 = mid_east_bedouin_21
+		3 = mid_east_bedouin_22
+		3 = mid_east_bedouin_23
+		3 = mid_east_bedouin_24
+		3 = mid_east_bedouin_25
+		3 = mid_east_bedouin_26
+		3 = mid_east_bedouin_27
+		3 = mid_east_bedouin_28
+		3 = mid_east_bedouin_29
+		2 = north_african_berber_1
+		2 = north_african_berber_2
+		2 = north_african_berber_3
+		2 = north_african_berber_4
+		2 = north_african_berber_5
+		2 = north_african_berber_8
+		2 = north_african_berber_9
+		2 = north_african_berber_10
+		2 = north_african_berber_11
+		2 = north_african_berber_12
+		2 = north_african_berber_13
+		2 = north_african_berber_14
+		2 = north_african_berber_15
+		2 = north_african_berber_16
+		2 = north_african_berber_17
+		2 = north_african_berber_18
+		2 = north_african_berber_19
+		2 = north_african_berber_20
+		2 = north_african_berber_21
+		2 = north_african_berber_22
+		2 = north_african_berber_23
+		2 = north_african_berber_24
+		2 = north_african_berber_25
+		2 = north_african_berber_26
+		2 = north_african_berber_27
+		2 = north_african_berber_28
+		2 = north_african_berber_29
+		2 = north_african_berber_30
+	}
+}
+
+tunisian = { #
+	color = { 0.38 0.25 0.59 }
+
+	created = 1150.1.1
+	parents = { maghrebi hawwara }
+
+	history_loc_override = parent_maghrebi_history_loc
+
+	ethos = ethos_courtly
+	heritage = heritage_arabic
+	language = language_tunisian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_desert_nomads
+		tradition_maritime_mercantilism
+		tradition_religious_patronage
+		tradition_ce1_ritual_washing
+		tradition_esteemed_hospitality
+	}
+
+	name_list = name_list_maghrebi
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx mena_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx afr_berber_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+
+	ethnicities = {
+		3 = mid_east_bedouin_1
+		3 = mid_east_bedouin_2
+		3 = mid_east_bedouin_3
+		3 = mid_east_bedouin_4
+		3 = mid_east_bedouin_5
+		3 = mid_east_bedouin_6
+		3 = mid_east_bedouin_7
+		3 = mid_east_bedouin_8
+		3 = mid_east_bedouin_9
+		3 = mid_east_bedouin_10
+		3 = mid_east_bedouin_11
+		3 = mid_east_bedouin_12
+		3 = mid_east_bedouin_13
+		3 = mid_east_bedouin_14
+		3 = mid_east_bedouin_15
+		3 = mid_east_bedouin_16
+		3 = mid_east_bedouin_17
+		3 = mid_east_bedouin_18
+		3 = mid_east_bedouin_19
+		3 = mid_east_bedouin_20
+		3 = mid_east_bedouin_21
+		3 = mid_east_bedouin_22
+		3 = mid_east_bedouin_23
+		3 = mid_east_bedouin_24
+		3 = mid_east_bedouin_25
+		3 = mid_east_bedouin_26
+		3 = mid_east_bedouin_27
+		3 = mid_east_bedouin_28
+		3 = mid_east_bedouin_29
+		2 = north_african_berber_1
+		2 = north_african_berber_2
+		2 = north_african_berber_3
+		2 = north_african_berber_4
+		2 = north_african_berber_5
+		2 = north_african_berber_8
+		2 = north_african_berber_9
+		2 = north_african_berber_10
+		2 = north_african_berber_11
+		2 = north_african_berber_12
+		2 = north_african_berber_13
+		2 = north_african_berber_14
+		2 = north_african_berber_15
+		2 = north_african_berber_16
+		2 = north_african_berber_17
+		2 = north_african_berber_18
+		2 = north_african_berber_19
+		3 = european_med_italian_1
+		3 = european_med_italian_2
+		3 = european_med_italian_3
+		3 = european_med_italian_4
+		3 = european_med_italian_5
+		3 = european_med_italian_6
+		3 = european_med_italian_7
+		3 = european_med_italian_8
+		3 = european_med_italian_9
+		3 = european_med_italian_10
+	}
+}
+
+moroccan = { #
+	color = { 0.45 0.45 0.60 }
+
+	created = 1150.1.1
+	parents = { maghrebi mauro_roman }
+
+	history_loc_override = parent_maghrebi_history_loc
+
+	ethos = ethos_courtly
+	heritage = heritage_arabic
+	language = language_tunisian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_desert_nomads
+		tradition_hill_dwellers
+		tradition_ce1_ritual_washing
+		tradition_religious_patronage
+		tradition_barbary_corsairs
+	}
+
+	name_list = name_list_maghrebi
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx berber_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx afr_berber_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+
+	ethnicities = {
+		3 = mid_east_bedouin_1
+		3 = mid_east_bedouin_2
+		3 = mid_east_bedouin_3
+		3 = mid_east_bedouin_4
+		3 = mid_east_bedouin_5
+		3 = mid_east_bedouin_6
+		3 = mid_east_bedouin_7
+		3 = mid_east_bedouin_8
+		3 = mid_east_bedouin_9
+		3 = mid_east_bedouin_10
+		3 = mid_east_bedouin_11
+		3 = mid_east_bedouin_12
+		3 = mid_east_bedouin_13
+		3 = mid_east_bedouin_14
+		3 = mid_east_bedouin_15
+		3 = mid_east_bedouin_16
+		3 = mid_east_bedouin_17
+		3 = mid_east_bedouin_18
+		3 = mid_east_bedouin_19
+		3 = mid_east_bedouin_20
+		3 = mid_east_bedouin_21
+		3 = mid_east_bedouin_22
+		3 = mid_east_bedouin_23
+		3 = mid_east_bedouin_24
+		3 = mid_east_bedouin_25
+		3 = mid_east_bedouin_26
+		3 = mid_east_bedouin_27
+		3 = mid_east_bedouin_28
+		3 = mid_east_bedouin_29
+		2 = north_african_berber_1
+		2 = north_african_berber_2
+		2 = north_african_berber_3
+		2 = north_african_berber_4
+		2 = north_african_berber_5
+		2 = north_african_berber_8
+		2 = north_african_berber_9
+		2 = north_african_berber_10
+		2 = north_african_berber_11
+		2 = north_african_berber_12
+		2 = north_african_berber_13
+		2 = north_african_berber_14
+		2 = north_african_berber_15
+		2 = north_african_berber_16
+		2 = north_african_berber_17
+		2 = north_african_berber_18
+		2 = north_african_berber_19
+		2 = north_african_berber_20
+		2 = north_african_berber_21
+		2 = north_african_berber_22
+		2 = north_african_berber_23
+		2 = north_african_berber_24
+		2 = north_african_berber_25
+		2 = north_african_berber_26
+		2 = north_african_berber_27
+		2 = north_african_berber_28
+		2 = north_african_berber_29
+		2 = north_african_berber_30
+	}
+}
+
+algerian = { #
+	color = { 0.55 0.30 0.40 }
+
+	created = 1150.1.1
+	parents = { maghrebi baranis }
+
+	history_loc_override = parent_maghrebi_history_loc
+
+	ethos = ethos_courtly
+	heritage = heritage_arabic
+	language = language_tunisian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_desert_nomads
+		tradition_barbary_corsairs
+		tradition_caravaneers
+		tradition_hill_dwellers
+		tradition_ce1_ritual_washing
+	}
+
+	name_list = name_list_maghrebi
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx berber_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx afr_berber_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+
+	ethnicities = {
+		3 = mid_east_bedouin_1
+		3 = mid_east_bedouin_2
+		3 = mid_east_bedouin_3
+		3 = mid_east_bedouin_4
+		3 = mid_east_bedouin_5
+		3 = mid_east_bedouin_6
+		3 = mid_east_bedouin_7
+		3 = mid_east_bedouin_8
+		3 = mid_east_bedouin_9
+		3 = mid_east_bedouin_10
+		3 = mid_east_bedouin_11
+		3 = mid_east_bedouin_12
+		3 = mid_east_bedouin_13
+		3 = mid_east_bedouin_14
+		3 = mid_east_bedouin_15
+		3 = mid_east_bedouin_16
+		3 = mid_east_bedouin_17
+		3 = mid_east_bedouin_18
+		3 = mid_east_bedouin_19
+		3 = mid_east_bedouin_20
+		3 = mid_east_bedouin_21
+		3 = mid_east_bedouin_22
+		3 = mid_east_bedouin_23
+		3 = mid_east_bedouin_24
+		3 = mid_east_bedouin_25
+		3 = mid_east_bedouin_26
+		3 = mid_east_bedouin_27
+		3 = mid_east_bedouin_28
+		3 = mid_east_bedouin_29
+		2 = north_african_berber_1
+		2 = north_african_berber_2
+		2 = north_african_berber_3
+		2 = north_african_berber_4
+		2 = north_african_berber_5
+		2 = north_african_berber_8
+		2 = north_african_berber_9
+		2 = north_african_berber_10
+		2 = north_african_berber_11
+		2 = north_african_berber_12
+		2 = north_african_berber_13
+		2 = north_african_berber_14
+		2 = north_african_berber_15
+		2 = north_african_berber_16
+		2 = north_african_berber_17
+		2 = north_african_berber_18
+		2 = north_african_berber_19
+		3 = european_med_italian_1
+		3 = european_med_italian_2
+		3 = european_med_italian_3
+		3 = european_med_italian_4
+		3 = european_med_italian_5
+		3 = european_med_italian_6
+		3 = european_med_italian_7
+		3 = european_med_italian_8
+		3 = european_med_italian_9
+		3 = european_med_italian_10
+	}
+}
+
+assyrian = {
+	#color = assyrian
+	color = { 142 68 28 }
+	created = 300.1.1
+	parents = { persian aramean } # Yusseter: Maybe old_persian?
+	
+	history_loc_override = assyrian_history_loc
+	
+	ethos = ethos_communal
+	heritage = heritage_syriac
+	language = language_aramaic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_zealous_people
+		tradition_loyal_soldiers
+		tradition_philosopher_culture
+		tradition_caravaneers
+		tradition_ce1_ritual_washing
+		#tradition_zealous_people
+		#tradition_loyal_soldiers
+		#tradition_philosopher_culture
+		#tradition_caravaneers
+	}
+	
+	name_list = name_list_assyrian
+
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { mena_building_gfx } 
+	clothing_gfx = { mena_group_clothing_gfx epe_armenian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx } 		
+
+	ethnicities = {
+		30 = european_med_assyrian_1
+		2 = iranian_kurdish_1
+		2 = iranian_kurdish_2
+		2 = iranian_kurdish_3
+		2 = iranian_kurdish_4
+		2 = iranian_kurdish_5
+		2 = iranian_kurdish_6
+		2 = iranian_kurdish_7
+		2 = iranian_kurdish_8
+		2 = iranian_kurdish_9
+		2 = iranian_kurdish_10
+		2 = iranian_kurdish_11
+		2 = iranian_kurdish_12
+		2 = iranian_kurdish_13
+		2 = iranian_kurdish_14
+		2 = iranian_kurdish_15
+		2 = iranian_kurdish_16
+		2 = iranian_kurdish_17
+		2 = iranian_kurdish_18
+		2 = iranian_kurdish_19
+		2 = iranian_kurdish_20
+		2 = iranian_kurdish_21
+		2 = iranian_kurdish_22
+		2 = iranian_kurdish_23
+		2 = iranian_kurdish_24
+		2 = iranian_kurdish_25
+		2 = iranian_kurdish_26
+		2 = iranian_kurdish_27
+		2 = iranian_kurdish_28
+		2 = iranian_kurdish_29
+		2 = iranian_kurdish_30
+		2 = iranian_kurdish_31
+		2 = iranian_kurdish_32
+		2 = iranian_kurdish_33
+		2 = iranian_kurdish_34
+		2 = iranian_kurdish_35
+		2 = iranian_kurdish_36
+		2 = iranian_kurdish_37
+		2 = iranian_kurdish_38
+		2 = iranian_kurdish_39
+		2 = iranian_kurdish_40
+		1 = mid_east_arabic_1
+		1 = mid_east_arabic_2
+		1 = mid_east_arabic_3
+		1 = mid_east_arabic_4
+		1 = mid_east_arabic_5
+		1 = mid_east_arabic_6
+		1 = mid_east_arabic_7
+		1 = mid_east_arabic_8
+		1 = mid_east_arabic_9
+		1 = mid_east_arabic_10
+		1 = mid_east_arabic_11
+		1 = mid_east_arabic_12
+		1 = mid_east_arabic_13
+		1 = mid_east_arabic_14
+		1 = mid_east_arabic_15
+		1 = mid_east_arabic_16
+		1 = mid_east_arabic_17
+		1 = mid_east_arabic_18
+		1 = mid_east_arabic_19
+		1 = mid_east_arabic_20
+		1 = mid_east_arabic_21
+		1 = mid_east_arabic_22
+		1 = mid_east_arabic_23
+		1 = mid_east_arabic_24
+		1 = mid_east_arabic_25
+		1 = mid_east_arabic_26
+		1 = mid_east_arabic_27
+		1 = mid_east_arabic_28
+		1 = mid_east_arabic_29
+		1 = mid_east_arabic_30
+		1 = mid_east_arabic_31
+		1 = mid_east_arabic_32
+		1 = mid_east_arabic_33
+		1 = mid_east_arabic_34
+		1 = mid_east_arabic_35
+		1 = mid_east_arabic_36
+		1 = mid_east_arabic_37
+		1 = mid_east_arabic_38
+		1 = mid_east_arabic_39
+		1 = mid_east_arabic_40
+		1 = mid_east_arabic_41
+		1 = mid_east_arabic_42
+		1 = mid_east_arabic_43
+		1 = mid_east_arabic_44
+		1 = mid_east_arabic_45
+		1 = mid_east_arabic_46
+		1 = mid_east_arabic_47
+		1 = mid_east_arabic_48
+		1 = mid_east_arabic_49
+		1 = mid_east_arabic_50
+		1 = mid_east_arabic_51
+		1 = mid_east_arabic_52
+		1 = mid_east_arabic_53
+		1 = mid_east_arabic_54
+		1 = mid_east_arabic_55
+		1 = mid_east_arabic_56
+		1 = mid_east_arabic_57
+		1 = mid_east_arabic_58
+		1 = mid_east_arabic_59
+		1 = mid_east_arabic_60
+		1 = mid_east_arabic_61
+		1 = mid_east_arabic_62
+		1 = mid_east_arabic_63
+		1 = mid_east_arabic_64
+		1 = mid_east_arabic_65
+		1 = mid_east_arabic_66
+		1 = mid_east_arabic_67
+		1 = mid_east_arabic_68
+		1 = mid_east_arabic_69
+		1 = mid_east_arabic_70
+		1 = mid_east_arabic_71
+		1 = mid_east_arabic_72
+		1 = mid_east_arabic_73
+		1 = mid_east_arabic_74
+		1 = mid_east_arabic_75
+		1 = mid_east_arabic_76
+		1 = mid_east_arabic_77
+		1 = mid_east_arabic_78
+		1 = mid_east_arabic_79
+		1 = mid_east_arabic_80
+		1 = mid_east_arabic_81
+		1 = mid_east_arabic_82
+		1 = mid_east_arabic_83
+		1 = mid_east_arabic_84
+		1 = mid_east_arabic_85
+		1 = mid_east_arabic_86
+		1 = mid_east_arabic_87
+		1 = mid_east_arabic_88
+		1 = mid_east_arabic_89
+		1 = mid_east_arabic_90
+		1 = mid_east_arabic_91
+		1 = mid_east_arabic_92
+		1 = mid_east_arabic_93
+		1 = mid_east_arabic_94
+		1 = mid_east_arabic_95
+		1 = mid_east_arabic_96
+		1 = mid_east_arabic_97
+		1 = mid_east_arabic_98
+		1 = mid_east_arabic_99
+		1 = mid_east_arabic_100
+		1 = mid_east_arabic_101
+		1 = mid_east_arabic_102
+		1 = mid_east_arabic_103
+		1 = mid_east_arabic_104
+		1 = mid_east_arabic_105
+		1 = mid_east_arabic_106
+		1 = mid_east_arabic_107
+		1 = mid_east_arabic_108
+	}
+}
+
+phoenician = {
+	color = { 0.15 0.18 0.62 }
+
+	ethos = ethos_bureaucratic # Or egalitarian?
+	heritage = heritage_levantine
+	language = language_phoenician
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_maritime_mercantilism # Cybr: This is what they're most famous for
+		tradition_seafaring # Cybr: More sailing
+		tradition_city_keepers # Cybr: Phoenician colonies
+		tradition_caravaneers # Cybr: All that delicious trade
+		tradition_parochialism # Cybr: Independent city-states
+	}
+
+	name_list = name_list_phoenician
+
+	dlc_tradition = { # Cybr: Influence from Roman, Greek, Aramaic, and other Arab groups
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
+	}
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx mena_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+
+	ethnicities = {
+		2 = mid_east_arabic_1
+		2 = mid_east_arabic_2
+		2 = mid_east_arabic_3
+		2 = mid_east_arabic_4
+		2 = mid_east_arabic_5
+		2 = mid_east_arabic_6
+		2 = mid_east_arabic_7
+		2 = mid_east_arabic_8
+		2 = mid_east_arabic_9
+		2 = mid_east_arabic_10
+		2 = mid_east_arabic_11
+		2 = mid_east_arabic_12
+		2 = mid_east_arabic_13
+		2 = mid_east_arabic_14
+		2 = mid_east_arabic_15
+		2 = mid_east_arabic_16
+		2 = mid_east_arabic_17
+		2 = mid_east_arabic_18
+		2 = mid_east_arabic_19
+		2 = mid_east_arabic_20
+		2 = mid_east_arabic_21
+		2 = mid_east_arabic_22
+		2 = mid_east_arabic_23
+		2 = mid_east_arabic_24
+		2 = mid_east_arabic_25
+		2 = mid_east_arabic_26
+		2 = mid_east_arabic_27
+		2 = mid_east_arabic_28
+		2 = mid_east_arabic_29
+		2 = mid_east_arabic_30
+		2 = mid_east_arabic_31
+		2 = mid_east_arabic_32
+		2 = mid_east_arabic_33
+		2 = mid_east_arabic_34
+		2 = mid_east_arabic_35
+		2 = mid_east_arabic_36
+		2 = mid_east_arabic_37
+		2 = mid_east_arabic_38
+		2 = mid_east_arabic_39
+		2 = mid_east_arabic_40
+		2 = mid_east_arabic_41
+		2 = mid_east_arabic_42
+		2 = mid_east_arabic_43
+		2 = mid_east_arabic_44
+		2 = mid_east_arabic_45
+		2 = mid_east_arabic_46
+		2 = mid_east_arabic_47
+		2 = mid_east_arabic_48
+		2 = mid_east_arabic_49
+		2 = mid_east_arabic_50
+		2 = mid_east_arabic_51
+		2 = mid_east_arabic_52
+		2 = mid_east_arabic_53
+		2 = mid_east_arabic_54
+		2 = mid_east_arabic_55
+		2 = mid_east_arabic_56
+		2 = mid_east_arabic_57
+		2 = mid_east_arabic_58
+		2 = mid_east_arabic_59
+		2 = mid_east_arabic_60
+		2 = mid_east_arabic_61
+		2 = mid_east_arabic_62
+		2 = mid_east_arabic_63
+		2 = mid_east_arabic_64
+		2 = mid_east_arabic_65
+		2 = mid_east_arabic_66
+		2 = mid_east_arabic_67
+		2 = mid_east_arabic_68
+		2 = mid_east_arabic_69
+		2 = mid_east_arabic_70
+		2 = mid_east_arabic_71
+		2 = mid_east_arabic_72
+		2 = mid_east_arabic_73
+		2 = mid_east_arabic_74
+		2 = mid_east_arabic_75
+		2 = mid_east_arabic_76
+		2 = mid_east_arabic_77
+		2 = mid_east_arabic_78
+		2 = mid_east_arabic_79
+		2 = mid_east_arabic_80
+		2 = mid_east_arabic_81
+		2 = mid_east_arabic_82
+		2 = mid_east_arabic_83
+		2 = mid_east_arabic_84
+		2 = mid_east_arabic_85
+		2 = mid_east_arabic_86
+		2 = mid_east_arabic_87
+		2 = mid_east_arabic_88
+		2 = mid_east_arabic_89
+		2 = mid_east_arabic_90
+		2 = mid_east_arabic_91
+		2 = mid_east_arabic_92
+		2 = mid_east_arabic_93
+		2 = mid_east_arabic_94
+		2 = mid_east_arabic_95
+		2 = mid_east_arabic_96
+		2 = mid_east_arabic_97
+		2 = mid_east_arabic_98
+		2 = mid_east_arabic_99
+		2 = mid_east_arabic_100
+		2 = mid_east_arabic_101
+		2 = mid_east_arabic_102
+		2 = mid_east_arabic_103
+		2 = mid_east_arabic_104
+		2 = mid_east_arabic_105
+		2 = mid_east_arabic_106
+		2 = mid_east_arabic_107
+		2 = mid_east_arabic_108
+	}
+}
+
+punic = {
+	color = { 0.26 0.27 0.47 }
+	created = 2.1.1
+	parents = { phoenician }
+	history_loc_override = punic_history_loc
+
+	ethos = ethos_egalitarian # Spiritual or bureaucratic?
+	heritage = heritage_levantine
+	language = language_phoenician
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_maritime_mercantilism # Cybr: Carthaginian trade
+		tradition_seafaring # Cybr: More sailing
+		tradition_city_keepers # Cybr: Carthaginian colonies
+		tradition_legalistic # Cybr: To represent complex Carthaginian oligarchic system
+		tradition_religion_blending # Cybr: Carthaginian religious syncretism, and later Christian and Manichean presence
+	}
+
+	name_list = name_list_phoenician
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+
+	ethnicities = {
+		5 = north_african_baranis_1
+		5 = north_african_baranis_2
+		5 = north_african_baranis_3
+		5 = north_african_baranis_4
+		5 = north_african_baranis_5
+		5 = north_african_baranis_6
+		5 = north_african_baranis_7
+		5 = north_african_baranis_8
+		5 = north_african_baranis_9
+		5 = north_african_baranis_10
+		5 = north_african_baranis_11
+		5 = north_african_baranis_12
+		5 = north_african_baranis_13
+		5 = north_african_baranis_14
+		5 = north_african_baranis_15
+		5 = north_african_baranis_16
+		5 = north_african_baranis_17
+		5 = north_african_baranis_18
+		5 = north_african_baranis_19
+		5 = north_african_baranis_20
+		5 = north_african_baranis_21
+		5 = north_african_baranis_22
+		5 = north_african_baranis_23
+		5 = north_african_baranis_24
+		5 = north_african_baranis_25
+		5 = north_african_baranis_26
+		5 = north_african_baranis_27
+		5 = north_african_baranis_28
+		5 = north_african_baranis_29
+		5 = north_african_baranis_30
+		5 = north_african_baranis_31
+		5 = north_african_baranis_32
+		5 = north_african_baranis_33
+		2 = european_med_sicilian_01
+		2 = european_med_sicilian_02
+		2 = european_med_sicilian_03
+		2 = european_med_sicilian_04 
+		2 = european_med_sicilian_05
+		2 = european_med_sicilian_06
+		2 = european_med_sicilian_07
+		2 = european_med_sicilian_08
+		2 = european_med_sicilian_09
+		2 = european_med_sicilian_10
+		2 = european_med_sicilian_11
+		2 = european_med_sicilian_12
+		2 = european_med_sicilian_13
+		2 = european_med_sicilian_14
+		2 = european_med_sicilian_15
+		2 = european_med_sicilian_16
+		2 = european_med_sicilian_17
+		2 = european_med_sicilian_18
+		2 = european_med_sicilian_19
+		2 = european_med_sicilian_20
+		2 = european_med_sicilian_21
+		2 = european_med_sicilian_22
+		2 = european_med_sicilian_23
+		2 = european_med_sicilian_24
+		2 = european_med_sicilian_25
+		2 = european_med_sicilian_26
+		2 = european_med_sicilian_27
+		2 = european_med_sicilian_28
+		2 = european_med_sicilian_29
+		2 = european_med_sicilian_30
+		2 = european_med_sicilian_31
+		2 = european_med_sicilian_32
+		2 = european_med_sicilian_33
+		2 = european_med_sicilian_34
+		2 = european_med_sicilian_35
+		2 = european_med_sicilian_36
+		2 = european_med_sicilian_37
+		2 = european_med_sicilian_38
+		2 = european_med_sicilian_39
+		2 = european_med_sicilian_40
+		2 = european_med_sicilian_41
+		2 = european_med_sicilian_42
+		2 = european_med_sicilian_43
+		2 = european_med_sicilian_44
+		2 = european_med_sicilian_45
+		2 = european_med_sicilian_46
+		2 = european_med_sicilian_47
+		2 = european_med_sicilian_48
+		2 = european_med_sicilian_49
+		2 = european_med_sicilian_50
+	}
+}

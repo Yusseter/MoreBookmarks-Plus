@@ -1,0 +1,187 @@
+﻿
+# Name is for compatibility with Dharmacakra mod
+# Localized as Peristani in-game as a catch-all for "Kafirs" like the Nuristani, Kalash, Dards, and other peoples in the region of Peristan
+nuristani = {
+	color = { 0.84 0.28 0.01 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_indo_aryan
+	language = language_nuristani
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_himalayan_settlers
+		tradition_isolationist
+		tradition_stalwart_defenders
+	}
+	
+	name_list = name_list_nuristani
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx iranian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		4 = asian_tibetan_1
+		4 = asian_tibetan_2
+		4 = asian_tibetan_3
+		4 = asian_tibetan_4
+		4 = asian_tibetan_5
+		3 = indian_kashmiri_1
+		3 = indian_kashmiri_2
+		3 = indian_kashmiri_3
+		3 = indian_kashmiri_4
+		3 = indian_kashmiri_5
+		3 = indian_kashmiri_6
+		3 = indian_kashmiri_7
+		3 = indian_kashmiri_8
+		3 = indian_kashmiri_9
+		3 = indian_kashmiri_10
+		3 = indian_kashmiri_11
+		3 = indian_kashmiri_12
+		3 = indian_kashmiri_13
+		3 = indian_kashmiri_14
+		3 = indian_kashmiri_15
+		3 = indian_kashmiri_16
+		3 = indian_kashmiri_17
+		3 = indian_kashmiri_18
+		3 = indian_kashmiri_19
+		3 = indian_kashmiri_20
+		3 = indian_kashmiri_21
+		3 = indian_kashmiri_22
+		3 = indian_kashmiri_23
+		1 = iranian_afghan_1
+		1 = iranian_afghan_2
+		1 = iranian_afghan_3
+		1 = iranian_afghan_4
+		1 = iranian_afghan_5
+		1 = iranian_afghan_6
+		1 = iranian_afghan_7
+		1 = iranian_afghan_8
+		1 = iranian_afghan_9
+		1 = iranian_afghan_10
+		1 = iranian_afghan_11
+		1 = iranian_afghan_12
+		1 = iranian_afghan_13
+		1 = iranian_afghan_14
+		1 = iranian_afghan_15
+		1 = iranian_afghan_16
+		1 = iranian_afghan_17
+		1 = iranian_afghan_18
+		1 = iranian_afghan_19
+		1 = iranian_afghan_20
+		1 = iranian_afghan_21
+		1 = iranian_afghan_22
+		1 = iranian_afghan_23
+		1 = iranian_afghan_24
+		1 = iranian_afghan_25
+		1 = iranian_afghan_26
+		1 = iranian_afghan_27
+		1 = iranian_afghan_28
+		1 = iranian_afghan_29
+		1 = iranian_afghan_30
+		1 = iranian_afghan_31
+		1 = iranian_afghan_32
+		1 = iranian_afghan_33
+		1 = iranian_afghan_34
+		1 = iranian_afghan_35
+		1 = iranian_afghan_36
+		1 = iranian_afghan_37
+		1 = iranian_afghan_38
+		1 = iranian_afghan_39
+		1 = iranian_afghan_40
+		1 = iranian_afghan_41
+		1 = iranian_afghan_42
+		1 = iranian_afghan_43
+		1 = iranian_afghan_44
+		1 = iranian_afghan_45
+		1 = iranian_afghan_46
+		1 = iranian_afghan_47
+		1 = iranian_afghan_48
+		1 = iranian_afghan_49
+		1 = iranian_afghan_50
+	}
+}
+
+gujarati = { # Indo-Aryan
+	color = gujarati
+
+	ethos = ethos_spiritual
+	heritage = heritage_indo_aryan
+	language = language_gujarati
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+
+		tradition_vegetarianism
+		tradition_religion_blending
+		tradition_seafaring
+		tradition_artisans
+	}
+
+	name_list = name_list_gujarati
+
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+		10 = indian_gujarati_1
+		10 = indian_gujarati_2
+		2 = indian_northern_1
+		2 = indian_northern_2
+		2 = indian_northern_3
+		2 = indian_northern_4
+		2 = indian_northern_5
+		2 = indian_northern_6
+		2 = indian_northern_7
+		2 = indian_northern_8
+		2 = indian_northern_9
+		2 = indian_northern_10
+		2 = indian_northern_11
+		2 = indian_northern_12
+		2 = indian_northern_13
+		2 = indian_northern_14
+		2 = indian_northern_15
+		2 = indian_northern_16
+		2 = indian_northern_17
+		2 = indian_northern_18
+		2 = indian_northern_19
+		2 = indian_northern_20
+		2 = indian_northern_21
+		2 = indian_northern_22
+		2 = indian_northern_23
+		2 = indian_northern_24
+		2 = indian_northern_25
+		2 = indian_northern_26
+		2 = indian_northern_27
+		2 = indian_rajput_1
+		2 = indian_rajput_2
+		2 = indian_rajput_3
+		2 = indian_rajput_4
+		2 = indian_rajput_5
+		2 = indian_rajput_6
+		2 = indian_rajput_7
+		2 = indian_rajput_8
+		2 = indian_rajput_9
+		2 = indian_rajput_10
+		2 = indian_rajput_11
+		2 = indian_rajput_12
+		2 = indian_rajput_13
+		2 = indian_rajput_14
+		2 = indian_rajput_15
+		2 = indian_rajput_16
+		2 = indian_rajput_17
+		2 = indian_rajput_18
+		2 = indian_rajput_19
+		2 = indian_rajput_20
+		2 = indian_rajput_21
+		2 = indian_rajput_22
+		2 = indian_rajput_23
+		2 = indian_rajput_24
+		2 = indian_rajput_25
+		2 = indian_rajput_26
+	}
+}

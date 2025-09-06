@@ -1,0 +1,47 @@
+﻿l_english:
+ 
+ #culture_parameter_heritage_group_aos_si: "#P +[EmptyScope.ScriptValue('same_heritage_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Shantían [heritage_group|E]"
+
+ #culture_parameter_heritage_family_african: "#P +[EmptyScope.ScriptValue('same_heritage_family_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the African [heritage_family|E]"
+
+ #culture_parameter_kulturbund_scythian: "#P +[EmptyScope.ScriptValue('same_heritage_kulturbund_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Scythian [kulturbund|E]"
+
+ culture_parameter_dialect_continua_british_germanic: "#P +[EmptyScope.ScriptValue('same_dialect_continuum_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Britanian German [language_dialect_continuum|E]"
+ culture_parameter_dialect_continua_zan: "#P +[EmptyScope.ScriptValue('same_dialect_continuum_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Zan [language_dialect_continuum|E]"
+ culture_parameter_dialect_continua_permic: "#P +[EmptyScope.ScriptValue('same_dialect_continuum_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Permic [language_dialect_continuum|E]"
+ culture_parameter_dialect_continua_oghuric: "#P +[EmptyScope.ScriptValue('same_dialect_continuum_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Oghuric [language_dialect_continuum|E]"
+ culture_parameter_dialect_continua_shaz_turkic: "#P +[EmptyScope.ScriptValue('same_dialect_continuum_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Common Turkic [language_dialect_continuum|E]"
+ culture_parameter_dialect_continua_arabic: "#P +[EmptyScope.ScriptValue('same_dialect_continuum_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Arabic [language_dialect_continuum|E]"
+
+ culture_parameter_language_group_daco_thracian: "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Dacio-Thracian [language_group|E]"
+ culture_parameter_language_group_mongolic: "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Mongolic [language_group|E]"
+ culture_parameter_language_group_west_baltic: "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the West Baltic [language_group|E]"
+ culture_parameter_language_group_east_baltic: "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the East Baltic [language_group|E]"
+ culture_parameter_language_group_dnieper_baltic: "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Dnieper Baltic [language_group|E]"
+ culture_parameter_language_group_continental_celtic: "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Continental Celtic [language_group|E]"
+ culture_parameter_language_group_burman: "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Burman [language_group|E]"
+ culture_parameter_language_group_northwest_caucasian: "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Northwest Caucasian [language_group|E]"
+ culture_parameter_language_group_karto_zan: "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Karto-Zan [language_group|E]"
+ culture_parameter_language_group_ugric: "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Ugric [language_group|E]"
+ culture_parameter_language_group_volga_finnic: "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Volga-Finnic [language_group|E]"
+ culture_parameter_language_group_balto_finnic: "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Balto-Finnic [language_group|E]"
+ culture_parameter_language_group_south_semitic: "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the South Semitic [language_group|E]"
+ culture_parameter_language_group_turkic: "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Turkic [language_group|E]"
+ culture_parameter_language_group_hellenic: "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Hellenic [language_group|E]"
+ culture_parameter_language_group_illyrian: "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the illyrian [language_group|E]"
+ culture_parameter_language_group_central_semitic: "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Central Semitic [language_group|E]"
+ culture_parameter_language_group_amur: "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Amuric [language_group|E]"
+ culture_parameter_language_group_egyptian: "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Egyptian [language_group|E]"
+ culture_parameter_language_group_east_caucasian: "#P +[EmptyScope.ScriptValue('same_language_group_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the East Caucasian [language_group|E]"
+
+ culture_parameter_language_branch_altaic: "#P +[EmptyScope.ScriptValue('same_language_branch_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Altaic [language_branch|E]"
+ culture_parameter_language_branch_caucasian: "#P +[EmptyScope.ScriptValue('same_language_branch_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Caucasian [language_branch|E]"
+ culture_parameter_language_branch_uralic: "#P +[EmptyScope.ScriptValue('same_language_branch_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Uralic [language_branch|E]"
+ culture_parameter_language_branch_paleo_balkanic: "#P +[EmptyScope.ScriptValue('same_language_branch_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Paleo-Balkanic [language_branch|E]"
+ culture_parameter_language_branch_basque: "#P +[EmptyScope.ScriptValue('same_language_branch_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Vasconic [language_branch|E]"
+ culture_parameter_language_branch_tocharian: "#P +[EmptyScope.ScriptValue('same_language_branch_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Afanasievo [language_branch|E]"
+
+ culture_parameter_language_family_ural_altaic: "#P +[EmptyScope.ScriptValue('same_language_family_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Ural-Altaic [language_family|E]"
+
+ culture_parameter_language_union_iberian: "#P +[EmptyScope.ScriptValue('same_language_union_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Iberian [language_union|E]"
+ culture_parameter_language_union_anatolia_caucasus: "#P +[EmptyScope.ScriptValue('same_language_union_cultural_acceptance')|0]#! [cultural_acceptance_baseline|E] with Cultures sharing the Anatolia-Caucasus [language_union|E]"

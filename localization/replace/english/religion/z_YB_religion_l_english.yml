@@ -1,0 +1,83 @@
+﻿l_english:
+
+ #imami: "Ithna Ash'arism"
+ #imami_adj: "Ithna Ash'ari"
+ #imami_adherent: "Twelver Shia"
+ #imami_adherent_plural: "Twelver Shi'ites"
+ #imami_desc: "The Ithna Ash'ari, otherwise known as Twelver Shi'ites or Imamis, believe that the spiritual and political successors to the Prophet Muhammad are the twelve infallible Imams, starting with Imam Ali. These Imams are free of worldly desires and practice the utmost responsibility in their task of upholding Islam. Ithna Ash'aris believe that the twelfth Imam, Imam Mahdi will one day return to Earth and bring justice to this world."
+ 
+ ashari: "Ash'arism"
+ ashari_adj: "Ash'ari"
+ ashari_adherent: "Ash'ari"
+ ashari_adherent_plural: "Ash'aris"
+ ashari_desc: "The term '$ashari$' encompasses the most common forms of Sunnism; Ahl as-Sunnah and Ath'arism. It is the most widespread Muslim faith, born from a doctrine dictating that the Prophet Muhammad's rightful successors would be foreign temporal caliphs rather than the Prophet's descendants."
+
+ rrmeaism: "Valuphism" # lit. White Stone Worship
+ rrmeaism_adj: "Valuphi"
+ rrmeaism_adherent: "Valuphist"
+ rrmeaism_adherent_plural: "Valuphists"
+ rrmeaism_desc: "The religion of the Rrmea, or Qiang, focus much of their worship on the veneration of white stones, or Valuphi. Shaman-priests known as xbi wear a monkey fur hat and beat a sheep-skin drum while performing rituals."
+
+ rrmeaism_old: "Unreformed Valuphism"
+ rrmeaism_old_adj: "Unreformed Valuphi"
+ rrmeaism_old_adherent: "Unreformed Valuphist"
+ rrmeaism_old_adherent_plural: "Unreformed Valuphists"
+
+ siberian_religion: "Siberian"
+ siberian_religion_adj: "Siberian"
+
+ kuptyng: "Kuptyng"
+ kuptyng_adj: "Kuptyng"
+ kuptyng_adherent: "Kuptyngist"
+ kuptyng_adherent_plural: "Kuptyngists"
+ kuptyng_old: "Old Kuptyng"
+ kuptyng_old_adj: "Old Kuptyng"
+ kuptyng_old_adherent: "Old Kuptyngist"
+ kuptyng_old_adherent_plural: "Old Kuptyngists"
+
+ qiangic_religion: "Qiangic"
+ qiangic_religion_adj: "Qiangic"
+ qiangic_religion_adherent: "Qiangic"
+ qiangic_religion_adherent_plural: "Qiangics" 
+
+ jacobite: "Church of the West" # Syriac Christianity
+ jacobite_adj: "Jacobite"
+ jacobite_adherent: "Jacobite"
+ jacobite_adherent_plural: "Jacobites"
+ jacobite_desc: "Jacobites, also known as Western Syriac Orthodox Christians after their founder Jacob Baradeus are Miaphysite Christians, stressing that Christ had but a single nature, but of both human and divine character. The church gained its hierarchical distinctiveness in 512, when pro-Chalcedonian patriarch Flavian II of Antioch was deposed by Byzantine emperor Anastasius I Dicorus, and a synod was held at Laodicea in Syria in order to choose his successor, a prominent Miaphysite theologian Severus the Great. His later deposition was not recognized by the Miaphisite party, and thus a distinctive (autocephalous) miaphysite patriarchate was established, headed by Severus and his successors. The nominal head of the Syriac Orthodox Church is the Syriac Orthodox Patriarch of Antioch."
+
+ nestorian: "Church of the East"
+ nestorian_adj: "Nestorian"
+ nestorian_adherent: "Nestorian"
+ nestorian_adherent_plural: "Nestorians"
+ nestorian_desc: "Nestorian, also called various other names such as Eastern Syriac Christianity or The Church of the East, is a Christian branch which states that Christ has two separate natures - one divine and one human. This theological position was originally put forward from the Theological school of Edessa and had a powerful champion in the Patriarch of Constantinople, Nestorius, but was condemned as heresy in 431. The Church of the East never accepted this condemnation though and Westerners have since then for varying reasons applied the term Nestorian to the Church of the East. The nominal head of the Church of the East is the Patriarch of the East. Despite this, its unique outlook has garnered followers in places as far east as China, India, and even Mongolia."
+
+ slavic_religion: "Balto-Slavic"
+ slavic_religion_adj: "Balto-Slavic"
+ slavic_religion_adherent: "Balto-Slav"
+ slavic_religion_adherent_plural: "Balto-Slavs"
+ slavic_religion_desc: "Balto-Slavic paganism refers to the intertwined spiritual traditions of the Baltic and Slavic peoples, united by a shared reverence for nature, ancestral heritage, and communal values. Rooted in the concept of living in harmony with the natural world, adherents of these faiths seek a balance between inner peace and social responsibility.\n\nAmong Baltic pagans, the spiritual path is often described as 'the abode of inner peace,' emphasizing a close relationship with the land, the seasons, and the wisdom of ancestors. Traditions are preserved through oral storytelling, rituals, and a deep respect for sacred natural sites.\n\nSlavic paganism, encompassing the diverse native religions of Central and Eastern Europe, emphasizes personal duty, morality, and conformity to communal norms. Religious practices frequently center around public celebrations that honor beauty, joy, and collective identity, highlighting the role of community in spiritual life.\n\nTogether, these traditions reflect a rich cultural and religious tapestry that continues to inspire modern practitioners seeking a deep connection to heritage, harmony, and the natural world."
+ #slavic_religion_desc: "Emphasizing personal duty, morality, and conformity, Slavic paganism is the blanket term for the myriad native faiths of much of Central and Eastern Europe. Community is an important part of most, and religious ceremonies are often public gatherings which celebrate beauty and joyfulness."
+ #baltic_religion_desc: "As adherents of 'the abode of inner peace', Baltic pagans focus on living in harmony with the natural world around them while preserving the traditions and stories of their ancestors."
+
+ mordvin_religion: "Volga"
+ mordvin_religion_adj: "Volga"
+ mordvin_religion_adherent: "Volga"
+ mordvin_religion_adherent_plural: "Volgas"
+ mordvin_religion_desc: "The peoples of the Volga region share deep-rooted spiritual traditions centered around nature veneration, animism, and ancestral worship. Among them, the Permic peoples believe in a variety of spirits, both benevolent and malevolent, that inhabit the natural world. Their supreme deity, En, is a creator god often depicted as a swan, reflecting the sacred connection between their faith and the environment.\n\nThe Mordvins, composed of the Erzya and Moksha peoples, are Finno-Ugric speakers from the Volga basin who maintain religious practices akin to those of other Finno-Ugric groups. However, their beliefs also contain unique elements, shaped by their distinct cultural identity and historical experiences.\n\nSimilarly, the Mari people uphold a faith deeply rooted in nature worship. Their spiritual practices revolve around the veneration of forests, rivers, and sacred groves, emphasizing a harmonious relationship between humanity and the natural world. Collectively, these traditions reflect the enduring spiritual landscape of the Volga region, where the forces of nature and the divine remain closely intertwined." 
+ #mordvin_religion_desc: "The Erzya and Moksha peoples, who collectively make up the Mordvins, are Finno-Ugric speakers from the Volga River basin. Their religious practices are similar to other Finno-Ugric peoples, but they also have their own unique aspects as well." 
+ permic_religion_desc: "The Permic peoples believe in various spirits, both malicious and kind. Their supreme creator god is En, who takes the form of a swan."
+ mari_pagan_desc: "The veneration of nature is what defines the Mari native faith."
+
+ #Miaphysitism 
+ #coptic: "Nile Miaphysitism"
+ #coptic_adj: "Nile Miaphysite"
+ #coptic_adherent: "Nile Miaphysite"
+ #coptic_adherent_plural: "Nile Miaphysites"
+ #coptic_desc: "Miaphysite Christianity encompasses the Coptic Church and the Armenian Apostolic Church. Miaphysites stress that Christ had but a single nature, but of both human and divine character. This stance split them off from the main branch of Christianity after the council of Chalcedon in 451. Though not viewed as outright heretics by Chalcedonian Christians, it is a fine distinction. The nominal head of the Miaphysite Church is the Pope of Alexandria."
+
+ hinduism_religion: "Brahmanism"
+ hinduism_religion_adj: "Brahmanical"
+ hinduism_religion_adherent: "Brahmanist"
+ hinduism_religion_adherent_plural: "Brahmanists"
+ hinduism_religion_desc: "Brahmanism is a tradition that developed from the Vedic religion. It includes a multitude of gods and religious practices. Shared is the belief in samsara, the endless cycle of the soul's continuous rebirth into the world, and moksha, the freeing from that cycle."

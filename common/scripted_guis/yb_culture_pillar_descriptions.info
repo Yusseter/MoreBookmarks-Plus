@@ -1,0 +1,11 @@
+﻿culture_pillar_descriptions = {
+	scope = culture_pillar
+
+	effect = {
+		switch = {
+			trigger = root
+
+			culture_pillar:heritage_on_oq = { custom_tooltip = on_oq_desc }
+		}
+	}
+}

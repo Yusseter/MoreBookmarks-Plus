@@ -1,0 +1,29 @@
+﻿nomadic_house_name_hybrid = {
+	name = nomadic_house_name_hybrid_name
+	collective_noun = nomadic_house_name_hybrid_collective_noun
+	prefix = nomadic_house_name_hybrid_prefix
+	trigger = {
+		government_has_flag = government_is_nomadic
+	}
+	hybrid = yes
+}
+
+aralian = {
+	name = aralian_name
+	collective_noun = aralian_collective_noun
+	prefix = aralian_prefix
+
+	trigger = {
+		OR = {
+			AND = {
+				scope:culture = culture:turkish
+				scope:other_culture = { has_cultural_pillar = heritage_kipchak }
+			}
+			AND = {
+				scope:culture = { has_cultural_pillar = heritage_kipchak }
+				scope:other_culture = culture:turkish
+			}
+		}
+	}
+	hybrid = yes
+}

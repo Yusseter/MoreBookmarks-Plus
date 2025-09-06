@@ -1,0 +1,29 @@
+﻿yb_alania = {
+	duchies = {
+		d_alania d_zichia d_ciscaucasia d_derbent d_shirvan d_hereti d_kakheti d_kartli d_racha d_imeretia d_abkhazia
+	}
+}
+
+yb_greater_cilicia = {
+	duchies = {
+		d_cilicia d_seleucia d_antioch
+	}
+}
+
+yb_anatolian_turkish_region_1178 = {
+	counties = {
+		c_lycaonia c_sebasteia c_lower_galatia c_realgalatia c_ablastha c_melitene c_tzamandos c_pisidia # c_kyzistra
+	}
+}
+
+yb_syromesopotamian_turkish_region_1178 = {
+	counties = {
+		c_irbil c_taron c_amida c_manbij
+	}
+}
+
+yb_azerbaijan_turkish_region_1178 = {
+	counties = {
+		c_tabriz c_maragha c_baghk
+	}
+}

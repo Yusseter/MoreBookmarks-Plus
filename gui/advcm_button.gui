@@ -1,0 +1,41 @@
+widget = {
+	name = "advcm_button"
+	visible = "[And( Not( IsPauseMenuShown ), IsDefaultGUIMode )]"
+	size = { 100% 100% }
+	layer = bottom
+	datacontext = "[GetPlayer]"
+	using = Animation_ShowHide_Quick
+		
+		button_round = {
+			name = "advcm_shortcut_button"
+			size = { 35 35 }
+			position = { 0 -275 }
+			parentanchor = bottom|right
+			alpha = 0.7
+
+			#onclick = "[ExecuteConsoleCommand('gui.createwidget gui/advcm_main.gui advcm_main_window')]"
+			onclick = "[GetVariableSystem.Toggle('advcm_main_visible')]"
+			tooltip = advcm_button_tt
+
+			state = {
+				name = _mouse_enter
+				alpha = 1
+				duration = 0.2
+				using = Animation_Curve_Default
+			}
+
+			state = {
+				name = _mouse_leave
+				alpha = 0.7
+				duration = 0.7
+				using = Animation_Curve_Default
+			}
+
+			icon = {
+				parentanchor = center
+				alwaystransparent = yes
+				texture = "gfx/interface/icons/advcm/yb_debug_icon.dds"
+				size = { 25 25 }
+			}
+		}
+	}

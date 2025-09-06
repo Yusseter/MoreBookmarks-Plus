@@ -1,0 +1,49 @@
+﻿widget = {
+	name = "music_player_widget"
+	visible = "[And( Not( IsPauseMenuShown ), IsDefaultGUIMode )]"
+	size = { 100% 100% }
+	layer = bottom
+	datacontext = "[GetPlayer]"
+	using = Animation_ShowHide_Quick
+
+	flowcontainer = {
+		name = "music_player_container"
+		visible = "[And( Not( IsPauseMenuShown ), IsDefaultGUIMode )]"
+		visible_at_creation = no
+		parentanchor = bottom|right
+		ignoreinvisible = yes
+		alwaystransparent = no
+		position = { 0 -310 }
+		using = Animation_ShowHide_Standard
+		
+		button_round = {
+			name = "toggle_music_player_button"
+			size = { 35 35 }
+			alpha = 0.7
+
+			onclick = "[ToggleMusicPlayer]"
+			tooltip = "MUSIC_PLAYER_OPEN_PLAYER_TT"
+
+			state = {
+				name = _mouse_enter
+				alpha = 1
+				duration = 0.2
+				using = Animation_Curve_Default
+			}
+
+			state = {
+				name = _mouse_leave
+				alpha = 0.7
+				duration = 0.7
+				using = Animation_Curve_Default
+			}
+
+			icon = {
+				parentanchor = center
+				alwaystransparent = yes
+				texture = "gfx/interface/icons/music_player_icon.dds"
+				size = { 25 25 }
+			}
+		}
+	}
+}

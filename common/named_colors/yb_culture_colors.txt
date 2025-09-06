@@ -1,0 +1,18 @@
+﻿colors = {
+	yb_galindian = { 155 155 90 }
+	armenian = hsv{ 0.01 0.95 0.7 }
+	georgian = hsv{ 0.01 0.8 0.88 }
+	ghumara = { 141 78 35 }
+	mingrelian = { 206 48 53 }
+	svan = { 173 50 63 }
+	nafusa = { 151 89 49 }
+	udmurt = { 0.35 0.65 0.45 }
+	khitan = { 162 176 114 }
+	tajiuud = { 45 49 107 }
+	tataric = { 122 47 52 }
+	qay = { 0.75 0.8 0.50 }
+	uriankhai = { 0.2 0.2 0.8 }
+	naiman = { 179 40 33 }
+	azerbaijan_turkish = { 170 159 74 }
+	syromesopotamian_turkish = { 164 192 90 }
+}
