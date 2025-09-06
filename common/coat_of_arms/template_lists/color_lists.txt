@@ -340,5 +340,3 @@ color_lists = {
 	}
 	###SHOGUNATE MOD END
 }
-
-# Yusseter: From MBP 2025.08.30

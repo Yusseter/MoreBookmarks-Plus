@@ -463,11 +463,9 @@
 
 ###c_thessaliotis
 3797 = {	#Trikala
-	culture = greek # Yusseter
-	#culture = aromanian
+	culture = aromanian
 	religion = orthodox
 	holding = castle_holding
-	800.1.1 = { culture = aromanian } # Yusseter
 }
 3795 = {	#Grevena
 	holding = none
@@ -486,5 +484,3 @@
 3570 = {	#Pharsalos aka Farsala
 	holding = city_holding
 }
-
-# Yusseter: From MBP 2025.08.30

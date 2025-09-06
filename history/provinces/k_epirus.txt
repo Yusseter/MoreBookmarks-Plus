@@ -66,11 +66,9 @@
 
 ###c_metzovo
 3702 = {	#Metzovo
-	culture = greek # Yusseter
-	#culture = aromanian
+	culture = aromanian
 	religion = orthodox
 	holding = castle_holding
-	800.1.1 = { culture = aromanian } # Yusseter
 }
 3703 = {	# 3703 - Gardiki
 	holding = none
@@ -193,5 +191,3 @@ religion = orthodox
 	holding = city_holding
 	special_building_slot = kassiopi_castle
 }
-
-# Yusseter: From MBP 2025.08.30

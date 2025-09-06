@@ -118,8 +118,7 @@ religion = tengri_pagan
 
 825.1.1 = { culture = pecheneg } 
 895.1.1 = { culture = khazar } 
-930.1.1 = { culture = main_alan } # Yusseter
-#930.1.1 = { culture = alan } 
+930.1.1 = { culture = alan } 
 966.1.1 = { culture = torkil } 
 1061.1.1 = { culture = cuman } 
 1061.1.1 = { religion = tengri_pagan } 
@@ -146,8 +145,7 @@ religion = tengri_pagan
 # History
 825.1.1 = { culture = pecheneg } 
 #825.1.1 = { religion = manichean } 
-895.1.1 = { culture = main_alan } # Yusseter
-#895.1.1 = { culture = alan } # was garnisioned by alans.
+895.1.1 = { culture = alan } # was garnisioned by alans.
 966.1.1 = { culture = torkil } 
 966.1.1 = { religion = tengri_pagan } 
 1050.1.1 = { culture = cuman } 
@@ -176,8 +174,7 @@ religion = tengri_pagan
 	religion = tengri_pagan
 	holding = tribal_holding
 825.1.1 = { culture = pecheneg } 
-867.1.1 = { culture = main_alan religion = alan_pagan } # Yusseter
-#867.1.1 = { culture = alan religion = alan_pagan }
+867.1.1 = { culture = alan religion = alan_pagan }
 930.1.1 = { religion = tengri_pagan }
 940.1.1 = { culture = khazar } 
 966.1.1 = { culture = torkil } 
@@ -287,8 +284,7 @@ religion = tengri_pagan
 	culture = mordvin
 	religion = erzya_pagan
 	holding = tribal_holding
-	895.1.1 = { culture = main_alan } # Yusseter
-	#895.1.1 = { culture = alan } 
+	895.1.1 = { culture = alan } 
 	980.1.1 = { culture = mordvin } 
 	1300.1.1 = {
 		culture = mishar
@@ -368,5 +364,3 @@ religion = tengri_pagan
 5498 = {	#Repnoye
 	holding = none
 }
-
-# Yusseter: From MBP 2025.08.30

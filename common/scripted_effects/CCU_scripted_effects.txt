@@ -133,7 +133,6 @@ ccu_initialize_language_family_effect = {
 	else_if = { limit = { has_cultural_parameter = language_family_koreanic } set_variable = { name = language_family value = flag:language_family_koreanic } }
 	else_if = { limit = { has_cultural_parameter = language_family_japonic } set_variable = { name = language_family value = flag:language_family_japonic } }
 	else_if = { limit = { has_cultural_parameter = language_family_atlantic_congo } set_variable = { name = language_family value = flag:language_family_atlantic_congo } }
-	else_if = { limit = { has_cultural_parameter = language_family_ural_altaic } set_variable = { name = language_family value = flag:language_family_ural_altaic } } # Yusseter
 	
 	#MB+
 	
@@ -200,9 +199,6 @@ ccu_initialize_language_branch_effect = {
 	else_if = { limit = { has_cultural_parameter = language_branch_japanese } set_variable = { name = language_branch value = flag:language_branch_japanese } }
 	else_if = { limit = { has_cultural_parameter = language_branch_baipho } set_variable = { name = language_branch value = flag:language_branch_baipho } }
 	else_if = { limit = { has_cultural_parameter = language_branch_bantu } set_variable = { name = language_branch value = flag:language_branch_bantu } }
-	else_if = { limit = { has_cultural_parameter = language_branch_altaic } set_variable = { name = language_branch value = flag:language_branch_altaic } } # Yusseter
-	else_if = { limit = { has_cultural_parameter = language_branch_uralic } set_variable = { name = language_branch value = flag:language_branch_uralic } } # Yusseter
-	else_if = { limit = { has_cultural_parameter = language_branch_paleo_balkanic } set_variable = { name = language_branch value = flag:language_branch_paleo_balkanic } } # Yusseter
 	
 	#MB+
 	
@@ -422,26 +418,6 @@ ccu_initialize_language_group_effect = {
 	else_if = { limit = { has_cultural_parameter = language_group_karluk_turk } set_variable = { name = language_group value = flag:language_group_karluk_turk } }
 	else_if = { limit = { has_cultural_parameter = language_group_arghu_turk } set_variable = { name = language_group value = flag:language_group_arghu_turk } }
 	else_if = { limit = { has_cultural_parameter = language_group_ob_ugric } set_variable = { name = language_group value = flag:language_group_ob_ugric } }
-	else_if = { limit = { has_cultural_parameter = language_group_dnieper_baltic } set_variable = { name = language_group value = flag:language_group_dnieper_baltic } } # Yusseter
-	else_if = { limit = { has_cultural_parameter = language_group_east_baltic } set_variable = { name = language_group value = flag:language_group_east_baltic } } # Yusseter
-	else_if = { limit = { has_cultural_parameter = language_group_west_baltic } set_variable = { name = language_group value = flag:language_group_west_baltic } } # Yusseter
-	else_if = { limit = { has_cultural_parameter = language_group_mongolic } set_variable = { name = language_group value = flag:language_group_mongolic } } # Yusseter
-	else_if = { limit = { has_cultural_parameter = language_group_burman } set_variable = { name = language_group value = flag:language_group_burman } } # Yusseter
-	else_if = { limit = { has_cultural_parameter = language_group_northwest_caucasian } set_variable = { name = language_group value = flag:language_group_northwest_caucasian } } # Yusseter
-	else_if = { limit = { has_cultural_parameter = language_group_continental_celtic } set_variable = { name = language_group value = flag:language_group_continental_celtic } } # Yusseter
-	else_if = { limit = { has_cultural_parameter = language_group_karto_zan } set_variable = { name = language_group value = flag:language_group_karto_zan } } # Yusseter
-	else_if = { limit = { has_cultural_parameter = language_group_east_caucasian } set_variable = { name = language_group value = flag:language_group_east_caucasian } } # Yusseter
-	else_if = { limit = { has_cultural_parameter = language_group_ugric } set_variable = { name = language_group value = flag:language_group_ugric } } # Yusseter
-	else_if = { limit = { has_cultural_parameter = language_group_volga_finnic } set_variable = { name = language_group value = flag:language_group_volga_finnic } } # Yusseter
-	else_if = { limit = { has_cultural_parameter = language_group_balto_finnic } set_variable = { name = language_group value = flag:language_group_balto_finnic } } # Yusseter
-	else_if = { limit = { has_cultural_parameter = language_group_south_semitic } set_variable = { name = language_group value = flag:language_group_south_semitic } } # Yusseter
-	else_if = { limit = { has_cultural_parameter = language_group_turkic } set_variable = { name = language_group value = flag:language_group_turkic } } # Yusseter
-	else_if = { limit = { has_cultural_parameter = language_group_hellenic } set_variable = { name = language_group value = flag:language_group_hellenic } } # Yusseter
-	else_if = { limit = { has_cultural_parameter = language_group_illyrian } set_variable = { name = language_group value = flag:language_group_illyrian } } # Yusseter
-	else_if = { limit = { has_cultural_parameter = language_group_central_semitic } set_variable = { name = language_group value = flag:language_group_central_semitic } } # Yusseter
-	else_if = { limit = { has_cultural_parameter = language_group_amur } set_variable = { name = language_group value = flag:language_group_amur } } # Yusseter
-	else_if = { limit = { has_cultural_parameter = language_group_egyptian } set_variable = { name = language_group value = flag:language_group_egyptian } } # Yusseter
-	else_if = { limit = { has_cultural_parameter = language_group_daco_thracian } set_variable = { name = language_group value = flag:language_group_daco_thracian } } # Yusseter
 	
 	#else = { set_variable = { name = language_group value =flag:none } }
 }
@@ -473,12 +449,6 @@ ccu_initialize_dialect_continua_effect = {
 	if = { limit = { has_cultural_parameter = dialect_continua_tibetic } set_variable = { name = dialect_continuum value = flag:dialect_continua_tibetic } }
 	if = { limit = { has_cultural_parameter = dialect_continua_burmish } set_variable = { name = dialect_continuum value = flag:dialect_continua_burmish } }
 	if = { limit = { has_cultural_parameter = dialect_continua_loloish } set_variable = { name = dialect_continuum value = flag:dialect_continua_loloish } }
-	if = { limit = { has_cultural_parameter = dialect_continua_british_germanic } add_to_variable_list = { name = dialect_continuum target = flag:dialect_continua_british_germanic } } # Yusseter
-	if = { limit = { has_cultural_parameter = dialect_continua_zan } add_to_variable_list = { name = dialect_continuum target = flag:dialect_continua_zan } } # Yusseter
-	if = { limit = { has_cultural_parameter = dialect_continua_permic } add_to_variable_list = { name = dialect_continuum target = flag:dialect_continua_permic } } # Yusseter
-	if = { limit = { has_cultural_parameter = dialect_continua_oghuric } add_to_variable_list = { name = dialect_continuum target = flag:dialect_continua_oghuric } } # Yusseter
-	if = { limit = { has_cultural_parameter = dialect_continua_shaz_turkic } add_to_variable_list = { name = dialect_continuum target = flag:dialect_continua_shaz_turkic } } # Yusseter
-	if = { limit = { has_cultural_parameter = dialect_continua_arabic } add_to_variable_list = { name = dialect_continuum target = flag:dialect_continua_arabic } } # Yusseter
 	
 }
 
@@ -499,8 +469,6 @@ ccu_initialize_language_union_effect = {
 	else_if = { limit = { has_cultural_parameter = language_union_indian } set_variable = { name = language_union value = flag:language_union_indian } }
 	else_if = { limit = { has_cultural_parameter = language_union_steppe_siberian } set_variable = { name = language_union value = flag:language_union_steppe_siberian } }
 	else_if = { limit = { has_cultural_parameter = language_union_balkan } set_variable = { name = language_union value = flag:language_union_balkan } }
-	else_if = { limit = { has_cultural_parameter = language_union_iberian } set_variable = { name = language_union value = flag:language_union_iberian } } # Yusseter
-	else_if = { limit = { has_cultural_parameter = language_union_anatolia_caucasus } set_variable = { name = language_union value = flag:language_union_anatolia_caucasus } } # Yusseter
 	
 	#MB+
 	
@@ -550,5 +518,3 @@ ccu_culture_created_or_changed_effect = {
 	#Reset Everything
 	ccu_initialize_culture_effect = yes
 }
-
-# Yusseter: From MBP 2025.08.30

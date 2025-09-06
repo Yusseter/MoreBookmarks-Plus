@@ -6,8 +6,7 @@
 ##d_kara_khoja ###################################
 ###c_kara_khoja
 1446 = {	#Kara Khoja	AKA Qocho AKA Gaochan
-	culture = uigur # Yusseter
-	#culture = uyghur
+	culture = uyghur
 	religion = manichean
 	holding = castle_holding
 	954.2.22 = {
@@ -20,7 +19,6 @@
 			watchtowers_01
 		}
 	}
-	870.1.1 = { culture = uyghur } # Yusseter
 }
 7455 = {	#Yarkhoto	AKA Jiaohe
 	holding = city_holding
@@ -34,11 +32,9 @@
 
 ###c_beshbalik
 7459 = {	#Beshbalik	AKA Urumqi AKA Yizhou/Beiting
-	culture = uigur # Yusseter
-	#culture = uyghur
+	culture = uyghur
 	religion = manichean
 	holding = castle_holding
-	870.1.1 = { culture = uyghur } # Yusseter
 	954.2.22 = {
 		religion = vajrayana
 	}
@@ -50,11 +46,9 @@
 	holding = city_holding
 }
 7462 = {	#Jimsar	AKA Yulishi
-	culture = uigur # Yusseter
-	#culture = uyghur
-	religion = tengri_pagan
+	culture = uyghur
+	religion = manichean
 	holding = castle_holding
-	870.1.1 = { culture = uyghur } # Yusseter
 	954.2.22 = {
 		religion = vajrayana
 	}
@@ -68,21 +62,17 @@
 
 ###c_yangjibaliq
 7465 = {	#Yangjibalik	AKA Changji
-	culture = uigur # Yusseter
-	#culture = uyghur
+	culture = uyghur
 	religion = manichean
 	holding = castle_holding
-	870.1.1 = { culture = uyghur } # Yusseter
 	954.2.22 = {
 		religion = vajrayana
 	}
 }
 1449 = {	#Bugur	AKA Luntai
-	culture = uigur # Yusseter
-	#culture = uyghur
+	culture = uyghur
 	religion = manichean
 	holding = castle_holding
-	870.1.1 = { culture = uyghur } # Yusseter
 	954.2.22 = {
 		religion = vajrayana
 	}
@@ -100,11 +90,9 @@
 
 ###c_barkul
 7469 = {	#Barkul
-	culture = uigur # Yusseter
-	#culture = uyghur
+	culture = uyghur
 	religion = vajrayana
 	holding = castle_holding
-	870.1.1 = { culture = uyghur } # Yusseter
 }
 7470 = {	#Liaotun
 	holding = none
@@ -118,11 +106,9 @@
 
 ###c_chamil
 7458 = {	#Hami	AKA Yizhou AKA Qumul
-	culture = uigur # Yusseter
-	#culture = uyghur
+	culture = uyghur
 	religion = manichean
 	holding = castle_holding
-	870.1.1 = { culture = uyghur } # Yusseter
 	954.2.22 = {
 		religion = vajrayana
 	}
@@ -141,11 +127,9 @@
 }
 9620 = {	#Burgasutai
 	#On map AAA, south of Urtu Bulak
-	culture = uigur # Yusseter
-	#culture = uyghur
+	culture = uyghur
 	religion = manichean
 	holding = castle_holding
-	870.1.1 = { culture = uyghur } # Yusseter
 	954.2.22 = {
 		religion = vajrayana
 	}
@@ -158,7 +142,6 @@
 	culture = ograk
     religion = tengri_pagan
 
-	796.1.1 = { religion = manichean } # Yusseter
     900.1.1 = {
         culture = basmyl
         religion = nestorian
@@ -262,14 +245,13 @@
 7486 = {	# 7486 - Narym-DZU
 	
 	# Misc
-	culture = karluk # Yusseter
-	#culture = kirghiz
+	culture = kirghiz
 	religion = tengri_pagan
 	
 	#holding = xx
 	
 	# History
-	870.1.1 = { # Yusseter: 867.1.1
+	867.1.1 = {
 		culture = uyghur
 		religion = vajrayana
 	}
@@ -293,14 +275,13 @@
 7489 = {	# 7489 - Torangy Kul
 	
 	# Misc
-	culture = karluk # Yusseter
-	#culture = kirghiz
+	culture = kirghiz
 	religion = tengri_pagan
 	
 	#holding = xx
 	
 	# History
-	870.1.1 = { # Yusseter: 867.1.1
+	867.1.1 = {
 		culture = uyghur
 		religion = vajrayana
 	}
@@ -379,16 +360,12 @@
 7499 = {	# 7499 - Jie_DZU
 	
 	# Misc
-	culture = tocharian # Yusseter
-	#culture = uyghur
+	culture = uyghur
 	religion = vajrayana
 	
 	holding = castle_holding
 	
 	# History
-	870.1.1 = { # Yusseter
-		culture = uyghur
-	}
 }
 7500 = {	#Sulugu
 	#On map AAA, south of lake Ulungur
@@ -487,5 +464,3 @@
 	#Named after local lake
 	holding = none
 }
-
-# Yusseter: From MBP 2025.08.30

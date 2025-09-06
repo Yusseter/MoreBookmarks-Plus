@@ -62,10 +62,7 @@
 	# History
 	867.1.1 = { religion = sufri } #to cover the rebellion
 	900.1.1 = { religion = ashari }
-	1150.1.1 = { # Yusseter
-		culture = syromesopotamian_turkish
-	}
-	#1200.1.1 = { religion = yazidi }
+	1200.1.1 = { religion = yazidi }
 
 }
 
@@ -541,8 +538,8 @@
 	850.1.1 = {
 		religion = zayidi
 		holding = church_holding
-		#special_building_slot = imam_hussain_shrine_01 # Yusseter
-		#special_building = imam_hussain_shrine_01 # Yusseter
+		special_building_slot = imam_hussain_shrine_01
+		special_building = imam_hussain_shrine_01
 	}
 
 }
@@ -930,4 +927,3 @@
 
 }
 
-# Yusseter: From MBP 2025.08.30

@@ -105,8 +105,8 @@ culture = bolghar #major Volga Bulgar population due to repopulation and garriso
 religion = khabzism
 
 # History
-800.1.1 = { culture = tauro_romaic } # Yusseter: 1015.1.1
-800.1.1 = { religion = orthodox } # Yusseter: 1015.1.1
+1015.1.1 = { culture = tauro_romaic }
+1015.1.1 = { religion = orthodox }
 }
 5289 = {	#Papagia	#old name for the region, also Pagagia
 	holding = none
@@ -164,37 +164,37 @@ religion = khabzism
 
 # 597 - Azov
 597 = {	#597 - Azov
-		
-		# Misc
-	culture = bolghar #major Volga Bulgar population due to repopulation and garrisoning under the Khazars
-	religion = tengri_pagan
+	
+	# Misc
+culture = bolghar #major Volga Bulgar population due to repopulation and garrisoning under the Khazars
+religion = tengri_pagan
 
-	# History
-	966.1.1 = { culture = pecheneg }
-	1044.1.1 = { culture = torkil }
-	1050.1.1 = { culture = cuman } 
-	1050.1.1 = { religion = tengri_pagan } 
-	1227.1.1 = { religion = maturidi } 
+# History
+966.1.1 = { culture = pecheneg }
+1044.1.1 = { culture = torkil }
+1050.1.1 = { culture = cuman } 
+1050.1.1 = { religion = tengri_pagan } 
+1227.1.1 = { religion = maturidi } 
 
-	1300.1.1 = {
-		culture = crimean
-	}
+1300.1.1 = {
+	culture = crimean
+}
 }
 # 5288 - Manych
 5288 = {	#5288 - Manych
-		
-		# Misc
-	culture = khazar
-	religion = tengri_pagan
+	
+	# Misc
+culture = khazar
+religion = tengri_pagan
 
-	# History
-	1050.1.1 = { culture = cuman } 
-	1050.1.1 = { religion = tengri_pagan } 
-	1070.1.1 = { culture = kipchak } 
-	1313.1.1= { religion = maturidi } 
-	1300.1.1 = {
-		culture = crimean
-	}
+# History
+1050.1.1 = { culture = cuman } 
+1050.1.1 = { religion = tengri_pagan } 
+1070.1.1 = { culture = kipchak } 
+1313.1.1= { religion = maturidi } 
+1300.1.1 = {
+	culture = crimean
+}
 }
 5339 = {	#Chamchev
 	holding = none
@@ -411,5 +411,3 @@ religion = tengri_pagan
 	#settlement found on some older maps, unsure of its current name/location
 	holding = none
 }
-
-# Yusseter: From MBP 2025.08.30

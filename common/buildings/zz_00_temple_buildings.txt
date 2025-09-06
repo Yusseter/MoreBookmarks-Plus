@@ -8,8 +8,7 @@
 @illustration_ethiopian_christian = "gfx/interface/illustrations/holding_types/temple_ethiopian_christian.dds"
 @illustration_german_christian = "gfx/interface/illustrations/holding_types/temple_german_christian.dds"
 @illustration_goidelic_christian = "gfx/interface/illustrations/holding_types/temple_goidelic_christian.dds"
-@illustration_iberian_christian = "gfx/interface/illustrations/holding_types/fp2_temple_iberian_christian.dds" # Yusseter
-#@illustration_iberian_christian = "gfx/interface/illustrations/holding_types/temple_iberian_christian.dds"
+@illustration_iberian_christian = "gfx/interface/illustrations/holding_types/temple_iberian_christian.dds"
 @illustration_indian_christian = "gfx/interface/illustrations/holding_types/temple_indian_christian.dds"
 @illustration_iranian_christian = "gfx/interface/illustrations/holding_types/temple_iranian_christian.dds"
 @illustration_magyar_christian = "gfx/interface/illustrations/holding_types/temple_magyar_christian.dds"
@@ -93,8 +92,7 @@
 @illustration_ethiopian_islamic = "gfx/interface/illustrations/holding_types/temple_ethiopian_islamic.dds"
 @illustration_german_islamic = "gfx/interface/illustrations/holding_types/temple_western_islamic.dds"
 @illustration_goidelic_islamic = "gfx/interface/illustrations/holding_types/temple_british_islamic.dds"
-@illustration_iberian_islamic = "gfx/interface/illustrations/holding_types/fp2_temple_iberian_islamic.dds" # Yusseter
-#@illustration_iberian_islamic = "gfx/interface/illustrations/holding_types/temple_iberian_islamic.dds"
+@illustration_iberian_islamic = "gfx/interface/illustrations/holding_types/temple_iberian_islamic.dds"
 @illustration_indian_islamic = "gfx/interface/illustrations/holding_types/temple_indian_islamic.dds"
 @illustration_iranian_islamic = "gfx/interface/illustrations/holding_types/temple_iranian_islamic.dds"
 @illustration_magyar_islamic = "gfx/interface/illustrations/holding_types/temple_western_islamic.dds"
@@ -192,8 +190,7 @@
 @illustration_slavic_pagan = "gfx/interface/illustrations/holding_types/temple_slavic_pagan.dds"
 @illustration_somali_pagan = "gfx/interface/illustrations/holding_types/temple_somali_generic.dds"
 @illustration_southslavic_pagan = "gfx/interface/illustrations/holding_types/temple_mediterranean_pagan.dds"
-@illustration_steppe_pagan = "gfx/interface/illustrations/holding_types/mpo_temple_steppe.dds" # Yusseter
-#@illustration_steppe_pagan = "gfx/interface/illustrations/holding_types/temple_steppe_pagan.dds"
+@illustration_steppe_pagan = "gfx/interface/illustrations/holding_types/temple_steppe_pagan.dds"
 @illustration_tibetan_pagan = "gfx/interface/illustrations/holding_types/temple_tibetan_pagan.dds"
 @illustration_tundra_pagan = "gfx/interface/illustrations/holding_types/temple_norse_pagan.dds"
 @illustration_western_pagan = "gfx/interface/illustrations/holding_types/temple_western_pagan.dds"
@@ -210,8 +207,7 @@
 @illustration_goidelic_zoroastrian = "gfx/interface/illustrations/holding_types/temple_western_generic.dds"
 @illustration_iberian_zoroastrian = "gfx/interface/illustrations/holding_types/temple_iberian_generic.dds"
 @illustration_indian_zoroastrian = "gfx/interface/illustrations/holding_types/temple_indian_generic.dds"
-@illustration_iranian_zoroastrian = "gfx/interface/illustrations/holding_types/fp3_temple_iranian_zoroastrian.dds" # Yusseter
-#@illustration_iranian_zoroastrian = "gfx/interface/illustrations/holding_types/temple_iranian_zoroastrian.dds"
+@illustration_iranian_zoroastrian = "gfx/interface/illustrations/holding_types/temple_iranian_zoroastrian.dds"
 @illustration_magyar_zoroastrian = "gfx/interface/illustrations/holding_types/temple_western_generic.dds"
 @illustration_mediterranean_zoroastrian = "gfx/interface/illustrations/holding_types/temple_mediterranean_generic.dds"
 @illustration_mena_zoroastrian = "gfx/interface/illustrations/holding_types/temple_mena_generic.dds"
@@ -1315,7 +1311,7 @@ temple_01 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_generic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 	}
 	asset = {
@@ -1323,7 +1319,7 @@ temple_01 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_generic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 	}
 	asset = {
@@ -1331,7 +1327,7 @@ temple_01 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_generic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 	}
 	asset = {
@@ -1339,7 +1335,7 @@ temple_01 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_generic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 	}
 	asset = {
@@ -1347,7 +1343,7 @@ temple_01 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_generic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 	}
 	
@@ -2742,7 +2738,7 @@ temple_01 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_jewish
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 		graphical_faiths = { "judaism_gfx" }
 	}
@@ -2751,7 +2747,7 @@ temple_01 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_jewish
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 		graphical_faiths = { "judaism_gfx" }
 	}
@@ -2760,7 +2756,7 @@ temple_01 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_jewish
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 		graphical_faiths = { "judaism_gfx" }
 	}
@@ -2769,7 +2765,7 @@ temple_01 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_jewish
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 		graphical_faiths = { "judaism_gfx" }
 	}
@@ -2778,7 +2774,7 @@ temple_01 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_jewish
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 		graphical_faiths = { "judaism_gfx" }
 	}
@@ -4153,7 +4149,7 @@ temple_01 = {
 		name = "fp3_building_persian_temple_01_a_01_mesh"
 		illustration = @illustration_berber_zoroastrian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 		graphical_faiths = { "zoroastrian_gfx" }
 	}
@@ -4162,7 +4158,7 @@ temple_01 = {
 		name = "fp3_building_persian_temple_01_a_01_mesh"
 		illustration = @illustration_berber_zoroastrian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 		graphical_faiths = { "zoroastrian_gfx" }
 	}
@@ -4171,7 +4167,7 @@ temple_01 = {
 		name = "fp3_building_persian_temple_01_a_01_mesh"
 		illustration = @illustration_berber_zoroastrian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 		graphical_faiths = { "zoroastrian_gfx" }
 	}
@@ -4180,7 +4176,7 @@ temple_01 = {
 		name = "fp3_building_persian_temple_01_a_01_mesh"
 		illustration = @illustration_berber_zoroastrian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 		graphical_faiths = { "zoroastrian_gfx" }
 	}
@@ -4189,7 +4185,7 @@ temple_01 = {
 		name = "fp3_building_persian_temple_01_a_01_mesh"
 		illustration = @illustration_berber_zoroastrian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 		graphical_faiths = { "zoroastrian_gfx" }
 	}
@@ -5610,7 +5606,7 @@ temple_01 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 		graphical_faiths = { "pagan_gfx" }
 	}
@@ -5619,7 +5615,7 @@ temple_01 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 		graphical_faiths = { "pagan_gfx" }
 	}
@@ -5628,7 +5624,7 @@ temple_01 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 		graphical_faiths = { "pagan_gfx" }
 	}
@@ -5637,7 +5633,7 @@ temple_01 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 		graphical_faiths = { "pagan_gfx" }
 	}
@@ -5646,7 +5642,7 @@ temple_01 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 		graphical_faiths = { "pagan_gfx" }
 	}
@@ -7067,7 +7063,7 @@ temple_01 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 		graphical_faiths = { "tengrism_gfx" }
 	}
@@ -7076,7 +7072,7 @@ temple_01 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 		graphical_faiths = { "tengrism_gfx" }
 	}
@@ -7085,7 +7081,7 @@ temple_01 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 		graphical_faiths = { "tengrism_gfx" }
 	}
@@ -7094,7 +7090,7 @@ temple_01 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 		graphical_faiths = { "tengrism_gfx" }
 	}
@@ -7103,7 +7099,7 @@ temple_01 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 		graphical_faiths = { "tengrism_gfx" }
 	}
@@ -8524,7 +8520,7 @@ temple_01 = {
 		name = "building_mena_temple_dharmic_01_mesh"
 		illustration = @illustration_berber_dharmic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 		graphical_faiths = { "dharmic_gfx" }
 	}
@@ -8533,7 +8529,7 @@ temple_01 = {
 		name = "building_mena_temple_dharmic_01_mesh"
 		illustration = @illustration_berber_dharmic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 		graphical_faiths = { "dharmic_gfx" }
 	}
@@ -8542,7 +8538,7 @@ temple_01 = {
 		name = "building_mena_temple_dharmic_01_mesh"
 		illustration = @illustration_berber_dharmic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 		graphical_faiths = { "dharmic_gfx" }
 	}
@@ -8551,7 +8547,7 @@ temple_01 = {
 		name = "building_mena_temple_dharmic_01_mesh"
 		illustration = @illustration_berber_dharmic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 		graphical_faiths = { "dharmic_gfx" }
 	}
@@ -8560,7 +8556,7 @@ temple_01 = {
 		name = "building_mena_temple_dharmic_01_mesh"
 		illustration = @illustration_berber_dharmic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 		graphical_faiths = { "dharmic_gfx" }
 	}
@@ -9981,7 +9977,7 @@ temple_01 = {
 		name = "building_mena_temple_orthodox_01_mesh"
 		illustration = @illustration_berber_orthodox
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 		graphical_faiths = { "orthodox_gfx" }
 	}
@@ -9990,7 +9986,7 @@ temple_01 = {
 		name = "building_mena_temple_orthodox_01_mesh"
 		illustration = @illustration_berber_orthodox
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 		graphical_faiths = { "orthodox_gfx" }
 	}
@@ -9999,7 +9995,7 @@ temple_01 = {
 		name = "building_mena_temple_orthodox_01_mesh"
 		illustration = @illustration_berber_orthodox
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 		graphical_faiths = { "orthodox_gfx" }
 	}
@@ -10008,7 +10004,7 @@ temple_01 = {
 		name = "building_mena_temple_orthodox_01_mesh"
 		illustration = @illustration_berber_orthodox
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 		graphical_faiths = { "orthodox_gfx" }
 	}
@@ -10017,7 +10013,7 @@ temple_01 = {
 		name = "building_mena_temple_orthodox_01_mesh"
 		illustration = @illustration_berber_orthodox
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 		graphical_faiths = { "orthodox_gfx" }
 	}
@@ -11438,7 +11434,7 @@ temple_01 = {
 		name = "building_mena_temple_christian_01_mesh"
 		illustration = @illustration_berber_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 		graphical_faiths = { "catholic_gfx" }
 	}
@@ -11447,7 +11443,7 @@ temple_01 = {
 		name = "building_mena_temple_christian_01_mesh"
 		illustration = @illustration_berber_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 		graphical_faiths = { "catholic_gfx" }
 	}
@@ -11456,7 +11452,7 @@ temple_01 = {
 		name = "building_mena_temple_christian_01_mesh"
 		illustration = @illustration_berber_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 		graphical_faiths = { "catholic_gfx" }
 	}
@@ -11465,7 +11461,7 @@ temple_01 = {
 		name = "building_mena_temple_christian_01_mesh"
 		illustration = @illustration_berber_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 		graphical_faiths = { "catholic_gfx" }
 	}
@@ -11474,7 +11470,7 @@ temple_01 = {
 		name = "building_mena_temple_christian_01_mesh"
 		illustration = @illustration_berber_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 		graphical_faiths = { "catholic_gfx" }
 	}
@@ -12895,7 +12891,7 @@ temple_01 = {
 		name = "building_mena_temple_islamic_01_mesh"
 		illustration = @illustration_berber_islamic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 		graphical_faiths = { "islamic_gfx" }
 	}
@@ -12904,7 +12900,7 @@ temple_01 = {
 		name = "building_mena_temple_islamic_01_mesh"
 		illustration = @illustration_berber_islamic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 		graphical_faiths = { "islamic_gfx" }
 	}
@@ -12913,7 +12909,7 @@ temple_01 = {
 		name = "building_mena_temple_islamic_01_mesh"
 		illustration = @illustration_berber_islamic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 		graphical_faiths = { "islamic_gfx" }
 	}
@@ -12922,7 +12918,7 @@ temple_01 = {
 		name = "building_mena_temple_islamic_01_mesh"
 		illustration = @illustration_berber_islamic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 		graphical_faiths = { "islamic_gfx" }
 	}
@@ -12931,7 +12927,7 @@ temple_01 = {
 		name = "building_mena_temple_islamic_01_mesh"
 		illustration = @illustration_berber_islamic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 		graphical_faiths = { "islamic_gfx" }
 	}
@@ -14558,7 +14554,7 @@ temple_02 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_generic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 	}
 	asset = {
@@ -14566,7 +14562,7 @@ temple_02 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_generic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 	}
 	asset = {
@@ -14574,7 +14570,7 @@ temple_02 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_generic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 	}
 	asset = {
@@ -14582,7 +14578,7 @@ temple_02 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_generic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 	}
 	asset = {
@@ -14590,7 +14586,7 @@ temple_02 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_generic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 	}
 	
@@ -15985,7 +15981,7 @@ temple_02 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_jewish
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 		graphical_faiths = { "judaism_gfx" }
 	}
@@ -15994,7 +15990,7 @@ temple_02 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_jewish
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 		graphical_faiths = { "judaism_gfx" }
 	}
@@ -16003,7 +15999,7 @@ temple_02 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_jewish
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 		graphical_faiths = { "judaism_gfx" }
 	}
@@ -16012,7 +16008,7 @@ temple_02 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_jewish
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 		graphical_faiths = { "judaism_gfx" }
 	}
@@ -16021,7 +16017,7 @@ temple_02 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_jewish
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 		graphical_faiths = { "judaism_gfx" }
 	}
@@ -17442,7 +17438,7 @@ temple_02 = {
 		name = "fp3_building_persian_temple_01_a_01_mesh"
 		illustration = @illustration_berber_zoroastrian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 		graphical_faiths = { "zoroastrian_gfx" }
 	}
@@ -17451,7 +17447,7 @@ temple_02 = {
 		name = "fp3_building_persian_temple_01_a_01_mesh"
 		illustration = @illustration_berber_zoroastrian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 		graphical_faiths = { "zoroastrian_gfx" }
 	}
@@ -17460,7 +17456,7 @@ temple_02 = {
 		name = "fp3_building_persian_temple_01_a_01_mesh"
 		illustration = @illustration_berber_zoroastrian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 		graphical_faiths = { "zoroastrian_gfx" }
 	}
@@ -17469,7 +17465,7 @@ temple_02 = {
 		name = "fp3_building_persian_temple_01_a_01_mesh"
 		illustration = @illustration_berber_zoroastrian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 		graphical_faiths = { "zoroastrian_gfx" }
 	}
@@ -17478,7 +17474,7 @@ temple_02 = {
 		name = "fp3_building_persian_temple_01_a_01_mesh"
 		illustration = @illustration_berber_zoroastrian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 		graphical_faiths = { "zoroastrian_gfx" }
 	}
@@ -18899,7 +18895,7 @@ temple_02 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 		graphical_faiths = { "pagan_gfx" }
 	}
@@ -18908,7 +18904,7 @@ temple_02 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 		graphical_faiths = { "pagan_gfx" }
 	}
@@ -18917,7 +18913,7 @@ temple_02 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 		graphical_faiths = { "pagan_gfx" }
 	}
@@ -18926,7 +18922,7 @@ temple_02 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 		graphical_faiths = { "pagan_gfx" }
 	}
@@ -18935,7 +18931,7 @@ temple_02 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 		graphical_faiths = { "pagan_gfx" }
 	}
@@ -20356,7 +20352,7 @@ temple_02 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 		graphical_faiths = { "tengrism_gfx" }
 	}
@@ -20365,7 +20361,7 @@ temple_02 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 		graphical_faiths = { "tengrism_gfx" }
 	}
@@ -20374,7 +20370,7 @@ temple_02 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 		graphical_faiths = { "tengrism_gfx" }
 	}
@@ -20383,7 +20379,7 @@ temple_02 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 		graphical_faiths = { "tengrism_gfx" }
 	}
@@ -20392,7 +20388,7 @@ temple_02 = {
 		name = "building_mena_temple_generic_01_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 		graphical_faiths = { "tengrism_gfx" }
 	}
@@ -21813,7 +21809,7 @@ temple_02 = {
 		name = "building_mena_temple_dharmic_01_mesh"
 		illustration = @illustration_berber_dharmic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 		graphical_faiths = { "dharmic_gfx" }
 	}
@@ -21822,7 +21818,7 @@ temple_02 = {
 		name = "building_mena_temple_dharmic_01_mesh"
 		illustration = @illustration_berber_dharmic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 		graphical_faiths = { "dharmic_gfx" }
 	}
@@ -21831,7 +21827,7 @@ temple_02 = {
 		name = "building_mena_temple_dharmic_01_mesh"
 		illustration = @illustration_berber_dharmic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 		graphical_faiths = { "dharmic_gfx" }
 	}
@@ -21840,7 +21836,7 @@ temple_02 = {
 		name = "building_mena_temple_dharmic_01_mesh"
 		illustration = @illustration_berber_dharmic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 		graphical_faiths = { "dharmic_gfx" }
 	}
@@ -21849,7 +21845,7 @@ temple_02 = {
 		name = "building_mena_temple_dharmic_01_mesh"
 		illustration = @illustration_berber_dharmic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 		graphical_faiths = { "dharmic_gfx" }
 	}
@@ -23270,7 +23266,7 @@ temple_02 = {
 		name = "building_mena_temple_orthodox_01_mesh"
 		illustration = @illustration_berber_orthodox
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 		graphical_faiths = { "orthodox_gfx" }
 	}
@@ -23279,7 +23275,7 @@ temple_02 = {
 		name = "building_mena_temple_orthodox_01_mesh"
 		illustration = @illustration_berber_orthodox
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 		graphical_faiths = { "orthodox_gfx" }
 	}
@@ -23288,7 +23284,7 @@ temple_02 = {
 		name = "building_mena_temple_orthodox_01_mesh"
 		illustration = @illustration_berber_orthodox
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 		graphical_faiths = { "orthodox_gfx" }
 	}
@@ -23297,7 +23293,7 @@ temple_02 = {
 		name = "building_mena_temple_orthodox_01_mesh"
 		illustration = @illustration_berber_orthodox
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 		graphical_faiths = { "orthodox_gfx" }
 	}
@@ -23306,7 +23302,7 @@ temple_02 = {
 		name = "building_mena_temple_orthodox_01_mesh"
 		illustration = @illustration_berber_orthodox
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 		graphical_faiths = { "orthodox_gfx" }
 	}
@@ -24727,7 +24723,7 @@ temple_02 = {
 		name = "building_mena_temple_christian_01_mesh"
 		illustration = @illustration_berber_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 		graphical_faiths = { "catholic_gfx" }
 	}
@@ -24736,7 +24732,7 @@ temple_02 = {
 		name = "building_mena_temple_christian_01_mesh"
 		illustration = @illustration_berber_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 		graphical_faiths = { "catholic_gfx" }
 	}
@@ -24745,7 +24741,7 @@ temple_02 = {
 		name = "building_mena_temple_christian_01_mesh"
 		illustration = @illustration_berber_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 		graphical_faiths = { "catholic_gfx" }
 	}
@@ -24754,7 +24750,7 @@ temple_02 = {
 		name = "building_mena_temple_christian_01_mesh"
 		illustration = @illustration_berber_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 		graphical_faiths = { "catholic_gfx" }
 	}
@@ -24763,7 +24759,7 @@ temple_02 = {
 		name = "building_mena_temple_christian_01_mesh"
 		illustration = @illustration_berber_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 		graphical_faiths = { "catholic_gfx" }
 	}
@@ -26184,7 +26180,7 @@ temple_02 = {
 		name = "building_mena_temple_islamic_01_mesh"
 		illustration = @illustration_berber_islamic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 		graphical_faiths = { "islamic_gfx" }
 	}
@@ -26193,7 +26189,7 @@ temple_02 = {
 		name = "building_mena_temple_islamic_01_mesh"
 		illustration = @illustration_berber_islamic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 		graphical_faiths = { "islamic_gfx" }
 	}
@@ -26202,7 +26198,7 @@ temple_02 = {
 		name = "building_mena_temple_islamic_01_mesh"
 		illustration = @illustration_berber_islamic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 		graphical_faiths = { "islamic_gfx" }
 	}
@@ -26211,7 +26207,7 @@ temple_02 = {
 		name = "building_mena_temple_islamic_01_mesh"
 		illustration = @illustration_berber_islamic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 		graphical_faiths = { "islamic_gfx" }
 	}
@@ -26220,7 +26216,7 @@ temple_02 = {
 		name = "building_mena_temple_islamic_01_mesh"
 		illustration = @illustration_berber_islamic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 		graphical_faiths = { "islamic_gfx" }
 	}
@@ -27700,7 +27696,7 @@ temple_03 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_generic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 	}
 	asset = {
@@ -27708,7 +27704,7 @@ temple_03 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_generic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 	}
 	asset = {
@@ -27716,7 +27712,7 @@ temple_03 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_generic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 	}
 	asset = {
@@ -27724,7 +27720,7 @@ temple_03 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_generic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 	}
 	asset = {
@@ -27732,7 +27728,7 @@ temple_03 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_generic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 	}
 	
@@ -29127,7 +29123,7 @@ temple_03 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_jewish
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 		graphical_faiths = { "judaism_gfx" }
 	}
@@ -29136,7 +29132,7 @@ temple_03 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_jewish
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 		graphical_faiths = { "judaism_gfx" }
 	}
@@ -29145,7 +29141,7 @@ temple_03 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_jewish
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 		graphical_faiths = { "judaism_gfx" }
 	}
@@ -29154,7 +29150,7 @@ temple_03 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_jewish
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 		graphical_faiths = { "judaism_gfx" }
 	}
@@ -29163,7 +29159,7 @@ temple_03 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_jewish
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 		graphical_faiths = { "judaism_gfx" }
 	}
@@ -30584,7 +30580,7 @@ temple_03 = {
 		name = "fp3_building_persian_temple_02_a_01_mesh"
 		illustration = @illustration_berber_zoroastrian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 		graphical_faiths = { "zoroastrian_gfx" }
 	}
@@ -30593,7 +30589,7 @@ temple_03 = {
 		name = "fp3_building_persian_temple_02_a_01_mesh"
 		illustration = @illustration_berber_zoroastrian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 		graphical_faiths = { "zoroastrian_gfx" }
 	}
@@ -30602,7 +30598,7 @@ temple_03 = {
 		name = "fp3_building_persian_temple_02_a_01_mesh"
 		illustration = @illustration_berber_zoroastrian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 		graphical_faiths = { "zoroastrian_gfx" }
 	}
@@ -30611,7 +30607,7 @@ temple_03 = {
 		name = "fp3_building_persian_temple_02_a_01_mesh"
 		illustration = @illustration_berber_zoroastrian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 		graphical_faiths = { "zoroastrian_gfx" }
 	}
@@ -30620,7 +30616,7 @@ temple_03 = {
 		name = "fp3_building_persian_temple_02_a_01_mesh"
 		illustration = @illustration_berber_zoroastrian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 		graphical_faiths = { "zoroastrian_gfx" }
 	}
@@ -32041,7 +32037,7 @@ temple_03 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 		graphical_faiths = { "pagan_gfx" }
 	}
@@ -32050,7 +32046,7 @@ temple_03 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 		graphical_faiths = { "pagan_gfx" }
 	}
@@ -32059,7 +32055,7 @@ temple_03 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 		graphical_faiths = { "pagan_gfx" }
 	}
@@ -32068,7 +32064,7 @@ temple_03 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 		graphical_faiths = { "pagan_gfx" }
 	}
@@ -32077,7 +32073,7 @@ temple_03 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 		graphical_faiths = { "pagan_gfx" }
 	}
@@ -33498,7 +33494,7 @@ temple_03 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 		graphical_faiths = { "tengrism_gfx" }
 	}
@@ -33507,7 +33503,7 @@ temple_03 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 		graphical_faiths = { "tengrism_gfx" }
 	}
@@ -33516,7 +33512,7 @@ temple_03 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 		graphical_faiths = { "tengrism_gfx" }
 	}
@@ -33525,7 +33521,7 @@ temple_03 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 		graphical_faiths = { "tengrism_gfx" }
 	}
@@ -33534,7 +33530,7 @@ temple_03 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 		graphical_faiths = { "tengrism_gfx" }
 	}
@@ -34955,7 +34951,7 @@ temple_03 = {
 		name = "building_mena_temple_dharmic_02_mesh"
 		illustration = @illustration_berber_dharmic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 		graphical_faiths = { "dharmic_gfx" }
 	}
@@ -34964,7 +34960,7 @@ temple_03 = {
 		name = "building_mena_temple_dharmic_02_mesh"
 		illustration = @illustration_berber_dharmic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 		graphical_faiths = { "dharmic_gfx" }
 	}
@@ -34973,7 +34969,7 @@ temple_03 = {
 		name = "building_mena_temple_dharmic_02_mesh"
 		illustration = @illustration_berber_dharmic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 		graphical_faiths = { "dharmic_gfx" }
 	}
@@ -34982,7 +34978,7 @@ temple_03 = {
 		name = "building_mena_temple_dharmic_02_mesh"
 		illustration = @illustration_berber_dharmic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 		graphical_faiths = { "dharmic_gfx" }
 	}
@@ -34991,7 +34987,7 @@ temple_03 = {
 		name = "building_mena_temple_dharmic_02_mesh"
 		illustration = @illustration_berber_dharmic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 		graphical_faiths = { "dharmic_gfx" }
 	}
@@ -36412,7 +36408,7 @@ temple_03 = {
 		name = "building_mena_temple_orthodox_02_mesh"
 		illustration = @illustration_berber_orthodox
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 		graphical_faiths = { "orthodox_gfx" }
 	}
@@ -36421,7 +36417,7 @@ temple_03 = {
 		name = "building_mena_temple_orthodox_02_mesh"
 		illustration = @illustration_berber_orthodox
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 		graphical_faiths = { "orthodox_gfx" }
 	}
@@ -36430,7 +36426,7 @@ temple_03 = {
 		name = "building_mena_temple_orthodox_02_mesh"
 		illustration = @illustration_berber_orthodox
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 		graphical_faiths = { "orthodox_gfx" }
 	}
@@ -36439,7 +36435,7 @@ temple_03 = {
 		name = "building_mena_temple_orthodox_02_mesh"
 		illustration = @illustration_berber_orthodox
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 		graphical_faiths = { "orthodox_gfx" }
 	}
@@ -36448,7 +36444,7 @@ temple_03 = {
 		name = "building_mena_temple_orthodox_02_mesh"
 		illustration = @illustration_berber_orthodox
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 		graphical_faiths = { "orthodox_gfx" }
 	}
@@ -37869,7 +37865,7 @@ temple_03 = {
 		name = "building_mena_temple_christian_02_mesh"
 		illustration = @illustration_berber_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 		graphical_faiths = { "catholic_gfx" }
 	}
@@ -37878,7 +37874,7 @@ temple_03 = {
 		name = "building_mena_temple_christian_02_mesh"
 		illustration = @illustration_berber_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 		graphical_faiths = { "catholic_gfx" }
 	}
@@ -37887,7 +37883,7 @@ temple_03 = {
 		name = "building_mena_temple_christian_02_mesh"
 		illustration = @illustration_berber_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 		graphical_faiths = { "catholic_gfx" }
 	}
@@ -37896,7 +37892,7 @@ temple_03 = {
 		name = "building_mena_temple_christian_02_mesh"
 		illustration = @illustration_berber_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 		graphical_faiths = { "catholic_gfx" }
 	}
@@ -37905,7 +37901,7 @@ temple_03 = {
 		name = "building_mena_temple_christian_02_mesh"
 		illustration = @illustration_berber_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 		graphical_faiths = { "catholic_gfx" }
 	}
@@ -39326,7 +39322,7 @@ temple_03 = {
 		name = "building_mena_temple_islamic_02_mesh"
 		illustration = @illustration_berber_islamic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 		graphical_faiths = { "islamic_gfx" }
 	}
@@ -39335,7 +39331,7 @@ temple_03 = {
 		name = "building_mena_temple_islamic_02_mesh"
 		illustration = @illustration_berber_islamic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 		graphical_faiths = { "islamic_gfx" }
 	}
@@ -39344,7 +39340,7 @@ temple_03 = {
 		name = "building_mena_temple_islamic_02_mesh"
 		illustration = @illustration_berber_islamic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 		graphical_faiths = { "islamic_gfx" }
 	}
@@ -39353,7 +39349,7 @@ temple_03 = {
 		name = "building_mena_temple_islamic_02_mesh"
 		illustration = @illustration_berber_islamic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 		graphical_faiths = { "islamic_gfx" }
 	}
@@ -39362,7 +39358,7 @@ temple_03 = {
 		name = "building_mena_temple_islamic_02_mesh"
 		illustration = @illustration_berber_islamic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 		graphical_faiths = { "islamic_gfx" }
 	}
@@ -40833,7 +40829,7 @@ temple_04 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_generic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 	}
 	asset = {
@@ -40841,7 +40837,7 @@ temple_04 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_generic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 	}
 	asset = {
@@ -40849,7 +40845,7 @@ temple_04 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_generic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 	}
 	asset = {
@@ -40857,7 +40853,7 @@ temple_04 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_generic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 	}
 	asset = {
@@ -40865,7 +40861,7 @@ temple_04 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_generic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 	}
 	
@@ -42260,7 +42256,7 @@ temple_04 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_jewish
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 		graphical_faiths = { "judaism_gfx" }
 	}
@@ -42269,7 +42265,7 @@ temple_04 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_jewish
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 		graphical_faiths = { "judaism_gfx" }
 	}
@@ -42278,7 +42274,7 @@ temple_04 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_jewish
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 		graphical_faiths = { "judaism_gfx" }
 	}
@@ -42287,7 +42283,7 @@ temple_04 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_jewish
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 		graphical_faiths = { "judaism_gfx" }
 	}
@@ -42296,7 +42292,7 @@ temple_04 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_jewish
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 		graphical_faiths = { "judaism_gfx" }
 	}
@@ -43717,7 +43713,7 @@ temple_04 = {
 		name = "fp3_building_persian_temple_02_a_01_mesh"
 		illustration = @illustration_berber_zoroastrian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 		graphical_faiths = { "zoroastrian_gfx" }
 	}
@@ -43726,7 +43722,7 @@ temple_04 = {
 		name = "fp3_building_persian_temple_02_a_01_mesh"
 		illustration = @illustration_berber_zoroastrian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 		graphical_faiths = { "zoroastrian_gfx" }
 	}
@@ -43735,7 +43731,7 @@ temple_04 = {
 		name = "fp3_building_persian_temple_02_a_01_mesh"
 		illustration = @illustration_berber_zoroastrian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 		graphical_faiths = { "zoroastrian_gfx" }
 	}
@@ -43744,7 +43740,7 @@ temple_04 = {
 		name = "fp3_building_persian_temple_02_a_01_mesh"
 		illustration = @illustration_berber_zoroastrian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 		graphical_faiths = { "zoroastrian_gfx" }
 	}
@@ -43753,7 +43749,7 @@ temple_04 = {
 		name = "fp3_building_persian_temple_02_a_01_mesh"
 		illustration = @illustration_berber_zoroastrian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 		graphical_faiths = { "zoroastrian_gfx" }
 	}
@@ -45174,7 +45170,7 @@ temple_04 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 		graphical_faiths = { "pagan_gfx" }
 	}
@@ -45183,7 +45179,7 @@ temple_04 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 		graphical_faiths = { "pagan_gfx" }
 	}
@@ -45192,7 +45188,7 @@ temple_04 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 		graphical_faiths = { "pagan_gfx" }
 	}
@@ -45201,7 +45197,7 @@ temple_04 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 		graphical_faiths = { "pagan_gfx" }
 	}
@@ -45210,7 +45206,7 @@ temple_04 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 		graphical_faiths = { "pagan_gfx" }
 	}
@@ -46631,7 +46627,7 @@ temple_04 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 		graphical_faiths = { "tengrism_gfx" }
 	}
@@ -46640,7 +46636,7 @@ temple_04 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 		graphical_faiths = { "tengrism_gfx" }
 	}
@@ -46649,7 +46645,7 @@ temple_04 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 		graphical_faiths = { "tengrism_gfx" }
 	}
@@ -46658,7 +46654,7 @@ temple_04 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 		graphical_faiths = { "tengrism_gfx" }
 	}
@@ -46667,7 +46663,7 @@ temple_04 = {
 		name = "building_mena_temple_generic_02_mesh"
 		illustration = @illustration_berber_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 		graphical_faiths = { "tengrism_gfx" }
 	}
@@ -48088,7 +48084,7 @@ temple_04 = {
 		name = "building_mena_temple_dharmic_02_mesh"
 		illustration = @illustration_berber_dharmic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 		graphical_faiths = { "dharmic_gfx" }
 	}
@@ -48097,7 +48093,7 @@ temple_04 = {
 		name = "building_mena_temple_dharmic_02_mesh"
 		illustration = @illustration_berber_dharmic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 		graphical_faiths = { "dharmic_gfx" }
 	}
@@ -48106,7 +48102,7 @@ temple_04 = {
 		name = "building_mena_temple_dharmic_02_mesh"
 		illustration = @illustration_berber_dharmic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 		graphical_faiths = { "dharmic_gfx" }
 	}
@@ -48115,7 +48111,7 @@ temple_04 = {
 		name = "building_mena_temple_dharmic_02_mesh"
 		illustration = @illustration_berber_dharmic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 		graphical_faiths = { "dharmic_gfx" }
 	}
@@ -48124,7 +48120,7 @@ temple_04 = {
 		name = "building_mena_temple_dharmic_02_mesh"
 		illustration = @illustration_berber_dharmic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 		graphical_faiths = { "dharmic_gfx" }
 	}
@@ -49545,7 +49541,7 @@ temple_04 = {
 		name = "building_mena_temple_orthodox_02_mesh"
 		illustration = @illustration_berber_orthodox
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 		graphical_faiths = { "orthodox_gfx" }
 	}
@@ -49554,7 +49550,7 @@ temple_04 = {
 		name = "building_mena_temple_orthodox_02_mesh"
 		illustration = @illustration_berber_orthodox
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 		graphical_faiths = { "orthodox_gfx" }
 	}
@@ -49563,7 +49559,7 @@ temple_04 = {
 		name = "building_mena_temple_orthodox_02_mesh"
 		illustration = @illustration_berber_orthodox
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 		graphical_faiths = { "orthodox_gfx" }
 	}
@@ -49572,7 +49568,7 @@ temple_04 = {
 		name = "building_mena_temple_orthodox_02_mesh"
 		illustration = @illustration_berber_orthodox
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 		graphical_faiths = { "orthodox_gfx" }
 	}
@@ -49581,7 +49577,7 @@ temple_04 = {
 		name = "building_mena_temple_orthodox_02_mesh"
 		illustration = @illustration_berber_orthodox
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 		graphical_faiths = { "orthodox_gfx" }
 	}
@@ -51002,7 +50998,7 @@ temple_04 = {
 		name = "building_mena_temple_christian_02_mesh"
 		illustration = @illustration_berber_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 		graphical_faiths = { "catholic_gfx" }
 	}
@@ -51011,7 +51007,7 @@ temple_04 = {
 		name = "building_mena_temple_christian_02_mesh"
 		illustration = @illustration_berber_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 		graphical_faiths = { "catholic_gfx" }
 	}
@@ -51020,7 +51016,7 @@ temple_04 = {
 		name = "building_mena_temple_christian_02_mesh"
 		illustration = @illustration_berber_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 		graphical_faiths = { "catholic_gfx" }
 	}
@@ -51029,7 +51025,7 @@ temple_04 = {
 		name = "building_mena_temple_christian_02_mesh"
 		illustration = @illustration_berber_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 		graphical_faiths = { "catholic_gfx" }
 	}
@@ -51038,7 +51034,7 @@ temple_04 = {
 		name = "building_mena_temple_christian_02_mesh"
 		illustration = @illustration_berber_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 		graphical_faiths = { "catholic_gfx" }
 	}
@@ -52459,7 +52455,7 @@ temple_04 = {
 		name = "building_mena_temple_islamic_02_mesh"
 		illustration = @illustration_berber_islamic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_western" }
 		graphical_faiths = { "islamic_gfx" }
 	}
@@ -52468,7 +52464,7 @@ temple_04 = {
 		name = "building_mena_temple_islamic_02_mesh"
 		illustration = @illustration_berber_islamic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mediterranean" }
 		graphical_faiths = { "islamic_gfx" }
 	}
@@ -52477,7 +52473,7 @@ temple_04 = {
 		name = "building_mena_temple_islamic_02_mesh"
 		illustration = @illustration_berber_islamic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_india" }
 		graphical_faiths = { "islamic_gfx" }
 	}
@@ -52486,7 +52482,7 @@ temple_04 = {
 		name = "building_mena_temple_islamic_02_mesh"
 		illustration = @illustration_berber_islamic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_mena" }
 		graphical_faiths = { "islamic_gfx" }
 	}
@@ -52495,7 +52491,7 @@ temple_04 = {
 		name = "building_mena_temple_islamic_02_mesh"
 		illustration = @illustration_berber_islamic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_building_gfx } # Yusseter
+		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { "graphical_steppe" }
 		graphical_faiths = { "islamic_gfx" }
 	}
@@ -54476,5 +54472,3 @@ breweries_08 = {
 		}
 	}
 }
-
-# Yusseter: From SBC 2025.08.30

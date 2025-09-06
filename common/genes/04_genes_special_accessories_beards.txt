@@ -346,13 +346,12 @@ special_genes = {
 					#10 = male_beard_steppe_02 # long at chin with mustache
 					5 = male_beard_custom_01
 					5 = male_beard_custom_02
-					5 = male_beard_custom_03
-					10 = male_beard_steppe_01 # Yusseter
-					#1 = male_beard_steppe_01 # Yusseter
+					5 = male_beard_custom_03				 
+					1 = male_beard_steppe_01
 					1 = male_beard_steppe_02
 					5 = male_beard_turkic_01
 				    5 = epe_male_beard_fp1_02 #
-					#5 = male_beard_custom_06 # Yusseter
+					5 = male_beard_custom_06	
 					
 				}
 				female = {
@@ -975,18 +974,18 @@ special_genes = {
 			turkic_thin_beards_straight = {
 				index = 41
 
-				male = { # Yusseter
-					#1 = empty
-					#5 = male_beard_steppe_01 # Yusseter
+				male = {
+					1 = empty
+					5 = male_beard_steppe_01
 					5 = male_beard_steppe_02
 					5 = male_beard_custom_01
 					5 = male_beard_custom_02
-					5 = male_beard_custom_03
-					#5 = male_beard_steppe_01 # Yusseter
+					5 = male_beard_custom_03				 
+					5 = male_beard_steppe_01
 					5 = male_beard_steppe_02
 					5 = male_beard_turkic_01
-					5 = epe_male_beard_fp1_02
-					#5 = male_beard_custom_06 # Yusseter
+					5 = epe_male_beard_fp1_02 #	
+					5 = male_beard_custom_06		
 				}
 				female = {
 					1 = empty
@@ -998,22 +997,21 @@ special_genes = {
 
 				male = {
 					1 = empty
-					#5 = male_beard_steppe_01 # Yusseter
+					5 = male_beard_steppe_01
 					5 = male_beard_western_03 # Short beard
 					5 = male_beard_fp1_02 # Short low beard				 
 					5 = male_beard_western_05
 					5 = male_beard_mena_04
-					5 = cfp_male_moustache_slavic_02 # Yusseter
-					#5 = male_mustache_iranian_05
+					5 = male_mustache_iranian_05
 					5 = epe_male_beard_fp1_02 #	
-					#5 = male_beard_steppe_01 # Yusseter
+					5 = male_beard_steppe_01
 					5 = male_beard_steppe_02
 					5 = male_beard_custom_01
 					5 = male_beard_custom_02
-					5 = male_beard_custom_03	
-					#5 = male_beard_steppe_01 # Yusseter
+					5 = male_beard_custom_03				 
+					5 = male_beard_steppe_01
 					5 = male_beard_steppe_02
-					#5 = male_beard_custom_06 # Yusseter
+					5 = male_beard_custom_06	
 				}
 				female = {
 					1 = empty
@@ -1023,17 +1021,15 @@ special_genes = {
 				index = 43
 
 				male = {
-					5 = empty # Yusseter
-					1 = m_beard_fp3_iranian_02 # Long Pointy Beard
-					#5 = male_beard_western_01 # Short beard # Yusseter
-					#5 = male_beard_western_02 # Yusseter
-					#5 = male_beard_northern_01 # Big wide # Yusseter
-					5 = cfp_male_moustache_slavic_02 # Yusseter
-					#5 = male_mustache_iranian_05 # Yusseter
-					2 = male_beard_fp1_02 # Short low beard
-					1 = m_beard_sp4_mena_01 # Yusseter
-					#5 = male_beard_mena_04 # Yusseter
-					5 = epe_male_beard_fp1_02
+					# 5 = empty
+					5 = m_beard_fp3_iranian_02 # Long Pointy Beard
+					5 = male_beard_western_01 # Short beard
+					5 = male_beard_western_02
+					5 = male_beard_northern_01 # Big wide
+					5 = male_mustache_iranian_05		
+					5 = male_beard_fp1_02 # Short low beard
+					5 = male_beard_mena_04
+					5 = epe_male_beard_fp1_02 #						
 				}
 				female = {
 					1 = empty
@@ -1077,8 +1073,7 @@ special_genes = {
 					5 = male_beard_mena_04
 					5 = mena_curled_mustache_chinstrap_01
 					5 = mena_islamic_pointed_beard_03
-					5 = cfp_male_moustache_slavic_02 # Yusseter
-					#5 = male_mustache_iranian_05
+					5 = male_mustache_iranian_05	
 					5 = mena_islamic_pointed_beard						 
 				}
 				female = {
@@ -1090,20 +1085,13 @@ special_genes = {
 
 				male = {
 					# 5 = empty
-					5 = m_beard_ep3_byzantine_04 # Yusseter
-					5 = m_beard_sp4_mena_01 # Yusseter
 					5 = m_beard_fp3_iranian_02 # Long Pointy Beard
-					1 = male_beard_western_01 # Yusseter
-					#5 = male_beard_western_01 # Short beard
-					1 = male_beard_western_02 # Yusseter
-					#5 = male_beard_western_02
-					1 = male_beard_northern_01 # Yusseter
-					#5 = male_beard_northern_01 # Big wide
-					5 = cfp_male_moustache_slavic_02 # Yusseter
-					#5 = male_mustache_iranian_05
+					5 = male_beard_western_01 # Short beard
+					5 = male_beard_western_02
+					5 = male_beard_northern_01 # Big wide
+					5 = male_mustache_iranian_05		
 					5 = male_beard_fp1_02 # Short low beard
-					1 = male_beard_mena_04 # Yusseter
-					#5 = male_beard_mena_04
+					5 = male_beard_mena_04
 					5 = epe_male_beard_fp1_02 #	
 					5 = mena_islamic_pointed_beard_03	
 					5 = mena_islamic_pointed_beard								
@@ -1372,5 +1360,3 @@ special_genes = {
 		}
 	}
 }
-
-# Yusseter: From MBP + EPE + CFP 2025.09.03

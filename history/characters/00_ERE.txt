@@ -2268,8 +2268,7 @@ Shervash3 = {
 	name = Khatir
 	dynasty = 1061033 #Burtas
 	religion = "alan_pagan"
-	culture = main_alan # Yusseter
-	#culture = "alan"
+	culture = "alan"
 	748.1.1 = {
 		birth = yes
 	}
@@ -2283,8 +2282,7 @@ Shervash3 = {
 	name="Mishar"
 	dynasty=1100006
 	religion="manichean"
-	culture = main_alan # Yusseter
-	#culture="alan"
+	culture="alan"
 	744.1.1={
 		birth=yes
 	}
@@ -2312,8 +2310,7 @@ Shervash3 = {
 	dynasty=12271
 	father = 302275
 	father = 302275
-	culture = main_alan # Yusseter
-	#culture="alan"
+	culture="alan"
 	religion="alan_pagan"
 	820.1.1={
 		birth="820.1.1"
@@ -2327,8 +2324,7 @@ Shervash3 = {
 	name = "Ertekin"
 	dynasty = 12271 #Burtasid
 	religion = tengri_pagan
-	culture = main_alan # Yusseter
-	#culture="alan"
+	culture = alan
 	father = 302275
 	837.1.2 = {
 		birth = yes
@@ -2342,8 +2338,7 @@ Shervash3 = {
 	name = "Ertugrul"
 	dynasty = 12271 #Burtasid
 	religion = tengri_pagan
-	culture = main_alan # Yusseter
-	#culture="alan"
+	culture = alan
 	father = 302275
 	840.1.2 = {
 		birth = yes
@@ -2358,8 +2353,7 @@ Shervash3 = {
 	dynasty = 12271
 
 	religion = "alan_pagan"
-	culture = main_alan # Yusseter
-	#culture="alan"
+	culture = "alan"
 	father = 74027
 	843.1.1={
 		birth = yes
@@ -2373,8 +2367,7 @@ Shervash3 = {
 	name="Candak"
 	dynasty=12271
 	father=74027
-	culture = main_alan # Yusseter
-	#culture="alan"
+	culture="alan"
 	religion="alan_pagan"
 	848.1.1={
 		birth="848.1.1"
@@ -2389,8 +2382,7 @@ Shervash3 = {
 	dynasty = 12271
 
 	religion = "alan_pagan"
-	culture = main_alan # Yusseter
-	#culture="alan"
+	culture = "alan"
 	father = 1233620
 	884.1.1={
 		birth = yes
@@ -2405,8 +2397,7 @@ Shervash3 = {
 	dynasty = 12271
 
 	religion = "alan_pagan"
-	culture = main_alan # Yusseter
-	#culture="alan"
+	culture = "alan"
 	father = 1233621
 	935.1.1={
 		birth = yes
@@ -2421,8 +2412,7 @@ Shervash3 = {
 	dynasty = 12271
 
 	religion = "alan_pagan"
-	culture = main_alan # Yusseter
-	#culture="alan"
+	culture = "alan"
 	father = 1233622
 	972.1.1={
 		birth = yes
@@ -2437,8 +2427,7 @@ Shervash3 = {
 	dynasty = 12271
 
 	religion = "alan_pagan"
-	culture = main_alan # Yusseter
-	#culture="alan"
+	culture = "alan"
 	father = 1233623
 	1003.1.1={
 		birth = yes
@@ -2467,8 +2456,7 @@ Shervash3 = {
 	dynasty = 12271
 
 	religion = "alan_pagan"
-	culture = main_alan # Yusseter
-	#culture="alan"
+	culture = "alan"
 	father = 1233624
 	1044.1.1={
 		birth = yes
@@ -10190,7 +10178,6 @@ armenian.000083 = { #Father of Ali ibn Yahya al-Armani
 ####################################### Dynasty: armenian #######################################
 armenian.000019 = {
 	name = "Sahak" #I
-	dynasty = armenian.albaniosid
 	religion = "armenian_apostolic"
 	culture = "armenian"
 	307.1.1 = { #Fictionalised birth date.
@@ -10204,7 +10191,6 @@ armenian.000019 = {
 armenian.000020 = {
 	name = "Zaven" #I
 	father = armenian.000019
-	dynasty = armenian.albaniosid
 	religion = "armenian_apostolic"
 	culture = "armenian"
 	337.1.1 = { #Fictionalised birth date.
@@ -10218,7 +10204,6 @@ armenian.000020 = {
 armenian.000021 = {
 	name = "Aspuraces" #I
 	father = armenian.000020
-	dynasty = armenian.albaniosid
 	religion = "armenian_apostolic"
 	culture = "armenian"
 	357.1.1 = { #Fictionalised birth date.
@@ -10231,7 +10216,6 @@ armenian.000021 = {
 
 armenian.000082 = {
 	name = "Katranide"
-	dynasty = armenian.katranidi
 	religion = "armenian_apostolic"
 	culture = "armenian"
 	female = yes
@@ -18483,9 +18467,6 @@ armenian.000080 = {
 	1090.1.1={ #?
 		birth = yes
 		culture="turkish"
-	}
-	1100.1.1 = { # Yusseter
-		culture = persian_turkish
 	}
 	1102.1.1={ #?
 		add_trait="beardless_eunuch"
@@ -30157,9 +30138,6 @@ Kakhaberidze2 = {
 	996.1.1={
 		birth="996.1.1"
 		culture="turkish"
-	}
-	1050.1.1 = { # Yusseter
-		culture = persian_turkish
 	}
 	1057.1.1={
 		death = yes
@@ -68473,4 +68451,3 @@ vlach_000004 = {
 	}
 }
 
-# Yusseter: From MBP 2025.09.05

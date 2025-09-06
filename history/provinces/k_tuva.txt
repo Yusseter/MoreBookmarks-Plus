@@ -6,12 +6,10 @@
 ###c_arzhan
 1459 = {	#Arzhan
 	#Ancient ruins on the site of Kyzyl
-	culture = yenisei_kirghiz # Yusseter
-	#culture = cik
+	culture = cik
 	religion = ulganism
 	holding = tribal_holding
-	925.4.28 = { culture = cik } # Yusseter
-	1200.1.1 = { # Yusseter: 1150.1.2
+	1150.1.2 = {
 		culture = oirat
 	}
 }
@@ -27,15 +25,9 @@
 ###c_tapsa
 7619 = {	#Tapsa
 	#Named after local river
-	culture = samoyed # Yusseter
-	#culture = cik
-	religion = kuptyng # Yusseter
-	#religion = ulganism
+	culture = cik
+	religion = ulganism
 	holding = tribal_holding
-	925.4.28 = { # Yusseter
-		culture = todzh 
-		religion = ulganism
-	}
 	1150.1.2 = {
 		culture = oirat
 	}
@@ -55,15 +47,9 @@
 
 ###c_azas
 7624 = {	#Azas
-	culture = samoyed # Yusseter
-	#culture = todzh
-	religion = kuptyng # Yusseter
-	#religion = ulganism
+	culture = todzh
+	religion = ulganism
 	holding = tribal_holding
-	925.4.28 = { # Yusseter
-		culture = todzh 
-		religion = ulganism
-	}
 	1150.1.2 = {
 		culture = oirat
 	}
@@ -78,11 +64,9 @@
 ###c_eastern_tannu
 1452 = {	#Karatangdy
 	#Completely fictional
-	culture = yenisei_kirghiz # Yusseter
-	#culture = cik
+	culture = cik
 	religion = ulganism
 	holding = tribal_holding
-	925.4.28 = { culture = cik } # Yusseter
 }
 7628 = {	#Khemchiq
 	#Named after local river
@@ -100,11 +84,9 @@
 ###c_western_tannu
 7625 = {	#Turgen Uul_bis
 	#Named after local mountain
-	culture = yenisei_kirghiz # Yusseter
-	#culture = az
+	culture = az
 	religion = ulganism
 	holding = tribal_holding
-	925.4.28 = { culture = az } # Yusseter
 }
 7626 = {	#Mungun Taiga
 	#Named after local mountain
@@ -120,11 +102,9 @@
 ###c_stoyanka
 7639 = {	#Stoyanka
 	#Completely ficitonal
-	culture = yenisei_kirghiz # Yusseter
-	#culture = cik
+	culture = cik
 	religion = ulganism
 	holding = tribal_holding
-	925.4.28 = { culture = cik } # Yusseter
 }
 7640 = {	#Urbun
 	#Named after local river
@@ -141,11 +121,9 @@
 ###c_katu_yaryk
 7632 = {	#Katu-Yaryk
 	#Named after local mountain
-	culture = yenisei_kirghiz # Yusseter
-	#culture = az
+	culture = az
 	religion = ulganism
 	holding = tribal_holding
-	925.4.28 = { culture = az } # Yusseter
 }
 7631 = {	#Altyn Kol
 	#Named after local lake
@@ -153,11 +131,9 @@
 }
 7633 = {	#Kara-Khol_TUV
 	#Named after local lake
-	culture = yenisei_kirghiz # Yusseter
-	#culture = az
+	culture = az
 	religion = ulganism
 	holding = tribal_holding
-	925.4.28 = { culture = az } # Yusseter
 }
 7634 = {	#Tsagaan Gazar
 	#Local region
@@ -167,11 +143,9 @@
 ###c_kantegir
 7635 = {	#Gosudar
 	#Completely fictional
-	culture = yenisei_kirghiz # Yusseter
-	#culture = az
+	culture = az
 	religion = ulganism
 	holding = tribal_holding
-	925.4.28 = { culture = az } # Yusseter
 }
 7636 = {	#Sutkhol
 	#Named after local lake
@@ -185,5 +159,3 @@
 	#Local region
 	holding = none
 }
-
-# Yusseter: From MBP 2025.08.30

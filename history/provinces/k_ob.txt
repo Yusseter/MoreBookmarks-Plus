@@ -5,14 +5,12 @@
 7427 = {	# 7427 - Ob
 	
 	# Misc
-	culture = kimek # Yusseter
-	#culture = kirghiz
+	culture = kirghiz
 	religion = ulganism
 	
 	#holding = castle_holding
 	
 	# History
-	925.4.28 = { culture = kirghiz } # Yusseter
 
 }
 7430 = {	#Obchikanak	#Fictional
@@ -28,13 +26,11 @@
 ###c_biia
 1132 = {	# County Title
 	# Misc
-	culture = kimek # Yusseter
-	#culture = kirghiz
-	religion = manichean # Yusseter
-	#religion = ulganism
+	culture = kirghiz
+	religion = ulganism
 	
 	# History
-	925.4.28 = { culture = kirghiz } # Yusseter
+	
 	1227.1.1 = { religion = ulganism }
 	1313.1.1 = { religion = ashari }
 }
@@ -47,11 +43,9 @@
 
 ###c_torema
 7426 = {	#Torema	#Fictional, based on local river
-	culture = samoyed # Yusseter
-	#culture = kirghiz
+	culture = kirghiz
 	religion = ulganism
 	holding = tribal_holding
-	925.4.28 = { culture = kirghiz } # Yusseter
 }
 7425 = {	#Iaya	#Fictional, based on local river
 	holding = none
@@ -62,12 +56,9 @@
 
 ###c_sorok
 7422 = {	#Sorok	#Fictional
-	culture = yenisei_kirghiz # Yusseter
-	#culture = kirghiz
+	culture = kirghiz
 	religion = ulganism
 	holding = tribal_holding
-	796.1.1 = { religion = manichean } # Yusseter
-	925.4.28 = { culture = kirghiz } # Yusseter
 }
 7423 = {	#Our	#Fictional, based on local river
 	holding = none
@@ -81,15 +72,12 @@
 7421 = {	# 7421 - Kondoma
 	
 	# Misc
-	culture = yenisei_kirghiz # Yusseter
-	#culture = kirghiz
+	culture = kirghiz
 	religion = ulganism
 	
 	#holding = castle_holding
 	
 	# History
-	796.1.1 = { religion = manichean } # Yusseter
-	925.4.28 = { culture = kirghiz } # Yusseter
 
 }
 7415 = {	#Sary Chumych	#Based on river Chumych
@@ -104,15 +92,12 @@
 7419 = {	# 7419 - Kyin
 	
 	# Misc
-	culture = yenisei_kirghiz # Yusseter
-	#culture = az
+	culture = az
 	religion = ulganism
 	
 	#holding = castle_holding
 	
 	# History
-	796.1.1 = { religion = manichean } # Yusseter
-	925.4.28 = { culture = az } # Yusseter
 
 }
 7418 = {	#Mus Tagh	#Fictional, based on local mountain
@@ -127,15 +112,12 @@
 7406 = {	# 7406 - Aley
 	
 	# Misc
-	culture = kimek # Yusseter
-	#culture = kirghiz
+	culture = kirghiz
 	religion = ulganism
 	
 	#holding = castle_holding
 	
 	# History
-	796.1.1 = { religion = manichean } # Yusseter
-	925.4.28 = { culture = kirghiz } # Yusseter
 
 }
 7403 = {	#Poperech	#Fictional, based on local river
@@ -153,15 +135,12 @@
 7405 = {	# 7405 - Korgon
 	
 	# Misc
-	culture = kimek # Yusseter
-	#culture = kirghiz
+	culture = kirghiz
 	religion = ulganism
 	
 	#holding = castle_holding
 	
 	# History
-	796.1.1 = { religion = manichean } # Yusseter
-	925.4.28 = { culture = kirghiz } # Yusseter
 
 }
 7404 = {	#Korginia	#Fictional
@@ -176,15 +155,12 @@
 7412 = {	# 7412 - Terektai
 	
 	# Misc
-	culture = yenisei_kirghiz # Yusseter
-	#culture = az
+	culture = az
 	religion = ulganism
 	
 	#holding = castle_holding
 	
 	# History
-	796.1.1 = { religion = manichean } # Yusseter
-	925.4.28 = { culture = az } # Yusseter
 	1250.1.2 = {
 		culture = oirat
 		religion = ulganism
@@ -203,14 +179,12 @@
 7514 = {	# 7514 - Khuiten
 	
 	# Misc
-	culture = basmyl # Yusseter
-	#culture = az
+	culture = az
 	religion = ulganism
 	
 	holding = tribal_holding
 	
 	# History
-	925.4.28 = { culture = az } # Yusseter
 
 }
 7515 = {	#Khoton	#Fictional, based on local lake
@@ -253,11 +227,9 @@
 
 ###c_taskyl
 7436 = {	#Taskyl	#Fictional, based on local mountain
-	culture = yenisei_kirghiz # Yusseter
-	#culture = kirghiz
+	culture = kirghiz
 	religion = ulganism
 	holding = tribal_holding
-	925.4.28 = { culture = kirghiz } # Yusseter
 }
 7435 = {	#Perasku	#Fictional
 	holding = none
@@ -268,15 +240,9 @@
 
 ###c_kojuk
 7443 = {	#Kojuk	#Fictional, based on local river
-	culture = yeniseian # Yusseter
-	#culture = kirghiz
-	religion = kuptyng # Yusseter
-	#religion = ulganism
+	culture = kirghiz
+	religion = ulganism
 	holding = tribal_holding
-	925.4.28 = { # Yusseter
-		culture = kirghiz 
-		religion = ulganism
-	}
 }
 7441 = {	#Biriku	#AKA Birikoulskoie
 	holding = none
@@ -284,14 +250,9 @@
 
 ###c_chulym
 7439 = {	#Chulym_bis	#Fictional, based on local river
-	culture = yeniseian # Yusseter
-	#culture = kirghiz
+	culture = kirghiz
 	religion = kuptyng
 	holding = tribal_holding
-	925.4.28 = { # Yusseter
-		culture = kirghiz 
-		religion = ulganism
-	}
 }
 7440 = {	#Chet	#Fictional, based on local river
 	holding = none
@@ -522,14 +483,12 @@
 7397 = {	# 7397 - Barnaul
 	
 	# Misc
-	culture = kimek # Yusseter
-	#culture = kirghiz
+	culture = kirghiz
 	religion = ulganism
 	
 	#holding = castle_holding
 	
 	# History
-	925.4.28 = { culture = kirghiz } # Yusseter
 
 }
 7396 = {	#Kasmala	#Fictional, based on local river
@@ -583,5 +542,3 @@
 7388 = {	#Topolno	#Fictional, based on local lake
 	holding = none
 }
-
-# Yusseter: From MBP 2025.08.30

@@ -1137,14 +1137,6 @@ cfp_headgear_base = {
                 portrait_low_nobles_clothing_trigger = {
                     CULTURE_INPUT = cfp_turkic
                 }
-				culture = {
-					OR = {
-						this = culture:kangly
-						any_parent_culture_or_above = {
-							this = culture:kangly
-						}
-					}
-				}
 			}
             #modifier = {
             #    factor = 0  # Should NOT show up if FP3 is active since they are included in FP3 genes
@@ -1266,140 +1258,13 @@ cfp_headgear_base = {
 		}
 	}
 
-	yb_eastern_turk_imperial_epe = { # Yusseter
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = fp3_turkic_imperial
-				range = { 0 0.41 }
-			}
-			accessory = {
-			    mode = add
-			    gene = headgear_2
-			    template = no_headgear
-			    range = { 0 1 }
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 75
-				portrait_imperial_trigger = {
-                    CULTURE_INPUT = epe_eastern_turk 
-                }
-				NOT = {
-					portrait_imperial_trigger = { 
-                    CULTURE_INPUT = epe_seljuk
-                    }
-				}
-				NOT = {
-					portrait_imperial_trigger = { 
-                    CULTURE_INPUT = epe_uyghur
-                    }
-				}				
-                portrait_era1_trigger = yes
-			}
-		}
-	}
-
-	yb_eastern_turk_imperial_cfp = { # Yusseter
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear_2
-				template = cfp_turkic_royalty
-				range = { 0.5 1 }
-			}
-			accessory = {
-			    mode = add
-			    gene = headgear
-			    template = no_headgear
-			    range = { 0 1 }
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 60
-				portrait_imperial_trigger = {
-                    CULTURE_INPUT = epe_eastern_turk 
-                }
-				NOT = {
-					portrait_imperial_trigger = {  
-						CULTURE_INPUT = epe_seljuk 
-					}
-				}
-				NOT = {
-					portrait_imperial_trigger = {  
-						CULTURE_INPUT = epe_uyghur 
-					}
-				}
-                portrait_era1_trigger = yes
-			}
-		}
-	}
-
-	yb_turkic_royalty_epe = { # Yusseter
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = fp3_turkic_royalty
-				range = { 0.9 0.9 }
-			}
-			accessory = {
-			    mode = add
-			    gene = headgear_2
-			    template = no_headgear
-			    range = { 0 1 }
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 75
-				OR = {
-					portrait_imperial_trigger = {
-						CULTURE_INPUT = cfp_turkic
-					}   
-					portrait_royalty_trigger = {
-						CULTURE_INPUT = cfp_turkic
-					}   
-				}
-				culture = {
-					OR = {
-						this = culture:cuman
-						this = culture:kipchak
-						any_parent_culture_or_above = {
-							OR = {
-								this = culture:cuman
-								this = culture:kipchak
-							}
-						}
-						AND = {
-							current_year >= 1066
-							OR = {
-								this = culture:kimek
-								any_parent_culture_or_above = {
-									this = culture:kimek
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-	
 	cfp_turkic_royalty = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = headgear_2
 				template = cfp_turkic_royalty
-				range = { 0 0.5 } # Yusseter
-				#range = { 0 1 }
+				range = { 0 1 }
 			}
 			accessory = {
 			    mode = add
@@ -1498,20 +1363,20 @@ cfp_headgear_base = {
 		}
 		weight = {
 			base = 0
-			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = epe_seljuk } # Yusseter: cfp_oghuz
+			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = cfp_oghuz } 
 			modifier = {
 				add = 60
-                portrait_commoner_clothing_trigger = { # Yusseter: portrait_low_nobles_clothing_trigger
-                    CULTURE_INPUT = epe_seljuk # Yusseter: cfp_oghuz
+                portrait_low_nobles_clothing_trigger = {
+                    CULTURE_INPUT = cfp_oghuz
                 }
 			}
 			modifier = {
 				add = -10
 				OR = {
-					portrait_commoner_clothing_trigger = { # Yusseter: portrait_low_nobles_clothing_trigger
+					portrait_low_nobles_clothing_trigger = {  
 						CULTURE_INPUT = epe_seljuk 
 					}
-					portrait_commoner_clothing_trigger = {   # Yusseter: portrait_low_nobles_clothing_trigger
+					portrait_low_nobles_clothing_trigger = {  
 						CULTURE_INPUT = epe_uyghur 
 					}
 				}
@@ -1538,17 +1403,17 @@ cfp_headgear_base = {
 			base = 0
 			modifier = {
 				add = 101
-                portrait_low_nobles_clothing_trigger = { # Yusseter: portrait_high_nobles_headgear_trigger
-                    CULTURE_INPUT = epe_seljuk # Yusseter: cfp_oghuz
+                portrait_high_nobles_headgear_trigger = {
+                    CULTURE_INPUT = cfp_oghuz
                 }
 			}
 			modifier = {
 				add = -51
 				OR = {
-					portrait_low_nobles_clothing_trigger = { # Yusseter: portrait_high_nobles_headgear_trigger
+					portrait_high_nobles_headgear_trigger = {  
 						CULTURE_INPUT = epe_seljuk 
 					}
-					portrait_low_nobles_clothing_trigger = {   # Yusseter: portrait_high_nobles_headgear_trigger
+					portrait_high_nobles_headgear_trigger = {  
 						CULTURE_INPUT = epe_uyghur 
 					}
 				}
@@ -1826,5 +1691,3 @@ cfp_headgear_base = {
 	}
 
 }
-
-# Yusseter: From MBP + EPE + CFP 2025.09.03

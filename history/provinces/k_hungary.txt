@@ -131,7 +131,7 @@
 	culture = avar
 	religion = tengri_pagan
 	holding = tribal_holding
-	895.1.1 = { #culture = mogyer # Yusseter
+	895.1.1 = { culture = mogyer
 	religion = magyar_pagan }
 	1000.1.1 = {
 		holding = castle_holding
@@ -139,9 +139,8 @@
 	}
 	1009.1.1 = {
 		religion = catholic
-		#culture = hungarian # Yusseter
+		culture = hungarian
 	}
-	1110.1.1 = { culture = hungarian } # Yusseter
 	1239.1.1 = { culture = jasz }
 
 	
@@ -1366,9 +1365,8 @@
 	}
 	1043.1.1 = { 
 	religion = catholic
-	#culture = hungarian # Yusseter
+	culture = hungarian
 	}
-	1110.1.1 = { culture = hungarian } # Yusseter
 	
 }
 3872 = {	#Szeged
@@ -1397,9 +1395,10 @@
 		#Date used to switch ti feudal_government in title history
 	}
 	1025.1.1 = {
-		religion = catholic
-		culture = hungarian
-	}
+	religion = catholic
+	culture = hungarian
+}
+	
 }
 3830 = {	#Titel
 	holding = none
@@ -1423,9 +1422,10 @@
 		#Date used to switch ti feudal_government in title history
 	}
 	1025.1.1 = {
-		religion = catholic
-		culture = hungarian
-	}
+	religion = catholic
+	culture = hungarian
+}
+	
 }
 3864 = {	#Zenta	AKA Senta
 	holding = none
@@ -1617,5 +1617,3 @@
 		#Seems to have already been a city before the XIIth
 	}
 }
-
-# Yusseter: From MBP 2025.08.30

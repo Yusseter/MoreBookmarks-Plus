@@ -86,12 +86,9 @@
 	900.1.1 = { religion = orthodox culture = bulgarian }
 	927.1.1 = { culture = pecheneg }
 	927.1.1 = { religion = manichean }
-	1123.1.1 = { culture = cuman } # Yusseter
-	#1123.1.1 = { culture = vlach }
-	1123.1.1 = { religion = tengri_pagan } # Yusseter
-	#1123.1.1 = { religion = orthodox }
+	1123.1.1 = { culture = vlach }
+	1123.1.1 = { religion = orthodox }
 	1211.1.1 = {
-		culture = vlach # Yusseter
 		religion = vlach_orthodox
 	}
 	1299.1.1 = {
@@ -130,12 +127,10 @@
 	
 	# History
 	900.1.1 = { religion = orthodox culture = bulgarian }
-	#927.1.1 = { culture = pecheneg } # Yusseter
-	#927.1.1 = { religion = manichean } # Yusseter
-	1060.1.1 = { culture = vlach }
-	#1123.1.1 = { culture = vlach } # Yusseter
-	1060.1.1 = { religion = vlach_orthodox }
-	#1123.1.1 = { religion = vlach_orthodox } # Yusseter
+	927.1.1 = { culture = pecheneg }
+	927.1.1 = { religion = manichean }
+	1123.1.1 = { culture = vlach }
+	1123.1.1 = { religion = vlach_orthodox }
 	1299.1.1 = {
 		holding = castle_holding
 		#Date used to switch ti feudal_government in title history
@@ -351,5 +346,3 @@
 4987 = {	#Dragasani
 	holding = none
 }
-
-# Yusseter: From MBP 2025.08.30

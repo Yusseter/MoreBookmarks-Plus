@@ -591,12 +591,12 @@ hairstyles = {
 					}
 				}
 				portrait_steppe_clothing_trigger = yes
-				#NOT = { # Yusseter
-				# 	portrait_epe_eastern_turk_clothing_trigger = yes
-				#}
-				#NOT = { # Yusseter
-				# 	portrait_epe_eastern_turk_clothing_trigger = yes
-				#}
+				NOT = {
+				 	portrait_epe_eastern_turk_clothing_trigger = yes
+				}
+				NOT = {
+				 	portrait_epe_eastern_turk_clothing_trigger = yes
+				}
 				NOT = {
 				 	portrait_epe_seljuk_clothing_trigger = yes
 				}
@@ -737,18 +737,18 @@ hairstyles = {
 					}					
 				}
 				portrait_steppe_clothing_trigger = yes
-				#NOT = { # Yusseter
-				# 	portrait_epe_eastern_turk_clothing_trigger = yes
-				#}
-				#NOT = { # Yusseter
-				# 	portrait_epe_eastern_turk_clothing_trigger = yes
-				#}
-				#NOT = { # Yusseter
-				# 	portrait_epe_seljuk_clothing_trigger = yes
-				#}
-				#NOT = { # Yusseter
-				# 	portrait_epe_uyghur_clothing_trigger = yes
-				#}				
+				NOT = {
+				 	portrait_epe_eastern_turk_clothing_trigger = yes
+				}
+				NOT = {
+				 	portrait_epe_eastern_turk_clothing_trigger = yes
+				}
+				NOT = {
+				 	portrait_epe_seljuk_clothing_trigger = yes
+				}
+				NOT = {
+				 	portrait_epe_uyghur_clothing_trigger = yes
+				}				
 				NOT = {
 				 	portrait_epe_han_chinese_clothing_trigger = yes
 				}				
@@ -2810,44 +2810,6 @@ hairstyles = {
 				}
                 has_fp1_dlc_trigger = yes                 
             }
-			modifier = { # Yusseter
-				add = 55
-				OR = {
-                    NOT = { exists = this }
-					has_gene = {
-						category = gene_hair_type
-						template = hair_straight
-					}
-					has_gene = {
-						category = gene_hair_type
-						template = hair_straight_no_beard
-					}					
-					has_gene = {
-						category = gene_hair_type
-						template = hair_straight_thin_beard
-					}
-				}
-				OR = {
-					portrait_ugro_permian_clothing_trigger = yes
-					#portrait_turkic_clothing_trigger = yes
-				    scope:culture = { has_clothing_gfx = yb_siberian_steppe_clothing_gfx }
-				}
-			}
-			modifier = { # Yusseter
-				add = 20
-				OR = {
-                    NOT = { exists = this }
-					has_gene = {
-						category = gene_hair_type
-						template = hair_wavy
-					}
-				}
-				OR = {
-					portrait_ugro_permian_clothing_trigger = yes
-					#portrait_turkic_clothing_trigger = yes
-				    scope:culture = { has_clothing_gfx = yb_siberian_steppe_clothing_gfx }
-				}
-			}
         }
     }
 
@@ -3196,159 +3158,8 @@ hairstyles = {
 	
     #######################
     ###### Eastern Turkic/Default Turk  #######
-    #######################	
-
-	yb_muslim_turkic_hairstyles = { # Yusseter
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = hairstyles
-				template = yb_muslim_turkic_hairstyles
-				range = { 0 0.83 } # For the randomness to work correctly
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 50
-				OR = {
-					NOT = {
-						exists = this
-					}
-					has_gene = {
-						category = gene_hair_type
-						template = hair_straight
-					}
-					has_gene = {
-						category = gene_hair_type
-						template = hair_straight_no_beard
-					}
-					has_gene = {
-						category = gene_hair_type
-						template = hair_straight_thin_beard
-					}
-					has_gene = {
-						category = gene_hair_type
-						template = hair_wavy
-					}
-					has_gene = {
-						category = gene_hair_type
-						template = hair_wavy_no_beard
-					}		
-				}
-				OR = {
-					AND = {
-						OR = {
-							portrait_epe_eastern_turk_muslim_clothing_trigger = yes
-							scope:faith.religion = religion:islam_religion
-						}
-						portrait_high_nobles_clothing_trigger = {
-							CULTURE_INPUT = steppe
-						}
-					}
-					portrait_high_nobles_clothing_trigger = {
-						CULTURE_INPUT = epe_eastern_turk_muslim
-					}
-				}
-				NOT = {
-					portrait_high_nobles_clothing_trigger = {
-						CULTURE_INPUT = epe_seljuk
-					}
-				}
-                has_sp4_dlc_trigger = yes
-			}
-		}
-	}
-
-	yb_muslim_turkic_hairstyles_persianized = { # Yusseter
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = hairstyles
-				template = yb_muslim_turkic_hairstyles
-				range = { 0 1 } # For the randomness to work correctly
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 50
-				OR = {
-					NOT = {
-						exists = this
-					}
-					has_gene = {
-						category = gene_hair_type
-						template = hair_straight
-					}
-					has_gene = {
-						category = gene_hair_type
-						template = hair_straight_no_beard
-					}
-					has_gene = {
-						category = gene_hair_type
-						template = hair_straight_thin_beard
-					}
-					has_gene = {
-						category = gene_hair_type
-						template = hair_wavy
-					}
-					has_gene = {
-						category = gene_hair_type
-						template = hair_wavy_no_beard
-					}		
-				}
-				OR = {
-					portrait_epe_eastern_turk_muslim_clothing_trigger = yes
-					OR = {
-						portrait_epe_eastern_turk_clothing_trigger = yes
-						scope:faith.religion = religion:islam_religion
-					}
-				}
-				portrait_high_nobles_clothing_trigger = {
-					CULTURE_INPUT = epe_seljuk
-				}
-                has_sp4_dlc_trigger = yes
-			}
-		}
-	}
-
-	yb_western_turk_braid = { # Yusseter
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = hairstyles
-				template = cfp_hungarian_hairstyles_warrior
-				accessory = cfp_male_hair_hungarian_01
-				range = { 0 1 } # For the randomness to work correctly
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 20
-				OR = {
-					NOT = {
-						exists = this
-					}
-					has_gene = {
-						category = gene_hair_type
-						template = hair_straight
-					}
-					has_gene = {
-						category = gene_hair_type
-						template = hair_straight_no_beard
-					}
-					has_gene = {
-						category = gene_hair_type
-						template = hair_straight_thin_beard
-					}
-				}
-				scope:culture = { has_clothing_gfx = yb_western_steppe_clothing_gfx }
-			}
-		}
-	}
-	
+    #######################
+				
     turkic_straight = {
         dna_modifiers = {
             accessory = {
@@ -4736,5 +4547,3 @@ hairstyles = {
 	
 	
 }
-
-# Yusseter: From EPE 2025.09.03

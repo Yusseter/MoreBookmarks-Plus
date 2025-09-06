@@ -15198,16 +15198,6 @@ k_transoxiana = {
 
 
 d_soghd = {
-	586.1.1 = { # Yusseter
-		holder = ashina_201
-	}
-	587.1.1 = { # Yusseter
-		holder = ashina_063
-	}
-	599.1.1 = { # Yusseter
-		holder = 0
-	}
-
 	#867.1.1 = {	change_development_level = 7 }
 	#1066.1.1 = { change_development_level = 10 }
 
@@ -15368,16 +15358,6 @@ d_soghd = {
 
 
 c_bukhara = {
-	586.1.1 = { # Yusseter
-		holder = ashina_201
-	}
-	587.1.1 = { # Yusseter
-		holder = ashina_063
-	}
-	#599.1.1 = { # Yusseter
-	#	holder = 0
-	#}
-
 	#867.1.1 = {	change_development_level = 8 }
 	#1066.1.1 = { change_development_level = 12 }
 
@@ -42681,4 +42661,3 @@ c_dhofar = {
 
 }
 
-# Yusseter: From MBP 2025.09.02

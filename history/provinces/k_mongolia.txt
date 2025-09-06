@@ -10,8 +10,7 @@
 ###c_karakorum
 1457 = {	#Karakorum
 	#Historical capital of the Mongol Empire, founded in the XIIIth
-	culture = uigur # Yusseter
-	#culture = uyghur
+	culture = uyghur
     religion = manichean
 	holding = tribal_holding
 	867.1.1 = {
@@ -73,15 +72,11 @@
 ###c_karabalgasun
 7525 = {	#Karabalgasun	AKA Ordu-Baliq AKA Mubalik
 	#Historical capital of the 1st Uyghur Khanate
-	culture = uigur # Yusseter
-	#culture = uyghur
-    religion = manichean # Yusseter
-    #religion = ulganism
+	culture = uyghur
+    religion = ulganism
 
-    840.1.1 = { culture = yenisei_kirghiz } # Yusseter
-    925.4.28 = { # Yusseter: 900.1.1
+    900.1.1 = {
         culture = tongra
-		religion = ulganism # Yusseter
     }
     1005.1.1 = {
         culture = kerait
@@ -123,8 +118,7 @@
 ###c_mumo
 7517 = {	#Mumo
 	#Likely the capital of the Rouran
-	culture = uigur # Yusseter
-	#culture = uyghur
+	culture = uyghur
     religion = ulganism
 
     900.1.1 = {
@@ -220,15 +214,9 @@
 }
 9365 = {
 	#Local settlement
-	culture = uigur # Yusseter
-	#culture = mongol
-	religion = ulganism # Yusseter
-	#religion = eastern_tengri
+	culture = mongol
+	religion = eastern_tengri
 	holding = tribal_holding
-	900.1.1 = { # Yusseter
-		culture = mongol
-		religion = eastern_tengri
-	}
 }
 9363 = {
 	holding = none
@@ -324,8 +312,7 @@
 ###c_tovkhon
 7573 = {	#Tovkhon
 	#Monastery established in the XVIIth century
-	culture = uigur # Yusseter
-	#culture = uyghur
+	culture = uyghur
     religion = ulganism
 
     900.1.1 = {
@@ -686,7 +673,7 @@
 	culture = basmyl
     religion = ulganism
 
-    925.4.28 = { # Yusseter: 900.1.1
+    900.1.1 = {
         culture = cik
         religion = ulganism
     }
@@ -737,7 +724,7 @@
 	culture = basmyl
     religion = ulganism
 
-    925.4.28 = { # Yusseter: 900.1.1
+    900.1.1 = {
         culture = cik
         religion = ulganism
     }
@@ -758,8 +745,7 @@
 ###c_urgamal
 7605 = {	#Airag
 	#Named after local lake
-	culture = bayirku # Yusseter
-	#culture = basmyl
+	culture = basmyl
     religion = ulganism
 
     900.1.1 = {
@@ -867,5 +853,3 @@
 	#Named after local mountain
 	holding = none
 }
-
-# Yusseter: From MBP 2025.08.30

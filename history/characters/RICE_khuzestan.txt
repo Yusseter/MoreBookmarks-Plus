@@ -247,8 +247,7 @@ RICE_khuzestan_015 = {
 	name = "Yohannan" 
 	dynasty=RICE_gazarta
 	religion = mandeaism
-	culture = mandaic # Yusseter
-	#culture = nabati
+	culture = nabati
 	trait=education_learning_3
 	838.5.20 = { # Unknown
 		birth = yes
@@ -428,5 +427,3 @@ RICE_khuzestan_misc_001 = {
 		death = yes
 	}
 }
-
-# Yusseter: From RICE 2025.09.05

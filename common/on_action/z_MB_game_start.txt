@@ -1983,15 +1983,13 @@ MB_culture_setup = {
 				NOT = { culture = culture:hindustani_proper }
 				NOT = { culture = culture:anatolian_turkish }
 				NOT = { religion = religion:tengrism_religion }
-				is_lowborn = yes # Yusseter
-				has_religion = religion:islam_religion # Yusseter
-				#OR = {
-				#	dynasty = dynasty:790			#Ghaznavid
-				#	dynasty = dynasty:7336			#Ghuzz
-				#	dynasty = dynasty:101876		#Eldiguzids
-				#	house = house:house_anushtigar	#Anushtegin
-				#
-				#}
+				OR = {
+					dynasty = dynasty:790			#Ghaznavid
+					dynasty = dynasty:7336			#Ghuzz
+					dynasty = dynasty:101876		#Eldiguzids
+					house = house:house_anushtigar	#Anushtegin
+
+				}
 			}
 			set_culture = culture:persian_turkish
 		}
@@ -2000,20 +1998,9 @@ MB_culture_setup = {
 		every_living_character = {
 			limit = {
 				game_start_date > 1050.1.1
-				is_lowborn = yes # Yusseter
-				has_religion = religion:islam_religion # Yusseter
-				culture = { # Yusseter
-					OR = {
-						has_cultural_pillar = heritage_turkic
-						has_cultural_pillar = heritage_kipchak
-						has_cultural_pillar = heritage_oghur
-						#has_cultural_pillar = heritage_sakan
-						#has_cultural_pillar = heritage_tocharian
-					}
+				culture = {
+					has_cultural_pillar = heritage_turkic
 				}
-				#culture = {
-				#	has_cultural_pillar = heritage_turkic
-				#}
 				NOT = { culture = culture:hindustani_proper }
 				NOT = { culture = culture:anatolian_turkish }
 				NOT = { culture = culture:karluk } # They weren't really Turco-Persian like the others further south
@@ -18829,34 +18816,27 @@ MB_set_government = { #Mostly in MB_government_assignment_on_actions. Move over?
 		}
 
 
-#Nomads - set all tribals within steppe regions to being nomad instead with exceptions for certain cultures
-
 
 		every_ruler = {
 
 			if = {
-				limit = { # Yusseter	
-					OR = {
-						has_government = nomad_government
-						#has_government = herder_government
-						has_government = tribal_government
-					}
+				limit = {
+					has_government = tribal_government
 					has_mpo_dlc_trigger = yes
 
 					OR = {
 						# The steppe
 						capital_county.title_province = { geographical_region = dlc_mpo_steppe_western_steppe }
 						capital_county.title_province = { geographical_region = dlc_mpo_steppe_central_steppe }
-						capital_county.title_province = { geographical_region = dlc_mpo_steppe_eastern_steppe }
+						capital_county.title_province = { geographical_region = dlc_mpo_steppe_eastern_steppe } # Not world_manchuria as it covers too large of an area
 						capital_county.title_province = { geographical_region = dlc_mpo_steppe_southern_steppe }
-						# Out side of the steppe with Nomads
-						capital_county.title_province = { geographical_region = world_middle_east_persia }
-						capital_county.title_province = { geographical_region = world_siberia }
-						capital_county.title_province = { geographical_region = dlc_fp1_region_colonial_eastern_europe }
-						capital_county.title_province = { geographical_region = world_china_proper }
+						#Iran
+						capital_county.title_province = { geographical_region = world_middle_east_persia } # The Ilkhanate was nomadic its entire existence
 					}
 
-					NOT = { # Various groups I don't want being changed from tribal to nomadic
+
+					NOT = {
+						#Various groups I don't want being changed from tribal to nomadic
 						OR = {
 							culture = { has_cultural_pillar = heritage_ugro_permian }
 							culture = { has_cultural_pillar = heritage_balto_finnic }
@@ -18869,64 +18849,16 @@ MB_set_government = { #Mostly in MB_government_assignment_on_actions. Move over?
 							culture = { has_cultural_pillar = heritage_chinese }
 							culture = { has_cultural_pillar = heritage_tungusic }
 							culture = { has_cultural_pillar = heritage_samoyedic }
-							culture = { has_cultural_pillar = heritage_iranian }
-							culture = { has_cultural_pillar = heritage_indo_aryan }
-							culture = { has_cultural_pillar = heritage_tai }
-							culture = { has_cultural_pillar = heritage_mien }
-							culture = { has_cultural_pillar = heritage_burman }
-							culture = { has_cultural_pillar = heritage_formosan }
-							culture = { has_cultural_pillar = heritage_baltic }
-							culture = { has_cultural_pillar = heritage_balto_finnic }
-							culture = { has_cultural_pillar = heritage_volga_finnic }
-							culture = { has_cultural_pillar = heritage_east_slavic }
-							culture = { has_cultural_pillar = heritage_west_slavic }
-							culture = { has_cultural_pillar = heritage_north_germanic }
-							culture = { has_cultural_pillar = heritage_caucasian }
-							culture = { has_cultural_pillar = heritage_tocharian }
-							culture = { has_cultural_pillar = heritage_tibetan }
-							culture = culture:chuvash
+							culture = culture:kurdish
+							culture = culture:tajik
+							culture = culture:yakut
+							culture = culture:saka
+							culture = culture:circassian
 						}
+
 					}
+
 				}
-				#limit = {
-				#	has_government = tribal_government
-				#	has_mpo_dlc_trigger = yes
-				#
-				#	OR = {
-				#		# The steppe
-				#		capital_county.title_province = { geographical_region = dlc_mpo_steppe_western_steppe }
-				#		capital_county.title_province = { geographical_region = dlc_mpo_steppe_central_steppe }
-				#		capital_county.title_province = { geographical_region = dlc_mpo_steppe_eastern_steppe } # Not world_manchuria as it covers too large of an area
-				#		capital_county.title_province = { geographical_region = dlc_mpo_steppe_southern_steppe }
-				#		#Iran
-				#		capital_county.title_province = { geographical_region = world_middle_east_persia } # The Ilkhanate was nomadic its entire existence
-				#	}
-				#
-				#
-				#	NOT = {
-				#		#Various groups I don't want being changed from tribal to nomadic
-				#		OR = {
-				#			culture = { has_cultural_pillar = heritage_ugro_permian }
-				#			culture = { has_cultural_pillar = heritage_balto_finnic }
-				#			culture = { has_cultural_pillar = heritage_siberian }
-				#			culture = { has_cultural_pillar = heritage_volga_finnic }
-				#			culture = { has_cultural_pillar = heritage_east_slavic }
-				#			culture = { has_cultural_pillar = heritage_south_slavic }
-				#			culture = { has_cultural_pillar = heritage_west_slavic }
-				#			culture = { has_cultural_pillar = heritage_vlach }
-				#			culture = { has_cultural_pillar = heritage_chinese }
-				#			culture = { has_cultural_pillar = heritage_tungusic }
-				#			culture = { has_cultural_pillar = heritage_samoyedic }
-				#			culture = culture:kurdish
-				#			culture = culture:tajik
-				#			culture = culture:yakut
-				#			culture = culture:saka
-				#			culture = culture:circassian
-				#		}
-				#
-				#	}
-				#
-				#}
 
 
 				change_government = nomad_government
@@ -18946,9 +18878,7 @@ MB_set_government = { #Mostly in MB_government_assignment_on_actions. Move over?
 
 			}
 
-
 			#Holding Fixes
-
 
 			if = { # Make sure herders get their proper holdings without me needing to juggle province files
 				limit = {
@@ -18960,11 +18890,7 @@ MB_set_government = { #Mostly in MB_government_assignment_on_actions. Move over?
 					if = {
 						limit = {
 							title_province = {
-								OR = { # Yusseter
-									has_holding_type = nomad_holding
-									has_holding_type = tribal_holding
-								}
-								#has_holding_type = tribal_holding
+								has_holding_type = tribal_holding
 							}
 						}
 						title_province = {
@@ -19395,7 +19321,7 @@ MB_set_de_jure = {
 
 			title:k_zhetysu = { set_de_jure_liege_title = title:e_turan }
 			title:k_khwarezmia = { set_de_jure_liege_title = title:e_turan }
-			#title:k_oghuz_il = { set_de_jure_liege_title = title:e_tartaria } # Yusseter
+			title:k_oghuz_il = { set_de_jure_liege_title = title:e_tartaria }
 
 		}
 
@@ -22658,14 +22584,12 @@ start_nanzhao_collapse = {
 	########################################################################################### POP-UP ###########################################################################################
 
 
-#MB_setup_after_game_start_on_actions = { # Yusseter
-#
-#	effect = {
-#		every_player = { # Intro event
-#		 	trigger_event = MBintro.0001
-#		}
-#	}
-#
-#}
+MB_setup_after_game_start_on_actions = {
 
-# Yusseter: From MBP 2025.09.05
+	effect = {
+		every_player = { # Intro event
+		 	trigger_event = MBintro.0001
+		}
+	}
+
+}

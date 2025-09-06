@@ -126,19 +126,12 @@ RICE_tarim_basin_misc_005 = {
 	name = "Yusuf"
 	dynasty = RICE_balasaguni_dynasty
 	religion = "maturidi"
-	culture = chigil # Yusseter
-	#culture = karluk
-	stewardship = 12 # Yusseter
+	culture = karluk
 	trait = education_learning_4
 	trait = poet
 	1019.11.17 = { # Unknown, rough estimation
 		birth = yes
 		effect = { add_character_flag = do_not_generate_starting_family }
-	}
-	1060.1.1 = { # Yusseter
-		effect = {
-			set_relation_potential_friend = character:RICE_kashgar_001
-		}
 	}
 	1077.3.13 = { # Unknown, rough estimation
 		death = yes
@@ -167,5 +160,3 @@ RICE_tarim_basin_misc_006 = {
 		}
 	}
 }
-
-# Yusseter: From RICE 2025.07.30

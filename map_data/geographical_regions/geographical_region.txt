@@ -177,11 +177,11 @@ world_sulawesi = {
 #		d_tanoq d_raki
 #	}
 #}
-#world_sulawesi = {
-#	duchies = {
-#		d_kaili d_tolitoli d_gorontalo d_mongondow d_salua d_pamona d_bungku d_butungmuna d_south_bungku d_luwu d_mandar d_mamuju d_makassar
-#	}
-#}
+world_sulawesi = {
+	duchies = {
+		d_kaili d_tolitoli d_gorontalo d_mongondow d_salua d_pamona d_bungku d_butungmuna d_south_bungku d_luwu d_mandar d_mamuju d_makassar
+	}
+}
 
 world_greater_nusantara = {
 	regions = {
@@ -5661,7 +5661,6 @@ dlc_mpo_steppe_eastern_steppe = {
 		d_zhetysu d_chah d_muyunkum d_talas_alatau d_alakol d_betpa d_karkaraly d_kentarlau d_jinghiz d_tokumbay
 	}
 	counties = {
-		c_argun_china # Yusseter
 		c_dargu_china c_huanglong_china c_fuyu_china c_xianping_china c_shenzhou_liao_china
 	}
 }
@@ -5695,7 +5694,6 @@ dlc_mpo_steppe_western_steppe = {
 		d_transcaspiana d_jemba d_barsuki
 	}
 	counties = {
-		c_tabla_butii c_campulung c_polovragi c_targu_jiu c_hunyad c_fogaras c_beszterce c_marmaros c_hont # Yusseter
 		c_craiova c_calafat c_vidin c_severin
 		#Bulgaria
 		c_dorostorum c_turnovo c_nikopolis c_vratsa
@@ -5720,7 +5718,6 @@ dlc_mpo_steppe_southern_steppe = {
 		d_nasa d_gurgan
 	}
 	counties = {
-		c_rasht c_qilin c_yalong # Yusseter
 		c_karran c_shughnan c_khuttal c_wakhsh c_chaghaniyan c_herat c_badghis c_bakharz c_cuonaco c_gegyai c_gerze
 	}
 }
@@ -5740,5 +5737,3 @@ custom_england2 = {
 		d_northumberland d_lancaster d_york d_fivebouroughs d_norfolk d_bedford d_essex d_hereford d_gloucester d_canterbury d_somerset
 	}
 }
-
-# Yusseter: From MBP 2025.08.30
