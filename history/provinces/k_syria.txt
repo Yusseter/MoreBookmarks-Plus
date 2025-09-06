@@ -376,8 +376,8 @@ religion = jacobite
 	holding = castle_holding
 	# History
 	867.1.1 = {
-		special_building_slot = port_tripoli_01
-		special_building = port_tripoli_01
+		#special_building_slot = port_tripoli_01 # Yusseter
+		#special_building = port_tripoli_01 # Yusseter
 	}
 	867.1.1 = {
 		buildings = {

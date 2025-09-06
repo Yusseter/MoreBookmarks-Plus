@@ -541,8 +541,8 @@
 	850.1.1 = {
 		religion = zayidi
 		holding = church_holding
-		special_building_slot = imam_hussain_shrine_01
-		special_building = imam_hussain_shrine_01
+		#special_building_slot = imam_hussain_shrine_01 # Yusseter
+		#special_building = imam_hussain_shrine_01 # Yusseter
 	}
 
 }

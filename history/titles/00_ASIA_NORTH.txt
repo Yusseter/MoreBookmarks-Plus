@@ -5247,15 +5247,48 @@ d_blue_khakassia = { # Yusseter
 	1005.11.30 = {
 		holder = fictional_kirghiz_6
 	}
-	1015.1.1 = {
-		liege = d_blue_khakassia
-	}
-	1040.1.1 = {
+	1024.1.1 = {
 		holder = fictional_kirghiz_7
 		liege = k_khakassia
 	}
+	1053.1.1 = {
+		holder = fictional_kirghiz_8
+	}
+	1083.1.1 = {
+		holder = fictional_kirghiz_9
+	}
+	1091.1.1 = {
+		holder = fictional_kirghiz_23
+	}
+	1118.1.1 = {
+		holder = fictional_kirghiz_21
+	}
+	1133.1.1 = {
+		holder = fictional_kirghiz_22
+	}
 	1173.1.1 = {
 		holder = enisey_kyrgyz_2
+	}
+	1203.2.8 = {
+		holder = fictional_kirghiz_26
+	}
+	1226.1.1 = {
+		holder = fictional_kirghiz_5
+	}
+	1255.1.1 = {
+		holder = fictional_kirghiz_10
+	}
+	1292.1.1 = {
+		holder = fictional_kirghiz_11
+	}
+	1318.1.1 = {
+		holder = fictional_kirghiz_12
+	}
+	1318.1.1 = {
+		holder = fictional_kirghiz_12
+	}
+	1358.1.1 = {
+		holder = fictional_kirghiz_13
 	}
 }
 
@@ -5588,15 +5621,48 @@ c_kizir = { # Yusseter
 	1005.11.30 = {
 		holder = fictional_kirghiz_6
 	}
-	1015.1.1 = {
-		liege = d_blue_khakassia
-	}
-	1040.1.1 = {
+	1024.1.1 = {
 		holder = fictional_kirghiz_7
-		liege = 0
+		liege = k_khakassia
+	}
+	1053.1.1 = {
+		holder = fictional_kirghiz_8
+	}
+	1083.1.1 = {
+		holder = fictional_kirghiz_9
+	}
+	1091.1.1 = {
+		holder = fictional_kirghiz_23
+	}
+	1118.1.1 = {
+		holder = fictional_kirghiz_21
+	}
+	1133.1.1 = {
+		holder = fictional_kirghiz_22
 	}
 	1173.1.1 = {
 		holder = enisey_kyrgyz_2
+	}
+	1203.2.8 = {
+		holder = fictional_kirghiz_26
+	}
+	1226.1.1 = {
+		holder = fictional_kirghiz_5
+	}
+	1255.1.1 = {
+		holder = fictional_kirghiz_10
+	}
+	1292.1.1 = {
+		holder = fictional_kirghiz_11
+	}
+	1318.1.1 = {
+		holder = fictional_kirghiz_12
+	}
+	1318.1.1 = {
+		holder = fictional_kirghiz_12
+	}
+	1358.1.1 = {
+		holder = fictional_kirghiz_13
 	}
 }
 
@@ -5647,15 +5713,48 @@ c_anja = { # Yusseter
 	1005.11.30 = {
 		holder = fictional_kirghiz_6
 	}
-	1015.1.1 = {
-		liege = d_blue_khakassia
-	}
-	1040.1.1 = {
+	1024.1.1 = {
 		holder = fictional_kirghiz_7
-		liege = 0
+		liege = k_khakassia
+	}
+	1053.1.1 = {
+		holder = fictional_kirghiz_8
+	}
+	1083.1.1 = {
+		holder = fictional_kirghiz_9
+	}
+	1091.1.1 = {
+		holder = fictional_kirghiz_23
+	}
+	1118.1.1 = {
+		holder = fictional_kirghiz_21
+	}
+	1133.1.1 = {
+		holder = fictional_kirghiz_22
 	}
 	1173.1.1 = {
 		holder = enisey_kyrgyz_2
+	}
+	1203.2.8 = {
+		holder = fictional_kirghiz_26
+	}
+	1226.1.1 = {
+		holder = fictional_kirghiz_5
+	}
+	1255.1.1 = {
+		holder = fictional_kirghiz_10
+	}
+	1292.1.1 = {
+		holder = fictional_kirghiz_11
+	}
+	1318.1.1 = {
+		holder = fictional_kirghiz_12
+	}
+	1318.1.1 = {
+		holder = fictional_kirghiz_12
+	}
+	1358.1.1 = {
+		holder = fictional_kirghiz_13
 	}
 }
 

@@ -6,10 +6,11 @@
 ##d_kara_khoja ###################################
 ###c_kara_khoja
 1446 = {	#Kara Khoja	AKA Qocho AKA Gaochan
-	culture = uigur # Yusseter
+	culture = tocharian # Yusseter
 	#culture = uyghur
 	religion = manichean
 	holding = castle_holding
+	865.1.1 = { culture = uigur } # Yusseter
 	954.2.22 = {
 		religion = vajrayana
 	}

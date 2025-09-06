@@ -41856,10 +41856,10 @@ fictional_kirghiz_12 = { #Herder 867
 	religion = tengri_pagan
 	culture = yenisei_kirghiz # Yusseter
 	#culture = kirghiz
-	803.6.8 = {
+	1293.6.8 = { # Yusseter: 803.6.8
 		birth = yes
 	}
-	868.1.1 = {
+	1358.1.1 = { # Yusseter: 868.1.1
 		death = yes
 	}
 }
@@ -41972,10 +41972,10 @@ fictional_kirghiz_11 = { #Herder 867
 	religion = tengri_pagan
 	culture = yenisei_kirghiz # Yusseter
 	#culture = kirghiz
-	819.5.6 = {
+	1269.5.6 = { # Yusseter: 819.5.6
 		birth = yes
 	}
-	868.1.1 = {
+	1318.1.1 = { # Yusseter: 868.1.1
 		death = yes
 	}
 }
@@ -42084,10 +42084,10 @@ fictional_kirghiz_13 = { #Herder 867
 	religion = tengri_pagan
 	culture = yenisei_kirghiz # Yusseter
 	#culture = kirghiz
-	836.11.4 = {
+	1336.11.4 = { # Yusseter: 836.11.4
 		birth = yes
 	}
-	879.1.1 = {
+	1379.1.1 = { # Yusseter: 879.1.1
 		death = yes
 	}
 }
@@ -42218,11 +42218,12 @@ fictional_kirghiz_20 = { #Herder 1066
 fictional_kirghiz_21 = { #Herder 1066
 	name = "Taalay"
 	religion = tengri_pagan
-	culture = kirghiz
-	1011.4.17 = {
+	culture = khakas # Yusseter
+	#culture = kirghiz
+	1061.4.17 = { # Yusseter: 1011.4.17
 		birth = yes
 	}
-	1083.1.1 = {
+	1133.1.1 = { # Yusseter: 1083.1.1
 		death = yes
 	}
 }
@@ -42230,11 +42231,12 @@ fictional_kirghiz_21 = { #Herder 1066
 fictional_kirghiz_7 = { #Kirghiz in 1066
 	name = "Uzluk"
 	religion = tengri_pagan
-	culture = kirghiz
-	1013.9.2 = {
+	culture = khakas # Yusseter
+	#culture = kirghiz
+	993.9.2 = { # Yusseter: 1013.9.2
 		birth = yes
 	}
-	1073.1.1 = {
+	1053.1.1 = { # Yusseter: 1073.1.1
 		death = yes
 	}
 }
@@ -42267,7 +42269,8 @@ fictional_kirghiz_24 = { #Herder 1066
 fictional_kirghiz_8 = { #Kirghiz in 1066
 	name = "Adilet"
 	religion = tengri_pagan
-	culture = kirghiz
+	culture = khakas # Yusseter
+	#culture = kirghiz
 	1025.12.4 = {
 		birth = yes
 	}
@@ -42292,11 +42295,12 @@ fictional_kirghiz_25 = { #Herder 1066
 fictional_kirghiz_5 = { #Kirghiz in 1066
 	name = "Jyrgal"
 	religion = tengri_pagan
-	culture = kirghiz
-	1032.6.11 = {
+	culture = khakas # Yusseter
+	#culture = kirghiz
+	1192.6.11 = { # Yusseter: 1032.6.11
 		birth = yes
 	}
-	1095.1.1 = {
+	1255.1.1 = { # Yusseter: 1095.1.1
 		death = yes
 	}
 }
@@ -42304,11 +42308,12 @@ fictional_kirghiz_5 = { #Kirghiz in 1066
 fictional_kirghiz_10 = { #Kirghiz in 1066
 	name = "EldeC_yuk"
 	religion = tengri_pagan
-	culture = kirghiz
-	1033.6.7 = {
+	culture = khakas # Yusseter
+	#culture = kirghiz
+	1233.6.7 = { # Yusseter: 1033.6.7
 		birth = yes
 	}
-	1082.1.1 = {
+	1292.1.1 = { # Yusseter: 1082.1.1
 		death = yes
 	}
 }
@@ -42342,11 +42347,12 @@ fictional_kirghiz_10 = { #Kirghiz in 1066
 fictional_kirghiz_23 = { #Herder 1066
 	name = "Kubasar"
 	religion = tengri_pagan
-	culture = kirghiz
-	1040.9.17 = {
+	culture = khakas # Yusseter
+	#culture = kirghiz
+	1060.9.17 = { # Yusseter: 1040.9.17
 		birth = yes
 	}
-	1098.1.1 = {
+	1118.1.1 = { # Yusseter: 1098.1.1
 		death = yes
 	}
 }
@@ -42354,11 +42360,12 @@ fictional_kirghiz_23 = { #Herder 1066
 fictional_kirghiz_6 = { #Kirghiz in 1066
 	name = "Sotan"
 	religion = tengri_pagan
-	culture = kirghiz
-	1041.1.3 = {
+	culture = khakas # Yusseter
+	#culture = kirghiz
+	971.1.3 = { # Yusseter: 1041.1.3
 		birth = yes
 	}
-	1089.1.1 = {
+	1024.1.1 = { # Yusseter: 1089.1.1
 		death = yes
 	}
 }
@@ -42366,7 +42373,8 @@ fictional_kirghiz_6 = { #Kirghiz in 1066
 fictional_kirghiz_9 = { #Kirghiz in 1066
 	name = "KO_nC_ek"
 	religion = tengri_pagan
-	culture = kirghiz
+	culture = khakas # Yusseter
+	#culture = kirghiz
 	1045.1.25 = {
 		birth = yes
 	}
@@ -42378,11 +42386,12 @@ fictional_kirghiz_9 = { #Kirghiz in 1066
 fictional_kirghiz_22 = { #Herder 1066
 	name = "Kuntuvdi"
 	religion = tengri_pagan
-	culture = kirghiz
-	1045.12.21 = {
+	culture = khakas # Yusseter
+	#culture = kirghiz
+	1135.12.21 = { # Yusseter: 1045.12.21
 		birth = yes
 	}
-	1075.1.1 = {
+	1173.1.1 = { # Yusseter: 1075.1.1
 		death = yes
 	}
 }
@@ -42415,12 +42424,13 @@ fictional_kirghiz_28 = { #Herder 1178
 fictional_kirghiz_26 = { #Herder 1178
 	name = "Bermet"
 	religion = tengri_pagan
-	culture = kirghiz
+	culture = khakas # Yusseter
+	#culture = kirghiz
 	female = yes
-	1144.3.1 = {
+	1174.3.1 = { # Yusseter: 1144.3.1
 		birth = yes
 	}
-	1196.1.1 = {
+	1226.1.1 = { # Yusseter: 1196.1.1
 		death = yes
 	}
 }
@@ -56286,7 +56296,7 @@ ashina_05_wife = { # Yusseter
 	}
 }
 
-ashina_20 = { # Yusseter: Bagha Urkapar Chor Achu Magha Tatpar Khagan
+ashina_20 = { # Yusseter: Bagha Urkapar, Chor Achu, Magha Tatpar Khagan
 	name = "ac_u" # Yusseter: Name in Bugut Inscription acording to Takashi Ōsawa is ’wrkwp’r-cr’’cw (Urqapar Čor Aču).
 	dynasty = 12269
 
@@ -78935,9 +78945,6 @@ chepni2 = {
 	1144.1.1 = {
 		death = yes
 	}
-	1150.1.1 = { # Yusseter
-		culture = anatolian_turkish
-	}
 }
 
 34222 = {
@@ -85506,7 +85513,8 @@ uyghur0095 = {
 188783 = {
 	name = "Qutlugh" #or Guli Peilo
 	dynasty = 1042190 #Yaghlakar
-	religion = "tengri_pagan"
+	religion = ulganism # Yusseter
+	#religion = "tengri_pagan"
 	culture = uigur # Yusseter
 	#culture = "uyghur"
 	700.1.1 = {
@@ -85521,7 +85529,8 @@ uyghur0095 = {
 	name = "Tun_Baga" # Yusseter
 	#name = "Alp-Qutlugh"
 	dynasty = 1042190 #Yaghlakar
-	religion = "tengri_pagan"
+	religion = ulganism # Yusseter
+	#religion = "tengri_pagan"
 	culture = uigur # Yusseter
 	#culture = "uyghur"
 	father = 188783
@@ -85539,7 +85548,8 @@ uyghur0095 = {
 1410748 = { #车毗尸特勤 Chabish Tegin
 	name="Chabish"
 	dynasty=1042190 #Yaghlakar
-	religion="tengri_pagan"
+	religion = ulganism # Yusseter
+	#religion="tengri_pagan"
 	culture = uigur # Yusseter
 	#culture = "uyghur"
 	father=188783
@@ -85557,7 +85567,8 @@ uyghur0095 = {
 188784 = {
 	name = "Bayanchur" #or Moyanchur
 	dynasty = 1042190 #Yaghlakar
-	religion = "tengri_pagan"
+	religion = ulganism # Yusseter
+	#religion = "tengri_pagan"
 	culture = uigur # Yusseter
 	#culture = "uyghur"
 	father = 188783
@@ -85572,7 +85583,8 @@ uyghur0095 = {
 1410745 = { #葉護太子 Ulu Bilge Tardush Yabghu
 	name="Tardush-Yabghu"
 	dynasty=1042190 #Yaghlakar
-	religion="tengri_pagan"
+	religion = ulganism # Yusseter
+	#religion="tengri_pagan"
 	culture = uigur # Yusseter
 	#culture = "yughur"
 	father=188784
@@ -85590,7 +85602,8 @@ uyghur0095 = {
 1410747 = { #毘伽公主 Princess Bilgä. Married 李承采.
 	name="Bilga"
 	dynasty=1042190 #Yaghlakar
-	religion="tengri_pagan"
+	religion = ulganism # Yusseter
+	#religion="tengri_pagan"
 	culture = uigur # Yusseter
 	#culture="uyghur"
 	father=188784
@@ -85610,7 +85623,8 @@ uyghur0095 = {
 	name = "bo_gu_" # Yusseter
 	#name = "Tengri_BO_gU_"
 	dynasty = 1042190 #Yaghlakar
-	religion = "tengri_pagan"
+	religion = ulganism # Yusseter
+	#religion = "tengri_pagan"
 	culture = uigur # Yusseter
 	#culture = "uyghur"
 	father = 188784
@@ -85629,7 +85643,8 @@ uyghur0095 = {
 	name = "Kulug" # Yusseter
 	#name = "Tolossu"
 	dynasty = 1042190 #Yaghlakar
-	religion = "tengri_pagan"
+	religion = ulganism # Yusseter
+	#religion = "tengri_pagan"
 	culture = "uyghur"
 	father = 188786
 	749.1.1 = {
@@ -85646,7 +85661,8 @@ uyghur0095 = {
 1410749 = { #Apa Chor
 	name="Apa_Chor"
 	dynasty=1042190 #Yaghlakar
-	religion="tengri_pagan"
+	religion = ulganism # Yusseter
+	#religion="tengri_pagan"
 	culture = uigur # Yusseter
 	#culture = "yughur"
 	father=1410748
@@ -85891,11 +85907,18 @@ ediz_01 = { # Yusseter
 194191 = { # Yusseter: yaglakar_7
 	name = "Qutlugh"
 	dynasty = 1045083 # Ediz
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	culture = siqar
 	father = ediz_01
 	754.1.1 = {
 		birth = yes
+	}
+	757.1.1 = {
+		employer = 188784
+	}
+	759.6.1 = {
+		employer = 188785
 	}
 	768.1.1 = { # Yusseter
 		religion = manichean
@@ -91267,8 +91290,7 @@ yenisei_kirghiz_001 = { # Yusseter
 	}
 	711.9.26 = {
 		death = { # Yusseter: Killed during the attack on the Kyrgyz camp by Tonyukuk's army during the Battle of the Sayan Mountains.
-			death_reason = death_siege
-			#death_reason = death_battle # Yusseter: Not a battle.
+			death_reason = death_battle # Yusseter: Not a battle.
 			#killer = ashide_01 # Yusseter: There is no info about who killed.
 		}
 	}

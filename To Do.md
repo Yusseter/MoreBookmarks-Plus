@@ -114,6 +114,7 @@
  * quilted armor innovation
  - merkit = buqut `toquz-oghuz`
  - Yezagash
+ * chuvash creation date
 
 # Later
  * titles

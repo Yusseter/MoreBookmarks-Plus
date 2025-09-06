@@ -158,13 +158,13 @@
 	religion = mazdayasna	
 	holding = castle_holding
 	867.1.1 = {
-	special_building_slot = tarikhaneh_mosque_01
-	special_building = tarikhaneh_mosque_01
+	#special_building_slot = tarikhaneh_mosque_01 # Yusseter
+	#special_building = tarikhaneh_mosque_01 # Yusseter
 	}
 	
 	1066.1.1 = {
-	special_building_slot = tarikhaneh_mosque_02
-	special_building = tarikhaneh_mosque_02
+	#special_building_slot = tarikhaneh_mosque_02 # Yusseter
+	#special_building = tarikhaneh_mosque_02 # Yusseter
 	}
 	1066.1.1 = {	
 		culture = persian_turkish # Obviously not historical but a culture needs to exist on the map for the cultural head to be properly set and Nishapur and Damghan are the primary areas where the Turks entered Persia
@@ -463,7 +463,7 @@
 	religion = azariqa
 	holding = castle_holding
 	867.1.1 = {
-		special_building = citadel_alexander_01
+		#special_building = citadel_alexander_01 # Yusseter
 		buildings = {
 			cereal_fields_01
 		}

@@ -335,7 +335,14 @@ mpo_769_tributary_setup_effect = {
 		add_confederation_member = character:146168
 		add_confederation_member = character:146147
 	}
-
+    title:k_zhetysu.holder = { # Yusseter: Qarluq Yabghu
+        title:c_lepsink.holder = {
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+        title:c_cherik.holder = {
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+    }
 	#TOGUZ-OGHUZ
 
     title:e_mongolia.holder = {
