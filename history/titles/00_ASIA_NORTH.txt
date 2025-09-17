@@ -1004,6 +1004,12 @@ k_mongolia = {
 
 
 d_otuken = {
+	# Yusseter 0
+	903.1.1 = { holder = 303256 }
+	952.1.2 = { holder = 303259 }
+	971.1.1 = { holder = 0 }
+	# Yusseter 1
+
 	#867.1.1 = { change_development_level = 2 }
 	#1066.1.1 = { change_development_level = 5 }
 	994.1.1 = { holder = 1413646 }
@@ -6604,6 +6610,9 @@ c_krasnoyarsk = {
 	950.7.1 = {
 		holder = 997Buryat
 	}
+	1010.7.1 = { # Yusseter
+		holder = 998Buryat
+	}
 	#1066
 	1041.12.19 = {
 		holder = 303191		#fictional Bulgan Bulagad
@@ -6667,6 +6676,9 @@ c_mana = {
 	950.7.1 = {
 		holder = 997Buryat
 	}
+	1010.7.1 = { # Yusseter
+		holder = 998Buryat
+	}
 	#1066
 	1041.12.19 = {
 		holder = 303191		#fictional Bulgan Bulagad
@@ -6726,6 +6738,9 @@ c_shishina = {
 	950.7.1 = {
 		holder = 997Buryat
 	}
+	1010.7.1 = { # Yusseter
+		holder = 998Buryat
+	}
 	#1066
 	1041.12.19 = {
 		holder = 303191		#fictional Bulgan Bulagad
@@ -6777,6 +6792,9 @@ c_kansk = {
 	}
 	960.8.21 = {
 		holder = 997Buryat2
+	}
+	1002.8.21 = { # Yusseter
+		holder = 998Buryat2
 	}
 	#1066
 	1058.9.13 = {
@@ -6841,6 +6859,9 @@ c_tagul = {
 	960.8.21 = {
 		holder = 997Buryat2
 	}
+	1002.8.21 = { # Yusseter
+		holder = 998Buryat2
+	}
 	#1066
 	1058.9.13 = {
 		holder = 303182		#fictional Bair Bajandaj
@@ -6902,6 +6923,9 @@ c_chuna = {
 	960.8.21 = {
 		holder = 997Buryat2
 	}
+	1002.8.21 = { # Yusseter
+		holder = 998Buryat2
+	}
 	#1066
 	1058.9.13 = {
 		holder = 303182		#fictional Bair Bajandaj
@@ -6950,6 +6974,12 @@ c_bratsk = {
 	}
 	940.7.10 = {
 		holder = 997Sono		#fictional Tseden Sono
+	}
+	1000.7.10 = { # Yusseter
+		holder = 997Sono2
+	}
+	1022.9.16 = { # Yusseter
+		holder = 997Sono3
 	}
 	#1066
 	1065.7.23 = {
@@ -7000,6 +7030,12 @@ c_tulun = {
 	937.12.29 = {
 		holder = 997Khongodor
 	}
+	1000.12.29 = { # Yusseter
+		holder = 997Khongodor2
+	}
+	1012.5.10 = { # Yusseter
+		holder = 997Khongodor3
+	}
 	#1066
 	1047.6.27 = {
 		holder = 303199		#fictional Ushkal Khongodor
@@ -7047,8 +7083,14 @@ c_lena = {
 	941.7.16 = {
 		holder = 997Abazaj		#fictional Tayisung Abazaj
 	}
+	1000.7.16 = { # Yusseter
+		holder = 3030972
+	}
+	1009.3.23 = { # Yusseter
+		holder = 3030973
+	}
 	#1066
-	1065.9.15 = {
+	1060.3.8 = { # Yusseter: 1065.9.15
 		holder = 303158		#fictional Ariq Abazaj
 	}
 	1092.6.27 = {
@@ -7092,8 +7134,14 @@ c_ilga = {
 	940.10.19 = {
 		holder = 997Yrkhu
 	}
+	1000.10.19 = { # Yusseter
+		holder = 3030972
+	}
+	1009.3.23 = { # Yusseter
+		holder = 3030973
+	}
 	#1066
-	1066.1.2 = {
+	1060.3.8 = { # Yusseter: 1066.1.2
 		holder = 303166		#fictional Baldan Yrkhu
 	}
 	1092.12.17 = {
@@ -7138,8 +7186,14 @@ c_gatsuurgazar = {
 	941.7.16 = {
 		holder = 997Abazaj		#fictional Tayisung Abazaj
 	}
+	1000.7.16 = { # Yusseter
+		holder = 3030972
+	}
+	1009.3.23 = { # Yusseter
+		holder = 3030973
+	}
 	#1066
-	1065.9.15 = {
+	1060.3.8 = { # Yusseter: 1065.9.15
 		holder = 303158		#fictional Ariq Abazaj
 	}
 	1092.6.27 = {
@@ -7182,6 +7236,15 @@ c_kitoi = {
 	}
 	902.8.16 = {
 		holder = 303097		#fictional Damba Khori-Tumed
+	}
+	940.1.12 = { # Yusseter
+		holder = 3030971
+	}
+	965.7.10 = { # Yusseter
+		holder = 3030972
+	}
+	1009.3.23 = { # Yusseter
+		holder = 3030973
 	}
 	#1066
 	1060.3.8 = {
@@ -7231,6 +7294,12 @@ c_kymyl_tey = {
 	}
 	937.12.29 = {
 		holder = 997Khongodor
+	}
+	1000.12.29 = { # Yusseter
+		holder = 997Khongodor2
+	}
+	1012.5.10 = { # Yusseter
+		holder = 997Khongodor3
 	}
 	#1066
 	1047.6.27 = {
@@ -7283,6 +7352,12 @@ c_okangara = {
 	940.7.10 = {
 		holder = 997Sono		#fictional Tseden Sono
 	}
+	1000.7.10 = { # Yusseter
+		holder = 997Sono2
+	}
+	1022.9.16 = { # Yusseter
+		holder = 997Sono3
+	}
 	#1066
 	1065.7.23 = {
 		holder = 303174		#fictional Engke Sono
@@ -7333,6 +7408,12 @@ c_kada = {
 	}
 	940.7.10 = {
 		holder = 997Sono		#fictional Tseden Sono
+	}
+	1000.7.10 = { # Yusseter
+		holder = 997Sono2
+	}
+	1022.9.16 = { # Yusseter
+		holder = 997Sono3
 	}
 	#1066
 	1065.7.23 = {
@@ -7952,6 +8033,15 @@ c_chuya = {
 	937.6.19 = {
 		holder = 997Hengelder
 	}
+	1000.6.19 = { # Yusseter
+		holder = 997Hengelder1
+	}
+	1014.7.21 = { # Yusseter
+		holder = 997Hengelder2
+	}
+	1036.7.13 = { # Yusseter
+		holder = 997Hengelder3
+	}
 	#1066
 	1064.8.11 = {
 		holder = 8000009		#fictional Sayn Hengelder
@@ -7996,6 +8086,15 @@ c_baigaluuls = {
 	}
 	937.6.19 = {
 		holder = 997Hengelder
+	}
+	1000.6.19 = { # Yusseter
+		holder = 997Hengelder1
+	}
+	1014.7.21 = { # Yusseter
+		holder = 997Hengelder2
+	}
+	1036.7.13 = { # Yusseter
+		holder = 997Hengelder3
 	}
 	#1066
 	1064.8.11 = {
@@ -8042,6 +8141,15 @@ c_uulynkhol = {
 	937.6.19 = {
 		holder = 997Hengelder
 	}
+	1000.6.19 = { # Yusseter
+		holder = 997Hengelder1
+	}
+	1014.7.21 = { # Yusseter
+		holder = 997Hengelder2
+	}
+	1036.7.13 = { # Yusseter
+		holder = 997Hengelder3
+	}
 	#1066
 	1064.8.11 = {
 		holder = 8000009		#fictional Sayn Hengelder
@@ -8085,8 +8193,14 @@ c_olkhon = {
 	940.10.19 = {
 		holder = 997Yrkhu
 	}
+	1000.10.19 = { # Yusseter
+		holder = 3030972
+	}
+	1009.3.23 = { # Yusseter
+		holder = 3030973
+	}
 	#1066
-	1066.1.2 = {
+	1060.3.8 = { # Yusseter: 1066.1.2
 		holder = 303166		#fictional Baldan Yrkhu
 	}
 	1092.12.17 = {
@@ -8130,8 +8244,14 @@ c_irkutsk = {
 	940.10.19 = {
 		holder = 997Yrkhu
 	}
+	1000.10.19 = { # Yusseter
+		holder = 3030972
+	}
+	1009.3.23 = { # Yusseter
+		holder = 3030973
+	}
 	#1066
-	1066.1.2 = {
+	1060.3.8 = { # Yusseter: 1066.1.2
 		holder = 303166		#fictional Baldan Yrkhu
 	}
 	1092.12.17 = {
@@ -8187,8 +8307,14 @@ c_ryty = {
 	941.7.16 = {
 		holder = 997Abazaj		#fictional Tayisung Abazaj
 	}
+	1000.7.16 = { # Yusseter
+		holder = 3030972
+	}
+	1009.3.23 = { # Yusseter
+		holder = 3030973
+	}
 	#1066
-	1065.9.15 = {
+	1060.3.8 = { # Yusseter: 1065.9.15
 		holder = 303158		#fictional Ariq Abazaj
 	}
 	1092.6.27 = {
@@ -8213,6 +8339,16 @@ c_ryty = {
 		holder = 3031634		#fictional Khotsa Abazaj
 	}
 
+}
+
+d_tsagaanbaigal = { # Yusseter
+	1002.1.1 = {
+		holder = 3030972
+	}
+	1009.3.23 = {
+		holder = 3030973
+	}
+	1060.3.8 = { holder = 0 }
 }
 
 
@@ -13815,11 +13951,14 @@ c_tomsk = {
 	930.1.1 = {
 		holder = 261083
 	}
-	930.1.1 = {
-		liege = 0
-	}
+	#930.1.1 = { # Yusseter
+	#	liege = 0
+	#}
 	954.1.1 = {
 		holder = 991kirghiz2
+	}
+	1002.1.1 = { # Yusseter
+		holder = fictional_kirghiz_20
 	}
 	#1066
 	1057.9.8 = {
@@ -13922,6 +14061,17 @@ d_ala_tau = {
 		holder=0
 	}
 
+	# Yusseter 0
+	930.1.1 = {
+		holder = 261083
+	}
+	954.1.1 = {
+		holder = 991kirghiz2
+	}
+	1002.1.1 = {
+		holder = fictional_kirghiz_20
+	}
+	# Yusseter 1
 }
 
 
@@ -14168,7 +14318,8 @@ c_sochur = {
 	}
 	#End of Kirghiz Khanate
 	925.1.2 = {
-		liege = 0
+		liege = d_ala_tau # Yusseter
+		#liege = 0
 	}
 	950.1.15 = {
 		holder = 997Samoyed1
@@ -15099,6 +15250,16 @@ c_semey = {
 }
 
 d_akaltay = {
+
+	# Yusseter 0
+	900.1.1 = {
+		holder = 217186
+		government = nomad_government
+	}
+	946.3.7 = { holder = 217187 }
+	994.8.24 = { holder = 217188 }
+	1021.9.13 = { holder = 217189 }
+	# Yusseter 1
 
 	#1066 - Naimans
 	1066.1.2 = {
@@ -17424,6 +17585,20 @@ d_jemba = {
 
 d_voronezh = {
 
+	# Yusseter 0
+	970.1.1 = {
+		liege = 0 #Uzes
+		holder = 1232023
+		government = nomad_government
+	}
+	1010.1.1 = {
+		holder = 1232008
+	}
+	#1035.1.1 = {
+	#	holder = 1231873
+	#}
+	# Yusseter 1
+
 	1030.1.1 = {
 		government = tribal_government
 		holder = 1233015
@@ -17834,6 +18009,26 @@ d_chuvashia = {
 
 
 d_atyrau = {
+
+	# Yusseter 0
+	893.1.1 = {
+		liege = 0 #Uzes
+		holder = 1231862 # Qataghan
+		government = nomad_government
+	}
+	910.1.1 = {
+		holder = 1231864 # Etrek
+	}
+	940.1.1 = {
+		holder = 1231867
+	}
+	960.1.1 = {
+		holder = 1231869
+	}
+	1010.1.1 = {
+		holder = 1231871
+	}
+	# Yusseter 1
 
 	1030.1.27 = {
 		holder = CumanKipchak80
@@ -19542,6 +19737,23 @@ d_don_valley = {
 		holder = 0
 	}
 
+	# Yusseter 0
+	966.1.1 = {
+		liege = 0 #Uzes
+		holder = 1231996
+		government = nomad_government
+	}
+	982.1.1 = {
+		holder = 1231997
+	}
+	1010.1.1 = {
+		holder = 1232025
+	}
+	1035.1.1 = {
+		holder = 1231873
+	}
+	# Yusseter 1
+
 	# Terteroba
 	1050.1.1 = {
 		liege = 0
@@ -20678,7 +20890,8 @@ c_kozlov = {
 		holder = 194154
 	}
 	860.1.1 = {
-		liege = d_khopyor
+		liege = d_tambov # Yusseter
+		#liege = d_khopyor
 		holder = 1233635
 	}
 	897.1.1 = {
@@ -20745,7 +20958,8 @@ c_matya = {
 		holder = 194154
 	}
 	860.1.1 = {
-		liege = d_khopyor
+		liege = d_tambov # Yusseter
+		#liege = d_khopyor
 		holder = 1233635
 	}
 	897.1.1 = {
@@ -20811,7 +21025,8 @@ c_lachyk-uba = {
 		holder = 194149
 	}
 	860.1.1 = {
-		liege = d_khopyor
+		liege = d_tambov # Yusseter
+		#liege = d_khopyor
 		holder = 1233635
 	}
 	897.1.1 = {
@@ -20892,7 +21107,8 @@ c_rakcha = {
 		holder = 194149
 	}
 	860.1.1 = {
-		liege = d_khopyor
+		liege = d_tambov # Yusseter
+		#liege = d_khopyor
 		holder = 1233635
 	}
 	897.1.1 = {
@@ -21912,7 +22128,8 @@ c_tambov = {
 		holder = 194154
 	}
 	860.1.1 = {
-		liege = d_khopyor
+		liege = d_tambov # Yusseter
+		#liege = d_khopyor
 		holder = 1233635
 	}
 	897.1.1 = {
@@ -22932,6 +23149,26 @@ c_uzen = {
 }
 
 d_pecheneg = {
+
+	# Yusseter 0
+	930.1.1 = {
+		holder = 1231947
+		#liege = d_atyrau
+		government = nomad_government
+	}
+	940.1.1 = {
+		holder = 1231867
+	}
+	960.1.1 = {
+		holder = 1231999
+	}
+	990.1.1 = {
+		holder = 1232008
+	}
+	1010.1.1 = {
+		holder = 1231871
+	}
+	# Yusseter 1
 
 	1030.1.1 = {
 		holder = CumanKipchak88
@@ -24261,6 +24498,7 @@ d_jalmat = {
 	}
 	
 	796.8.25 = {
+		liege = k_volga_bulgaria # Yusseter
 		holder = BulgarJalmatMB2  # Omurtag (eldest son)
 	}
 	
@@ -25826,6 +26064,14 @@ c_sagiz = {
 }
 
 d_manatau = {
+
+	# Yusseter 0
+	960.1.1 = {
+		holder = 1231993
+		government = nomad_government
+	}
+	988.1.1 = { holder = 1231994 }
+	# Yusseter 1
 
 	1030.6.9 = {
 		holder = CumanKipchak68
@@ -28620,6 +28866,26 @@ d_aqtobe = {
 	800.1.1={
 		holder=0
 	}
+
+	# Yusseter 0
+	930.1.1 = {
+		holder = 1232023
+		#liege = d_atyrau
+		government = nomad_government
+	}
+	940.1.1 = {
+		holder = 1231867
+	}
+	950.1.1 = {
+		holder = 1231947
+	}
+	989.1.1 = {
+		holder = 1231949
+	}
+	1024.1.1 = {
+		holder = 1231951
+	}
+	# Yusseter 1
 
 	# Ay-Opa
 	1030.1.1 = {
@@ -38327,7 +38593,7 @@ c_juliezhou = { #居烈州/菁州/康州
 
 e_turan = {
 	# Yusseter 0
-	552.1.1 = {
+	553.1.1 = {
 		holder = ashina_05
 		government = nomad_government
 	}
@@ -38335,14 +38601,50 @@ e_turan = {
 		holder = ashina_06
 	}
 	603.1.1 = {
-		holder = 0
+		holder = ashina_063
 	}
 	604.1.1 = {
 		holder = ashina_25
 	}
 	611.1.1 = {
-		holder = ashina_25
+		holder = ashina_27
 	}
+	618.1.1 = {
+		holder = ashina_28
+	}
+	628.1.1 = {
+		holder = ashina_29
+	}
+	630.1.1 = {
+		holder = ashina_30
+	}
+	633.1.1 = {
+		holder = ashina_26
+	}
+	634.1.1 = {
+		holder = ashina_32
+	}
+	639.1.1 = {
+		holder = ashina_18
+	}
+	642.1.1 = {
+		holder = ashina_36
+	}
+	650.1.1 = {
+		holder = 74005
+	}
+	658.1.1 = {
+		holder = 0
+	}
+	#1111.1.1 = {
+	#	holder = aaaaaaaaa
+	#}
+	#1111.1.1 = {
+	#	holder = aaaaaaaaa
+	#}
+	#1111.1.1 = {
+	#	holder = aaaaaaaaa
+	#}
 	# Yusseter 1
 
 	#990.1.1 = { # Yusseter
@@ -43283,6 +43585,48 @@ k_zhetysu = {
 	#867.1.1 = { change_development_level = 0 }
 	#1066.1.1 = { change_development_level = 0 }
 
+	# Yusseter 0
+	657.1.1 = {
+		holder = ashina_75
+	}
+	662.1.1 = {
+		holder = 0
+	}
+	676.1.1 = {
+		holder = ashina_76
+	}
+	679.1.1 = {
+		holder = 0
+	}
+	685.1.1 = {
+		holder = ashina_77
+	}
+	692.1.1 = {
+		holder = ashina_2141
+	}
+	693.1.1 = {
+		holder = ashina_78
+	}
+	700.1.1 = {
+		holder = ashina_2141
+	}
+	704.1.1 = {
+		holder = 0
+	}
+	708.1.1 = {
+		holder = ashina_79
+	}
+	717.1.1 = {
+		holder = 0
+	}
+	735.1.1 = {
+		holder = ashina_80
+	}
+	736.1.1 = {
+		holder = 0
+	}
+	# Yusseter 1
+
 	766.1.1 = {
 		holder = 188768
 		government = tribal_government
@@ -46912,6 +47256,14 @@ d_altay = {
 
 d_naiman_gobi = {
 
+	# Yusseter 0
+	905.1.1  = { 
+		holder = 936Uyghur2
+		government = nomad_government 
+	}
+	960.9.15 = { holder = 0 }
+	# Yusseter 1
+
 	#Naimans
 	1058.6.10 = {
 		government = tribal_government
@@ -47096,6 +47448,9 @@ c_altay = {
 
 
 c_qinggil = {
+	300.1.1 = { # Yusseter
+		government = nomad_government
+	}
 	361.1.1 = {
 		holder = dzungaria_04
 		government = tribal_government
@@ -47905,6 +48260,9 @@ c_jie_DZU = {
 }
 
 c_balgun = {
+	300.1.1 = { # Yusseter
+		government = nomad_government
+	}
 	361.1.1 = {
 		holder = dzungaria_04
 	}
@@ -48060,6 +48418,9 @@ c_balgun = {
 
 
 c_kara_asirgan = {
+	300.1.1 = { # Yusseter
+		government = nomad_government
+	}
 
 	760.1.1 = {
 		holder = 302661M2
@@ -48129,6 +48490,9 @@ c_kara_asirgan = {
 
 
 c_boro_burgasu = {
+	300.1.1 = { # Yusseter
+		government = nomad_government
+	}
 	744.1.1 = {
 		holder = 217101
 	}

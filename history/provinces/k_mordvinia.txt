@@ -172,15 +172,16 @@ religion = tengri_pagan
 ##d_chuvashia  ###################################
 ###c_saratov
 592 = {		#Saratov
-	culture = chuvash
+	culture = bolghar # Yusseter
+	#culture = chuvash
 	religion = tengri_pagan
 	holding = tribal_holding
 825.1.1 = { culture = pecheneg } 
 867.1.1 = { culture = main_alan religion = alan_pagan } # Yusseter
-#867.1.1 = { culture = alan religion = alan_pagan }
-930.1.1 = { religion = tengri_pagan }
-940.1.1 = { culture = khazar } 
-966.1.1 = { culture = torkil } 
+#867.1.1 = { culture = alan religion = alan_pagan } # Yusseter
+#930.1.1 = { religion = tengri_pagan } # Yusseter
+#940.1.1 = { culture = khazar } # Yusseter
+#966.1.1 = { culture = torkil } # Yusseter
 1050.1.1 = { culture = cuman } 
 1050.1.1 = { religion = tengri_pagan } 
 1200.1.1 = {
@@ -198,7 +199,8 @@ religion = tengri_pagan
 
 ###c_penza
 5366 = {	#Penza
-	culture = chuvash
+	culture = bolghar # Yusseter
+	#culture = chuvash
 	religion = tengri_pagan
 	holding = tribal_holding
 }
@@ -219,7 +221,8 @@ religion = tengri_pagan
 
 ###c_atkarsk
 5509 = {	#Atkarsk
-	culture = chuvash
+	culture = bolghar # Yusseter
+	#culture = chuvash
 	religion = tengri_pagan
 	holding = tribal_holding
 	825.1.1 = { culture = pecheneg } 
@@ -241,7 +244,8 @@ religion = tengri_pagan
 
 ###c_petrovsk
 5390 = {	#Petrovsk
-	culture = chuvash
+	culture = bolghar # Yusseter
+	#culture = chuvash
 	religion = tengri_pagan
 	holding = tribal_holding
 	
@@ -303,7 +307,8 @@ religion = tengri_pagan
 
 ###c_balachev
 5377 = {	#Balachev
-	culture = chuvash
+	culture = bolghar # Yusseter
+	#culture = chuvash
 	religion = tengri_pagan
 	holding = tribal_holding
 	

@@ -37,7 +37,7 @@ RICE_kashgar_001 = {
 	}
 	1060.1.1 = { # Yusseter
 		effect = {
-			set_relation_potential_friend = character:RICE_tarim_basin_misc_005
+			set_relation_friend = character:RICE_tarim_basin_misc_005
 		}
 	}
 	1102.8.5={ # One potential year of death

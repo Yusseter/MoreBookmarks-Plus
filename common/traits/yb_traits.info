@@ -1,19 +1,163 @@
-﻿adopted = {
+﻿child_of_adoption = {
 	category = fame
-	icon = { desc = child_of_adoption.dds }
+
 	diplomacy = -1
-	legitimacy_gain_mult = 0.1
+
+	icon = {
+		desc = child_of_adoption.dds
+	}
+
 	ruler_designer_cost = -5
 
 	desc = {
 		first_valid = {
 			triggered_desc = {
 				trigger = {
-					NOT = { exists = this }
+					exists = this
+					culture = {
+						NOT = {
+							OR = {
+								has_cultural_pillar = heritage_chinese
+								has_cultural_pillar = heritage_vietic
+								has_cultural_pillar = heritage_tai
+								has_cultural_pillar = heritage_khmer
+								has_cultural_pillar = heritage_aslianic
+								has_cultural_pillar = heritage_korean
+								has_cultural_pillar = heritage_ryukyu
+								has_cultural_pillar = heritage_yamato
+								has_cultural_pillar = heritage_ezo
+								has_cultural_pillar = heritage_qiangic
+								has_cultural_pillar = heritage_ugro_permian
+								has_cultural_pillar = heritage_siberian
+								has_cultural_pillar = heritage_mongolic
+								has_cultural_pillar = heritage_tungusic
+								has_cultural_pillar = heritage_samoyedic
+								has_cultural_pillar = heritage_magyar
+								has_cultural_pillar = heritage_volga_finnic
+								has_cultural_pillar = heritage_hunnic
+								has_cultural_pillar = heritage_toquz_oghuz
+								has_cultural_pillar = heritage_sayan_altaic
+								has_cultural_pillar = heritage_kipchak
+								has_cultural_pillar = heritage_oghur
+								has_cultural_pillar = heritage_turkic
+								has_cultural_pillar = heritage_mongolic
+							}
+						}
+					}
+					NOT = { has_variable = shogunate_real_father }
 				}
-				desc = trait_adopted_desc
+				desc = trait_child_of_adoption_character_desc
 			}
-			desc = trait_adopted_character_desc
+			triggered_desc = {
+				trigger = {
+					exists = this
+					culture = {
+						NOT = {
+							OR = {
+								has_cultural_pillar = heritage_chinese
+								has_cultural_pillar = heritage_vietic
+								has_cultural_pillar = heritage_tai
+								has_cultural_pillar = heritage_khmer
+								has_cultural_pillar = heritage_aslianic
+								has_cultural_pillar = heritage_korean
+								has_cultural_pillar = heritage_ryukyu
+								has_cultural_pillar = heritage_yamato
+								has_cultural_pillar = heritage_ezo
+								has_cultural_pillar = heritage_qiangic
+								has_cultural_pillar = heritage_ugro_permian
+								has_cultural_pillar = heritage_siberian
+								has_cultural_pillar = heritage_mongolic
+								has_cultural_pillar = heritage_tungusic
+								has_cultural_pillar = heritage_samoyedic
+								has_cultural_pillar = heritage_magyar
+								has_cultural_pillar = heritage_volga_finnic
+								has_cultural_pillar = heritage_hunnic
+								has_cultural_pillar = heritage_toquz_oghuz
+								has_cultural_pillar = heritage_sayan_altaic
+								has_cultural_pillar = heritage_kipchak
+								has_cultural_pillar = heritage_oghur
+								has_cultural_pillar = heritage_turkic
+								has_cultural_pillar = heritage_mongolic
+							}
+						}
+					}
+					has_variable = shogunate_real_father
+				}
+				desc = trait_child_of_adoption_character_with_real_father_desc
+			}
+			triggered_desc = {
+				trigger = {
+					exists = this
+					culture = {
+						OR = {
+							has_cultural_pillar = heritage_chinese
+							has_cultural_pillar = heritage_vietic
+							has_cultural_pillar = heritage_tai
+							has_cultural_pillar = heritage_khmer
+							has_cultural_pillar = heritage_aslianic
+							has_cultural_pillar = heritage_korean
+							has_cultural_pillar = heritage_ryukyu
+							has_cultural_pillar = heritage_yamato
+							has_cultural_pillar = heritage_ezo
+							has_cultural_pillar = heritage_qiangic
+							has_cultural_pillar = heritage_ugro_permian
+							has_cultural_pillar = heritage_siberian
+							has_cultural_pillar = heritage_mongolic
+							has_cultural_pillar = heritage_tungusic
+							has_cultural_pillar = heritage_samoyedic
+							has_cultural_pillar = heritage_magyar
+							has_cultural_pillar = heritage_volga_finnic
+							has_cultural_pillar = heritage_hunnic
+							has_cultural_pillar = heritage_toquz_oghuz
+							has_cultural_pillar = heritage_sayan_altaic
+							has_cultural_pillar = heritage_kipchak
+							has_cultural_pillar = heritage_oghur
+							has_cultural_pillar = heritage_turkic
+							has_cultural_pillar = heritage_mongolic
+						}
+					}
+					NOT = { has_variable = shogunate_real_father }
+				}
+				desc = trait_child_of_adoption_firstly_surname_character_desc
+			}
+			triggered_desc = {
+				trigger = {
+					exists = this
+					culture = {
+						OR = {
+							has_cultural_pillar = heritage_chinese
+							has_cultural_pillar = heritage_vietic
+							has_cultural_pillar = heritage_tai
+							has_cultural_pillar = heritage_khmer
+							has_cultural_pillar = heritage_aslianic
+							has_cultural_pillar = heritage_korean
+							has_cultural_pillar = heritage_ryukyu
+							has_cultural_pillar = heritage_yamato
+							has_cultural_pillar = heritage_ezo
+							has_cultural_pillar = heritage_qiangic
+							has_cultural_pillar = heritage_ugro_permian
+							has_cultural_pillar = heritage_siberian
+							has_cultural_pillar = heritage_mongolic
+							has_cultural_pillar = heritage_tungusic
+							has_cultural_pillar = heritage_samoyedic
+							has_cultural_pillar = heritage_magyar
+							has_cultural_pillar = heritage_volga_finnic
+							has_cultural_pillar = heritage_hunnic
+							has_cultural_pillar = heritage_toquz_oghuz
+							has_cultural_pillar = heritage_sayan_altaic
+							has_cultural_pillar = heritage_kipchak
+							has_cultural_pillar = heritage_oghur
+							has_cultural_pillar = heritage_turkic
+							has_cultural_pillar = heritage_mongolic
+						}
+					}
+					has_variable = shogunate_real_father
+				}
+				desc = trait_child_of_adoption_firstly_surname_character_with_real_father_desc
+			}
+			desc = trait_child_of_adoption_desc
 		}
 	}
 }
+
+adopted = child_of_adoption

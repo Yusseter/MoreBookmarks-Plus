@@ -6,5 +6,6 @@ ce_tamgha_alchonid.dds = { colors = 1 category = tribal_seal }
 ce_tamgha_hephthalite.dds = { colors = 1 category = tribal_seal }
 ce_tamgha_kidarite.dds = { colors = 1 category = tribal_seal }
 ce_tamgha_kushan.dds = { colors = 1 category = tribal_seal }
+ce_tamgha_tokhara_shahi.dds = { colors = 1 category = tribal_seal }
 ce_tamgha_turkshahi.dds = { colors = 1 category = tribal_seal }
 ce_tamgha_zunbil.dds = { colors = 1 category = tribal_seal }

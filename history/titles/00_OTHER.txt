@@ -3661,16 +3661,25 @@ d_socotra = {
 }
 
 e_caspian-pontic_steppe = {
-	581.1.1 = { # Yusseter
+	# Yusseter 0
+	581.1.1 = {
 		holder = ashina_07
+		government = nomad_government
 	}
-	585.1.1 = { # Yusseter
+	585.1.1 = {
 		holder = 0
 	}
-	654.1.1 = {
-		holder = 74004
-		government = tribal_government
+	639.1.1 = {
+		holder = ashina_32
 	}
+	659.1.1 = {
+		holder = 74004
+	}
+	#654.1.1 = {
+	#	holder = 74004
+	#	government = tribal_government
+	#}
+	# Yusseter 1
 	682.1.1 = {
 		holder = 74007
 	}

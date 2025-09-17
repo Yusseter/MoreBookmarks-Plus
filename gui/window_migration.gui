@@ -62,12 +62,15 @@ window = {
 				texture = "gfx/interface/illustrations/loading_screens/ger_tergen.dds" # Yusseter
 				#texture = "gfx/interface/illustrations/event_scenes/mpo_camp_steppe.dds"
 				alpha = 0.25 # Yusseter
+				#alpha = 0.2
 				fittype = centercrop
 				#mirror = horizontal # Yusseter
 
 				margin_top = 20 # Yusseter
+				#margin_top = -40
 				margin_bottom = 20 # Yusseter
 				margin_right = -50 # Yusseter
+				#margin_right = -100
 
 				using = Mask_Rough_Edges
 
@@ -289,14 +292,14 @@ window = {
 				name = "target_title"
 				layoutpolicy_horizontal = expanding
 				datacontext = "[MigrationWindow.GetTargetTitle]"
+				datacontext = "[MigrationWindow.GetSituation]"
 				datacontext = "[Title.GetPreferredCapital.GetCountyData]"
 				visible = "[Title.IsValid]"
 
 				margin = { 10 15 }
 
 				background = {
-					texture = "[County.GetCurrentPhaseTypeInSituation('the_great_steppe').GetIllustration]"
-
+					texture = "[County.GetCurrentPhaseType( Situation.Self ).GetIllustration]"
 					fittype = centercrop
 					alpha = 0.7
 					using = Mask_Rough_Edges
@@ -395,6 +398,7 @@ window = {
 									hbox = { # Steppe Season
 										layoutpolicy_horizontal = expanding
 										margin = { 10 0 }
+										visible = "[County.GetCurrentPhaseType( Situation.Self ).IsValid]"
 
 										text_single = {
 											text = "MIGRATION_WINDOW_STEPPE_SEASON_LABEL"
@@ -405,7 +409,7 @@ window = {
 										text_single = {
 											margin = { 5 0 }
 
-											text = "[County.GetCurrentPhaseTypeInSituation('the_great_steppe').GetName]"
+											text = "[County.GetCurrentPhaseType( Situation.Self ).GetName]"
 											default_format = "#high"
 											align = left|nobaseline
 											max_width = 184
@@ -436,6 +440,7 @@ window = {
 					layoutpolicy_horizontal = expanding
 					margin = { 55 5 }
 					margin_bottom = 15
+					visible = "[County.GetCurrentPhaseType( Situation.Self ).IsValid]"
 
 					fertility_bar = {
 						blockoverride "button_enabled" {
@@ -448,7 +453,7 @@ window = {
 							tooltip = "[MigrationWindow.GetTargetDomainFertilityTooltip]"
 						}
 						blockoverride "grey_fertility_icon_visibility" {
-							visible = no
+							visible = "[MigrationWindow.IsAverageTargetDomainFertilityBetween( '(CFixedPoint)0.0', '(CFixedPoint)0.001' )]"
 						}
 						blockoverride "green_fertility_icon_visibility" {
 							visible = "[MigrationWindow.IsAverageTargetDomainFertilityBetween( '(CFixedPoint)0.6', '(CFixedPoint)1.1' )]"
@@ -457,7 +462,7 @@ window = {
 							visible = "[MigrationWindow.IsAverageTargetDomainFertilityBetween( '(CFixedPoint)0.3', '(CFixedPoint)0.6' )]"
 						}
 						blockoverride "red_fertility_icon_visiblity" {
-							visible = "[MigrationWindow.IsAverageTargetDomainFertilityBetween( '(CFixedPoint)0.0', '(CFixedPoint)0.3' )]"
+							visible = "[MigrationWindow.IsAverageTargetDomainFertilityBetween( '(CFixedPoint)0.001', '(CFixedPoint)0.3' )]"
 						}
 					}
 
@@ -495,7 +500,7 @@ window = {
 
 					vbox_interaction_options = {
 						layoutpolicy_horizontal = expanding
-						blockoverride "checkbox_on_click" 
+						blockoverride "checkbox_on_click"
 						{
 							onclick = "[MigrationWindow.RefreshEffects]"
 						}
@@ -659,25 +664,22 @@ types Migration
 			color = { 0.15 0.15 0.15 0.75 }
 		}
 
-
 		hbox = {
-
 			text_single = {
 				visible = "[MigrationWindow.IsShowRealm]"
 				text = "MIGRATION_COLOR_SELECTOR_REALMS"
 			}
+
 			text_single = {
 				visible = "[Not( MigrationWindow.IsShowRealm )]"
 				text = "MIGRATION_COLOR_SELECTOR_FERTILITY"
 			}
 
 			hbox = {
-
 				button_round = {
 					size = { 40 40 }
 
 					down = "[MigrationWindow.IsShowRealm]"
-					#enabled = "[Not(MigrationWindow.IsShowRealm)]"
 					onclick = "[MigrationWindow.ToggleRealmColor]"
 
 					tooltip = "MIGRATION_COLOR_SELECTOR_REALMS"
@@ -687,6 +689,8 @@ types Migration
 						parentanchor = center
 						alwaystransparent = yes
 						texture = "[GetMapMode( 'realms' ).GetIcon]"
+
+						down = "[MigrationWindow.IsShowRealm]"
 					}
 				}
 
@@ -694,9 +698,8 @@ types Migration
 					size = { 40 40 }
 
 					down = "[Not(MigrationWindow.IsShowRealm)]"
-					#enabled = "[MigrationWindow.IsShowRealm]"
-
 					onclick = "[MigrationWindow.ToggleRealmColor]"
+
 					tooltip = "MIGRATION_COLOR_SELECTOR_FERTILITY"
 
 					button_icon = {
@@ -706,6 +709,8 @@ types Migration
 						parentanchor = center
 						alwaystransparent = yes
 						texture = "[GetMapMode( 'migration_counties' ).GetIcon]"
+
+						down = "[Not(MigrationWindow.IsShowRealm)]"
 					}
 				}
 			}
@@ -754,6 +759,8 @@ types Migration
 					parentanchor = center
 					alwaystransparent = yes
 					texture = "gfx/interface/icons/flat_icons/map_modes/dejure_counties.dds"
+
+					down = "[EqualTo_string(MigrationWindow.GetTitleTier, 'county')]"
 				}
 			}
 
@@ -772,6 +779,8 @@ types Migration
 					parentanchor = center
 					alwaystransparent = yes
 					texture = "gfx/interface/icons/flat_icons/map_modes/dejure_duchies.dds"
+
+					down = "[EqualTo_string(MigrationWindow.GetTitleTier, 'duchy')]"
 				}
 			}
 
@@ -790,6 +799,8 @@ types Migration
 					parentanchor = center
 					alwaystransparent = yes
 					texture = "gfx/interface/icons/flat_icons/map_modes/dejure_kingdoms.dds"
+
+					down = "[EqualTo_string(MigrationWindow.GetTitleTier, 'kingdom')]"
 				}
 			}
 
@@ -808,6 +819,8 @@ types Migration
 					parentanchor = center
 					alwaystransparent = yes
 					texture = "gfx/interface/icons/flat_icons/map_modes/dejure_empires.dds"
+
+					down = "[EqualTo_string(MigrationWindow.GetTitleTier, 'empire')]"
 				}
 			}
 		}
@@ -1324,16 +1337,16 @@ types Migration
 				}
 
 				spacer = {
-					size = { 15 0 }
+					size = { 17 0 }
 				}
 
 				button = {
-					datacontext = "[GetPlayer.GetActiveLawInGroupWithFlag('realm_law')]"
+					datacontext = "[GetPlayer.GetActiveLawInGroupWithFlag('dominance_law')]"
 					size = { 100 100 }
 					allow_outside = yes
-					
+
 					onclick = "[ToggleGameViewData( 'my_realm', 'bookmark_laws' )]"
-					
+
 					tooltipwidget = {
 						general_law_tooltip = {
 							blockoverride "call_to_action" {
@@ -1351,7 +1364,7 @@ types Migration
 						size = { 72 72 }
 					}
 
-					icon = {
+					highlight_icon = {
 						name = "dominance icon"
 						size = { 72 72 }
 						texture = "[Law.GetIcon]"
@@ -1360,86 +1373,83 @@ types Migration
 
 					widget = {
 						parentanchor = hcenter|bottom
-						size = { 20 24 }
-						position = { -27 -12 }
+						size = { 68 16 }
+						position = { 0 -7 }
 
-						### KEEPING THIS FOR NOW CAUSE IT'S NOT TOTALLY CLEAR IF WE'RE GOING TO USE THE PIPS - ANTON H
-						# text_single = {
-						# 	parentanchor = center
-						# 	text = "MY_REALM_WINDOW_LAW_LEVEL"
-						# 	align = nobaseline
-
-						# 	background = {
-						# 		margin_left = 20
-						# 		margin_right = 20
-
-						# 		texture = "gfx/interface/component_tiles/tile_title_bg_01.dds"
-						# 		spriteType = Corneredtiled
-						# 		spriteborder = { 40 8 }
-						# 		texture_density = 2
-
-						# 		modify_texture = {
-						# 			name = "mask"
-						# 			texture = "gfx/interface/component_masks/mask_fade_horizontal_middle_thick.dds"
-						# 			spriteType = Corneredstretched
-						# 			spriteborder = { 0 0 }
-						# 			blend_mode = alphamultiply
-						# 		}
-						# 	}
-						# }
-
-						hbox = {
-							spacing = 14
+						flowcontainer = {
+							parentanchor = vcenter
+							position = { 7 0 }
+							spacing = 1
 
 							widget = {
+								size = { 10 10 }
+
 								dominance_pip = {
-									position = { 2 0 }
-									dominance_pip_on = {
-										visible = "[GreaterThanOrEqualTo_int32( Law.GetIndexInLawGroup, '(int32)0')]"
-										position = { 5 5 }
-									}
+									parentanchor = center
+								}
+
+								dominance_pip_on = {
+									visible = "[GreaterThanOrEqualTo_int32( Law.GetIndexInLawGroup, '(int32)0')]"
+									parentanchor = center
 								}
 							}
 
 							widget = {
+								size = { 10 10 }
+
 								dominance_pip = {
-									position = { 0 8 }
-									dominance_pip_on = {
-										visible = "[GreaterThanOrEqualTo_int32( Law.GetIndexInLawGroup, '(int32)1')]"
-										position = { 5 5 }
-									}
+									parentanchor = center
+								}
+
+								dominance_pip_on = {
+									visible = "[GreaterThanOrEqualTo_int32( Law.GetIndexInLawGroup, '(int32)1')]"
+									parentanchor = center
 								}
 							}
 
 							widget = {
+								size = { 10 10 }
+								
 								dominance_pip = {
-									position = { 0 10 }
-									dominance_pip_on = {
-										visible = "[GreaterThanOrEqualTo_int32( Law.GetIndexInLawGroup, '(int32)2')]"
-										position = { 5 5 }
-									}
+									parentanchor = center
+								}
+
+								dominance_pip_on = {
+									visible = "[GreaterThanOrEqualTo_int32( Law.GetIndexInLawGroup, '(int32)2')]"
+									parentanchor = center
 								}
 							}
 
 							widget = {
+								size = { 10 10 }
+
 								dominance_pip = {
-									position = { 0 8 }
-									dominance_pip_on = {
-										visible = "[GreaterThanOrEqualTo_int32( Law.GetIndexInLawGroup, '(int32)3')]"
-										position = { 5 5 }
-									}
+									parentanchor = center
+								}
+
+								dominance_pip_on = {
+									visible = "[GreaterThanOrEqualTo_int32( Law.GetIndexInLawGroup, '(int32)3')]"
+									parentanchor = center
 								}
 							}
 
 							widget = {
+								size = { 10 10 }
+
 								dominance_pip = {
-									position = { -2 0 }
-									dominance_pip_on = {
-										visible = "[GreaterThanOrEqualTo_int32( Law.GetIndexInLawGroup, '(int32)4')]"
-										position = { 5 5 }
-									}
+									parentanchor = center
+								}
+
+								dominance_pip_on = {
+									visible = "[GreaterThanOrEqualTo_int32( Law.GetIndexInLawGroup, '(int32)4')]"
+									parentanchor = center
 								}
 							}
+						}
+
+						icon = {
+							size = { 68 16 }
+							texture = "gfx/interface/window_realm/dominance_bar_frame.dds"
 						}
 					}
 				}
@@ -1665,43 +1675,14 @@ types Migration
 		}
 	}
 
-	type dominance_pip = widget {
-		size = { 18 18 }
-
-		icon = {
-			size = { 100% 100% }
-			texture = "gfx/interface/icons/flat_icons/circle.dds"
-
-			modify_texture = {
-				texture = "gfx/interface/colors/colors_textured.dds"
-				framesize = { 96 96 }
-				frame = 6
-				alpha = 0.2
-			}
-		}
-
-		icon = {
-			size = { 100% 100% }
-			texture = "gfx/interface/icons/flat_icons/ring.dds"
-
-			modify_texture = {
-				texture = "gfx/interface/colors/colors_textured.dds"
-				framesize = { 96 96 }
-				frame = 4
-				alpha = 0.8
-			}
-		}
+	type dominance_pip = icon_flat_standard_black {
+		size = { 10 10 }
+		texture = "gfx/interface/window_realm/dominance_bar_fill.dds"
 	}
 
-	type dominance_pip_on = icon {
-		size = { 8 8 }
-		texture = "gfx/interface/icons/flat_icons/circle.dds"
-
-		modify_texture = {
-			texture = "gfx/interface/colors/colors_textured.dds"
-			framesize = { 96 96 }
-			frame = 7
-		}
+	type dominance_pip_on = icon_flat_standard {
+		size = { 10 10 }
+		texture = "gfx/interface/window_realm/dominance_bar_fill.dds"
 	}
 
 	type current_situation_phase = container {
@@ -1712,7 +1693,7 @@ types Migration
 		container = {
 			visible = "[Not( Character.HasInvolvedMigrationSituation )]"
 			using = DefaultTooltipBackground
-			
+
 			cooltip_paragraph = {
 				margin = { 15 10 }
 				margin_bottom = 15
@@ -1723,7 +1704,7 @@ types Migration
 
 	type domain_fertility_tooltip = container {
 		alwaystransparent = no
-		
+
 		object_tooltip_pop_out = {
 			visible = "[DataModelHasItems( InGameBottomBar.GetDomainFertilityCounties )]"
 			blockoverride "title_text"
@@ -1732,19 +1713,19 @@ types Migration
 				text = "DOMAIN_FERTILITY_TOOLTIP_HEADER"
 				default_format = "#T"
 			}
-	
+
 			blockoverride "concept_link"
 			{
 				visible = no
 			}
-	
+
 			blockoverride "main_description"
 			{
 				vbox = {
 					layoutpolicy_horizontal = expanding
-	
+
 					datamodel = "[InGameBottomBar.GetDomainFertilityCounties]"
-					
+
 					item = {
 						county_fertility_breakdown = {}
 					}
@@ -1757,7 +1738,7 @@ types Migration
 			using = GeneralTooltipSetup
 			using = DefaultTooltipBackground
 			alwaystransparent = no
-			
+
 			text_multi = {
 				text = "DOMAIN_FERTILITY_TOOLTIP_UNLANDED"
 				margin = { 15 10 }
@@ -1767,7 +1748,7 @@ types Migration
 			}
 		}
 	}
-	
+
 
 	type county_fertility_breakdown = vbox {
 		datacontext = "[Title.GetCountyData]"
@@ -1776,10 +1757,10 @@ types Migration
 
 		hbox = {
 			layoutpolicy_horizontal = expanding
-			
+
 			margin_left = 60
 			margin_bottom = -15
-	
+
 			# Name
 			cooltip_paragraph = {
 				text = "[Title.GetName|U]"
@@ -1799,7 +1780,7 @@ types Migration
 			spacer = {
 				size = { 5 0 }
 			}
-	
+
 			# Current Fertility
 			cooltip_paragraph = {
 				text = "CURRENT_COUNTY_FERTILITY"
@@ -1838,4 +1819,4 @@ types Migration
 	}
 }
 
-# Yusseter: From CKIII 2025.08.30
+# Yusseter: From CKIII 2025.09.09

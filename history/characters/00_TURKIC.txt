@@ -1584,7 +1584,8 @@ saruhan12 = {
 ####################################### Dynasty: house_ottomans #######################################
 71845M4 = {
 	name = "C_oban"
-	dynasty_house = house_ottomans
+	dynasty_house = house_oghuzqayi # Yusseter
+	#dynasty_house = house_ottomans
 	religion = "maturidi" #"maturidi"
 	culture = "anatolian_turkish"
 	father = 476501
@@ -1602,7 +1603,8 @@ saruhan12 = {
 
 71845M8 = {
 	name = "Fatma"
-	dynasty_house = house_ottomans
+	dynasty_house = house_oghuzqayi # Yusseter
+	#dynasty_house = house_ottomans
 	female = yes
 	religion = "maturidi" #"maturidi"
 	culture = "anatolian_turkish"
@@ -1621,7 +1623,8 @@ saruhan12 = {
 
 71845M5 = {
 	name = "Pazarli"
-	dynasty_house = house_ottomans
+	dynasty_house = house_oghuzqayi # Yusseter
+	#dynasty_house = house_ottomans
 	religion = "maturidi" #"maturidi"
 	culture = "anatolian_turkish"
 	father = 476501
@@ -1639,7 +1642,8 @@ saruhan12 = {
 
 71845M6 = {
 	name = "Hamid"
-	dynasty_house = house_ottomans
+	dynasty_house = house_oghuzqayi # Yusseter
+	#dynasty_house = house_ottomans
 	religion = "maturidi" #"maturidi"
 	culture = "anatolian_turkish"
 	father = 476501
@@ -1657,7 +1661,8 @@ saruhan12 = {
 
 71845M7 = {
 	name = "Melik"
-	dynasty_house = house_ottomans
+	dynasty_house = house_oghuzqayi # Yusseter
+	#dynasty_house = house_ottomans
 	religion = "maturidi" #"maturidi"
 	culture = "anatolian_turkish"
 	father = 476501
@@ -1830,7 +1835,7 @@ Yakuposman = {
 	1389.6.15 = {
 		death ={
 			death_reason=strangled_to_death
-			killer=Osmanlı1
+			#killer=Osmanlı1 # Yusseter
 		}
 	}
 }
@@ -2781,7 +2786,8 @@ Yakuposman = {
 ################################################# No Dynasty #################################################
 NSteppeMB68 = {
 	name = MA_nglik
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	culture = barsil
 	740.1.1={
 		birth = yes
@@ -2793,7 +2799,8 @@ NSteppeMB68 = {
 
 NSteppeMB69 = {
 	name = C_or
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	culture = barsil
 	780.1.1={
 		birth = yes
@@ -2806,7 +2813,8 @@ NSteppeMB69 = {
 
 NSteppeMB70 = {
 	name = Irdimin
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	culture = barsil
 	820.1.1={
 		birth = yes
@@ -2819,7 +2827,8 @@ NSteppeMB70 = {
 
 NSteppeMB71 = {
 	name = Yur_Temur
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	culture = barsil
 	845.1.1={
 		birth = yes
@@ -2832,7 +2841,8 @@ NSteppeMB71 = {
 
 NSteppeMB72 = {
 	name = Asalup
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	culture = barsil
 	860.1.1={
 		birth = yes
@@ -2845,7 +2855,8 @@ NSteppeMB72 = {
 
 NSteppeMB73 = {
 	name = Tutuk
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	culture = barsil
 	885.1.1={
 		birth = yes
@@ -2858,7 +2869,8 @@ NSteppeMB73 = {
 
 NSteppeMB74 = {
 	name = Saru
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	culture = barsil
 	905.1.1={
 		birth = yes
@@ -2871,7 +2883,8 @@ NSteppeMB74 = {
 
 NSteppeMB75 = {
 	name = Turghun
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	culture = barsil
 	930.1.1={
 		birth = yes
@@ -2884,7 +2897,8 @@ NSteppeMB75 = {
 
 NSteppeMB76 = {
 	name = Pantekin
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	culture = barsil
 	960.1.1={
 		birth = yes
@@ -5737,9 +5751,9 @@ naiman_guchugud_2 = { #Gürbesu
 	1161.1.1 = {
 		birth = yes
 	}
-	1177.1.1 = {
-		add_spouse = naiman_guchugud_1
-	}
+	#1177.1.1 = { # Yusseter
+	#	add_spouse = naiman_guchugud_1
+	#}
 	1220.1.1 = {
 		death = yes
 	}
@@ -8981,7 +8995,8 @@ bolghar_000006 = {
 	intrigue = 6
 	stewardship = 6
 	religion = "tengri_pagan"
-	culture = "cuman"
+	culture = kabars # Yusseter
+	#culture = "cuman"
 	trait = chaste
 	trait = arbitrary
 	trait = education_stewardship_1
@@ -9005,11 +9020,13 @@ bolghar_000006 = {
 	intrigue = 4
 	stewardship = 5
 	religion = "tengri_pagan"
-	culture = "cuman"
+	culture = kabars # Yusseter
+	#culture = "cuman"
 	trait = deceitful
 	trait = zealous
 	trait = education_martial_3
-	father = 70370
+	father = 70372 # Yusseter
+	#father = 70370
 	935.1.1 = {
 		birth = "935.1.1"
 	}
@@ -9026,7 +9043,8 @@ bolghar_000006 = {
 	intrigue = 3
 	stewardship = 6
 	religion = "tengri_pagan"
-	culture = "cuman"
+	culture = kabars # Yusseter
+	#culture = "cuman"
 	trait = celibate
 	trait = temperate
 	trait = education_martial_1
@@ -9048,7 +9066,8 @@ bolghar_000006 = {
 	intrigue = 8
 	stewardship = 7
 	religion = "tengri_pagan"
-	culture = "cuman"
+	culture = kabars # Yusseter
+	#culture = "cuman"
 	trait = diligent
 	trait = greedy
 	trait = education_diplomacy_2
@@ -9065,7 +9084,8 @@ bolghar_000006 = {
 	name = "Bua" #Bolya, Prokuj Gyula's son
 	dynasty_house = house_erdevelu
 	religion = "tengri_pagan"
-	culture = "cuman"
+	culture = kabars # Yusseter
+	#culture = "cuman"
 	father = 70373
 	981.1.1 = {
 		birth = yes
@@ -9079,7 +9099,8 @@ bolghar_000006 = {
 	name = "Bahna" #Bonyha, Prokuj Gyula's son
 	dynasty_house = house_erdevelu
 	religion = "tengri_pagan"
-	culture = "cuman"
+	culture = kabars # Yusseter
+	#culture = "cuman"
 	father = 70373
 	983.1.1 = {
 		birth = yes
@@ -22933,6 +22954,7 @@ karluk0018 = {
 	religion = "maturidi"
 	culture = tajik
 	father = 144125
+	mother = 1230390 # Yusseter
 	trait = "twin"
 	trait = "education_learning_2" #described as a man of literature
 	995.1.1 = { #991? 998?
@@ -26004,7 +26026,6 @@ karluk0058 = {
 
 247709 = {
 	name="Shah Aziz" #fictional
-	female = yes # Yusseter
 	dynasty_house = house_trakhan #Trakhan
 	religion="ashari"
 	culture="karluk"
@@ -42207,10 +42228,10 @@ fictional_kirghiz_20 = { #Herder 1066
 	name = "Barsbeg"
 	religion = tengri_pagan
 	culture = kirghiz
-	1003.6.12 = {
+	973.6.12 = { # Yusseter: 1003.6.12
 		birth = yes
 	}
-	1070.1.1 = {
+	1057.9.8 = { # Yusseter: 1070.1.1
 		death = yes
 	}
 }
@@ -43743,8 +43764,10 @@ Ograk46 = {
 1410901 = { #張拽斤 Zhang Yejin
 	dynasty = 1000049251 #Zhang
 	name = "Yejin_name"
-	culture = ongud
-	religion = tengri_pagan
+	culture = shatuo # Yusseter
+	#culture = ongud
+	religion = eastern_tengri # Yusseter
+	#religion = tengri_pagan
 	847.1.1={
 		birth=yes
 	}
@@ -43756,7 +43779,8 @@ Ograk46 = {
 1410902 = { #張腊 Zhang Xi
 	dynasty = 1000049251 #Zhang
 	name = "Xi_name25"
-	culture = ongud
+	culture = shatuo # Yusseter
+	#culture = ongud
 	religion = shangqing
 	father = 1410901
 	868.1.1={
@@ -43770,7 +43794,8 @@ Ograk46 = {
 1410903 = { #張萬進 Zhang Wanjin. In 912.3.29 killed 劉繼威 and self declared himself 義昌留後. In 912.4.12 made 義昌留後. In 912.4.15 義昌 was renamed 順化, Wanjin was made 順化節度使. In 913.6.17 moved to 青州. In 913.7.23 made 平盧節度使. (資治通鑑/卷268) 泰寧節度使 in 918.9.8. In 918.9.6 swore allegiance to Jin. (資治通鑑/卷270) In 919.10.27 forced to flee from Yunzhou. (資治通鑑/卷271)
 	dynasty = 1000049251 #Zhang
 	name = "Wanjin_name"
-	culture = ongud
+	culture = shatuo # Yusseter
+	#culture = ongud
 	religion = shangqing
 	father = 1410902
 	880.1.1={
@@ -43790,7 +43815,8 @@ Ograk46 = {
 1410905= { #張彥澤 Zhang Yanze. 鎮國節度使 in 939.1.21. 彰義節度使 until 942.2.15. In 942.3.31 made 左龍武大將軍. 彰德節度使 in 945.10.30. In 947.1.4 surrendered to Khitans.
 	dynasty = 1000049252 #Zhang
 	name = "Yanze_name2"
-	culture = ongud
+	culture = shatuo # Yusseter
+	#culture = ongud
 	religion = shangqing
 	trait = callous
 	trait = wrathful
@@ -43810,7 +43836,8 @@ Ograk46 = {
 1410949= { #Placeholder character for Tatars
 	dynasty = 1000049255 #Toquz Tatar
 	name = "Bilge" #fictional
-	culture = ongud
+	culture = shatuo # Yusseter
+	#culture = ongud
 	religion = eastern_tengri
 	835.1.1={
 		birth=yes
@@ -43823,7 +43850,8 @@ Ograk46 = {
 1410950= { #Placeholder character for Tatars
 	dynasty = 1000049255 #Toquz Tatar
 	name = "Bilge" #fictional
-	culture = ongud
+	culture = shatuo # Yusseter
+	#culture = ongud
 	religion = eastern_tengri
 	father = 1410949
 	852.1.1={
@@ -43837,7 +43865,8 @@ Ograk46 = {
 1410951= { #Placeholder character for Tatars
 	dynasty = 1000049255 #Toquz Tatar
 	name = "Bilge" #fictional
-	culture = ongud
+	culture = shatuo # Yusseter
+	#culture = ongud
 	religion = eastern_tengri
 	father = 1410950
 	879.1.1={
@@ -43853,7 +43882,8 @@ ongud0001 = {
 	name="Otrok"
 	dynasty=2003102 #Uraqai
 	religion="nestorian"
-	culture="ongud"
+	culture = shatuo # Yusseter
+	#culture="ongud"
 	740.1.1={
 		birth=yes
 	}
@@ -43866,7 +43896,8 @@ ongud0002 = {
 	name="Ituk"
 	dynasty=2003102 #Uraqai
 	religion="nestorian"
-	culture="ongud"
+	culture = shatuo # Yusseter
+	#culture="ongud"
 	father=ongud0001
 	760.1.1={
 		birth=yes
@@ -43880,7 +43911,8 @@ ongud0003 = {
 	name="Saru"
 	dynasty=2003102 #Uraqai
 	religion="nestorian"
-	culture="ongud"
+	culture = shatuo # Yusseter
+	#culture="ongud"
 	father=ongud0002
 	780.1.1={
 		birth=yes
@@ -43894,7 +43926,8 @@ ongud0004 = {
 	name="Sotan"
 	dynasty=2003102 #Uraqai
 	religion="nestorian"
-	culture="ongud"
+	culture = shatuo # Yusseter
+	#culture="ongud"
 	father=ongud0003
 	800.1.1={
 		birth=yes
@@ -43908,7 +43941,8 @@ ongud0005 = {
 	name="Kolo"
 	dynasty=2003102 #Uraqai
 	religion="nestorian"
-	culture="ongud"
+	culture = shatuo # Yusseter
+	#culture="ongud"
 	father=ongud0004
 	820.1.1={
 		birth=yes
@@ -43922,7 +43956,8 @@ ongud0006 = {
 	name="C_ur"
 	dynasty=2003102 #Uraqai
 	religion="nestorian"
-	culture="ongud"
+	culture = shatuo # Yusseter
+	#culture="ongud"
 	father=ongud0005
 	840.1.1={
 		birth=yes
@@ -43936,7 +43971,8 @@ ongud0007 = {
 	name="Ele"
 	dynasty=2003102 #Uraqai
 	religion="nestorian"
-	culture="ongud"
+	culture = shatuo # Yusseter
+	#culture="ongud"
 	father=ongud0006
 	860.1.1={
 		birth=yes
@@ -43950,7 +43986,8 @@ ongud0008 = {
 	name="Beka"
 	dynasty=2003102 #Uraqai
 	religion="nestorian"
-	culture="ongud"
+	culture = shatuo # Yusseter
+	#culture="ongud"
 	father=ongud0007
 	880.1.1={
 		birth=yes
@@ -43964,7 +44001,8 @@ ongud0009 = {
 	name="Arbuz"
 	dynasty=2003102 #Uraqai
 	religion="nestorian"
-	culture="ongud"
+	culture = shatuo # Yusseter
+	#culture="ongud"
 	father=ongud0008
 	900.1.1={
 		birth=yes
@@ -43978,7 +44016,8 @@ ongud0010 = {
 	name="Sugr"
 	dynasty=2003102 #Uraqai
 	religion="nestorian"
-	culture="ongud"
+	culture = shatuo # Yusseter
+	#culture="ongud"
 	father=ongud0009
 	920.1.1={
 		birth=yes
@@ -43992,12 +44031,14 @@ ongud0011 = {
 	name="Zeyhan"
 	dynasty=2003102 #Uraqai
 	religion="nestorian"
-	culture="ongud"
+	culture = shatuo # Yusseter
+	#culture="ongud"
 	father=ongud0010
 	940.1.1={
 		birth=yes
 	}
 	1000.1.1={
+		culture = ongud
 		death=yes
 	}
 }
@@ -44006,10 +44047,14 @@ ongud0012 = {
 	name="Gzak"
 	dynasty=2003102 #Uraqai
 	religion="nestorian"
-	culture="ongud"
+	culture = shatuo # Yusseter
+	#culture="ongud"
 	father=ongud0011
 	960.1.1={
 		birth=yes
+	}
+	1000.1.1 = { # Yusseter
+		culture = ongud
 	}
 	1020.1.1={
 		death=yes
@@ -44020,10 +44065,14 @@ ongud0013 = {
 	name="Kozel"
 	dynasty=2003102 #Uraqai
 	religion="nestorian"
-	culture="ongud"
+	culture = shatuo # Yusseter
+	#culture="ongud"
 	father=ongud0012
 	980.1.1={
 		birth=yes
+	}
+	1000.1.1 = { # Yusseter
+		culture = ongud
 	}
 	1040.1.1={
 		death=yes
@@ -44272,7 +44321,8 @@ ongud0030 = {
 NSteppeMB245 = {
 	name = Ganavul
 	religion = mahayana
-	culture = ongud
+	culture = shatuo # Yusseter
+	#culture = ongud
 	905.1.1={
 		birth = yes
 	}
@@ -44285,9 +44335,13 @@ NSteppeMB245 = {
 NSteppeMB246 = {
 	name = Yurgen
 	religion = mahayana
-	culture = ongud
+	culture = shatuo # Yusseter
+	#culture = ongud
 	930.1.1={
 		birth = yes
+	}
+	1000.1.1 = { # Yusseter
+		culture = ongud
 	}
 	1005.1.1={
 		death = yes
@@ -44298,9 +44352,13 @@ NSteppeMB246 = {
 NSteppeMB247 = {
 	name = Erke_kara
 	religion = mahayana
-	culture = ongud
+	culture = shatuo # Yusseter
+	#culture = ongud
 	960.1.1={
 		birth = yes
+	}
+	1000.1.1 = { # Yusseter
+		culture = ongud
 	}
 	1040.1.1={
 		death = yes
@@ -44311,9 +44369,13 @@ NSteppeMB247 = {
 Ongud1L = {
 	name = "Yokhunan"
 	religion = eastern_tengri
-	culture = ongud
+	culture = shatuo # Yusseter
+	#culture = ongud
 	962.6.15 = {
 		birth = yes
+	}
+	1000.1.1 = { # Yusseter
+		culture = ongud
 	}
 	1021.9.28 = {
 		death = yes
@@ -44322,10 +44384,15 @@ Ongud1L = {
 
 NSteppeMB77 = {
 	name = TO_rtogul
-	religion = tengri_pagan
-	culture = ongud
+	religion = eastern_tengri # Yusseter
+	#religion = tengri_pagan
+	culture = shatuo # Yusseter
+	#culture = ongud
 	990.1.1={
 		birth = yes
+	}
+	1000.1.1 = { # Yusseter
+		culture = ongud
 	}
 	1070.1.1={
 		death = yes
@@ -44336,9 +44403,13 @@ NSteppeMB77 = {
 NSteppeMB248 = {
 	name = Inanch
 	religion = mahayana
-	culture = ongud
+	culture = shatuo # Yusseter
+	#culture = ongud
 	990.1.1={
 		birth = yes
+	}
+	1000.1.1 = { # Yusseter
+		culture = ongud
 	}
 	1070.1.1={
 		death = yes
@@ -44349,10 +44420,14 @@ NSteppeMB248 = {
 Ongud2L = {
 	name = "Khubilai"
 	religion = eastern_tengri
-	culture = ongud
+	culture = shatuo # Yusseter
+	#culture = ongud
 	father = Ongud1L
 	992.3.10 = {
 		birth = yes
+	}
+	1000.1.1 = { # Yusseter
+		culture = ongud
 	}
 	1052.11.14 = {
 		death = yes
@@ -49680,6 +49755,92 @@ fictional_pechenegs_6 = { #Herder Pechenegs 1178
 		death = yes
 	}
 }
+#==================================================================================================#
+################################################## CULTURE: QAY
+#==================================================================================================#
+
+####################################### Dynasty: 1000049162 #######################################
+jurchen1345 = { #佔位人物
+	name = "congsi_jurchen_name"
+	dynasty = 1000049162 #蕭1
+	culture = "qay"
+	religion = "mahayana"
+	1070.1.1 = {
+		birth = yes
+	}
+	1115.1.28 = {
+		religion = mahayana
+	}
+	1130.1.1 = {
+		death = yes
+	}
+}
+
+jurchen1347 = { #崇妃蕭氏  蕭氏，疑契丹人，太祖之妾，天德二年1150十月海陵後殺其並子任王隈喝，贈崇妃
+	name = "hua_jurchen_name"
+	dynasty = 1000049162 #蕭1
+	culture = "qay"
+	religion = "mahayana"
+	father = jurchen1345
+	female = yes
+	1090.1.1 = {
+		birth = yes
+	}
+	1115.1.28 = {
+		religion = mahayana
+	}
+	1150.10.1 = {
+		death = yes
+	}
+}
+
+jurchen1346 = { #佔位人物
+	name = "lejin_jurchen_name"
+	dynasty = 1000049162 #蕭1
+	culture = "qay"
+	religion = "mahayana"
+	father = jurchen1345
+	1094.1.1 = {
+		birth = yes
+	}
+	1115.1.28 = {
+		religion = mahayana
+	}
+	1145.1.1 = {
+		death = yes
+	}
+}
+
+jurchen1348 = { #蕭玉  蕭玉，奚人，海陵時為尚書省令史，天德二年1150四月從蕭裕誣宗本罪，為禮部尚書加特進，數月為參知政事，俄授猛安，子尚公主，代張浩為尚書右丞，拜平章政事，進拜右丞相，封陳國公，正隆三年1158拜司徒，判大宗正事，五年以司徒兼御史大夫，海陵至南京，進尚書左丞相，封吳國公，世宗即位罷官，後授孟州防禦使，轉定海軍節度使，改太原尹，後解職，卒
+	name = "yu_jurchen_name1"
+	dynasty = 1000049162 #蕭1
+	culture = "qay"
+	religion = "mahayana"
+	father = jurchen1346
+	1121.1.1 = {
+		birth = yes
+	}
+	1174.1.1 = {
+		death = yes
+	}
+}
+
+jurchen1349 = { #蕭德用  蕭德用，蕭玉之子，奚人
+	name = "deyong_jurchen_name"
+	dynasty = 1000049162 #蕭1
+	culture = "qay"
+	religion = "mahayana"
+	father = jurchen1348
+	1143.1.1 = {
+		birth = yes
+	}
+	1158.1.1 = {
+		add_spouse = jurchen85
+	}
+	1203.1.1 = {
+		death = yes
+	}
+}
 
 ####################################### Dynasty: 1000049156 #######################################
 1410610 = { #索低 Suodi. A chieftain of Xi, in 808 made 右武威衛將軍同正 and granted a 李 surname.
@@ -50937,7 +51098,8 @@ QayHerder19 = {
 ####################################### Dynasty: 2001102 #######################################
 NSteppeMB29 = {
 	name = Bilge
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	dynasty = 2001102
 	culture = qun
 	740.1.1={
@@ -50950,7 +51112,8 @@ NSteppeMB29 = {
 
 NSteppeMB30 = {
 	name = Kubasar
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	dynasty = 2001102
 	culture = qun
 	780.1.1={
@@ -50964,7 +51127,8 @@ NSteppeMB30 = {
 
 NSteppeMB31 = {
 	name = TO_rtogul
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	dynasty = 2001102
 	culture = qun
 	820.1.1={
@@ -50978,7 +51142,8 @@ NSteppeMB31 = {
 
 NSteppeMB32 = {
 	name = Kiriltugh
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	dynasty = 2001102
 	culture = qun
 	845.1.1={
@@ -50992,7 +51157,8 @@ NSteppeMB32 = {
 
 NSteppeMB33 = {
 	name = Saru
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	dynasty = 2001102
 	culture = qun
 	860.1.1={
@@ -51006,7 +51172,8 @@ NSteppeMB33 = {
 
 NSteppeMB34 = {
 	name = Tutuk
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	dynasty = 2001102
 	culture = qun
 	885.1.1={
@@ -51020,7 +51187,8 @@ NSteppeMB34 = {
 
 NSteppeMB36 = {
 	name = Ilig
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	dynasty = 2001102
 	culture = qun
 	905.1.1={
@@ -51034,7 +51202,8 @@ NSteppeMB36 = {
 
 NSteppeMB37 = {
 	name = Turghun
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	dynasty = 2001102
 	culture = qun
 	930.1.1={
@@ -51048,7 +51217,8 @@ NSteppeMB37 = {
 
 NSteppeMB38 = {
 	name = Yur_Temur
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	dynasty = 2001102
 	culture = qun
 	960.1.1={
@@ -51062,7 +51232,8 @@ NSteppeMB38 = {
 
 NSteppeMB39 = {
 	name = Bonyak
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	dynasty = 2001102
 	culture = qun
 	990.1.1={
@@ -51076,7 +51247,8 @@ NSteppeMB39 = {
 
 NSteppeMB40 = {
 	name = Irdimin
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	dynasty = 2001102
 	culture = qun
 	1015.1.1={
@@ -51090,7 +51262,8 @@ NSteppeMB40 = {
 
 NSteppeMB41 = {
 	name = Asep
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	dynasty = 2001102
 	culture = qun
 	1040.1.1={
@@ -51105,7 +51278,8 @@ NSteppeMB41 = {
 302664 = {
 	name = "Alagh"
 	dynasty = 2001102 #Qun
-	religion = eastern_tengri
+	religion = ulganism # Yusseter
+	#religion = eastern_tengri
 	culture = qun
 	father = NSteppeMB20
 	1043.9.12 = {
@@ -51119,7 +51293,8 @@ NSteppeMB41 = {
 302665 = {
 	name = "Jochi"
 	dynasty = 2001102 #Qun
-	religion = eastern_tengri
+	religion = ulganism # Yusseter
+	#religion = eastern_tengri
 	culture = qun
 	father = 302664
 	1068.4.1 = {
@@ -51132,7 +51307,8 @@ NSteppeMB41 = {
 
 NSteppeMB42 = {
 	name = Khuyildar
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	dynasty = 2001102
 	culture = qun
 	1070.1.1={
@@ -51147,7 +51323,8 @@ NSteppeMB42 = {
 302666 = {
 	name = "Todogen"
 	dynasty = 2001102 #Qun
-	religion = eastern_tengri
+	religion = ulganism # Yusseter
+	#religion = eastern_tengri
 	culture = qun
 	father = 302665
 	1097.12.6 = {
@@ -51160,7 +51337,8 @@ NSteppeMB42 = {
 
 NSteppeMB43 = {
 	name = Salindi
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	dynasty = 2001102
 	culture = qun
 	1105.1.1={
@@ -51175,7 +51353,8 @@ NSteppeMB43 = {
 302667 = {
 	name = "Chigu"
 	dynasty = 2001102 #Qun
-	religion = eastern_tengri
+	religion = ulganism # Yusseter
+	#religion = eastern_tengri
 	culture = qun
 	father = 302666
 	1119.5.8 = {
@@ -51188,7 +51367,8 @@ NSteppeMB43 = {
 
 NSteppeMB44 = {
 	name = C_or
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	dynasty = 2001102
 	culture = qun
 	1140.1.1={
@@ -51202,7 +51382,8 @@ NSteppeMB44 = {
 
 NSteppeMB45 = {
 	name = MA_nglik
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	dynasty = 2001102
 	culture = qun
 	1180.1.1={
@@ -51216,7 +51397,8 @@ NSteppeMB45 = {
 
 NSteppeMB46 = {
 	name = Asalup
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	dynasty = 2001102
 	culture = qun
 	1210.1.1={
@@ -51230,7 +51412,8 @@ NSteppeMB46 = {
 
 NSteppeMB47 = {
 	name = Togli
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	dynasty = 2001102
 	culture = qun
 	1240.1.1={
@@ -51244,7 +51427,8 @@ NSteppeMB47 = {
 
 NSteppeMB48 = {
 	name = Pantekin
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	dynasty = 2001102
 	culture = qun
 	1280.1.1={
@@ -53397,7 +53581,7 @@ rouran_01 = {
 	933.12.15 = { employer = 1412350 }
 	934.5.24 = { employer = 1412361 }
 	937.1.11 ={ employer = 1412375 }
-	942.7.28 = { employer = 1412389 }
+	#942.7.28 = { employer = 1412389 } # Yusseter
 	941.1.1 = {
 		trait = ill
 	}
@@ -53684,7 +53868,8 @@ Ongud6 = {
 	name = "Qorchi"
 	dynasty = OngudMon
 	religion = nestorian
-	culture = ongud
+	culture = shatuo # Yusseter
+	#culture = ongud
 	father = Ongud5
 	873.11.30 = {
 		birth = yes
@@ -53698,7 +53883,8 @@ Ongud7 = {
 	name = "Buqa"
 	dynasty = OngudMon
 	religion = nestorian
-	culture = ongud
+	culture = shatuo # Yusseter
+	#culture = ongud
 	father = Ongud6
 	902.9.15 = {
 		birth = yes
@@ -53712,7 +53898,8 @@ Ongud8 = {
 	name = "Tolui"
 	dynasty = OngudMon
 	religion = nestorian
-	culture = ongud
+	culture = shatuo # Yusseter
+	#culture = ongud
 	father = Ongud7
 	933.5.27 = {
 		birth = yes
@@ -53726,10 +53913,14 @@ Ongud9 = {
 	name = "Quduqa"
 	dynasty = OngudMon
 	religion = nestorian
-	culture = ongud
+	culture = shatuo # Yusseter
+	#culture = ongud
 	father = Ongud8
 	962.8.4 = {
 		birth = yes
+	}
+	1000.1.1 = { # Yusseter
+		culture = ongud
 	}
 	1025.1.19 = {
 		death = yes
@@ -53740,10 +53931,14 @@ Ongud10 = {
 	name = "Markus"
 	dynasty = OngudMon
 	religion = nestorian
-	culture = ongud
+	culture = shatuo # Yusseter
+	#culture = ongud
 	father = Ongud9
 	993.10.12 = {
 		birth = yes
+	}
+	1000.1.1 = { # Yusseter
+		culture = ongud
 	}
 	1058.4.5 = {
 		death = yes
@@ -54290,7 +54485,7 @@ Ongud32 = {
 			set_relation_rival = character:1400469
 		}
 	}
-	891.1.1 = { add_spouse = 1400804 }
+	#891.1.1 = { add_spouse = 1400804 } # Yusseter
 	894.12.1 = { add_spouse = 1400806 }
 	907.1.1 = { effect = { set_designated_heir = character:1412318 } }
 	907.6.1 = { add_pressed_claim = title:e_celestia_china }
@@ -55899,6 +56094,7 @@ xueyantuo_1 = { # Yusseter
 		death = yes
 	}
 }
+
 xueyantuo_2 = { # Yusseter
 	name = "Mohan"
 	dynasty = dynasty_xueyantuo_1
@@ -55914,6 +56110,7 @@ xueyantuo_2 = { # Yusseter
 		death = yes
 	}
 }
+
 xueyantuo_3 = { # Yusseter
 	name = "Kulug"
 	dynasty = dynasty_xueyantuo_1
@@ -55929,6 +56126,7 @@ xueyantuo_3 = { # Yusseter
 		death = yes
 	}
 }
+
 ashide_01 = { # Yusseter
     name = "Tonyukuk"
 	dynasty = yb_ashide
@@ -55956,6 +56154,7 @@ ashide_01 = { # Yusseter
 		death = yes
 	}
 }
+
 ashide_02 = { # Yusseter
     name = "sa_ba_g"
 	female = yes
@@ -55974,6 +56173,7 @@ ashide_02 = { # Yusseter
 		death = yes
 	}
 }
+
 #ashina_001 = { # Yusseter
 #	name = "Ni_shi_tu"
 #	dynasty = 12269
@@ -55988,6 +56188,7 @@ ashide_02 = { # Yusseter
 #		death = yes
 #	}
 #}
+
 #ashina_002 = { # Yusseter
 #	name = "Illig" #Neduilu
 #	dynasty = 12269
@@ -56003,6 +56204,7 @@ ashide_02 = { # Yusseter
 #		death = yes
 #	}
 #}
+
 #ashina_01 = { # Yusseter
 #	name = "Ashina"
 #	dynasty = 12269
@@ -56076,7 +56278,7 @@ ashina_03 = { # Yusseter: Ashina Tuwu
 #	}
 #}
 
-ashina_04 = { # # Yusseter: Ashina Tumen, Illig Bumin Khagan
+ashina_04 = { # Yusseter: Ashina Tumen, Illig Bumin Khagan
 	name = "Bumin"
 	#dna = dna_ashina_bumin
 	dynasty = 12269
@@ -56234,7 +56436,7 @@ ashina_05 = { # Yusseter: Yabghu Khagan
 	495.1.1 = {
 		birth = yes
 	}
-	552.6.1 = {
+	553.1.1 = {
 		give_nickname = nick_yabghu_khagan
 		add_spouse = ashina_05_wife
 	}
@@ -56262,7 +56464,7 @@ ashina_05_wife = { # Yusseter
 	culture = main_saka
 	religion = manichean
 
-	450.1.1 = {
+	534.1.1 = {
 		birth = yes
 	}
 	494.1.2 = {
@@ -56502,25 +56704,6 @@ ashina_2011 = { # Yusseter: Illig Kul Bilge Khagan
 	}
 }
 
-ashina_2012 = { # Yusseter: Illig Beg Sheguy Khagan
-	name = "Shag"
-	dynasty = 12269
-
-	culture = tujue
-	religion = tengri_pagan
-	father = ashina_2011
-
-	602.1.1 = {
-		birth = yes
-	}
-	642.1.1 = {
-		give_nickname = nick_illig_khagan
-	}
-	653.1.1 = {
-		death = yes
-	}
-}
-
 ashina_21 = { # Yusseter: Ashina Shetu, Asvara/Ishbara Khagan, Umaga Ili Maga Neber/Nivar Khagan
 	name = "Yarug_" # Yusseter: Name in Bugut Inscription acording to Takashi Ōsawa is y’rwkc/n’rwkc (Yaruq).
 	dynasty = 12269
@@ -56560,7 +56743,7 @@ ashina_21 = { # Yusseter: Ashina Shetu, Asvara/Ishbara Khagan, Umaga Ili Maga Ne
 #}
 
 ashina_211 = { # Yusseter: Ashina Yongyulu, Turan/Tulan Khagan
-	name = "yegen"
+	name = "Yangsu"
 	dynasty = 12269
 
 	culture = tujue
@@ -56665,8 +56848,25 @@ ashina_06 = { # Yusseter: Ashina Dianjue, Tardush Khagan, Kara Churin
 #	}
 #}
 
-ashina_061 = { # Yusseter: Yangsu Tegin, Tuli Beg
+ashina_061 = { # Yusseter: Yangsu Tegin
 	name = "Yangsu"
+	dynasty = 12269
+
+	culture = tujue
+	religion = tengri_pagan
+	father = ashina_24
+	#father = ashina_06 # Yusseter: Or Tardu Yabghu
+
+	550.1.1 = {
+		birth = yes
+	}
+	589.1.1 = {
+		death = yes
+	}
+}
+
+ashina_062 = { # Yusseter: Tulu Tegin, Tuli Beg
+	name = "Tuwu"
 	dynasty = 12269
 
 	culture = tujue
@@ -56677,7 +56877,7 @@ ashina_061 = { # Yusseter: Yangsu Tegin, Tuli Beg
 	550.1.1 = {
 		birth = yes
 	}
-	589.1.1 = {
+	590.1.1 = {
 		death = yes
 	}
 }
@@ -56713,8 +56913,8 @@ ashina_23 = { # Yusseter
 #	}
 #}
 
-ashina_212 = { # Yusseter: Ashina Rangan, Qimin/Jami/Yami Khagan
-	name = "Yangkan"
+ashina_212 = { # Yusseter: Ashina Rangan, Qimin/Jami/Jama Khagan
+	name = "yegen"
 	dynasty = 12269
 
 	culture = tujue
@@ -57300,7 +57500,7 @@ ashina_171 = { # Yusseter: fictional
 }
 
 ashina_29 = { # Yusseter: Kulug Sibir, Bagha(tur) Khagan
-	name = "Kulug"
+	name = "Baghatur"
 	dynasty = 12269
 
 	culture = tujue
@@ -57312,7 +57512,7 @@ ashina_29 = { # Yusseter: Kulug Sibir, Bagha(tur) Khagan
 		birth = yes
 	}
 	628.1.1 = {
-		give_nickname = nick_bagha_khagan
+		give_nickname = nick_shibi_khagan # Yusseter: Or Kulug Khagan
 	}
 	630.1.1 = {
 		death = yes
@@ -57338,7 +57538,7 @@ ashina_28 = { # Yusseter: Tong Yabghu Khagan
 
 	culture = tujue
 	religion = mahayana
-	father = ashina_061
+	father = ashina_062
 	trait = education_martial_4
 	trait = intellect_good_1
 	trait = brave
@@ -57351,8 +57551,8 @@ ashina_28 = { # Yusseter: Tong Yabghu Khagan
 	}
 	628.1.1 = {
 		death = {
-			death_reason = death_murder_known
-			killer = ashina_29
+			death_reason = death_killed_by_own_men_on_order
+			killer = ashina_29 # Yusseter: In 628 murdered by Kulug Sibir, his uncle and a partisan of the Dulu faction.
 		}
 	}
 }
@@ -57384,8 +57584,9 @@ ashina_25 = { # Yusseter: Ashina Daman, Heshana Khagan
 	599.1.1 = { #603
 		birth = yes
 	}
-	603.1.1 = {
-		give_nickname = nick_heshana_khagan
+	604.1.1 = {
+		give_nickname = nick_chuluo_khagan
+		#give_nickname = nick_heshana_khagan
 	}
 	619.1.1 = {
 		death = yes
@@ -57404,6 +57605,22 @@ ashina_25 = { # Yusseter: Ashina Daman, Heshana Khagan
 #		death = yes
 #	}
 #}
+
+ashina_064 = { # Yusseter: Queda Shad
+	name = "Kutay"
+	dynasty = 12269
+
+	culture = tujue
+	religion = tengri_pagan
+	father = ashina_063
+
+	603.1.1 = {
+		birth = yes
+	}
+	640.1.1 = {
+		death = yes
+	}
+}
 
 #74001 = { # Yusseter
 #	name = "Tun-Yagbu"
@@ -57425,7 +57642,7 @@ ashina_27 = { # Yusseter: Shekui Khagan, Sheguy/Žeg
 
 	culture = tujue
 	religion = tengri_pagan
-	father = ashina_061
+	father = ashina_062
 
 	573.1.1 = {
 		birth = yes
@@ -57454,7 +57671,8 @@ ashina_27 = { # Yusseter: Shekui Khagan, Sheguy/Žeg
 
 	culture = tujue
 	religion = tengri_pagan
-	father = ashina_061
+	father = ashina_062
+	#father = ashina_061 # Yusseter: Or Yangsu Tegi
 
 	576.1.1 = {
 		birth = yes
@@ -57608,6 +57826,70 @@ ashina_2051 = { # Yusseter: Ashina Hubo, Chavish/Chebi Khagan
 	}
 }
 
+ashina_2052 = { # Yusseter: Ashina Shaboluo
+	name = "Shapti"
+	dynasty = 12269
+
+	culture = tujue
+	religion = tengri_pagan
+	father = ashina_2051
+
+	608.1.1 = { #unknown
+		birth = yes
+	}
+	678.1.1 = { #unknown
+		death = yes
+	}
+}
+
+ashina_2053 = { # Yusseter: Ashina Jieman
+	name = "Jaman"
+	dynasty = 12269
+
+	culture = tujue
+	religion = tengri_pagan
+	father = ashina_2051
+
+	609.1.1 = { #unknown
+		birth = yes
+	}
+	648.1.1 = { #unknown
+		death = yes
+	}
+}
+
+ashina_2054 = { # Yusseter: Ashina Anshuo
+	name = "Tamkut"
+	dynasty = 12269
+
+	culture = tujue
+	religion = tengri_pagan
+	father = ashina_2053
+
+	634.1.1 = { #unknown
+		birth = yes
+	}
+	689.1.1 = { #unknown
+		death = yes
+	}
+}
+
+ashina_2055 = { # Yusseter: Ashina Zhebi
+	name = "Yelbi"
+	dynasty = 12269
+
+	culture = tujue
+	religion = tengri_pagan
+	father = ashina_2051
+
+	611.1.1 = { #unknown
+		birth = yes
+	}
+	667.1.1 = { #unknown
+		death = yes
+	}
+}
+
 ashina_206 = { # Yusseter
 	name = "Nizuk"
 	dynasty = 12269
@@ -57626,7 +57908,7 @@ ashina_206 = { # Yusseter
 	}
 }
 
-ashina_47 = { # Yusseter: Son of Tong Yaghbu installed in Kunduz, founding the Tokhara Yagbhu dynasty of Turkco-Hephthalites in Afghanistan
+ashina_47 = { # Yusseter: Tardush Shad
 	name = "Tardu"
 	dynasty = 12269
 
@@ -57637,12 +57919,14 @@ ashina_47 = { # Yusseter: Son of Tong Yaghbu installed in Kunduz, founding the T
 	595.1.1 = {
 		birth = yes
 	}
-	# Married two daughters of Qu Boya
 	622.1.1 = {
 		add_spouse = qu_020
 	}
 	623.1.1 = {
 		add_spouse = qu_021
+	}
+	625.1.1 = {
+		culture = turco_hephthalite
 	}
 	630.1.1 = {
 		death = yes
@@ -57713,6 +57997,9 @@ ashina_184 = { # Yusseter: Zhenzhu Yabghu, Elbi Tardu Shad
 
 	625.1.1 = {
 		birth = yes
+	}
+	653.1.1 = {
+		culture = turco_hephthalite
 	}
 	659.4.1 = {
 		death = {
@@ -57820,26 +58107,27 @@ ashina_35 = { # Yusseter: Genna Shad
 #	}
 #}
 
-ashina_74 = { # Yusseter: Ashina Helu, 74005
-	name = "Kallig"
-	dynasty = 12269
+#su_haizheng = { # Yusseter
+#	name = "Haizheng"
+#
+#	culture = han
+#	religion = shangqing
+#    trait = strategist
+#	trait = education_martial_3
+#
+#	627.1.1 = {
+#		birth = yes
+#	}
+#	657.1.1 = {
+#		give_nickname = nick_qilibi_khagan
+#	}
+#	662.1.1 = {
+#		death = yes
+#	}
+#}
 
-	culture = tujue
-	religion = tengri_pagan
-	father = 74003
-
-	627.1.1 = {
-		birth = yes
-	}
-	651.1.1 = {
-		give_nickname = nick_ishbara_khagan
-	}
-	659.1.1 = {
-		death = yes
-	}
-}
 ashina_75 = { # Yusseter: Ashina Mishe, Baghatur Yabghu, Qilibi Duolu Khagan
-	name = "Migis"
+	name = "Yasha"
 	dynasty = 12269
 
 	culture = tujue
@@ -57856,6 +58144,7 @@ ashina_75 = { # Yusseter: Ashina Mishe, Baghatur Yabghu, Qilibi Duolu Khagan
 		death = yes
 	}
 }
+
 ashina_2140 = { # Yusseter: Ashina Buzhen, Jiwangjue Khagan
 	name = "bo_gu_"
 	dynasty = 12269
@@ -57871,6 +58160,7 @@ ashina_2140 = { # Yusseter: Ashina Buzhen, Jiwangjue Khagan
 		death = yes
 	}
 }
+
 ashina_2141 = { # Yusseter: Ashina Huseluo, Bori Shad, Jiezhong Shizhu Khagan
 	name = "Bori_"
 	dynasty = 12269
@@ -57886,6 +58176,7 @@ ashina_2141 = { # Yusseter: Ashina Huseluo, Bori Shad, Jiezhong Shizhu Khagan
 		death = yes
 	}
 }
+
 ashina_2142 = { # Yusseter: Ashina Huaidao
 	name = "Haitag"
 	dynasty = 12269
@@ -57978,8 +58269,46 @@ ashina_2145 = { # Yusseter: Ashina Jinhe/Shi, Princess of Suluk Turgesh
 	}
 }
 
+ashina_73 = { # Yusseter: Ashina Babu
+	name = "Bargun"
+	dynasty = 12269
+
+	culture = tujue
+	religion = tengri_pagan
+	father = ashina_75
+
+	653.1.1 = {
+		birth = yes
+	}
+	699.1.1 = {
+		death = {
+			death_reason = death_murder_known
+			killer = ashina_2140
+		}
+	}
+}
+
+ashina_74 = { # Yusseter: Ashina Poluo
+	name = "Tirig"
+	dynasty = 12269
+
+	culture = tujue
+	religion = tengri_pagan
+	father = ashina_75
+
+	654.1.1 = {
+		birth = yes
+	}
+	680.1.1 = {
+		death = {
+			death_reason = death_murder_known
+			killer = ashina_2140
+		}
+	}
+}
+
 ashina_77 = { # Yusseter: Ashina Yuanqing
-	name = "Yangkan"
+	name = "yegen"
 	dynasty = 12269
 
 	culture = tujue
@@ -58007,10 +58336,13 @@ ashina_78 = { # Yusseter: Ashina Tuizi
 	674.1.1 = {
 		birth = yes
 	}
+	693.1.1 = {
+		give_nickname = nick_on_oq_khagan
+	}
 	699.1.1 = {
 		add_spouse = ashina_78_wife
 	}
-	700.1.1 = {
+	707.1.1 = {
 		death = yes
 	}
 }
@@ -58082,7 +58414,7 @@ ashina_76 = { # Yusseter: Ashina Duzhi, On-Oq Khagan
 	657.1.1 = {
 		give_nickname = nick_on_oq_khagan
 	}
-	679.1.1 = {
+	679.6.1 = {
 		death = yes
 	}
 }
@@ -58098,10 +58430,10 @@ ashina_063 = { # Yusseter: Nili/Niri Khagan, El Tegin Buyruk Khagan
 	578.1.1 = {
 		birth = yes
 	}
-	587.1.1 = {
+	595.1.1 = {
 		give_nickname = nick_buyruk_khagan
 	}
-	599.1.1 = {
+	604.1.1 = {
 		death = yes
 	}
 }
@@ -58187,21 +58519,24 @@ ashina_269 = { # Yusseter: Ashina Moheduo, El Kulug Shad, Irbish Khagan
 	639.1.1 = {
 		give_nickname = nick_illig_khagan
 	}
-	661.1.1 = {
+	640.1.1 = {
 		death = yes
 	}
 }
 
-ashina_48 = { # Yusseter: Son of Tardu, killed his dad to marry his hot stepmom because they fell in love in true CK fashion
+ashina_48 = { # Yusseter: Ishbara Yabghu
 	name = "Ishbara"
 	dynasty = 12269
 
 	culture = tujue
 	religion = mahayana
-	father = ashina_28
+	father = ashina_47
 
 	612.1.1 = {
 		birth = yes
+	}
+	625.1.1 = {
+		culture = turco_hephthalite
 	}
 	628.1.1 = {
 		set_relation_lover = character:qu_021
@@ -58212,7 +58547,7 @@ ashina_48 = { # Yusseter: Son of Tardu, killed his dad to marry his hot stepmom 
 	630.1.1 = {
 		add_spouse = qu_020
 	}
-	650.1.1 = {
+	653.1.1 = {
 		death = yes
 	}
 }
@@ -58238,6 +58573,22 @@ ashina_48 = { # Yusseter: Son of Tardu, killed his dad to marry his hot stepmom 
 #		death = yes
 #	}
 #}
+
+ashina_481 = { # Yusseter: Ashina Wushipo
+	name = "Shemgun"
+	dynasty = 12269
+
+	culture = turco_hephthalite
+	religion = mahayana
+	father = ashina_48 #unknown
+
+	631.1.1 = {
+		birth = yes
+	}
+	660.1.1 = {
+		death = yes
+	}
+}
 
 ashina_19 = { # Yusseter: Ashina Funian
 	name = "Bu_gu_n"
@@ -58285,7 +58636,7 @@ ashina_19 = { # Yusseter: Ashina Funian
 #	}
 #}
 
-ashina_32 = { # Yusseter: Ashina Tong'e, Tongo Shad, Ishbara Terish Khagan
+ashina_32 = { # Yusseter: Ashina Tong'e, Tongo Shad, Ishbara Tolish Khagan
 	name = "Tonga"
 	dynasty = 12269
 
@@ -58384,8 +58735,8 @@ ashina_38_wife = { # Yusseter: El Bilga Khatun
 	}
 }
 
-74004 = { # Yusseter: Erish Kul Khagan, Irbish Seguy
-	name = "Shag"
+74004 = { # Yusseter: Erish Kul Khagan, Irbish Shekui
+	name = "Baghatur"
 	dynasty = 12269
 
 	culture = tujue
@@ -58545,7 +58896,29 @@ ashina_2125 = { # Yusseter
 	}
 }
 
-#ashina_34 = { # Yusseter
+ashina_34 = { # Yusseter: Ashina Baobu, Illig/Irbish Ishbara Yabghu Khagan
+	name = "Bargun"
+	dynasty = 12269
+
+	culture = tujue
+	religion = tengri_pagan
+	father = ashina_32
+	#father = ashina_35 # Yusseter: Acording to Ahmet Tasagil, it could be Genna Shad
+
+	623.1.1 = {
+		birth = yes
+	}
+	640.1.1 = {
+		give_nickname = nick_yabghu_khagan
+	}
+	641.1.1 = {
+		death = {
+			death_reason = death_killed_by_own_men_on_order # Yusseter: He was killed by one of his own men in 641, on the orders of Yukuk Shad.
+			killer = ashina_18
+		}
+	}
+}
+#ashina_34 = {
 #	name = "Irbis"
 #	dynasty = 12269
 #	culture = "tujue"
@@ -58559,26 +58932,22 @@ ashina_2125 = { # Yusseter
 #	}
 #}
 
-ashina_36 = { # Yusseter: Ashina Baobu, Irbish Ishbara Yabghu Khagan
-	name = "Bargun"
+ashina_36 = { # Yusseter: Illig Beg Shekui Khagan
+	name = "Shag"
 	dynasty = 12269
 
 	culture = tujue
 	religion = tengri_pagan
-	father = ashina_32
-	#father = ashina_32
+	father = ashina_2011
 
-	630.1.1 = {
+	602.1.1 = {
 		birth = yes
 	}
-	640.1.1 = {
-		give_nickname = nick_yabghu_khagan
+	642.1.1 = {
+		give_nickname = nick_illig_khagan
 	}
-	641.1.1 = {
-		death = {
-			death_reason = death_killed_by_own_men_on_order # Yusseter: He was killed by one of his own men in 641, on the orders of Yukuk Shad.
-			killer = ashina_18
-		}
+	653.1.1 = {
+		death = yes
 	}
 }
 #ashina_36 = {
@@ -58647,7 +59016,7 @@ ashina_46 = { # Yusseter
 	trait = gallant
 	trait = stubborn
 	trait = education_martial_4
-	martial = 16
+	#martial = 16 # Yusseter
 
 	culture = tujue
 	religion = tengri_pagan
@@ -58675,7 +59044,7 @@ ashina_46 = { # Yusseter
 #	}
 #}
 
-74005 = { # Yusseter: Ashina Helu
+74005 = { # Yusseter: Ashina Helu, Kallig/Kulig/Ulug/Qutlug/Arig
 	name = "Kallig"
 	dynasty = 12269
 
@@ -58683,7 +59052,7 @@ ashina_46 = { # Yusseter
 	religion = tengri_pagan
 	father = 74003
 
-	643.1.1 = {
+	627.1.1 = {
 		birth = yes
 	}
 	651.1.1 = {
@@ -58810,19 +59179,32 @@ ashina_42 = { # Yusseter: Ashina Yiran
 #	}
 #}
 
-74006 = {
+74006 = { # Yusseter: Ashina Xiyun
 	name = "Kaban"
 	dynasty = 12269
 	father = 74005
-	culture = "khazar"
-	religion = "tengri_pagan"
-	683.1.1 = {
-		birth = "683.1.1"
+	culture = tujue
+	religion = tengri_pagan
+	648.1.1 = {
+		birth = yes
 	}
 	745.1.1 = {
 		death = yes
 	}
 }
+#74006 = {
+#	name = "Kaban"
+#	dynasty = 12269
+#	father = 74005
+#	culture = "khazar"
+#	religion = "tengri_pagan"
+#	683.1.1 = {
+#		birth = "683.1.1"
+#	}
+#	745.1.1 = {
+#		death = yes
+#	}
+#}
 
 74008 = {
 	name = "Barjik"
@@ -60017,7 +60399,8 @@ supo_03 = {
 tiele_06 = {
 	name = EldeC_yuk #Fictional
 	dynasty = tongluo_dynasty #yenisei tribe
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	culture = tongra # Yusseter
 	#culture = tiele
 	329.1.1 = { birth = yes }
@@ -60027,7 +60410,8 @@ tiele_06 = {
 tiele_07 = {
 	name = Itlar #Fictional
 	dynasty = tongluo_dynasty #tongluo_dynasty tribe
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	culture = tongra # Yusseter
 	#culture = tiele
 	father = tiele_06 #tongluo_dynasty Eldeçyuk
@@ -60038,7 +60422,8 @@ tiele_07 = {
 tongluo_1 = {
 	name = EldeC_yuk #Fictional
 	dynasty = tongluo_dynasty #tongluo_dynasty tribe
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	culture = tongra # Yusseter
 	#culture = tiele
 	father = tiele_07 #tongluo_dynasty Eldeçyuk
@@ -60050,7 +60435,8 @@ tongluo_1 = {
 turuhe_1 = {
 	name = Isbul #Fictional
 	dynasty = turuhe #turuhe tribe
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	culture = tiele
 	340.1.1 = { birth = yes }
 	401.1.1 = { death = yes }
@@ -60059,7 +60445,8 @@ turuhe_1 = {
 turuhe_2 = {
 	name = Khinialon #Fictional
 	dynasty = turuhe #turuhe tribe
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	culture = tiele
 	father = turuhe_1 #turuhe Tardush
 	382.1.1 = { birth = yes }
@@ -60069,7 +60456,8 @@ turuhe_2 = {
 turuhe_3 = {
 	name = Telek #Fictional
 	dynasty = turuhe #turuhe tribe
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	culture = tiele
 	father = turuhe_2 #turuhe Tardush
 	423.1.1 = { birth = yes }
@@ -60080,7 +60468,8 @@ turuhe_3 = {
 uyghur_1 = {
 	name = Labertrum #Fictional
 	dynasty = uyghur #uyghur tribe
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	culture = tiele
 	330.1.1 = { birth = yes }
 	401.1.1 = { death = yes }
@@ -60089,7 +60478,8 @@ uyghur_1 = {
 uyghur_2 = {
 	name = Telek #Fictional
 	dynasty = uyghur #uyghur tribe
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	culture = tiele
 	father = uyghur_1 #uyghur Tardush
 	371.1.1 = { birth = yes }
@@ -60099,7 +60489,8 @@ uyghur_2 = {
 uyghur_3 = {
 	name = Telek #Fictional
 	dynasty = uyghur #uyghur tribe
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	culture = tiele
 	father = uyghur_2 #uyghur Tardush
 	410.1.1 = { birth = yes }
@@ -60110,7 +60501,8 @@ uyghur_3 = {
 wuhuan_01 = {
 	name = Kutan #Fictional
 	dynasty = wuhuan_dynasty
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	culture = tiele
 	330.1.1 = { birth = yes }
 	400.1.1 = { death = yes }
@@ -60138,7 +60530,8 @@ wuhuan_03 = {
 yedie_01 = {
 	name = SirC_an #Fictional
 	dynasty = yedie_dynasty
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	culture = tiele
 	330.1.1 = { birth = yes }
 	400.1.1 = { death = yes }
@@ -60166,7 +60559,8 @@ yedie_03 = {
 yidie_01 = {
 	name = Chagatai #Fictional
 	dynasty = yidie_dynasty
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	culture = tiele
 	330.1.1 = { birth = yes }
 	400.1.1 = { death = yes }
@@ -60194,7 +60588,8 @@ yidie_03 = {
 yunihuan_01 = {
 	name = Yeke #Fictional
 	dynasty = yunihuan_dynasty
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	culture = tiele
 	330.1.1 = { birth = yes }
 	400.1.1 = { death = yes }
@@ -60221,7 +60616,8 @@ yunihuan_03 = {
 ################################################# No Dynasty #################################################
 nahe_01 = {
 	name = Tardush #Fictional
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	culture = tiele
 	330.1.1 = { birth = yes }
 	400.1.1 = { death = yes }
@@ -60245,7 +60641,8 @@ nahe_03 = {
 
 tiele_22 = {
 	name = Aibek #Fictional
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	culture = tiele
 	441.1.1 = { birth = yes }
 	503.1.1 = { death = yes }
@@ -60253,7 +60650,8 @@ tiele_22 = {
 
 tiele_23 = {
 	name = Atrak #Fictional
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	culture = tiele
 	446.1.1 = { birth = yes }
 	503.1.1 = { death = yes }
@@ -60261,7 +60659,8 @@ tiele_23 = {
 
 tiele_26 = {
 	name = Kutan #Fictional
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	culture = tiele
 	448.1.1 = { birth = yes }
 	503.1.1 = { death = yes }
@@ -60269,7 +60668,8 @@ tiele_26 = {
 
 tiele_27 = {
 	name = Kutan #Fictional
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	culture = tiele
 	448.1.1 = { birth = yes }
 	503.1.1 = { death = yes }
@@ -60277,7 +60677,8 @@ tiele_27 = {
 
 tiele_25 = {
 	name = Itlar #Fictional
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	culture = tiele
 	450.1.1 = { birth = yes }
 	503.1.1 = { death = yes }
@@ -60285,7 +60686,8 @@ tiele_25 = {
 
 tiele_24 = {
 	name = Sukhrab #Fictional
-	religion = tengri_pagan
+	religion = ulganism # Yusseter
+	#religion = tengri_pagan
 	culture = tiele
 	452.1.1 = { birth = yes }
 	503.1.1 = { death = yes }
@@ -60632,7 +61034,8 @@ Karagas3 = {
 ################################################# No Dynasty #################################################
 NSteppeMB49 = {
 	name = Khuyildar
-	religion = eastern_tengri
+	religion = ulganism # Yusseter
+	#religion = eastern_tengri
 	culture = tongra
 	740.1.1={
 		birth = yes
@@ -60644,7 +61047,8 @@ NSteppeMB49 = {
 
 NSteppeMB50 = {
 	name = Turghun
-	religion = eastern_tengri
+	religion = ulganism # Yusseter
+	#religion = eastern_tengri
 	culture = tongra
 	780.1.1={
 		birth = yes
@@ -60657,7 +61061,8 @@ NSteppeMB50 = {
 
 NSteppeMB51 = {
 	name = Asep
-	religion = eastern_tengri
+	religion = ulganism # Yusseter
+	#religion = eastern_tengri
 	culture = tongra
 	820.1.1={
 		birth = yes
@@ -60670,7 +61075,8 @@ NSteppeMB51 = {
 
 NSteppeMB52 = {
 	name = Irdimin
-	religion = eastern_tengri
+	religion = ulganism # Yusseter
+	#religion = eastern_tengri
 	culture = tongra
 	845.1.1={
 		birth = yes
@@ -60683,7 +61089,8 @@ NSteppeMB52 = {
 
 NSteppeMB53 = {
 	name = MA_nglik
-	religion = eastern_tengri
+	religion = ulganism # Yusseter
+	#religion = eastern_tengri
 	culture = tongra
 	860.1.1={
 		birth = yes
@@ -60696,7 +61103,8 @@ NSteppeMB53 = {
 
 NSteppeMB54 = {
 	name = Kiriltugh
-	religion = eastern_tengri
+	religion = ulganism # Yusseter
+	#religion = eastern_tengri
 	culture = tongra
 	885.1.1={
 		birth = yes
@@ -60709,7 +61117,8 @@ NSteppeMB54 = {
 
 NSteppeMB55 = {
 	name = TO_rtogul
-	religion = eastern_tengri
+	religion = ulganism # Yusseter
+	#religion = eastern_tengri
 	culture = tongra
 	905.1.1={
 		birth = yes
@@ -60722,7 +61131,8 @@ NSteppeMB55 = {
 
 NSteppeMB56 = {
 	name = Kubasar
-	religion = eastern_tengri
+	religion = ulganism # Yusseter
+	#religion = eastern_tengri
 	culture = tongra
 	930.1.1={
 		birth = yes
@@ -60735,7 +61145,8 @@ NSteppeMB56 = {
 
 NSteppeMB57 = {
 	name = C_or
-	religion = eastern_tengri
+	religion = ulganism # Yusseter
+	#religion = eastern_tengri
 	culture = tongra
 	960.1.1={
 		birth = yes
@@ -60748,7 +61159,8 @@ NSteppeMB57 = {
 
 NSteppeMB58 = {
 	name = Bilge
-	religion = eastern_tengri
+	religion = ulganism # Yusseter
+	#religion = eastern_tengri
 	culture = tongra
 	990.1.1={
 		birth = yes
@@ -60768,7 +61180,8 @@ NSteppeMB58 = {
 	name="Etrek"
 	dynasty=1000100511 #Uzlar/Uzes
 	religion="tengri_pagan"
-	culture="torkil"
+	culture = turkish # Yusseter
+	#culture="torkil"
 	820.1.1={
 		birth = yes
 	}
@@ -60784,13 +61197,15 @@ NSteppeMB58 = {
 	name="Qataghan"
 	dynasty=1000100511 #Uzlar/Uzes
 	religion="tengri_pagan"
-	culture="torkil"
+	culture = turkish # Yusseter
+	#culture="torkil"
 	father=1231860
 	mother=1231861
 	850.1.1={
 		birth = yes
 	}
 	890.1.1={
+		culture = torkil # Yusseter
 		add_spouse=1231863
 	}
 	910.1.1={
@@ -62881,6 +63296,9 @@ tujue_04 = {
 	#culture = "turco_hephthalite"
 	610.1.1 = {
 		birth = yes
+	}
+	625.1.1 = { # Yusseter
+		culture = turco_hephthalite
 	}
 	660.1.1 = {
 		death = yes
@@ -67031,6 +67449,7 @@ Zengid3 = {
 	1225.1.1 = {
 		birth = "1225.1.1"
 	}
+	1240.1.1 = { culture = hindustani_proper } # Yusseter
 	1241.1.1 = {
 		trait = generous
 		trait = chaste
@@ -67198,6 +67617,7 @@ FemaleIlutimishi2 = {
 	1236.11.20 = {
 		employer = 170195
 	}
+	1240.1.1 = { culture = hindustani_proper } # Yusseter
 	1240.10.13 = {
 		employer = 170198
 	}
@@ -74855,9 +75275,9 @@ Salir5 = {
 
 3046 = {
 	name = "Suleyman"
-	#dna = 3046_suleyman # Yusseter
 	dynasty_house = house_oghuzSeljuks
-	dna = 3046_suleyman_i_of_rum
+	#dna = 3046_suleyman # Yusseter
+	dna = 3046_suleyman_i_of_rum # Yusseter
 	martial = 4
 	diplomacy = 8
 	intrigue = 7
@@ -85645,7 +86065,8 @@ uyghur0095 = {
 	dynasty = 1042190 #Yaghlakar
 	religion = ulganism # Yusseter
 	#religion = "tengri_pagan"
-	culture = "uyghur"
+	culture = uigur # Yusseter
+	#culture = "uyghur"
 	father = 188786
 	749.1.1 = {
 		birth = yes
@@ -85659,7 +86080,8 @@ uyghur0095 = {
 }
 
 1410749 = { #Apa Chor
-	name="Apa_Chor"
+	name = "Apa" # Yusseter
+	#name="Apa_Chor"
 	dynasty=1042190 #Yaghlakar
 	religion = ulganism # Yusseter
 	#religion="tengri_pagan"
@@ -85896,7 +86318,7 @@ uyghur0095 = {
 
 ####################################### Dynasty: 1045083 #######################################
 ediz_01 = { # Yusseter
-	name = "a_diz"
+	name = "Kallig" #unknown
 	dynasty = 1045083 # Ediz
 	religion = ulganism
 	culture = siqar
@@ -85924,10 +86346,14 @@ ediz_01 = { # Yusseter
 		religion = manichean
 		culture = uigur
 		#dynasty = 1042190 # Yaghlakar
-		#effect = { set_real_father = ediz_01 }
-		#effect = { set_father = character:188785 }
-		#effect = { set_house = character:188785.house }
-		#trait = adopted
+		#father = 188785
+		#real_father = ediz_01
+		#trait = child_of_adoption
+		#effect = {
+		#	set_father = character:188785
+		#	set_real_father = character:ediz_01
+		#	add_trait = "child_of_adoption"
+		#}
 	}
 	808.1.1 = {
 		death = yes
@@ -90351,6 +90777,48 @@ Yagma23 = {
 	}
 }
 
+997Hengelder1 = { # Yusseter
+	name = "Manduulun"
+	dynasty = 2001146 #Hengelder
+	religion = siberian_pagan
+	culture = yakut
+	father = 997Hengelder
+	943.5.25 = {
+		birth = yes
+	}
+	1014.7.21 = {
+		death = yes
+	}
+}
+
+997Hengelder2 = { # Yusseter
+	name = "Engke"
+	dynasty = 2001146 #Hengelder
+	religion = siberian_pagan
+	culture = yakut
+	father = 997Hengelder1
+	970.12.21 = {
+		birth = yes
+	}
+	1036.7.13 = {
+		death = yes
+	}
+}
+
+997Hengelder3 = { # Yusseter
+	name = "Kozel"
+	dynasty = 2001146 #Hengelder
+	religion = siberian_pagan
+	culture = yakut
+	father = 997Hengelder2
+	999.6.15 = {
+		birth = yes
+	}
+	1064.8.11 = {
+		death = yes
+	}
+}
+
 8000009 = {
 	name = "Sayn"
 	dynasty = 2001146 #Hengelder
@@ -90820,6 +91288,34 @@ Yagma23 = {
 		birth = yes
 	}
 	1000.7.10 = {
+		death = yes
+	}
+}
+
+997Sono2 = { # Yusseter
+	name = "Qoshila"
+	dynasty = 2001149 #Sono
+	religion = kuptyng
+	culture = yakut
+	father = 997Sono
+	968.9.8 = {
+		birth = yes
+	}
+	1022.9.16 = {
+		death = yes
+	}
+}
+
+997Sono3 = { # Yusseter
+	name = "Qoshila"
+	dynasty = 2001149 #Sono
+	religion = kuptyng
+	culture = yakut
+	father = 997Sono2
+	998.6.30 = {
+		birth = yes
+	}
+	1065.7.23 = {
 		death = yes
 	}
 }

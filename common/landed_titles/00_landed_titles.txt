@@ -11881,6 +11881,7 @@ e_germany = {
 		color = { 165 190 230 }
 
 		capital = c_karnten
+		definite_form = no # Yusseter
 
 		can_create = {
 
@@ -14273,6 +14274,7 @@ e_germany = {
 
 		d_bohemia = {
 			color = { 195 110 11 }
+			definite_form = no # Yusseter
 
 			capital = c_praha # Praha
 
@@ -35183,7 +35185,8 @@ e_caspian-pontic_steppe = {
 
 	can_be_named_after_dynasty = no
 	#can_use_nomadic_naming = no # Yusseter
-	capital = c_sarai # Itil
+	capital = c_itil # Yusseter
+	#capital = c_sarai # Itil
 
 	can_create = {
 		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
@@ -36099,12 +36102,14 @@ e_caspian-pontic_steppe = {
 
 		can_create_on_partition = { always = no }
 
-		capital = c_sarai # Itil
+		capital = c_itil # Yusseter
+		#capital = c_sarai # Itil
 
 		d_itil = {
 			color = { 126 148 103 }
 
-			capital = c_sarai # Itil
+			capital = c_itil # Yusseter
+			#capital = c_sarai # Itil
 
 			c_sarai = {
 				color = { 147 157 124 }
@@ -40573,9 +40578,25 @@ e_mongolia = {
 			}
 			c_karabalgasun = {
 				color = { 39 80 254 }
+				cultural_names = { # Yusseter
+					name_list_uyghur = cn_ordu_baliq
+					name_list_tiele = cn_ordu_baliq
+					name_list_kirghiz = cn_ordu_baliq
+					name_list_shatuo = cn_ordu_baliq
+					name_list_naiman = cn_ordu_baliq
+					name_list_karluk = cn_ordu_baliq
+				}
 
 				b_karabalgasun = {
 					province = 7525
+					cultural_names = { # Yusseter
+						name_list_uyghur = cn_ordu_baliq
+						name_list_tiele = cn_ordu_baliq
+						name_list_kirghiz = cn_ordu_baliq
+						name_list_shatuo = cn_ordu_baliq
+						name_list_naiman = cn_ordu_baliq
+						name_list_karluk = cn_ordu_baliq
+					}
 
 					color = { 20 130 40 }
 
@@ -52141,6 +52162,7 @@ e_carpathia = {
 	k_hungary = {
 		color = { 187 70 70 }
 
+		definite_form = no # Yusseter
 		capital	= c_visegrad
 
 		ai_primary_priority = {
@@ -86583,9 +86605,9 @@ e_qixi = {
 				}
 				b_lafak = {
 					province = 9607
-
+				
 					color = { 110 170 190 }
-
+				
 				}
 				b_dondan_oilik = {
 					province = 9608
@@ -86645,6 +86667,58 @@ e_qixi = {
 					color = { 120 145 175 }
 
 				}
+				b_yb_bujayi_two = { # Yusseter
+					province = 14209
+
+					color = { 120 145 175 }
+				}
+			}
+			c_yb_lafak = { # Yusseter
+				color = { 100 185 210 }
+				#b_lafak = {
+				#	province = 9607
+				#
+				#	color = { 100 185 210 }
+				#}
+				b_yb_mazar_tagh = {
+					province = 14215
+
+					color = { 100 185 210 }
+				}
+				b_yb_mazar_tagh_two = {
+					province = 14216
+
+					color = { 100 185 210 }
+				}
+				b_yb_karadong = {
+					province = 14211
+
+					color = { 100 185 210 }
+				}
+				b_yb_bujayi = { # Yusseter
+					province = 14210
+
+					color = { 100 185 210 }
+				}
+			}
+			c_yb_andir = { # Yusseter
+				color = { 45 220 235 }
+
+				b_andir = {
+					province = 9604
+
+					color = { 45 220 235 }
+				}
+				b_endere = {
+					province = 9603
+
+					color = { 45 220 235 }
+				}
+				b_yb_tougui_TEMP = {
+					province = 14213
+
+					color = { 45 220 235 }
+				}
 			}
 			c_keriya = {
 				color = { 20 245 254 }
@@ -86655,17 +86729,22 @@ e_qixi = {
 					color = { 50 110 190 }
 
 				}
-				b_andir = {
-					province = 9604
-
-					color = { 50 110 190 }
-
-				}
+				#b_andir = { # Yusseter
+				#	province = 9604
+				#
+				#	color = { 50 110 190 }
+				#
+				#}
 				b_niya = {
 					province = 9605
 
 					color = { 50 110 190 }
 
+				}
+				b_yb_magalek = { # Yusseter
+					province = 14212
+
+					color = { 50 110 190 }
 				}
 			}
 			c_cherchen = {
@@ -86683,12 +86762,18 @@ e_qixi = {
 					color = { 80 125 200 }
 
 				}
-				b_endere = {
-					province = 9603
+				b_yb_lancheng = { # Yusseter
+					province = 14214
 
 					color = { 80 125 200 }
 
 				}
+				#b_endere = { # Yusseter
+				#	province = 9603
+				#
+				#	color = { 80 125 200 }
+				#
+				#}
 			}
 		}
 
@@ -86823,7 +86908,8 @@ e_qixi = {
 			capital = c_kucha # Kucha
 
 			c_kucha = {
-				color = { 20 211 253 }
+				color = { 70 150 185 } # Yusseter
+				#color = { 20 211 253 }
 
 				b_kucha = {
 					province = 1444
@@ -96571,6 +96657,12 @@ e_goguryeo = {
 			c_hanju = { #汉山州/汉州/京畿道gyeonggido
 				color = { 20 183 222 }
 
+				b_kaeseong = {
+					province = 13586
+
+					color = { 85 205 150 }
+
+				}
 				b_weili = {
 					province = 13588
 
@@ -96599,8 +96691,8 @@ e_goguryeo = {
 			c_hwanghae = { #黄海道
 				color = { 96 192 202 }
 
-				b_kaeseong = {
-					province = 13586
+				b_haeju = {
+					province = 13585
 
 					color = { 85 205 150 }
 
@@ -96613,12 +96705,6 @@ e_goguryeo = {
 				}
 				b_sariwon = {
 					province = 13584
-
-					color = { 85 205 150 }
-
-				}
-				b_haeju = {
-					province = 13585
 
 					color = { 85 205 150 }
 

@@ -1,4 +1,95 @@
-﻿#==================================================================================================#
+﻿
+
+#==================================================================================================#
+################################################## CULTURE: KHITAN
+#==================================================================================================#
+
+####################################### Dynasty: 1000102400 #######################################
+jurchen2001 = { #耶律怀义 本名孛迭，辽宗室子。仕辽至同知点检司事。辽主投奔夏，阻谏不听，遂降金，领谋克从军。从宗翰、娄室转战山西、河南，围克汴京，取大名、东平府、徐、兖等州皆有战功，加尚书左仆射。改西北路招讨使，在西陲任上数十年，抚御有恩，为地方所敬爱。历太原尹、中京留守、大名尹，历封漆水郡、莘、萧王。正隆中，降封景国公。卒于云中。
+	name = "bote_jurchen_name1"
+	dynasty = 1000102400 #Yelü
+	culture = "khitan"
+	religion = "kegon"
+	father = 1413462
+	1080.1.1 = {
+		birth = yes
+	}
+	1161.1.1 = {
+		death = yes
+	}
+}
+
+jurchen2002 = { #耶律余睹
+	name = "Yuldug"
+	dynasty = 1000102400 #Yelü
+	culture = "khitan"
+	religion = "kegon"
+	father = 1413927
+	1080.1.1 = {
+		birth = yes
+	}
+	1132.1.1 = {
+		death = yes
+	}
+}
+
+####################################### Dynasty: jurchen_khitan_yila1 #######################################
+jurchen1438 = { #河間公移剌衆家奴  移剌衆家奴，河北人，積戰功，累官河間路招撫使，興定四年二月封河間公，遙授開州刺史，權元帥右都監，賜姓完顏氏，元光二年1223與張甫同保鎮安府（信安），後事不詳
+	name = "junggiyanu_jurchen_name"
+	dynasty = jurchen_khitan_yila1 #移剌1
+	culture = "khitan"
+	religion = "kegon"
+	1180.1.1 = {
+		birth = yes
+	}
+	1224.1.1 = {
+		death = yes
+	}
+}
+
+####################################### Dynasty: jurchen_khitan_yila2 #######################################
+jurchen1458 = { #撒八  撒八，西北路契丹人，初為招討司譯史，正隆五年，海陵征兵，撒八殺招討使完顏沃側及燥合，反，欲西奔西遼，行至龍駒河，被部下偽署六院節度使移剌窩斡、兵官陳家所殺
+	name = "saba_jurchen_name"
+	dynasty = jurchen_khitan_yila2 #移剌2
+	culture = "khitan"
+	religion = "kegon"
+	1115.1.28 = {
+		birth = yes
+	}
+	1161.8.1 = {
+		death = yes
+	}
+}
+
+jurchen1459 = { #移剌窩斡  移剌窩斡，先從撒八為亂，偽署六院節度使，後殺撒八，自為都元帥，擁衆東還，至臨潢府，正隆六年1161十二月己亥，窩斡遂稱帝，改元天正，大定二年九月初七，並母妻子被俘，皆誅之
+	name = "wowo_jurchen_name"
+	dynasty = jurchen_khitan_yila2 #移剌3
+	culture = "khitan"
+	religion = "kegon"
+	1120.1.1 = {
+		birth = yes
+	}
+	1162.9.7 = {
+		death = yes
+	}
+}
+
+################################################# No Dynasty #################################################
+jurchen1050 = { #注思灰  注思灰，景祖烏古迺之妾，契丹人，生劾真保
+	name = "jusihui_jurchen_name"
+	culture = "khitan"
+	religion = "kegon"
+	female = yes
+	1035.1.1 = {
+		birth = yes
+	}
+	1090.1.1 = {
+		death = yes
+	}
+}
+
+
+#==================================================================================================#
 ################################################## CULTURE: BARQUT
 #==================================================================================================#
 
@@ -1634,9 +1725,6 @@ JadranHerder19 = {
 	878.1.1={
 		birth=yes
 	}
-	920.1.1 = { # Yusseter
-		culture = kerait
-	}
 	963.1.1={
 		death=yes
 	}
@@ -1652,9 +1740,6 @@ JadranHerder19 = {
 	901.1.1={
 		birth=yes
 	}
-	920.1.1 = { # Yusseter
-		culture = kerait
-	}
 	982.1.1={
 		death=yes
 	}
@@ -1663,13 +1748,15 @@ JadranHerder19 = {
 1410969 = { #placeholder for Chubugu
 	dynasty = 1000049405 #Chubugu
 	name = "Tolun"
-	culture = kerait
+	culture = uigur # Yusseter
+	#culture = kerait
 	religion = eastern_tengri
 	father = 1410968
 	926.1.1={
 		birth=yes
 	}
 	1005.1.1={
+		culture = kerait # Yusseter
 		death=yes
 	}
 }
@@ -1677,11 +1764,15 @@ JadranHerder19 = {
 1410970 = { #placeholder for Chubugu
 	dynasty = 1000049405 #Chubugu
 	name = "Qutlugh"
-	culture = kerait
+	culture = uigur # Yusseter
+	#culture = kerait
 	religion = eastern_tengri
 	father = 1410969
 	955.1.1={
 		birth=yes
+	}
+	1005.1.1 = { # Yusseter
+		culture = kerait
 	}
 	1021.1.1={
 		death=yes
@@ -1691,11 +1782,15 @@ JadranHerder19 = {
 1410971 = { #placeholder for Chubugu
 	dynasty = 1000049405 #Chubugu
 	name = "Marghuz"
-	culture = kerait
+	culture = uigur # Yusseter
+	#culture = kerait
 	religion = eastern_tengri
 	father = 1410970
 	986.1.1={
 		birth=yes
+	}
+	1005.1.1 = { # Yusseter
+		culture = kerait
 	}
 	1007.1.1={
 		religion = nestorian
@@ -1806,9 +1901,13 @@ fictional_keraits_5 = { #Herder 867
 KeraitHerder12 = {
 	name = "Mergid"
 	religion = "eastern_tengri"
-	culture = "kerait"
+	culture = uigur # Yusseter
+	#culture = "kerait"
 	968.8.24 = {
 		birth = yes
+	}
+	1005.1.1 = { # Yusseter
+		culture = kerait
 	}
 	1031.2.15 = {
 		death = yes
@@ -1818,9 +1917,13 @@ KeraitHerder12 = {
 KeraitHerder1 = {
 	name = "Marguz"
 	religion = "eastern_tengri"
-	culture = "kerait"
+	culture = uigur # Yusseter
+	#culture = "kerait"
 	970.5.17 = {
 		birth = yes
+	}
+	1005.1.1 = { # Yusseter
+		culture = kerait
 	}
 	1034.9.8 = {
 		death = yes
@@ -1830,10 +1933,14 @@ KeraitHerder1 = {
 KeraitHerder13 = {
 	name = "Bilge"
 	religion = "eastern_tengri"
-	culture = "kerait"
+	culture = uigur # Yusseter
+	#culture = "kerait"
 	father = KeraitHerder12
 	999.11.8 = {
 		birth = yes
+	}
+	1005.1.1 = { # Yusseter
+		culture = kerait
 	}
 	1063.5.21 = {
 		death = yes
@@ -1843,10 +1950,14 @@ KeraitHerder13 = {
 KeraitHerder2 = {
 	name = "Toghril"
 	religion = "eastern_tengri"
-	culture = "kerait"
+	culture = uigur # Yusseter
+	#culture = "kerait"
 	father = KeraitHerder1
 	1002.3.22 = {
 		birth = yes
+	}
+	1005.1.1 = { # Yusseter
+		culture = kerait
 	}
 	1066.11.15 = {
 		death = yes
@@ -29199,6 +29310,20 @@ ChagaKhitai7 = {
 	}
 }
 
+998Buryat2 = { # Yusseter
+	name = "Taghai"
+	dynasty = 2001150 #Bajandaj
+	religion = kuptyng
+	culture = kott
+	father = 997Buryat2
+	992.1.25 = {
+		birth = yes
+	}
+	1058.9.13 = {
+		death = yes
+	}
+}
+
 303182 = {
 	name = "Bair"
 	dynasty = 2001150 #Bajandaj
@@ -29394,6 +29519,20 @@ ChagaKhitai7 = {
 	}
 }
 
+998Buryat = { # Yusseter
+	name = "Muqali"
+	dynasty = 2001151 #Bulagad
+	religion = kuptyng
+	culture = kott
+	father = 997Buryat
+	984.4.23 = {
+		birth = yes
+	}
+	1041.12.19 = {
+		death = yes
+	}
+}
+
 303191 = {
 	name = "Bulgan"
 	dynasty = 2001151 #Bulagad
@@ -29543,6 +29682,34 @@ ChagaKhitai7 = {
 		birth = yes
 	}
 	1000.12.29 = {
+		death = yes
+	}
+}
+
+997Khongodor2 = { # Yusseter
+	name = "Jeguredei"
+	dynasty = 2001152 #Khongodor
+	religion = kuptyng
+	culture = kott
+	father = 997Khongodor
+	947.12.29 = {
+		birth = yes
+	}
+	1012.5.10 = {
+		death = yes
+	}
+}
+
+997Khongodor3 = { # Yusseter
+	name = "Ugur"
+	dynasty = 2001152 #Khongodor
+	religion = kuptyng
+	culture = kott
+	father = 997Khongodor2
+	980.11.12 = {
+		birth = yes
+	}
+	1047.6.27 = {
 		death = yes
 	}
 }
@@ -50450,6 +50617,48 @@ fictional_tengri_1 = {
 	}
 }
 
+3030971 = { # Yusseter
+	name = "Yenin"
+	dynasty = 2001143 #Khori-Tumed
+	religion = eastern_tengri
+	culture = tumed
+	father = 303097
+	900.9.11 = {
+		birth = yes
+	}
+	965.7.10 = {
+		death = yes
+	}
+}
+
+3030972 = { # Yusseter
+	name = "Dalay_ool"
+	dynasty = 2001143 #Khori-Tumed
+	religion = eastern_tengri
+	culture = tumed
+	father = 3030971
+	935.6.30 = {
+		birth = yes
+	}
+	1009.3.23 = {
+		death = yes
+	}
+}
+
+3030973 = { # Yusseter
+	name = "Mergen"
+	dynasty = 2001143 #Khori-Tumed
+	religion = eastern_tengri
+	culture = tumed
+	father = 3030972
+	982.6.19 = {
+		birth = yes
+	}
+	1060.3.8 = {
+		death = yes
+	}
+}
+
 303082 = {
 	name = "Zorikto"
 	dynasty = 2001143 #dynn_Khori_Tumed
@@ -54899,9 +55108,6 @@ Khereid = {
 	887.1.1 = {
 		birth = yes
 	}
-	920.1.1 = { # Yusseter
-		culture = kerait
-	}
 	944.1.1 = {
 		death = yes
 	}
@@ -54917,9 +55123,6 @@ Khereid2 = {
 	913.1.1 = {
 		birth = yes
 	}
-	920.1.1 = { # Yusseter
-		culture = kerait
-	}
 	996.1.1 = {
 		death = yes
 	}
@@ -54929,13 +55132,14 @@ Khereid3 = {
 	name = "Taibuka"
 	dynasty = 1041002 #Khereid
 	religion = ulganism
-	culture = kerait # Yusseter
+	culture = uigur # Yusseter
 	#culture = uyghur
 	father = Khereid2
 	945.1.1 = {
 		birth = yes
 	}
 	1005.1.1 = {
+		culture = kerait # Yusseter
 		death = yes
 	}
 }
@@ -54944,11 +55148,14 @@ Khereid4 = {
 	name = "Elkutur"
 	dynasty = 1041002 #Khereid
 	religion = ulganism
-	culture = kerait # Yusseter
+	culture = uigur # Yusseter
 	#culture = uyghur
 	father = Khereid3
 	980.1.1 = {
 		birth = yes
+	}
+	1005.1.1 = { # Yusseter
+		culture = kerait
 	}
 	1030.1.1 = {
 		death = yes
@@ -54959,13 +55166,17 @@ Khereid4 = {
 	name="Kheree" #fictional name
 	dynasty=1041002
 	religion="eastern_tengri"
-	culture="kerait"
+	culture = uigur # Yusseter
+	#culture="kerait"
 	father = Khereid3
 	984.1.1={
 		birth=yes
 	}
 	983.1.1={
 		add_spouse=166880
+	}
+	1005.1.1 = { # Yusseter
+		culture = kerait
 	}
 	1012.1.1={
 		religion="nestorian"
@@ -54979,11 +55190,15 @@ Khereid4 = {
 	name="Baidu" #fictional name
 	dynasty=1041002
 	religion="eastern_tengri"
-	culture="kerait"
+	culture = uigur # Yusseter
+	#culture="kerait"
 	father=166881
 	mother=166880
 	998.1.1={
 		birth=yes
+	}
+	1005.1.1 = { # Yusseter
+		culture = kerait
 	}
 	1012.1.1={
 		religion="nestorian"
@@ -54997,10 +55212,14 @@ Khereid5 = {
 	name = "Yula_Mangus"
 	dynasty = 1041002 #Khereid
 	religion = ulganism
-	culture = kerait
+	culture = uigur # Yusseter
+	#culture = kerait
 	father = Khereid4
 	1000.1.1 = {
 		birth = yes
+	}
+	1005.1.1 = { # Yusseter
+		culture = kerait
 	}
 	1057.1.2 = {
 		death = yes
@@ -55790,9 +56009,6 @@ Jirkin1 = {
 	891.1.1 = {
 		birth = yes
 	}
-	920.1.1 = { # Yusseter
-		culture = kerait
-	}
 	951.1.1 = {
 		death = yes
 	}
@@ -55808,9 +56024,6 @@ Jirkin2 = {
 	919.1.1 = {
 		birth = yes
 	}
-	920.1.1 = { # Yusseter
-		culture = kerait
-	}
 	995.1.1 = {
 		death = yes
 	}
@@ -55820,11 +56033,14 @@ Jirkin3 = {
 	name = "Taibuka"
 	dynasty = 2001154 #Jirkin
 	religion = ulganism
-	culture = kerait # Yusseter
+	culture = uigur # Yusseter
 	#culture = uyghur
 	father = Jirkin2
 	947.1.1 = {
 		birth = yes
+	}
+	1005.1.1 = { # Yusseter
+		culture = kerait
 	}
 	1011.1.1 = {
 		death = yes
@@ -55835,10 +56051,14 @@ Jirkin4 = {
 	name = "Taibuka"
 	dynasty = 2001154 #Jirkin
 	religion = ulganism
-	culture = kerait
+	culture = uigur # Yusseter
+	#culture = kerait
 	father = Jirkin3
 	991.1.1 = {
 		birth = yes
+	}
+	1005.1.1 = { # Yusseter
+		culture = kerait
 	}
 	1065.2.22 = {
 		death = yes

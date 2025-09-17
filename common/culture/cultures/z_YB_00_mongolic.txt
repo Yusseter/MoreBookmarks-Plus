@@ -1,4 +1,4 @@
-﻿ mongol = {
+﻿mongol = {
 	color = mongol
 	
 	ethos = ethos_bellicose
@@ -485,7 +485,7 @@ oirat = {
 
 kerait = {
 	color = { 0.4 0.6 0.9 }
-	created = 920.1.1
+	created = 1005.1.1
 	parents = { mongol uigur }
 	history_loc_override = mongolized_history_loc
 	

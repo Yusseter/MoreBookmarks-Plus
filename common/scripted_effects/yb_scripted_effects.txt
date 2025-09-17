@@ -785,11 +785,11 @@ yb_cultural_title_coa_effect_867 = {
 }
 
 yb_cultural_title_coa_effect_1066 = {
-    title:e_mongolia = { 
-        set_coa = e_great_liao
-	    #set_color_from_title = title:e_great_liao
-    }
-    title:e_caspian-pontic_steppe = {
-	    set_color_from_title = title:e_caspian-pontic_steppe
-    }
+    #title:e_mongolia = { 
+    #    set_coa = e_great_liao
+	#    #set_color_from_title = title:e_great_liao
+    #}
+    #title:e_caspian-pontic_steppe = {
+	#    set_color_from_title = title:e_caspian-pontic_steppe
+    #}
 }

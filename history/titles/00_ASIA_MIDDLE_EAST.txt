@@ -12310,6 +12310,21 @@ d_balkh = {
 	#867.1.1 = {	change_development_level = 3 }
 	#1066.1.1 = { change_development_level = 6 }
 
+	# Yusseter 0
+	625.1.1 = {
+		holder = ashina_47
+	}
+	630.1.1 = {
+		holder = ashina_48
+	}
+	653.1.1 = {
+		holder = ashina_481
+	}
+	660.1.1 = {
+		holder = 0
+	}
+	# Yusseter 1
+
 	671.1.1 = {
 		liege = 0 # Nazak Tarkhan's rule
 	}
@@ -12663,6 +12678,21 @@ c_balkh = {
 
 c_west-tokharestan = {
 
+	# Yusseter 0
+	625.1.1 = {
+		holder = ashina_47
+	}
+	630.1.1 = {
+		holder = ashina_48
+	}
+	653.1.1 = {
+		holder = ashina_481
+	}
+	#660.1.1 = {
+	#	holder = 0
+	#}
+	# Yusseter 1
+
 	# Banijurids
 	842.1.1 = { #?
 		liege = d_balkh
@@ -12808,6 +12838,27 @@ c_east-tokharestan = {
 	#867.1.1 = {	change_development_level = 7 }
 	#1066.1.1 = { change_development_level = 10 }
 
+	# Yusseter 0
+	625.1.1 = {
+		holder = ashina_47
+	}
+	630.1.1 = {
+		holder = ashina_48
+	}
+	634.1.1 = {
+		holder = ashina_18
+		liege = d_balkh
+	}
+	653.1.1 = {
+		holder = ashina_184
+	}
+	659.4.1 = {
+		holder = ashina_481
+	}
+	#660.1.1 = {
+	#	holder = 0
+	#}
+	# Yusseter 1
 
 	# Banijurids
 	842.1.1 = { #?
@@ -15050,7 +15101,56 @@ k_gurgan = {
 k_transoxiana = {
 	#867.1.1 = { change_development_level = 5 }
 	#1066.1.1 = { change_development_level = 8 }
-
+	# Yusseter 0
+	595.1.1 = {
+		holder = ashina_063
+	}
+	604.1.1 = {
+		holder = 0
+	}
+	639.1.1 = {
+		holder = ashina_269
+	}
+	640.1.1 = {
+		holder = ashina_34
+	}
+	641.1.1 = {
+		holder = ashina_36
+	}
+	651.1.1 = {
+		holder = 0
+	}
+	657.1.1 = {
+		holder = ashina_2140
+	}
+	667.1.1 = {
+		holder = 0
+	}
+	685.1.1 = {
+		holder = ashina_2141
+	}
+	704.1.1 = {
+		holder = ashina_2142
+	}
+	708.1.1 = {
+		holder = ashina_79
+	}
+	717.1.1 = {
+		holder = 0
+	}
+	735.1.1 = {
+		holder = ashina_80
+	}
+	736.1.1 = {
+		holder = 0
+	}
+	740.1.1 = {
+		holder = ashina_2143
+	}
+	742.1.1 = {
+		holder = 0
+	}
+	# Yusseter 1
 	819.1.1 = {
 		holder = 163154
 	}

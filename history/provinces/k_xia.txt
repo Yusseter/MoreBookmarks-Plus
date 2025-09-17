@@ -76,7 +76,8 @@
 9537 = {	# Wuluhai
 	# Misc
 	culture = shatuo
-	religion = eastern_tengri
+	religion = tengri_pagan # Yusseter
+    #religion = eastern_tengri
 
 	holding = tribal_holding
 

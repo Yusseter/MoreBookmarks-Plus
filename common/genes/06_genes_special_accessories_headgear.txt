@@ -4039,13 +4039,13 @@ special_genes = {
 				male = {
 			       ##########################################################
 					####Eastern Turkic/Default Turk
-					1 = male_Turkic_Fur_Cap_01 # Yusseter
-					1 = male_Turkic_Fur_Cap_03 # Yusseter
+					3 = male_Turkic_Fur_Cap_01 # Yusseter
+					3 = male_Turkic_Fur_Cap_03 # Yusseter
 					1 = male_headgear_secular_sogdian_cap_01_common # Yusseter
 					#1 = male_headgear_secular_steppe_common_01 # Yusseter
-					1 = male_Turkic_Fur_Cap_01
-					1 = male_Turkic_Fur_Cap_02
-					1 = male_Turkic_Fur_Cap_03
+					3 = male_Turkic_Fur_Cap_01 # Yusseter
+					3 = male_Turkic_Fur_Cap_02 # Yusseter
+					3 = male_Turkic_Fur_Cap_03 # Yusseter
 					#1 = male_Turkic_Fur_Cap_04	# Yusseter
                     #1 = male_Turkic_Fur_Cap_05	# Yusseter
 
@@ -4097,7 +4097,7 @@ special_genes = {
 			       ##########################################################
 					####Eastern Turkic/Default Turk
 					#1 = male_headgear_secular_steppe_common_01 # Yusseter
-					3 = male_headgear_secular_sogdian_cap_01_low # Yusseter
+					1 = male_headgear_secular_sogdian_cap_01_low # Yusseter
 					1 = male_Turkic_Fur_Cap_01
 					1 = male_Turkic_Fur_Cap_02
 					1 = male_Turkic_Fur_Cap_03

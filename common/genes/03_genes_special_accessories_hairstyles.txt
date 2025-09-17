@@ -2159,18 +2159,24 @@ special_genes = {
 			turkic_hairstyles_straight = {
 				index = 84
 				male = {
-					4 = male_hair_turkic_01
-					4 = male_hair_turkic_02	
+					2 = male_hair_turkic_01 # Yusseter
+					2 = male_hair_turkic_01 # Yusseter
+					#4 = male_hair_turkic_01
+					2 = male_hair_turkic_02 # Yusseter
+					2 = male_hair_turkic_02 # Yusseter
+					#4 = male_hair_turkic_02
 					4 = male_hair_turkic_03		
 					4 = male_hair_turkic_04	
 					4 = male_hair_turkic_05				
 					1 = male_hair_turkic_06
+					5 = cfp_male_hair_hungarian_01 # Yusseter
 					#4 = m_hair_fp3_iranian_02 #Seljuk Braids # Yusseter
 					#4 = m_hair_fp3_iranian_01 #Long split strands # Yusseter
 					#1 = male_hair_steppe_02
 				}
 
 				female = {
+					2 = f_hair_sp4_western_01 # Yusseter
 					2 = female_hair_steppe_01
 					2 = female_hair_steppe_02
 					2 = female_hair_turkic_01
@@ -2223,17 +2229,19 @@ special_genes = {
 				male = {
 					#weight = <object in gfx/portrait/accessories/>
 					# Yusseter 0
+					2 = m_hair_fp3_iranian_03
+					2 = m_hair_fp3_iranian_01
+					2 = male_hair_iranian_01
 					1 = male_hair_turkic_01
-					2 = male_hair_turkic_02	
+					1 = male_hair_turkic_02	
 					1 = m_hair_mpo_mongol_03
 					1 = cfp_male_hair_steppe_04
-					1 = cfp_male_hair_turkic_01
-					#2 = male_hair_mena_02 # Behind head long curly		
-					#2 = male_hair_mena_01 # Short curly
-					#2 = male_hair_mena_03 # Curly ball
-					#2 = male_hair_mena_04 # Medium curly
+					1 = male_hair_mena_02 # Behind head long curly		
+					1 = male_hair_mena_01 # Short curly
+					1 = male_hair_mena_03 # Curly ball
 					#2 = m_hair_fp3_iranian_02 #Seljuk Braids
 					# Yusseter 1
+					2 = male_hair_mena_04 # Medium curly
 				}
 
 				female = {

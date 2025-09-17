@@ -226,6 +226,9 @@
 	#religion = eastern_tengri
 	holding = tribal_holding
 	900.1.1 = { # Yusseter
+		culture = barsil
+	}
+	1000.1.1 = { # Yusseter: 900.1.1
 		culture = mongol
 		religion = eastern_tengri
 	}
@@ -328,9 +331,9 @@
 	#culture = uyghur
     religion = ulganism
 
-    900.1.1 = {
-        culture = tongra
-    }
+    #900.1.1 = { # Yusseter
+    #    culture = tongra
+    #}
     1005.1.1 = {
         culture = kerait
 		religion = eastern_tengri

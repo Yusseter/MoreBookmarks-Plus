@@ -164,7 +164,7 @@ lakes = LIST { 7513 }	#Dzungar lakes
 # Can be colored by whoever owns the most of the province's neighbours.
 # Blocks unit movement.
 
-impassable_mountains = LIST { 14199 14200 14201 14202 14203 14204 14205 14206 14207 } # Yusseter
+impassable_mountains = LIST { 14199 14200 14201 14202 14203 14204 14205 14206 14207 14208 } # Yusseter
 
 #Africa
 impassable_mountains = LIST { 1049 1050 1051 1068 1080 1088 1089 3294 }

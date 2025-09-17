@@ -24082,10 +24082,7 @@ c_javakheti = {
 	980.1.1 = {
 		holder = 1234285
 	}
-	1000.1.1 = {
-		holder = 1234354
-	}
-	1008.1.1 = {
+	997.1.1 = {
 		liege = d_kartli
 	}
 	1027.1.1 = {
@@ -25548,7 +25545,7 @@ c_samtskhe = {
 	994.1.1 = {
 		holder = 41546
 	}
-	1008.1.1 = {
+	997.1.1 = {
 		liege = d_kartli
 	}
 	1008.1.1 = {
@@ -33091,6 +33088,7 @@ d_tmutarakan = {
 	966.1.1 = {
 		#liege = k_khazaria
 		holder = 146193
+		government = nomad_government # Yusseter
 	}
 	#969.1.1 = {
 	#	historical_nomad = no
@@ -33098,6 +33096,7 @@ d_tmutarakan = {
 	#}
 	993.1.1 = {
 		holder = 146194 # Georgios Tzule
+		government = feudal_government # Yusseter
 	}
 	# end of Khazar rule
 	########
@@ -34023,4 +34022,4 @@ c_samiran = {
 
 }
 
-# Yusseter: From MBP 2025.09.02
+# Yusseter: From MBP 2025.09.11

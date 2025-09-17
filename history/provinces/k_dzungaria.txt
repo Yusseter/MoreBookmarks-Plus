@@ -162,10 +162,12 @@
 	796.1.1 = { religion = manichean } # Yusseter
     900.1.1 = {
         culture = basmyl
-        religion = nestorian
+		religion = tengri_pagan # Yusseter
+        #religion = nestorian
     }
     1050.1.1 = {
         culture = qun
+		religion = ulganism # Yusseter
     }
     1150.1.1 = {
         culture = naiman
@@ -471,6 +473,7 @@
 
     900.1.1 = {
         culture = qun
+		religion = ulganism # Yusseter
     }
     1050.1.1 = {
         culture = uyghur

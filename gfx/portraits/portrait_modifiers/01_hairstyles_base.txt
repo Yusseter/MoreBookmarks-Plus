@@ -3318,15 +3318,14 @@ hairstyles = {
 			accessory = {
 				mode = add
 				gene = hairstyles
-				template = cfp_hungarian_hairstyles_warrior
-				accessory = cfp_male_hair_hungarian_01
+				template = turkic_hairstyles_straight
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}
 		weight = {
 			base = 0
 			modifier = {
-				add = 20
+				add = 55
 				OR = {
 					NOT = {
 						exists = this
@@ -3355,7 +3354,8 @@ hairstyles = {
                 mode = add
                 gene = hairstyles
                 template = turkic_hairstyles_straight
-                range = { 0 1 } # For the randomness to work correctly
+                range = { 0 0.8 } # Yusseter
+                #range = { 0 1 } # For the randomness to work correctly
             }
         }   
         weight = {

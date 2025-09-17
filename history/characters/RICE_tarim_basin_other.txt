@@ -137,7 +137,7 @@ RICE_tarim_basin_misc_005 = {
 	}
 	1060.1.1 = { # Yusseter
 		effect = {
-			set_relation_potential_friend = character:RICE_kashgar_001
+			set_relation_friend = character:RICE_kashgar_001
 		}
 	}
 	1077.3.13 = { # Unknown, rough estimation

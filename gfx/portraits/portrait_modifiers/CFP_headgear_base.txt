@@ -1137,11 +1137,15 @@ cfp_headgear_base = {
                 portrait_low_nobles_clothing_trigger = {
                     CULTURE_INPUT = cfp_turkic
                 }
-				culture = {
-					OR = {
-						this = culture:kangly
-						any_parent_culture_or_above = {
-							this = culture:kangly
+				OR = {
+					culture = { has_clothing_gfx = yb_western_steppe_clothing_gfx }
+					scope:culture = { has_clothing_gfx = yb_western_steppe_clothing_gfx }
+					culture = {
+						OR = {
+							this = culture:qangli
+							any_parent_culture_or_above = {
+								this = culture:qangli
+							}
 						}
 					}
 				}
@@ -1285,19 +1289,34 @@ cfp_headgear_base = {
 			base = 0
 			modifier = {
 				add = 75
-				portrait_imperial_trigger = {
-                    CULTURE_INPUT = epe_eastern_turk 
-                }
-				NOT = {
-					portrait_imperial_trigger = { 
-                    CULTURE_INPUT = epe_seljuk
-                    }
+				OR = {
+					portrait_imperial_trigger = {
+						CULTURE_INPUT = epe_eastern_turk 
+					}
+					portrait_royalty_trigger = {
+						CULTURE_INPUT = epe_eastern_turk 
+					}
 				}
 				NOT = {
-					portrait_imperial_trigger = { 
-                    CULTURE_INPUT = epe_uyghur
-                    }
-				}				
+					portrait_imperial_trigger = {  
+						CULTURE_INPUT = epe_seljuk 
+					}
+				}
+				NOT = {
+					portrait_royalty_trigger = {  
+						CULTURE_INPUT = epe_uyghur 
+					}
+				}
+				NOT = {
+					portrait_imperial_trigger = {  
+						CULTURE_INPUT = epe_seljuk 
+					}
+				}
+				NOT = {
+					portrait_royalty_trigger = {  
+						CULTURE_INPUT = epe_uyghur 
+					}
+				}
                 portrait_era1_trigger = yes
 			}
 		}
@@ -1321,17 +1340,33 @@ cfp_headgear_base = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 60
-				portrait_imperial_trigger = {
-                    CULTURE_INPUT = epe_eastern_turk 
-                }
+				add = 30 # Yusseter
+				#add = 55
+				OR = {
+					portrait_imperial_trigger = {
+						CULTURE_INPUT = epe_eastern_turk 
+					}
+					portrait_royalty_trigger = {
+						CULTURE_INPUT = epe_eastern_turk 
+					}
+				}
 				NOT = {
 					portrait_imperial_trigger = {  
 						CULTURE_INPUT = epe_seljuk 
 					}
 				}
 				NOT = {
+					portrait_royalty_trigger = {  
+						CULTURE_INPUT = epe_uyghur 
+					}
+				}
+				NOT = {
 					portrait_imperial_trigger = {  
+						CULTURE_INPUT = epe_seljuk 
+					}
+				}
+				NOT = {
+					portrait_royalty_trigger = {  
 						CULTURE_INPUT = epe_uyghur 
 					}
 				}
@@ -1411,7 +1446,8 @@ cfp_headgear_base = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 60
+				add = 30 # Yusseter
+				#add = 60
 				OR = {
 					portrait_imperial_trigger = {
 						CULTURE_INPUT = cfp_turkic

@@ -100,8 +100,8 @@
 	culture = blatno_slavic
 	religion = tengri_pagan
 	holding = tribal_holding
-	895.1.1 = { culture = mogyer
-	religion = magyar_pagan }
+	#895.1.1 = { culture = mogyer # Yusseter
+	#religion = magyar_pagan } # Yusseter
 	1000.1.1 = {
 		holding = castle_holding
 		#Date used to switch ti feudal_government in title history
@@ -131,7 +131,7 @@
 	culture = avar
 	religion = tengri_pagan
 	holding = tribal_holding
-	895.1.1 = { #culture = mogyer # Yusseter
+	895.1.1 = { culture = mogyer
 	religion = magyar_pagan }
 	1000.1.1 = {
 		holding = castle_holding
@@ -139,9 +139,8 @@
 	}
 	1009.1.1 = {
 		religion = catholic
-		#culture = hungarian # Yusseter
+		culture = hungarian
 	}
-	1110.1.1 = { culture = hungarian } # Yusseter
 	1239.1.1 = { culture = jasz }
 
 	
@@ -222,8 +221,9 @@
 	culture = dudlebian
 	religion = tengri_pagan
 	holding = tribal_holding
-	950.1.1 = { culture = mogyer
-	religion = magyar_pagan }
+	950.1.1 = { culture = blatno_slavic } # Yusseter
+	#950.1.1 = { culture = mogyer # Yusseter
+	#religion = magyar_pagan } # Yusseter
 	1005.1.1 = { 
 	religion = catholic
 	culture = hungarian
@@ -1366,9 +1366,8 @@
 	}
 	1043.1.1 = { 
 	religion = catholic
-	#culture = hungarian # Yusseter
+	culture = hungarian
 	}
-	1110.1.1 = { culture = hungarian } # Yusseter
 	
 }
 3872 = {	#Szeged
@@ -1390,8 +1389,9 @@
 	religion = tengri_pagan
 	holding = tribal_holding
 	
-	926.1.1 = { culture = mogyer
-	religion = magyar_pagan }
+	700.1.1 = { culture = blatno_slavic } # Yusseter
+	#926.1.1 = { culture = mogyer # Yusseter
+	#religion = magyar_pagan } # Yusseter
 	1000.1.1 = {
 		holding = castle_holding
 		#Date used to switch ti feudal_government in title history
@@ -1444,13 +1444,13 @@
 	religion = tengri_pagan
 	holding = tribal_holding
 	
-	895.1.1 = { culture = mogyer
-	religion = magyar_pagan }
+	#895.1.1 = { culture = mogyer # Yusseter
+	#religion = magyar_pagan } # Yusseter
 	1000.1.1 = {
 		holding = castle_holding
 		#Date used to switch ti feudal_government in title history
 	}
-	1025.1.1 = {
+	1120.1.1 = { # Yusseter: 1025.1.1
 	religion = catholic
 	culture = hungarian
 	}
@@ -1479,8 +1479,9 @@
 		holding = castle_holding
 		#Date used to switch ti feudal_government in title history
 	}
-	950.1.1 = { culture = mogyer
-	religion = magyar_pagan }
+	950.1.1 = { culture = blatno_slavic religion = tengri_pagan } # Yusseter
+	#950.1.1 = { culture = mogyer # Yusseter
+	#religion = magyar_pagan } # Yusseter
 	1005.1.1 = { 
 	religion = catholic
 	culture = hungarian
@@ -1507,8 +1508,9 @@
 		holding = castle_holding
 		#Date used to switch ti feudal_government in title history
 	}
-	950.1.1 = { culture = mogyer
-	religion = magyar_pagan }
+	950.1.1 = { culture = blatno_slavic } # Yusseter
+	#950.1.1 = { culture = mogyer # Yusseter
+	#religion = magyar_pagan } # Yusseter
 	1005.1.1 = {
 	religion = catholic
 	culture = hungarian
@@ -1532,8 +1534,9 @@
 	culture = dudlebian
 	religion = tengri_pagan
 	holding = tribal_holding
-	950.1.1 = { culture = mogyer
-	religion = magyar_pagan }
+	950.1.1 = { culture = blatno_slavic } # Yusseter
+	#950.1.1 = { culture = mogyer # Yusseter
+	#religion = magyar_pagan } # Yusseter
 	1005.1.1 = { 
 	religion = catholic
 	culture = hungarian
@@ -1563,8 +1566,8 @@
 	culture = blatno_slavic
 	religion = tengri_pagan
 	holding = tribal_holding
-	950.1.1 = { culture = mogyer
-	religion = magyar_pagan }
+	#950.1.1 = { culture = mogyer # Yusseter
+	#religion = magyar_pagan } # Yusseter
 	1000.1.1 = {
 		holding = castle_holding
 		#Date used to switch ti feudal_government in title history

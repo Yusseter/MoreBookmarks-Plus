@@ -116,7 +116,7 @@ house_karakhanid = { # Karakhanid, dynn_Karakhanid, 101864
 	colored_emblem = {
 		color1 = "white"
 		texture = "ce_tamgha_yelu.dds"
-		instance = { position = { 0.5 0.35 } scale = { 0.65 0.65 } }
+		instance = { position = { 0.5 0.30 } scale = { 0.5 0.5 } }
 	}
 }
 

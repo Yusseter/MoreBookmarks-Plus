@@ -75,6 +75,50 @@
 	}
 }
 
+14210 = { # Yusseter
+	culture = saka
+	religion = mahayana
+
+	# History
+	1050.1.1 = {
+		culture = kashgari
+		religion = maturidi
+	}
+}
+
+14211 = { # Yusseter
+	culture = saka
+	religion = mahayana
+
+	# History
+	1050.1.1 = {
+		culture = kashgari
+		religion = maturidi
+	}
+}
+
+14215 = { # Yusseter
+	culture = saka
+	religion = mahayana
+
+	# History
+	1050.1.1 = {
+		culture = kashgari
+		religion = maturidi
+	}
+}
+
+14216 = { # Yusseter
+	culture = saka
+	religion = mahayana
+
+	# History
+	1050.1.1 = {
+		culture = kashgari
+		religion = maturidi
+	}
+}
+
 # 1441 - Cherchen
 1441 = {	#1441 - Cherchen
 	
@@ -904,12 +948,17 @@
 9604 = {	#9604 - Andir
 	
 	# Misc
-	culture = sogdian
+	culture = saka # Yusseter
+	#culture = sogdian
 	religion = mahayana
 	
 	holding = none
 	
 	# History
+	1100.1.1 = { # Yusseter
+		culture = kashgari
+		religion = maturidi
+	}
 
 }
 
